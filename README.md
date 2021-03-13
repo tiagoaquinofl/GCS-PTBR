@@ -5,7 +5,7 @@ Tradução em Português do Brasil para os arquivos de Biblioteca e localizaçã
 
 --> pt.i18n
 Windows:
-c:\%PROGRAMFILES%\GCS\app\i18n\
+c:\\%PROGRAMFILES%\GCS\app\i18n\
 
 --> Módulo Básico (Pasta)
-C:\users\%USERNAME%\GCS\User Library\
+C:\users\\%USERNAME%\GCS\User Library\
