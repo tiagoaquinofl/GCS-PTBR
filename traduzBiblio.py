@@ -14,10 +14,10 @@ dicioNovos = ast.literal_eval('{' + conteudo[:-1] + '}')
 novosTermos = []
 arquivos = [
 #    'Sor Dante do Vale.gcs'
-    'Basic Set Advantages.adq',
+#    'Basic Set Advantages.adq',
 #    'Basic Set Enhancement Modifiers.adm',
 #    'Basic Set Limitation Modifiers.adm',
-    'Basic Set Skills.skl',
+#    'Basic Set Skills.skl',
     'Basic Set Equipment.eqp'
 ]
 #
