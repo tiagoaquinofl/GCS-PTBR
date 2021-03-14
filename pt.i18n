@@ -470,10 +470,10 @@ k:"Block"
 v:"Bloqueio"
 
 k:"Block Layout"
-v:"Leiaute de Bloqueio"
+v:"Leiaute dos Blocos"
 
 k:"Block Layout *"
-v:"Leiaute de Bloqueio *"
+v:"Leiaute dos Blocos *"
 
 k:"Block Modifier"
 v:"Modificador de Bloqueio"

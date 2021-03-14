@@ -12,7 +12,7 @@
 			"tech_level": "6",
 			"value": "20",
 			"reference": "B289",
-			"notes": "Prevents or cures (in 1d days) infections.",
+			"notes": "Previne ou cura infecções (em 1d dias).",
 			"categories": [
 				"Equipamento Médico"
 			]
@@ -27,7 +27,7 @@
 			"value": "25",
 			"weight": "0.5 lb",
 			"reference": "B289",
-			"notes": "Antidote for specific poison. 10 uses",
+			"notes": "Antídoto para um veneno específico. 10 doses.",
 			"categories": [
 				"Equipamento Médico"
 			]
@@ -58,7 +58,7 @@
 			"value": "2",
 			"weight": "0.1 lb",
 			"reference": "B277",
-			"notes": "Changes damage to piercing with armor divisor of (2).",
+			"notes": "Transforma o dano por perfuração em dano perfurante e cria um divisor de armadura de (2).",
 			"categories": [
 				"MuniçãoTipo:Flecha",
 				"Munição",
@@ -174,7 +174,7 @@
 						"base": "4d+2"
 					},
 					"strength": "9†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "400/3000",
 					"rate_of_fire": "15",
 					"shots": "30+1(3)",
@@ -268,7 +268,7 @@
 						"base": "5d"
 					},
 					"strength": "9†",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "500/3500",
 					"rate_of_fire": "12",
 					"shots": "30+1(3)",
@@ -362,7 +362,7 @@
 						"base": "5d+1"
 					},
 					"strength": "10†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "400/3000",
 					"rate_of_fire": "10",
 					"shots": "30+1(3)",
@@ -457,7 +457,7 @@
 						"armor_divisor": 10
 					},
 					"strength": "11B†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "200/2000",
 					"rate_of_fire": "1",
 					"shots": "1(20)",
@@ -499,7 +499,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "x3/x4",
 					"rate_of_fire": "1",
 					"shots": "1(1)",
@@ -545,7 +545,7 @@
 						"base": "+1"
 					},
 					"strength": "6",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "x2/x3",
 					"rate_of_fire": "1",
 					"shots": "1(1)",
@@ -591,7 +591,7 @@
 						"base": "2d"
 					},
 					"strength": "9",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "150/1900",
 					"rate_of_fire": "3",
 					"shots": "15+1(3)",
@@ -685,7 +685,7 @@
 						"base": "3d"
 					},
 					"strength": "12",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "230/2500",
 					"rate_of_fire": "3",
 					"shots": "9+1(3)",
@@ -779,7 +779,7 @@
 						"base": "2d"
 					},
 					"strength": "10",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "175/1700",
 					"rate_of_fire": "3",
 					"shots": "7+1(3)",
@@ -873,7 +873,7 @@
 						"base": "2d+2"
 					},
 					"strength": "9",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "150/1850",
 					"rate_of_fire": "3",
 					"shots": "8+1(3)",
@@ -967,7 +967,7 @@
 						"base": "2d+2"
 					},
 					"strength": "9",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "150/1850",
 					"rate_of_fire": "3",
 					"shots": "15+1(3)",
@@ -1061,7 +1061,7 @@
 						"base": "2d+2"
 					},
 					"strength": "9",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "150/1900",
 					"rate_of_fire": "3",
 					"shots": "18+1(3)",
@@ -1155,7 +1155,7 @@
 						"base": "7d"
 					},
 					"strength": "12B†",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "1000/4200",
 					"rate_of_fire": "9!",
 					"shots": "20(3)",
@@ -1249,7 +1249,7 @@
 						"base": "1d+1"
 					},
 					"strength": "10†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "50/125",
 					"rate_of_fire": "3x9",
 					"shots": "6+1(3i)",
@@ -1343,7 +1343,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -1945,7 +1945,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -1997,7 +1997,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -2065,7 +2065,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -2102,7 +2102,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -2155,7 +2155,7 @@
 						"st": "sw"
 					},
 					"strength": "6",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -2216,7 +2216,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -2307,7 +2307,7 @@
 						"base": "7d"
 					},
 					"strength": "11†",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "1000/4200",
 					"rate_of_fire": "11",
 					"shots": "20+1(3)",
@@ -2732,7 +2732,7 @@
 						"armor_divisor": 10
 					},
 					"strength": "10†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "100/650",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -2855,7 +2855,7 @@
 						"st": "thr"
 					},
 					"strength": "7",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
@@ -2908,7 +2908,7 @@
 						"armor_divisor": 5
 					},
 					"strength": "4",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "300/900",
 					"rate_of_fire": "3",
 					"shots": "200(3)",
@@ -2973,7 +2973,7 @@
 						"armor_divisor": 5
 					},
 					"strength": "7†",
-					"precisão": "10+2",
+					"accuracy": "10+2",
 					"range": "700/2100",
 					"rate_of_fire": "3",
 					"shots": "50(3)",
@@ -3036,7 +3036,7 @@
 						"base": "1d-3"
 					},
 					"strength": "2",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "x4",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -3092,7 +3092,7 @@
 						"base": "1d"
 					},
 					"strength": "11†",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "15/100",
 					"rate_of_fire": "1x9",
 					"shots": "1(15)",
@@ -3186,7 +3186,7 @@
 						"base": "-1"
 					},
 					"strength": "7",
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -3222,7 +3222,7 @@
 						"base": "7d"
 					},
 					"strength": "10†",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "1000/4200",
 					"rate_of_fire": "1",
 					"shots": "5+1(3)",
@@ -3419,7 +3419,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -3471,7 +3471,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -3873,7 +3873,7 @@
 						"base": "5d"
 					},
 					"strength": "10†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "600/2000",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -3966,7 +3966,7 @@
 						"base": "1d-3"
 					},
 					"strength": "3",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -4044,7 +4044,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -4096,7 +4096,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -4666,7 +4666,7 @@
 						"base": "1d+1"
 					},
 					"strength": "10†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "200/250",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4705,7 +4705,7 @@
 						"base": "1d+2"
 					},
 					"strength": "11†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "220/275",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4744,7 +4744,7 @@
 						"base": "1d+2"
 					},
 					"strength": "12†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "240/300",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4783,7 +4783,7 @@
 						"base": "1d+3"
 					},
 					"strength": "13†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "260/325",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4822,7 +4822,7 @@
 						"base": "1d+3"
 					},
 					"strength": "14†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "280/350",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4861,7 +4861,7 @@
 						"base": "1d+4"
 					},
 					"strength": "15†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "300/375",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4900,7 +4900,7 @@
 						"base": "1d+4"
 					},
 					"strength": "16†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "320/400",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4939,7 +4939,7 @@
 						"base": "1d+5"
 					},
 					"strength": "17†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "340/425",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -4978,7 +4978,7 @@
 						"base": "1d+5"
 					},
 					"strength": "18†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "360/450",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -5017,7 +5017,7 @@
 						"base": "2d+2"
 					},
 					"strength": "19†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "380/475",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -5056,7 +5056,7 @@
 						"base": "2d+2"
 					},
 					"strength": "20†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "400/500",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -5221,7 +5221,7 @@
 						"base": "1d+1"
 					},
 					"strength": "7†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "140/175",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5261,7 +5261,7 @@
 						"base": "1d+1"
 					},
 					"strength": "8†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "160/200",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5301,7 +5301,7 @@
 						"base": "1d+2"
 					},
 					"strength": "9†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "180/225",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5341,7 +5341,7 @@
 						"base": "1d+2"
 					},
 					"strength": "10†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "200/250",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5381,7 +5381,7 @@
 						"base": "1d+3"
 					},
 					"strength": "11†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "220/275",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5421,7 +5421,7 @@
 						"base": "1d+3"
 					},
 					"strength": "12†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "240/300",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5461,7 +5461,7 @@
 						"base": "2d"
 					},
 					"strength": "13†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "260/325",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5501,7 +5501,7 @@
 						"base": "2d"
 					},
 					"strength": "14†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "280/350",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5541,7 +5541,7 @@
 						"base": "2d+1"
 					},
 					"strength": "15†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "300/375",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5581,7 +5581,7 @@
 						"base": "2d+1"
 					},
 					"strength": "16†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "320/400",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5621,7 +5621,7 @@
 						"base": "2d+2"
 					},
 					"strength": "17†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "340/425",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5661,7 +5661,7 @@
 						"base": "2d+2"
 					},
 					"strength": "18†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "360/450",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5701,7 +5701,7 @@
 						"base": "2d+3"
 					},
 					"strength": "19†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "380/475",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5741,7 +5741,7 @@
 						"base": "2d+3"
 					},
 					"strength": "20†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "400/500",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -5798,7 +5798,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -5832,8 +5832,8 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Thrown",
-					"precisão": "1",
+					"usage": "Arremesso",
+					"accuracy": "1",
 					"range": "x1/x1.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -5876,7 +5876,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -5937,7 +5937,7 @@
 						"st": "thr"
 					},
 					"strength": "8",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -6045,7 +6045,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -6087,8 +6087,8 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Thrown",
-					"precisão": "+0",
+					"usage": "Arremesso",
+					"accuracy": "+0",
 					"range": "x0.5/x1",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -6130,7 +6130,7 @@
 						"armor_divisor": 0.2
 					},
 					"strength": "9†",
-					"precisão": "5+1",
+					"accuracy": "5+1",
 					"range": "45/145",
 					"rate_of_fire": "1",
 					"shots": "1(3)",
@@ -6224,7 +6224,7 @@
 						"base": "1d"
 					},
 					"strength": "9",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "80/650",
 					"rate_of_fire": "1",
 					"shots": "2(3i)",
@@ -6344,7 +6344,7 @@
 						"base": "1d+2"
 					},
 					"strength": "11†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "50/125",
 					"rate_of_fire": "2x9",
 					"shots": "2(3i)",
@@ -6495,7 +6495,7 @@
 						"base": "1d-3"
 					},
 					"strength": "4†",
-					"precisão": "8+1",
+					"accuracy": "8+1",
 					"range": "160/470",
 					"rate_of_fire": "3",
 					"shots": "360(3)",
@@ -6558,7 +6558,7 @@
 						"base": "1d-3"
 					},
 					"strength": "4",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "40/80",
 					"rate_of_fire": "3",
 					"shots": "180(3)",
@@ -6701,7 +6701,7 @@
 						"base": "+4"
 					},
 					"strength": "13†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -6777,7 +6777,7 @@
 						"base": "3d"
 					},
 					"strength": "10†",
-					"precisão": "-",
+					"accuracy": "-",
 					"range": "50",
 					"rate_of_fire": "Jato",
 					"shots": "10",
@@ -6866,7 +6866,7 @@
 						"base": "4d"
 					},
 					"strength": "10†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "100/1500",
 					"rate_of_fire": "1",
 					"shots": "1(15)",
@@ -6960,7 +6960,7 @@
 						"base": "2d-1"
 					},
 					"strength": "10",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "75/450",
 					"rate_of_fire": "1",
 					"shots": "1(20)",
@@ -7054,7 +7054,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -7124,7 +7124,7 @@
 						"armor_divisor": 5
 					},
 					"strength": "3",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -7426,7 +7426,7 @@
 						"armor_divisor": 3
 					},
 					"strength": "9†",
-					"precisão": "6+1",
+					"accuracy": "6+1",
 					"range": "700/2900",
 					"rate_of_fire": "16",
 					"shots": "80(3)",
@@ -7521,7 +7521,7 @@
 						"armor_divisor": 3
 					},
 					"strength": "10†",
-					"precisão": "7+2",
+					"accuracy": "7+2",
 					"range": "1200/4800",
 					"rate_of_fire": "12",
 					"shots": "60(3)",
@@ -7615,7 +7615,7 @@
 						"base": "+3"
 					},
 					"strength": "11‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -7653,7 +7653,7 @@
 						"base": "+3"
 					},
 					"strength": "11†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1-3*",
 					"parry": "0U",
 					"block": "No",
@@ -7751,7 +7751,7 @@
 						"base": "+3"
 					},
 					"strength": "12‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -7837,7 +7837,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -7874,7 +7874,7 @@
 						"base": "+2"
 					},
 					"strength": "12†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -7942,7 +7942,7 @@
 						"base": "6d"
 					},
 					"strength": "9",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "1900",
 					"rate_of_fire": "3",
 					"shots": "4(3i)",
@@ -8036,7 +8036,7 @@
 						"base": "+5"
 					},
 					"strength": "13‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -8074,7 +8074,7 @@
 						"base": "+4"
 					},
 					"strength": "13‡",
-					"usage": "Swung Hook",
+					"usage": "Gancho em Balanço",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -8112,7 +8112,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1-3*",
 					"parry": "0U",
 					"block": "No",
@@ -8167,7 +8167,7 @@
 						"fragmentation": "1d",
 						"fragmentation_type": "cut"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8203,7 +8203,7 @@
 					"damage": {
 						"type": "spec. (2 y)"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8240,7 +8240,7 @@
 						"type": "cr ex",
 						"base": "6d"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8277,7 +8277,7 @@
 						"type": "cr",
 						"base": "5dx2"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8316,7 +8316,7 @@
 						"fragmentation": "2d",
 						"fragmentation_type": "cut"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8355,7 +8355,7 @@
 						"fragmentation": "3d",
 						"fragmentation_type": "cut"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8392,7 +8392,7 @@
 						"type": "burn ex",
 						"base": "6dx4"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8428,7 +8428,7 @@
 					"damage": {
 						"type": ""
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -8493,7 +8493,7 @@
 						"base": "2d"
 					},
 					"strength": "10†",
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "100/600",
 					"rate_of_fire": "1",
 					"shots": "1(60)",
@@ -8587,7 +8587,7 @@
 						"base": "+5"
 					},
 					"strength": "11",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "x1/x1.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -8631,7 +8631,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -8663,8 +8663,8 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Thrown",
-					"precisão": "1",
+					"usage": "Arremesso",
+					"accuracy": "1",
 					"range": "x1.5/x2.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -8707,7 +8707,7 @@
 						"armor_divisor": 5
 					},
 					"strength": "10†",
-					"precisão": "10+4",
+					"accuracy": "10+4",
 					"range": "900/2700",
 					"rate_of_fire": "3",
 					"shots": "90(5)",
@@ -8785,8 +8785,8 @@
 						"type": "Special"
 					},
 					"strength": "8",
-					"usage": "Thrown",
-					"precisão": "+1",
+					"usage": "Arremesso",
+					"accuracy": "+1",
 					"range": "2",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -9003,7 +9003,7 @@
 						"base": "13d+1"
 					},
 					"strength": "20M†",
-					"precisão": "6",
+					"accuracy": "6",
 					"range": "1800/7400",
 					"rate_of_fire": "8!",
 					"shots": "100(5)",
@@ -9069,7 +9069,7 @@
 						"base": "2d"
 					},
 					"strength": "8",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "125/1500",
 					"rate_of_fire": "3",
 					"shots": "5+1(3)",
@@ -9223,8 +9223,8 @@
 						"fragmentation_type": "cut"
 					},
 					"strength": "10",
-					"usage": "Fragmentation",
-					"precisão": "4+2",
+					"usage": "Fragmentação",
+					"accuracy": "4+2",
 					"range": "2200",
 					"rate_of_fire": "1",
 					"shots": "3(3)",
@@ -9301,8 +9301,8 @@
 						"base": "4d"
 					},
 					"strength": "10",
-					"usage": "Concussion",
-					"precisão": "4+2",
+					"usage": "Concussão",
+					"accuracy": "4+2",
 					"range": "2200",
 					"rate_of_fire": "1",
 					"shots": "3(3)",
@@ -9378,8 +9378,8 @@
 						"type": "HT-5 aff (10 yd)"
 					},
 					"strength": "10",
-					"usage": "Stun",
-					"precisão": "4+2",
+					"usage": "Atordoamento",
+					"accuracy": "4+2",
 					"range": "2200",
 					"rate_of_fire": "1",
 					"shots": "3(3)",
@@ -9473,7 +9473,7 @@
 						"base": "6d"
 					},
 					"strength": "10†",
-					"precisão": "4+2",
+					"accuracy": "4+2",
 					"range": "700/4000",
 					"rate_of_fire": "15",
 					"shots": "25+1(3)",
@@ -9566,7 +9566,7 @@
 						"fragmentation_type": "cut"
 					},
 					"strength": "10",
-					"precisão": "4+2",
+					"accuracy": "4+2",
 					"range": "2200",
 					"rate_of_fire": "1",
 					"shots": "3(3)",
@@ -9674,7 +9674,7 @@
 						"base": "+1"
 					},
 					"strength": "6",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9707,8 +9707,8 @@
 						"base": "+1"
 					},
 					"strength": "6",
-					"usage": "Thrown",
-					"precisão": "+3",
+					"usage": "Arremesso",
+					"accuracy": "+3",
 					"range": "x1.5/x2.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -9762,7 +9762,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -9814,7 +9814,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9882,7 +9882,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -9919,7 +9919,7 @@
 						"base": "+1"
 					},
 					"strength": "10†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -10000,7 +10000,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1-4*",
 					"parry": "-2U",
 					"block": "No",
@@ -10054,7 +10054,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "4",
 					"parry": "No",
 					"block": "No",
@@ -10141,7 +10141,7 @@
 						"base": "-2"
 					},
 					"strength": "6",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "C,1",
 					"parry": "-1",
 					"block": "No",
@@ -10182,7 +10182,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -10223,8 +10223,8 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Thrown",
-					"precisão": "+0",
+					"usage": "Arremesso",
+					"accuracy": "+0",
 					"range": "x0.8/x1.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -10264,7 +10264,7 @@
 						"type": "see B411"
 					},
 					"strength": "11",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "spec",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -10304,7 +10304,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -10373,7 +10373,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -10440,7 +10440,7 @@
 						"type": "see B411"
 					},
 					"strength": "7†",
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "spec",
 					"rate_of_fire": "1",
 					"shots": "T(spec)",
@@ -10494,7 +10494,7 @@
 						"armor_divisor": 2
 					},
 					"strength": "6",
-					"precisão": "6",
+					"accuracy": "6",
 					"range": "250/750",
 					"rate_of_fire": "10",
 					"shots": "400(3)",
@@ -10559,7 +10559,7 @@
 						"armor_divisor": 2
 					},
 					"strength": "7†",
-					"precisão": "12+2",
+					"accuracy": "12+2",
 					"range": "700/2100",
 					"rate_of_fire": "10",
 					"shots": "150(3)",
@@ -10638,7 +10638,7 @@
 						"armor_divisor": 2
 					},
 					"strength": "10†",
-					"precisão": "12+2",
+					"accuracy": "12+2",
 					"range": "1100/3300",
 					"rate_of_fire": "3",
 					"shots": "75(3)",
@@ -10703,7 +10703,7 @@
 						"armor_divisor": 10
 					},
 					"strength": "10†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "330/2300",
 					"rate_of_fire": "1",
 					"shots": "1(-)",
@@ -11022,7 +11022,7 @@
 						"base": "5d"
 					},
 					"strength": "10†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "450/3000",
 					"rate_of_fire": "1",
 					"shots": "6+1(3i)",
@@ -11280,8 +11280,8 @@
 						"type": "Special"
 					},
 					"strength": "5",
-					"usage": "Thrown",
-					"precisão": "+1",
+					"usage": "Arremesso",
+					"accuracy": "+1",
 					"range": "2",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -11348,7 +11348,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -11400,7 +11400,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -11488,7 +11488,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -11557,7 +11557,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -11626,7 +11626,7 @@
 						"base": "7d"
 					},
 					"strength": "13B†",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "1000/4200",
 					"rate_of_fire": "15!",
 					"shots": "100(5)",
@@ -11736,7 +11736,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -11769,7 +11769,7 @@
 						"base": "+3"
 					},
 					"strength": "10†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2,3*",
 					"parry": "0",
 					"block": "No",
@@ -11817,7 +11817,7 @@
 						"base": "1d+1"
 					},
 					"strength": "11†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "165/220",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -11857,7 +11857,7 @@
 						"base": "1d+1"
 					},
 					"strength": "12†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "180/240",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -11897,7 +11897,7 @@
 						"base": "1d+2"
 					},
 					"strength": "13†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "195/260",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -11937,7 +11937,7 @@
 						"base": "1d+2"
 					},
 					"strength": "14†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "210/280",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -11977,7 +11977,7 @@
 						"base": "1d+3"
 					},
 					"strength": "15†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "225/300",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -12017,7 +12017,7 @@
 						"base": "1d+3"
 					},
 					"strength": "16†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "240/320",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -12057,7 +12057,7 @@
 						"base": "1d+4"
 					},
 					"strength": "17†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "255/340",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -12097,7 +12097,7 @@
 						"base": "1d+4"
 					},
 					"strength": "18†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "270/360",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -12137,7 +12137,7 @@
 						"base": "2d+1"
 					},
 					"strength": "19†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "285/380",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -12177,7 +12177,7 @@
 						"base": "2d+1"
 					},
 					"strength": "20†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "300/400",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -12240,7 +12240,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -12273,7 +12273,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "x0.5/x1",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -12315,7 +12315,7 @@
 						"base": "2d+2"
 					},
 					"strength": "12",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "160/1900",
 					"rate_of_fire": "20",
 					"shots": "25+1(3)",
@@ -12533,7 +12533,7 @@
 			"value": "1.5",
 			"weight": "0.051 lb",
 			"reference": "B288",
-			"notes": "Box of 50",
+			"notes": "Caixa com 50",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -12556,7 +12556,7 @@
 						"base": "4d"
 					},
 					"strength": "10R†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "100/600",
 					"rate_of_fire": "1",
 					"shots": "1(60)",
@@ -12650,7 +12650,7 @@
 						"base": "+4"
 					},
 					"strength": "13‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -12838,7 +12838,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -12905,7 +12905,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -12972,7 +12972,7 @@
 						"type": "see B411"
 					},
 					"strength": "8",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "spec",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -13081,7 +13081,7 @@
 					"damage": {
 						"type": "spec. (1 y)"
 					},
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x3.5",
 					"rate_of_fire": "1",
 					"shots": "1",
@@ -13168,7 +13168,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -13217,7 +13217,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -13255,7 +13255,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -13309,7 +13309,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -13342,7 +13342,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -13392,7 +13392,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -13429,7 +13429,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -13584,7 +13584,7 @@
 						"base": "+1"
 					},
 					"strength": "7",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -13661,7 +13661,7 @@
 						"base": "4d+1"
 					},
 					"strength": "7†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "200/2000",
 					"rate_of_fire": "15",
 					"shots": "20+1(3)",
@@ -13770,7 +13770,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -13834,7 +13834,7 @@
 						"base": "1d-1"
 					},
 					"strength": "7",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "105/140",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -13874,7 +13874,7 @@
 						"base": "1d-1"
 					},
 					"strength": "8",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "120/160",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -13914,7 +13914,7 @@
 						"base": "1d"
 					},
 					"strength": "9",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "135/180",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -13954,7 +13954,7 @@
 						"base": "1d"
 					},
 					"strength": "10",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "150/200",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -13994,7 +13994,7 @@
 						"base": "1d+1"
 					},
 					"strength": "11",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "165/220",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14034,7 +14034,7 @@
 						"base": "1d+1"
 					},
 					"strength": "12",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "180/240",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14074,7 +14074,7 @@
 						"base": "1d+2"
 					},
 					"strength": "13",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "195/260",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14114,7 +14114,7 @@
 						"base": "1d+2"
 					},
 					"strength": "14",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "210/280",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14154,7 +14154,7 @@
 						"base": "1d+3"
 					},
 					"strength": "15",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "225/300",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14194,7 +14194,7 @@
 						"base": "1d+3"
 					},
 					"strength": "16",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "240/320",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14234,7 +14234,7 @@
 						"base": "2d"
 					},
 					"strength": "17",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "255/340",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14274,7 +14274,7 @@
 						"base": "2d"
 					},
 					"strength": "18",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "270/360",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14314,7 +14314,7 @@
 						"base": "2d+1"
 					},
 					"strength": "19",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "285/380",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14354,7 +14354,7 @@
 						"base": "2d+1"
 					},
 					"strength": "20",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "300/400",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14497,7 +14497,7 @@
 						"base": "+4"
 					},
 					"strength": "12‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -14535,7 +14535,7 @@
 						"base": "+4"
 					},
 					"strength": "12‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -14735,7 +14735,7 @@
 						"base": "1d+1"
 					},
 					"strength": "7†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "140/175",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14775,7 +14775,7 @@
 						"base": "1d+1"
 					},
 					"strength": "8†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "160/200",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14815,7 +14815,7 @@
 						"base": "1d+2"
 					},
 					"strength": "9†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "180/225",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14855,7 +14855,7 @@
 						"base": "1d+2"
 					},
 					"strength": "10†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "200/250",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14895,7 +14895,7 @@
 						"base": "1d+3"
 					},
 					"strength": "11†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "220/275",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14935,7 +14935,7 @@
 						"base": "1d+3"
 					},
 					"strength": "12†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "240/300",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -14975,7 +14975,7 @@
 						"base": "2d"
 					},
 					"strength": "13†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "260/325",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15015,7 +15015,7 @@
 						"base": "2d"
 					},
 					"strength": "14†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "280/350",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15055,7 +15055,7 @@
 						"base": "2d+1"
 					},
 					"strength": "15†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "300/375",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15095,7 +15095,7 @@
 						"base": "2d+1"
 					},
 					"strength": "16†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "320/400",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15135,7 +15135,7 @@
 						"base": "2d+2"
 					},
 					"strength": "17†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "340/425",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15175,7 +15175,7 @@
 						"base": "2d+2"
 					},
 					"strength": "18†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "360/450",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15215,7 +15215,7 @@
 						"base": "2d+3"
 					},
 					"strength": "19†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "380/475",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15255,7 +15255,7 @@
 						"base": "2d+3"
 					},
 					"strength": "20†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "400/500",
 					"rate_of_fire": "1",
 					"shots": "1(4)",
@@ -15295,7 +15295,7 @@
 						"base": "1d+1"
 					},
 					"strength": "10†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "50/125",
 					"rate_of_fire": "2x9",
 					"shots": "5(3i)",
@@ -15417,7 +15417,7 @@
 						"base": "+2"
 					},
 					"strength": "7†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "+2",
 					"block": "No",
@@ -15450,7 +15450,7 @@
 						"base": "+2"
 					},
 					"strength": "7†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1,2",
 					"parry": "+2",
 					"block": "No",
@@ -15499,7 +15499,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -15536,7 +15536,7 @@
 						"base": "+1"
 					},
 					"strength": "9†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -15650,7 +15650,7 @@
 						"base": "+1"
 					},
 					"strength": "9",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1,2",
 					"parry": "0F",
 					"block": "No",
@@ -15712,7 +15712,7 @@
 						"base": "1d-1"
 					},
 					"strength": "10†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "150/200",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -15752,7 +15752,7 @@
 						"base": "1d"
 					},
 					"strength": "11†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "165/220",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -15792,7 +15792,7 @@
 						"base": "1d"
 					},
 					"strength": "12†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "180/240",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -15832,7 +15832,7 @@
 						"base": "1d+1"
 					},
 					"strength": "13†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "195/260",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -15872,7 +15872,7 @@
 						"base": "1d+1"
 					},
 					"strength": "14†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "210/280",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -15912,7 +15912,7 @@
 						"base": "1d+2"
 					},
 					"strength": "15†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "225/300",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -15952,7 +15952,7 @@
 						"base": "1d+2"
 					},
 					"strength": "16†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "240/320",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -15992,7 +15992,7 @@
 						"base": "1d+3"
 					},
 					"strength": "17†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "255/340",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -16032,7 +16032,7 @@
 						"base": "1d+3"
 					},
 					"strength": "18†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "270/360",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -16072,7 +16072,7 @@
 						"base": "2d"
 					},
 					"strength": "19†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "285/380",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -16112,7 +16112,7 @@
 						"base": "2d"
 					},
 					"strength": "20†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "300/400",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -16154,7 +16154,7 @@
 						"armor_divisor": 2
 					},
 					"strength": "11B†",
-					"precisão": "6+3",
+					"accuracy": "6+3",
 					"range": "1500/5500",
 					"rate_of_fire": "1",
 					"shots": "4+1(3)",
@@ -16278,7 +16278,7 @@
 						"base": "2d-1"
 					},
 					"strength": "10",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "120/1300",
 					"rate_of_fire": "1",
 					"shots": "6(3i)",
@@ -16372,7 +16372,7 @@
 						"base": "2d-1"
 					},
 					"strength": "8",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "120/1500",
 					"rate_of_fire": "3",
 					"shots": "6(3i)",
@@ -16466,7 +16466,7 @@
 						"base": "3d"
 					},
 					"strength": "11",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "200/2500",
 					"rate_of_fire": "3",
 					"shots": "6(3i)",
@@ -16560,7 +16560,7 @@
 						"base": "3d-1"
 					},
 					"strength": "10",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "185/2000",
 					"rate_of_fire": "3",
 					"shots": "6(3i)",
@@ -16654,7 +16654,7 @@
 						"base": "4d"
 					},
 					"strength": "10†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "700/2100",
 					"rate_of_fire": "1",
 					"shots": "1(15)",
@@ -16809,7 +16809,7 @@
 						"armor_divisor": 10
 					},
 					"strength": "10†",
-					"precisão": "3+1",
+					"accuracy": "3+1",
 					"range": "300/1000",
 					"rate_of_fire": "1",
 					"shots": "1(5)",
@@ -16903,7 +16903,7 @@
 						"base": "-1"
 					},
 					"strength": "8",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -16955,7 +16955,7 @@
 						"base": "+1"
 					},
 					"strength": "8",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -17068,7 +17068,7 @@
 						"fragmentation_type": "cut"
 					},
 					"strength": "10†",
-					"precisão": "7",
+					"accuracy": "7",
 					"range": "1000/8800",
 					"rate_of_fire": "1",
 					"shots": "1(20)",
@@ -17124,7 +17124,7 @@
 						"st": "thr"
 					},
 					"strength": "7",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
@@ -17192,7 +17192,7 @@
 						"base": "5d+1"
 					},
 					"strength": "12B†",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "800/3500",
 					"rate_of_fire": "12!",
 					"shots": "200(5)",
@@ -17386,7 +17386,7 @@
 						"base": "5d"
 					},
 					"strength": "45M†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "415/520",
 					"rate_of_fire": "1",
 					"shots": "1(30)",
@@ -17467,7 +17467,7 @@
 						"base": "+2"
 					},
 					"strength": "11‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -17504,7 +17504,7 @@
 						"st": "sw"
 					},
 					"strength": "11‡",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -17559,7 +17559,7 @@
 						"base": "7d"
 					},
 					"strength": "10†",
-					"precisão": "5",
+					"accuracy": "5",
 					"range": "1000/4200",
 					"rate_of_fire": "3",
 					"shots": "8(3)",
@@ -17674,7 +17674,7 @@
 						"base": "1d-3"
 					},
 					"strength": "7†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "70/105",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17714,7 +17714,7 @@
 						"base": "1d-3"
 					},
 					"strength": "8†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "80/120",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17754,7 +17754,7 @@
 						"base": "1d-2"
 					},
 					"strength": "9†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "90/135",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17794,7 +17794,7 @@
 						"base": "1d-2"
 					},
 					"strength": "10†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "100/150",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17834,7 +17834,7 @@
 						"base": "1d-1"
 					},
 					"strength": "11†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "110/165",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17874,7 +17874,7 @@
 						"base": "1d-1"
 					},
 					"strength": "12†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "120/180",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17914,7 +17914,7 @@
 						"base": "1d"
 					},
 					"strength": "13†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "130/195",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17954,7 +17954,7 @@
 						"base": "1d"
 					},
 					"strength": "14†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "140/210",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -17994,7 +17994,7 @@
 						"base": "1d+1"
 					},
 					"strength": "15†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "150/225",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -18034,7 +18034,7 @@
 						"base": "1d+1"
 					},
 					"strength": "16†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "160/240",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -18074,7 +18074,7 @@
 						"base": "1d+2"
 					},
 					"strength": "17†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "170/255",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -18114,7 +18114,7 @@
 						"base": "1d+2"
 					},
 					"strength": "18†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "180/270",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -18154,7 +18154,7 @@
 						"base": "2d-1"
 					},
 					"strength": "19†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "190/285",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -18194,7 +18194,7 @@
 						"base": "2d-1"
 					},
 					"strength": "20†",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "200/300",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -18234,7 +18234,7 @@
 						"st": "sw"
 					},
 					"strength": "6",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -18280,7 +18280,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -18342,7 +18342,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -18403,7 +18403,7 @@
 						"st": "thr"
 					},
 					"strength": "8",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -18528,7 +18528,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "x0.5/x1",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -18645,7 +18645,7 @@
 						"st": "sw"
 					},
 					"strength": "6",
-					"precisão": "0",
+					"accuracy": "0",
 					"range": "x6/x10",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -18836,7 +18836,7 @@
 						"base": "-3"
 					},
 					"strength": "5",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "C,1",
 					"parry": "-1",
 					"block": "No",
@@ -18878,7 +18878,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -18920,8 +18920,8 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Thrown",
-					"precisão": "+0",
+					"usage": "Arremesso",
+					"accuracy": "+0",
 					"range": "x0.5/x1",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -18963,7 +18963,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -18996,8 +18996,8 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Thrown",
-					"precisão": "1",
+					"usage": "Arremesso",
+					"accuracy": "1",
 					"range": "x1/x1.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -19038,7 +19038,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -19107,7 +19107,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Shield Bash",
+					"usage": "Golpe com Escudo",
 					"reach": "1",
 					"parry": "No",
 					"block": "+0",
@@ -19176,7 +19176,7 @@
 						"base": "+1"
 					},
 					"strength": "5",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -19239,7 +19239,7 @@
 						"base": "2d+1"
 					},
 					"strength": "11†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "190/1750",
 					"rate_of_fire": "13",
 					"shots": "50+1(5)",
@@ -19333,7 +19333,7 @@
 						"base": "3d-1"
 					},
 					"strength": "10†",
-					"precisão": "3",
+					"accuracy": "3",
 					"range": "160/1900",
 					"rate_of_fire": "8!",
 					"shots": "32(3)",
@@ -19427,7 +19427,7 @@
 						"base": "3d-1"
 					},
 					"strength": "10†",
-					"precisão": "4",
+					"accuracy": "4",
 					"range": "160/1900",
 					"rate_of_fire": "13",
 					"shots": "30+1(3)",
@@ -19521,7 +19521,7 @@
 						"base": "9d+1"
 					},
 					"strength": "11B†",
-					"precisão": "6+3",
+					"accuracy": "6+3",
 					"range": "1500/5500",
 					"rate_of_fire": "1",
 					"shots": "4+1(3)",
@@ -19615,7 +19615,7 @@
 						"base": "1d+2"
 					},
 					"strength": "8",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "120/1250",
 					"rate_of_fire": "3",
 					"shots": "5(3i)",
@@ -20130,7 +20130,7 @@
 						"base": "+2"
 					},
 					"strength": "9",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1*",
 					"parry": "0",
 					"block": "No",
@@ -20163,7 +20163,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1,2*",
 					"parry": "0",
 					"block": "No",
@@ -20196,8 +20196,8 @@
 						"base": "+3"
 					},
 					"strength": "9",
-					"usage": "Thrown",
-					"precisão": "+2",
+					"usage": "Arremesso",
+					"accuracy": "+2",
 					"range": "x1/x1.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -20293,7 +20293,7 @@
 						"base": "+1"
 					},
 					"strength": "7†",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "x10/x15",
 					"rate_of_fire": "1",
 					"shots": "1(2)",
@@ -21013,7 +21013,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -21046,8 +21046,8 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Thrown",
-					"precisão": "2",
+					"usage": "Arremesso",
+					"accuracy": "2",
 					"range": "x1/x1.5",
 					"rate_of_fire": "1",
 					"shots": "T(1)",
@@ -21089,7 +21089,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -21140,7 +21140,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -21207,7 +21207,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -21244,7 +21244,7 @@
 						"base": "+3"
 					},
 					"strength": "10†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -21298,7 +21298,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -21350,7 +21350,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -21418,7 +21418,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -21455,7 +21455,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -21585,7 +21585,7 @@
 						"fragmentation_type": "cut"
 					},
 					"strength": "11",
-					"precisão": "2",
+					"accuracy": "2",
 					"range": "150/440",
 					"rate_of_fire": "1",
 					"shots": "1(3)",
@@ -21982,7 +21982,7 @@
 						"base": "+3"
 					},
 					"strength": "12‡",
-					"usage": "Swung",
+					"usage": "Balanço",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -22082,7 +22082,7 @@
 						"base": "1d+1"
 					},
 					"strength": "10",
-					"precisão": "1",
+					"accuracy": "1",
 					"range": "75/400",
 					"rate_of_fire": "1",
 					"shots": "1(20)",
@@ -22591,7 +22591,7 @@
 						"armor_divisor": 0.5
 					},
 					"strength": "5",
-					"usage": "Thrust",
+					"usage": "Ponta",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -22633,8 +22633,8 @@
 						"armor_divisor": 0.5
 					},
 					"strength": "5",
-					"usage": "Thrown",
-					"precisão": "+0",
+					"usage": "Arremesso",
+					"accuracy": "+0",
 					"range": "x0.5/x1",
 					"rate_of_fire": "1",
 					"shots": "T(1)",

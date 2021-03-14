@@ -12668,7 +12668,7 @@
 			"id": "9a7ba3a3-a68f-4a67-ab61-7e7f042fcd7e",
 			"name": "Mecânica",
 			"reference": "B207",
-			"specialization": Reator Antimatéria,
+			"specialization": "Reator Antimatéria",
 			"tech_level": "",
 			"difficulty": "IQ/A",
 			"points": 1,
@@ -12680,7 +12680,7 @@
 				{
 					"type": "skill",
 					"name": "Engenharia",
-					"specialization": Reator Antimatéria,
+					"specialization": "Reator Antimatéria",
 					"modifier": -4
 				},
 				{
