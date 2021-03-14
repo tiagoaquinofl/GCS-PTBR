@@ -1434,7 +1434,7 @@
 				}
 			],
 			"reference": "B39",
-			"notes": "@Identity@",
+			"notes": "@Identidade@",
 			"categories": [
 				"Vantagem"
 			]
@@ -3791,7 +3791,7 @@
 					"attribute": "fright_check"
 				}
 			],
-			"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+			"notes": "nunca fica \"paralisado\"; +6 em todos os testes de IQ para se recuperar de surpresa ou “atordoamento” mental; Seu grupo recebe +1 nos testes de iniciativa (+2 se você for o líder)",
 			"categories": [
 				"Vantagem"
 			]
@@ -9199,7 +9199,7 @@
 			"levels": "0",
 			"base_points": -1,
 			"reference": "B164",
-			"notes": "@Habit@",
+			"notes": "@Hábito@",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -19937,7 +19937,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "26085661-514d-4a2d-8846-e1a24b1cc715",
-			"name": "Obsessão",
+			"name": "Obsessões",
 			"mental": true,
 			"levels": "0",
 			"base_points": -1,
@@ -19979,7 +19979,7 @@
 				}
 			],
 			"reference": "B146",
-			"notes": "@Goal@; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
+			"notes": "@Objetivo@; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -20026,7 +20026,7 @@
 				}
 			],
 			"reference": "B22",
-			"notes": "@Habit@",
+			"notes": "@Hábito@",
 			"categories": [
 				"Desvantagem"
 			]
@@ -30073,7 +30073,7 @@
 			"mental": true,
 			"base_points": -10,
 			"reference": "B160",
-			"notes": "Once per play session, the GM will arbitrarily and maliciously make something go wrong for you.",
+			"notes": "O Mestre deve, arbitrária e maliciosamente, fazer alguma coisa sair errada para o personagem uma vez a cada sessão de jogo.",
 			"categories": [
 				"Desvantagem"
 			]
