@@ -440,7 +440,7 @@ k:"Basic Lift"
 v:"Carga"
 
 k:"Basic Move"
-v:"Deslocamento Básico"
+v:"Deslocam. Básico"
 
 k:"Basic Move Change"
 v:"Mudar Deslocamento Básico"
@@ -452,16 +452,16 @@ k:"Basic Speed Change"
 v:"Mudar Velocidade Básica"
 
 k:"Basic Swing"
-v:"Golpe em Balanço Básico"
+v:"GeB Básico"
 
 k:"Basic Thrust"
-v:"Golpe de Ponta Básico"
+v:"GdP Básico"
 
 k:"Birthday Change"
 v:"Mudar Data de Nascimento"
 
 k:"Birthday:"
-v:"Data de Nasc.:"
+v:"Data Nasc.:"
 
 k:"Black"
 v:"Pretos"
@@ -929,7 +929,7 @@ k:"Extremity"
 v:"Extremidade"
 
 k:"Eye"
-v:"Eye"
+v:"Olhos"
 
 k:"Eye Color Change"
 v:"Mudar Cor do Olho"
@@ -941,7 +941,7 @@ k:"FP"
 v:"PF"
 
 k:"Face"
-v:"Face"
+v:"Rosto"
 
 k:"Fatigue Points"
 v:"Pontos de Fadiga"
@@ -977,7 +977,7 @@ k:"Fonts"
 v:"Fontes"
 
 k:"Foot"
-v:"Foot"
+v:"Pé"
 
 k:"Foreleg"
 v:"Perna Dianteira"
@@ -992,7 +992,7 @@ k:"Freckled"
 v:"Sardenta"
 
 k:"Fright Check"
-v:"Verificação de Pânico"
+v:"Verific. de Pânico"
 
 k:"GCS %s update was canceled."
 v:"A atualização %s do GCS foi cancelada."
@@ -1063,7 +1063,7 @@ k:"Grey"
 v:"Cinzas"
 
 k:"Groin"
-v:"Groin"
+v:"Virilha"
 
 k:"Group"
 v:"Grupo"
@@ -1081,7 +1081,7 @@ k:"Hair:"
 v:"Cabelos:"
 
 k:"Hand"
-v:"Hand"
+v:"Mão"
 
 k:"Hand:"
 v:"Mão:"
@@ -1303,10 +1303,10 @@ k:"Left"
 v:"Canhoto"
 
 k:"Left Arm"
-v:"Left Arm"
+v:"Braço Esq"
 
 k:"Left Leg"
-v:"Left Leg"
+v:"Perna Esq"
 
 k:"Leg"
 v:"Perna"
@@ -1447,7 +1447,7 @@ k:"Miscellaneous"
 v:"Outras Informações"
 
 k:"Modified:"
-v:"Modificado:"
+v:"Alterado:"
 
 k:"Modifier"
 v:"Modificador"
@@ -1496,7 +1496,7 @@ k:"Natural Attacks"
 v:"Ataques Naturais"
 
 k:"Neck"
-v:"Neck"
+v:"Pescoço"
 
 k:"New Advantage"
 v:"Nova Vantagem"
@@ -2003,10 +2003,10 @@ k:"Right"
 v:"Destro"
 
 k:"Right Arm"
-v:"Right Arm"
+v:"Braço Dir"
 
 k:"Right Leg"
-v:"Right Leg"
+v:"Perna Dir"
 
 k:"Ritual Magic Spell"
 v:"Ritual Magic Spell"
@@ -2027,7 +2027,7 @@ k:"Row Drag & Drop"
 v:"Arrastar e Soltar Linha"
 
 k:"Running Shove & Knock Over"
-v:"Empurrar e Derrubar com Impulso"
+v:"Empurrar e Derrubar c/ Impulso"
 
 k:"SL"
 v:"NH"
@@ -2174,7 +2174,7 @@ k:"Skin:"
 v:"Pele:"
 
 k:"Skull"
-v:"Skull"
+v:"Crânio"
 
 k:"Snakemen"
 v:"Homens-Cobra"
@@ -2737,7 +2737,7 @@ k:"Tooltip Timeout (seconds)"
 v:"Tempo de Exibição da Dica de Contexto (segundos)"
 
 k:"Torso"
-v:"Torso"
+v:"Tronco"
 
 k:"Total"
 v:"Total"
@@ -2911,7 +2911,7 @@ k:"Vision"
 v:"Visão"
 
 k:"Vitals"
-v:"Vitals"
+v:"Órg. Vitais"
 
 k:"Warn"
 v:"Avisar"
