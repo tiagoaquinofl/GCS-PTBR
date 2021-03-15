@@ -18,18 +18,18 @@
 					"id": "49d8792f-35b1-4cf6-ba95-071c87b0bae6",
 					"disabled": true,
 					"name": "Alvo Fácil",
-					"reference": "B34",
+					"reference": "B97",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
-					"notes": "Others can target your eyes at -6"
+					"notes": "Seus olhos podem ser atacados com uma penalidade de apenas -6."
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "f7d427d0-1509-4a07-8896-bf7f40bbc808",
 					"disabled": true,
-					"name": "Panoptic 1",
+					"name": "Panóptica 1",
 					"reference": "P39",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -40,14 +40,14 @@
 					"version": 1,
 					"id": "5002586b-ad58-459d-b542-bc5ba3766505",
 					"disabled": true,
-					"name": "Panoptic 2",
+					"name": "Panóptica 2",
 					"reference": "P39",
 					"cost_type": "percentage",
 					"cost": 60,
 					"affects": "total"
 				}
 			],
-			"reference": "B34",
+			"reference": "B97",
 			"categories": [
 				"Vantagem"
 			]
@@ -71,7 +71,7 @@
 			"name": "@Peculiaridade Física@",
 			"physical": true,
 			"base_points": -1,
-			"reference": "B164",
+			"reference": "B165",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -121,7 +121,7 @@
 			"mental": true,
 			"base_points": -15,
 			"reference": "B122",
-			"notes": "-5 on all IQ and IQ-based skill rolls, save those for the task you are currently concentrating on. Once adrift in your own thoughts, you must roll against Perception-5 in order to notice any event short of personal physical injury.",
+			"notes": "Penalidade de -5 em qualquer teste de IQ, com exceção  daqueles ligados ao trabalho no qual o personagem está concentrado no momento. Uma vez absorto em seus próprios pensamentos, um personagem distraído precisa conseguir um sucesso em um teste de Per-5 para prestar atenção em qualquer evento que não lhe cause dano físico.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -141,7 +141,7 @@
 					"id": "940c9da3-6966-4ea6-9974-517614d0606b",
 					"disabled": true,
 					"name": "Requer Sinal",
-					"reference": "B34",
+					"reference": "B87",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -151,8 +151,8 @@
 					"version": 1,
 					"id": "12730389-6652-4df8-8b34-ad078b76e408",
 					"disabled": true,
-					"name": "Noção Tridim. do Espaço",
-					"reference": "B34",
+					"name": "Noção Tridimensional do Espaço",
+					"reference": "B87,
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
@@ -213,7 +213,7 @@
 					]
 				}
 			],
-			"reference": "B34",
+			"reference": "B87",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -287,7 +287,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B35",
+			"reference": "B74",
 			"categories": [
 				"Vantagem"
 			]
@@ -308,7 +308,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "575c2259-e845-4c57-b496-72850c68f623",
-			"name": "Acessórios (@Ferramenta@)",
+			"name": "Acessórios: (@Ferramenta@)",
 			"physical": true,
 			"exotic": true,
 			"base_points": 1,
@@ -321,12 +321,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "7ec3f5a8-668e-46d8-8b83-024e6496f48f",
-			"name": "Alturas (Acrofobia)",
+			"name": "Acrofobia (Altura)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You may not voluntarily go more than 15 feet above ground, unless you are inside a building and away from windows. If there is some chance of an actual fall, self-control rolls are at -5.",
+			"reference": "B141",
+			"notes": "A vítima não é capaz de ir voluntariamente a um lugar com mais de 5 m de altura, a menos que esteja dentro de um edifício e longe das janelas. Todos os testes de autocontrole sofrem uma penalidade de -5 se houver alguma chance real de queda.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -339,7 +339,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B35",
+			"reference": "B88",
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -360,7 +360,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B35",
+			"reference": "B88",
 			"categories": [
 				"Vantagem"
 			]
@@ -373,7 +373,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B35",
+			"reference": "B88",
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -394,7 +394,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B35",
+			"reference": "B88",
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -415,7 +415,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B35",
+			"reference": "B88",
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -442,7 +442,7 @@
 					"id": "8c2a3142-a939-4004-ad5d-499ae6fa3566",
 					"disabled": true,
 					"name": "Custo: Barato",
-					"reference": "B122",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total"
@@ -453,7 +453,7 @@
 					"id": "8d31553a-eba7-4b1e-bb5d-95754c733ba6",
 					"disabled": true,
 					"name": "Custo: Caro",
-					"reference": "B122",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
@@ -464,7 +464,7 @@
 					"id": "b9d4f346-f139-475e-953f-f53d605bd61c",
 					"disabled": true,
 					"name": "Custo: Muito Caro",
-					"reference": "B122",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": -20,
 					"affects": "total"
@@ -474,8 +474,8 @@
 					"version": 1,
 					"id": "9d544143-e3b7-4eaa-8cdb-d6c856158971",
 					"disabled": true,
-					"name": "Efeitos: Alucinógena",
-					"reference": "B122",
+					"name": "Efeito: Alucinógeno",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
@@ -485,8 +485,8 @@
 					"version": 1,
 					"id": "0ef02da7-a1ec-4f5d-814a-c2770b79ead0",
 					"disabled": true,
-					"name": "Efeitos: Altamente viciante (-5 no teste de Desintoxicação)",
-					"reference": "B122",
+					"name": "Efeito: Altamente Viciante (-5 no teste de Desintoxicação)",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total"
@@ -496,8 +496,8 @@
 					"version": 1,
 					"id": "90ed43c8-dad6-4c78-bf22-cf13846b6489",
 					"disabled": true,
-					"name": "Efeitos: Incapacitante",
-					"reference": "B122",
+					"name": "Efeito: Incapacitante",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
@@ -507,8 +507,8 @@
 					"version": 1,
 					"id": "bcf905ae-5148-48e8-8842-1b5b342a276d",
 					"disabled": true,
-					"name": "Efeitos: Totalmente viciante (-10 no teste de Desintoxicação)",
-					"reference": "B122",
+					"name": "Efeito: Totalmente Viciante (-10 no teste de Desintoxicação)",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
@@ -519,7 +519,7 @@
 					"id": "7b7bbaee-545a-4860-bbf7-c5b1b4675ca1",
 					"disabled": true,
 					"name": "Ilegal",
-					"reference": "B122",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": 0,
 					"affects": "total"
@@ -530,13 +530,13 @@
 					"id": "4d21d742-337e-4ad6-b89e-4ee43576518c",
 					"disabled": true,
 					"name": "Legal",
-					"reference": "B122",
+					"reference": "B159",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total"
 				}
 			],
-			"reference": "B122",
+			"reference": "B159",
 			"categories": [
 				"Desvantagem"
 			]
@@ -835,7 +835,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B35",
+			"reference": "B43",
 			"categories": [
 				"Vantagem"
 			]
@@ -844,12 +844,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "5d3e9e18-ba54-4cbf-9bce-26093000556b",
-			"name": "Espaços Abertos (Agorafobia)",
+			"name": "Agorafobia (Espaços Abertos)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You are uncomfortable whenever you are outside, and actually become frightened when there are no walls within 50 feet.",
+			"reference": "B141",
+			"notes": "O personagem se sente desconfortável sempre que estiver em lugares abertos e fica verdadeiramente aterrorizado quando não houver nenhuma parede num raio de 15 m.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -858,12 +858,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "b19f226f-4f59-42a4-bb8d-7c57f637cf0f",
-			"name": "Coisas Afiadas/NT5- (Ecmofobia)",
+			"name": "Ecmofobia/NT5- (Coisas Afiadas)",
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You are afraid of anything pointed. Swords, spears, knives, and needles all give you fits. Trying to use a sharp weapon, or being threatened with one, requires a self-control roll at -2.",
+			"reference": "B141",
+			"notes": "O personagem tem medo de qualquer coisa contundente. Espadas, lanças, facas e agulhas hipodérmicas provocam ataques nele. Tentar usar uma arma afiada ou ser ameaçado com uma exige um teste de autocontrole com uma penalidade de -2.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -872,12 +872,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "2fe92724-ebf9-49e4-969c-5e908790c53d",
-			"name": "Coisas Afiadas/NT6+ (Ecmofobia)",
+			"name": "Ecmofobia/NT6+ (Coisas Afiadas)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You are afraid of anything pointed. Swords, spears, knives, and needles all give you fits. Trying to use a sharp weapon, or being threatened with one, requires a self-control roll at -2.",
+			"reference": "B141",
+			"notes": "O personagem tem medo de qualquer coisa contundente. Espadas, lanças, facas e agulhas hipodérmicas provocam ataques nele. Tentar usar uma arma afiada ou ser ameaçado com uma exige um teste de autocontrole com uma penalidade de -2.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -886,12 +886,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "40b8f96f-bf18-4ebc-99ca-e697a85460af",
-			"name": "Gatos (Elurofobia)",
+			"name": "Elurofobia (Gatos)",
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B149",
-			"notes": "This includes all felines: lions, tigers, panthers, etc.",
+			"reference": "B141",
+			"notes": "Todos os tipos de felinos: leões, tigres, panteras, etc.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -904,7 +904,7 @@
 			"physical": true,
 			"base_points": -1,
 			"reference": "B165",
-			"notes": "-2 on any HT roll related to drinking",
+			"notes": "Penalidade de -2 em qualquer teste de HT relacionado à bebedeira.",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -916,8 +916,8 @@
 			"name": "Tolerância ao Álcool",
 			"physical": true,
 			"base_points": 1,
-			"reference": "B100",
-			"notes": "+2 on all HT rolls related to drinking",
+			"reference": "B101",
+			"notes": "Bônus de +2 em todos os testes de HT relacionados ao alcoolismo.",
 			"categories": [
 				"Qualidade"
 			]
@@ -960,7 +960,7 @@
 					"id": "c1eb750d-bdd1-4483-a293-892526735fad",
 					"disabled": true,
 					"name": "Total de Pontos",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "points",
 					"cost": 1,
 					"affects": "total",
@@ -972,7 +972,7 @@
 					"id": "0b93dc24-8f30-4c58-8595-a5f2bd05173d",
 					"disabled": true,
 					"name": "Total de Pontos",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "points",
 					"cost": 2,
 					"affects": "total",
@@ -984,7 +984,7 @@
 					"id": "469b4a79-c6cf-4f87-be4d-c39428a08d9b",
 					"disabled": true,
 					"name": "Total de Pontos",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "points",
 					"cost": 3,
 					"affects": "total",
@@ -996,7 +996,7 @@
 					"id": "1c5fa2a8-39df-4651-a06b-21635ead97ca",
 					"disabled": true,
 					"name": "Total de Pontos",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
@@ -1008,7 +1008,7 @@
 					"id": "b9452cfa-cda2-4ce0-8531-7a6b9c33ddb9",
 					"disabled": true,
 					"name": "Total de Pontos",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "points",
 					"cost": 10,
 					"affects": "total",
@@ -1075,7 +1075,7 @@
 					"id": "9b920170-2506-4d12-b871-be1100043704",
 					"disabled": true,
 					"name": "Grupo de 6-10",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "multiplier",
 					"cost": 6
 				},
@@ -1085,7 +1085,7 @@
 					"id": "d0e44bc7-5889-46ec-879f-3d9ba9a4e54f",
 					"disabled": true,
 					"name": "Grupo de 11-20",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "multiplier",
 					"cost": 8
 				},
@@ -1095,7 +1095,7 @@
 					"id": "8fc8e24d-4b27-4e45-9b3a-5a6f64ada309",
 					"disabled": true,
 					"name": "Grupo de 21-50",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "multiplier",
 					"cost": 10
 				},
@@ -1105,7 +1105,7 @@
 					"id": "1dedde55-e356-448c-961a-53dc73e8e58b",
 					"disabled": true,
 					"name": "Grupo de 51-100",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "multiplier",
 					"cost": 12
 				},
@@ -1125,7 +1125,7 @@
 					"id": "d176a29c-87f6-41b9-8d4e-10beb54d1822",
 					"disabled": true,
 					"name": "Grupo de 1001-10000",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "multiplier",
 					"cost": 24
 				},
@@ -1135,7 +1135,7 @@
 					"id": "8584249f-64fa-4939-87eb-63382071fbf3",
 					"disabled": true,
 					"name": "Grupo de 10001-100000",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "multiplier",
 					"cost": 30
 				},
@@ -1145,7 +1145,7 @@
 					"id": "7429f8b9-70f3-4fe7-8c48-a9d1b9c06e0a",
 					"disabled": true,
 					"name": "Grupo de 100001-1000000",
-					"reference": "B37",
+					"reference": "B36",
 					"cost_type": "multiplier",
 					"cost": 36
 				},
@@ -1155,7 +1155,7 @@
 					"id": "1423dd75-af66-4dfb-bf98-39ebd775beb3",
 					"disabled": true,
 					"name": "Lacaio",
-					"reference": "B38",
+					"reference": "B37",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
@@ -1166,11 +1166,11 @@
 					"id": "6dc2adbd-08c7-4ef0-8614-22ec36071dbb",
 					"disabled": true,
 					"name": "Lacaio",
-					"reference": "B38",
+					"reference": "B37",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
-					"notes": "IQ 0 or Slave Mentality"
+					"notes": "IQ 0 ou Mentalidade de Escravo"
 				},
 				{
 					"type": "modifier",
@@ -1178,7 +1178,7 @@
 					"id": "d8886838-7444-495b-aa11-02ac3ae23dd2",
 					"disabled": true,
 					"name": "Habilidades Especiais",
-					"reference": "B38",
+					"reference": "B37",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -1190,7 +1190,7 @@
 					"id": "d00c3a09-82c4-4569-81df-955e8e62ef34",
 					"disabled": true,
 					"name": "Invocável",
-					"reference": "B38",
+					"reference": "B37",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
@@ -1205,7 +1205,7 @@
 					"cost_type": "percentage",
 					"cost": -25,
 					"affects": "total",
-					"notes": "Death of one party reduces the other to 0 HP"
+					"notes": "A morte de um dos dois reduz o outro a 0 PV"
 				},
 				{
 					"type": "modifier",
@@ -1217,7 +1217,7 @@
 					"cost_type": "percentage",
 					"cost": -5,
 					"affects": "total",
-					"notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you"
+					"notes": "A morte de um dos dois reduz o outro a 0 PV, mas os ferimentos do Aliado não afetam o personagem"
 				},
 				{
 					"type": "modifier",
@@ -1229,7 +1229,7 @@
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "Death of one party kills the other"
+					"notes": "A morte de um dos dois mata automaticamente o outro"
 				},
 				{
 					"type": "modifier",
@@ -1241,7 +1241,7 @@
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total",
-					"notes": "Death of one party kills the other and wounds affect ally but not you"
+					"notes": "A morte de um dos dois reduz o outro a 0 PV, mas os ferimentos do Aliado não afetam o personagem"
 				},
 				{
 					"type": "modifier",
@@ -1260,12 +1260,12 @@
 					"id": "689f0318-5bb4-45b8-bc81-74c14097fe68",
 					"disabled": true,
 					"name": "Favor",
-					"reference": "B55",
+					"reference": "B60",
 					"cost_type": "multiplier",
 					"cost": 0.2
 				}
 			],
-			"reference": "B36",
+			"reference": "B35",
 			"categories": [
 				"Vantagem"
 			]
@@ -1285,7 +1285,7 @@
 					"version": 1,
 					"id": "83b21f26-0b44-46ba-9ed1-f9ba5e894b93",
 					"disabled": true,
-					"name": "Super-Speed",
+					"name": "Supervelocidade",
 					"reference": "P42",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -1296,7 +1296,7 @@
 					"version": 1,
 					"id": "ab7d7a11-5761-454c-83d0-6fb899ed2fe4",
 					"disabled": true,
-					"name": "Non-Combat Speed",
+					"name": "Velocidade Fora de Combate",
 					"reference": "P42",
 					"cost_type": "percentage",
 					"cost": -60,
@@ -1323,7 +1323,7 @@
 					"id": "c1c44e83-3ed1-4bc0-b82f-fda332179650",
 					"disabled": true,
 					"name": "Cosmética",
-					"reference": "B84",
+					"reference": "B72",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -1333,7 +1333,7 @@
 					"version": 1,
 					"id": "44695e7e-edf2-41c2-a7a7-2fbbf21eb447",
 					"disabled": true,
-					"name": "Absorptive Change",
+					"name": "Mudança com Absorção",
 					"reference": "P75",
 					"cost_type": "percentage",
 					"cost": 5,
@@ -1346,7 +1346,7 @@
 					"version": 1,
 					"id": "97308e27-18e1-4c68-8104-4098c26448a7",
 					"disabled": true,
-					"name": "Active Change",
+					"name": "Mudança Ativa",
 					"reference": "P75",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -1357,7 +1357,7 @@
 					"version": 1,
 					"id": "11645648-495b-4b39-912c-6d26f988a6fa",
 					"disabled": true,
-					"name": "Non-Reciprocal Damage",
+					"name": "Dano Não-Recíproco",
 					"reference": "P75",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -1368,7 +1368,7 @@
 					"version": 1,
 					"id": "45ceba06-f5ae-495c-b9b2-96b7f2497751",
 					"disabled": true,
-					"name": "Once On, Stays On",
+					"name": "Uma Vez Ativa, Sempre Ativa",
 					"reference": "P75",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -1379,7 +1379,7 @@
 					"version": 1,
 					"id": "bbea117c-d516-4e75-9e31-938be1279103",
 					"disabled": true,
-					"name": "Reciprocal Rest",
+					"name": "Descanso Recíproco",
 					"reference": "P75",
 					"cost_type": "percentage",
 					"cost": 30,
@@ -1390,7 +1390,7 @@
 					"version": 1,
 					"id": "96ab176f-cf69-4d13-b95f-25915798aa45",
 					"disabled": true,
-					"name": "Projected Form",
+					"name": "Forma Projetada",
 					"reference": "P75",
 					"cost_type": "percentage",
 					"cost": -50,
@@ -1402,14 +1402,14 @@
 					"id": "9bfe7531-8c8f-4dc6-890b-5d0001a57e7a",
 					"disabled": true,
 					"name": "Gasto Adicional de Tempo",
-					"reference": "B115",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total",
 					"levels": 1
 				}
 			],
-			"reference": "B83",
+			"reference": "B71",
 			"categories": [
 				"Vantagem"
 			]
@@ -1433,7 +1433,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B39",
+			"reference": "B63",
 			"notes": "@Identidade@",
 			"categories": [
 				"Vantagem"
@@ -1446,7 +1446,7 @@
 			"name": "Ambidestria",
 			"physical": true,
 			"base_points": 5,
-			"reference": "B39",
+			"reference": "B38",
 			"categories": [
 				"Vantagem"
 			]
@@ -1455,10 +1455,10 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "768189d4-55ca-4b22-b9e4-bb0fdd1a6521",
-			"name": "Amnesia Parcial",
+			"name": "Amnésia Parcial",
 			"physical": true,
 			"base_points": -10,
-			"reference": "B123",
+			"reference": "B122",
 			"categories": [
 				"Desvantagem"
 			]
@@ -1467,10 +1467,10 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "2e3ad348-32ad-4dde-8b47-328c5a0122ce",
-			"name": "Amnesia Total",
+			"name": "Amnésia Total",
 			"physical": true,
 			"base_points": -25,
-			"reference": "B123",
+			"reference": "B122",
 			"categories": [
 				"Desvantagem"
 			]
@@ -1483,7 +1483,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 10,
-			"reference": "B40",
+			"reference": "B38",
 			"categories": [
 				"Vantagem"
 			]
@@ -1501,7 +1501,7 @@
 					"version": 1,
 					"id": "13ea22a2-2f11-4abb-87ad-4d3895a102ad",
 					"disabled": true,
-					"name": "Remote",
+					"name": "Remota",
 					"reference": "P48",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -1513,11 +1513,11 @@
 					"id": "b4758d45-4f13-4e8e-b88e-7bc884a82425",
 					"disabled": true,
 					"name": "Especializada",
-					"reference": "B87",
+					"reference": "B60",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "All aquatic animals"
+					"notes": "Todos os animais aquáticos"
 				},
 				{
 					"type": "modifier",
@@ -1525,11 +1525,11 @@
 					"id": "4e91bc03-4e47-4b36-a1a1-ce7a045f06ce",
 					"disabled": true,
 					"name": "Especializada",
-					"reference": "B87",
+					"reference": "B60",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "All land animals"
+					"notes": "Todos os animais terrestres"
 				},
 				{
 					"type": "modifier",
@@ -1537,11 +1537,11 @@
 					"id": "7e994dfc-f800-4dda-8f17-6491254d0fd6",
 					"disabled": true,
 					"name": "Especializada",
-					"reference": "B87",
+					"reference": "B60",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "@One class: Mammals, Birds, etc.@"
+					"notes": "@Uma classe: Mamíferos, Aves, etc.@"
 				},
 				{
 					"type": "modifier",
@@ -1549,11 +1549,11 @@
 					"id": "c4779572-f091-4862-898c-726b35c34f36",
 					"disabled": true,
 					"name": "Especializada",
-					"reference": "B87",
+					"reference": "B60",
 					"cost_type": "percentage",
 					"cost": -60,
 					"affects": "total",
-					"notes": "@One family: Felines, Parrots, etc.@"
+					"notes": "@Uma família: Felinos, Papagaios, etc.@"
 				},
 				{
 					"type": "modifier",
@@ -1565,10 +1565,10 @@
 					"cost_type": "percentage",
 					"cost": -80,
 					"affects": "total",
-					"notes": "@One species: House Cats, Macaws, etc.@"
+					"notes": "@Uma espécie: Gatos Domésticos, Araras, etc.@"
 				}
 			],
-			"reference": "B40",
+			"reference": "B57",
 			"categories": [
 				"Vantagem"
 			]
@@ -1594,7 +1594,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 1,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1623,7 +1623,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 4,
-							"situation": "from those attracted to members of your sex, +2 from everyone else"
+							"situation": "de pessoas que se sentem atraídas por membros do sexo do personagem, +2 para todas as outras"
 						}
 					]
 				},
@@ -1632,7 +1632,7 @@
 					"version": 1,
 					"id": "f2ef3d46-2535-466f-b85d-82d3a9a59937",
 					"disabled": true,
-					"name": "Bonito (Andrógeno)",
+					"name": "Bonito (Andrógino)",
 					"reference": "B21",
 					"cost_type": "points",
 					"cost": 12,
@@ -1641,7 +1641,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 3,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1659,7 +1659,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 3,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1677,7 +1677,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 4,
-							"situation": "from those attracted to members of your sex, +2 from everyone else"
+							"situation": "de pessoas que se sentem atraídas por membros do sexo do personagem, +2 para todas as outras"
 						}
 					]
 				},
@@ -1686,7 +1686,7 @@
 					"version": 1,
 					"id": "66b67232-40a9-49ce-a30c-a41aa79a86e8",
 					"disabled": true,
-					"name": "Elegante (Andrógeno)",
+					"name": "Elegante (Andrógino)",
 					"reference": "B21",
 					"cost_type": "points",
 					"cost": 12,
@@ -1695,7 +1695,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 3,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1713,7 +1713,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 3,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1731,7 +1731,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": -4,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1749,7 +1749,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": -6,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1778,7 +1778,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": -5,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1792,7 +1792,7 @@
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "Halves the usual reaction bonus - adjust manually"
+					"notes": "Só recebe metade do bônus de reação com as pessoas - ajustar manualmente"
 				},
 				{
 					"type": "modifier",
@@ -1808,7 +1808,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 8,
-							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+							"situation": "de pessoas que se sentem atraídas por membros do sexo do personagem, +2 para todas as outras. Exceção: Pessoas do mesmo sexo que já tenham algum motivo para não gostar do personagem (uma penalidade de -4 ou mais nos testes de reação, sem considerar os bônus), sentem-se ressentidas por sua boa aparência e reagem com uma penalidade adicional de -2."
 						}
 					]
 				},
@@ -1817,7 +1817,7 @@
 					"version": 1,
 					"id": "2bb71c80-552e-499d-a4e6-e57f26881a8c",
 					"disabled": true,
-					"name": "Lindo (Andrógeno)",
+					"name": "Lindo (Andrógino)",
 					"reference": "B21",
 					"cost_type": "points",
 					"cost": 20,
@@ -1826,7 +1826,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 5,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1844,7 +1844,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 5,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1862,7 +1862,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": -2,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1880,7 +1880,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": -1,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1909,7 +1909,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 6,
-							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+							"situation": "de pessoas que se sentem atraídas por membros do sexo do personagem, +2 para todas as outras. Exceção: Pessoas do mesmo sexo que já tenham algum motivo para não gostar do personagem (uma penalidade de -4 ou mais nos testes de reação, sem considerar os bônus), sentem-se ressentidas por sua boa aparência e reagem com uma penalidade adicional de -2."
 						}
 					]
 				},
@@ -1918,7 +1918,7 @@
 					"version": 1,
 					"id": "45fe1d7c-54ed-4171-ac37-0c14d3825e89",
 					"disabled": true,
-					"name": "Muito Bonito (Andrógeno)",
+					"name": "Muito Bonito (Andrógino)",
 					"reference": "B21",
 					"cost_type": "points",
 					"cost": 16,
@@ -1927,7 +1927,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 4,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1945,7 +1945,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 4,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -1963,7 +1963,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 6,
-							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+							"situation": "de pessoas que se sentem atraídas por membros do sexo do personagem, +2 para todas as outras. Exceção: Pessoas do mesmo sexo que já tenham algum motivo para não gostar do personagem (uma penalidade de -4 ou mais nos testes de reação, sem considerar os bônus), sentem-se ressentidas por sua boa aparência e reagem com uma penalidade adicional de -2."
 						}
 					]
 				},
@@ -1972,7 +1972,7 @@
 					"version": 1,
 					"id": "1cf4494d-453a-403d-890b-7233286080e7",
 					"disabled": true,
-					"name": "Muito Elegante (Andrógeno)",
+					"name": "Muito Elegante (Andrógino)",
 					"reference": "B21",
 					"cost_type": "points",
 					"cost": 16,
@@ -1981,7 +1981,7 @@
 						{
 							"type": "reaction_bonus",
 							"amount": 4,
-							"situation": "from others"
+							"situation": "de outras pessoas"
 						}
 					]
 				},
@@ -2013,11 +2013,11 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "e6737b49-1ec5-4234-a890-1251160921b9",
-			"name": "Aranhas (Aracnofobia)",
+			"name": "Aracnofobia (Aranhas)",
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B150",
+			"reference": "B141",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2037,11 +2037,11 @@
 					"id": "40e4e9d1-3dcf-4caa-8881-f30f423a50b1",
 					"disabled": true,
 					"name": "Apenas um braço",
-					"reference": "B40",
+					"reference": "B56",
 					"cost_type": "points",
 					"cost": -4,
 					"affects": "levels_only",
-					"notes": "@Which@"
+					"notes": "@Qual@"
 				},
 				{
 					"type": "modifier",
@@ -2049,13 +2049,13 @@
 					"id": "659e3180-486a-459f-b9f6-2357556370a8",
 					"disabled": true,
 					"name": "Manuseadores Precários",
-					"reference": "B145",
+					"reference": "B149",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
 				}
 			],
-			"reference": "B40",
+			"reference": "B56",
 			"categories": [
 				"Vantagem"
 			]
@@ -2075,7 +2075,7 @@
 					"id": "72b97686-cb9a-4eee-9dfd-4df41b60674c",
 					"disabled": true,
 					"name": "Manuseadores Precários",
-					"reference": "B145",
+					"reference": "B149",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
@@ -2086,11 +2086,11 @@
 					"id": "36e05989-7f56-433f-871c-e9516ae1aa8c",
 					"disabled": true,
 					"name": "Apenas um braço",
-					"reference": "B40",
+					"reference": "B89",
 					"cost_type": "points",
 					"cost": -2,
 					"affects": "levels_only",
-					"notes": "@Which@"
+					"notes": "@Qual@"
 				},
 				{
 					"type": "modifier",
@@ -2098,7 +2098,7 @@
 					"id": "e77c3cf3-d2c5-4268-84e7-176445e63593",
 					"disabled": true,
 					"name": "Três braços",
-					"reference": "B40",
+					"reference": "B89",
 					"cost_type": "points",
 					"cost": 3,
 					"affects": "levels_only"
@@ -2115,8 +2115,8 @@
 					"levels": 1
 				}
 			],
-			"reference": "B40",
-			"notes": "Only applies to efforts to lift, throw, or attack with those arms or hands. If a task requires multiple hands and they don't have the same ST, use the average ST.",
+			"reference": "B89",
+			"notes": "Esse valor se aplica apenas aos esforços para erguer, atirar ou atacar com os braços, ou mãos, em questão. Se uma tarefa exige várias mãos para ser realizada e elas não tiverem a mesma ST, use a média.",
 			"categories": [
 				"Vantagem"
 			]
@@ -2129,7 +2129,7 @@
 			"mental": true,
 			"base_points": -1,
 			"reference": "B163",
-			"notes": "+1 bonus when working on lengthy tasks, but -3 to notice any important interruption",
+			"notes": "Bônus de +1 quando está trabalhando em uma tarefa longa, mas sofre uma penalidade de -3 para perceber qualquer interrupção importante.",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -2138,12 +2138,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "60d9e5e7-2de9-4cb9-ac2a-85dbb224f5df",
-			"name": "Solidão (Autofobia)",
+			"name": "Autofobia (Solidão)",
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B149",
-			"notes": "You cannot stand to be alone, and do anything in your power to avoid it.",
+			"reference": "B142",
+			"notes": "O personagem não suporta ficar sozinho e faz tudo o que puder para evitar isso.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2155,7 +2155,7 @@
 			"name": "Autotranse",
 			"mental": true,
 			"base_points": 1,
-			"reference": "B101",
+			"reference": "B100",
 			"categories": [
 				"Qualidade"
 			]
@@ -2174,15 +2174,15 @@
 					"id": "42d07232-2402-4a80-909e-47679015ba3a",
 					"disabled": true,
 					"name": "Grave",
-					"reference": "B123",
+					"reference": "B153",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total",
-					"notes": "The HT roll is at -2"
+					"notes": "O teste de HT sofre uma penalidade de -2."
 				}
 			],
-			"reference": "B123",
-			"notes": "Throw out your back whenever you make a ST roll, and whenever you roll 17 or 18 on an attack or defense roll in melee combat, or on a roll for an “athletic” skill such as Acrobatics, make a HT roll as well",
+			"reference": "B153",
+			"notes": "Sempre que fizer um teste de ST, ou quando obtiver um resultado de 17 ou 18 numa jogada de ataque ou defesa durante um combate corpo a corpo, ou ainda num teste com alguma perícia “atlética” (como Acrobacia), será necessário fazer um teste de HT.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2195,7 +2195,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": -5,
-			"reference": "B123",
+			"reference": "B150",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -2210,7 +2210,7 @@
 					}
 				]
 			},
-			"notes": "-2/level to tasks that require a firm grip (max 3 levels)",
+			"notes": "O personagem sofre uma penalidade nas tarefas que exigem mão firme. Cada nível (até no máximo 3) implica numa penalidade de -2 nessas tarefas.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2219,7 +2219,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "227d7609-ce56-4314-8c6a-9d5cb8863e9b",
-			"name": "Disopia (Hipermetrope)",
+			"name": "Disopia (Hipermétrope)",
 			"physical": true,
 			"base_points": -25,
 			"modifiers": [
@@ -2229,14 +2229,15 @@
 					"id": "5f9a7d75-de73-40c4-bbc9-f8f6a058a9ba",
 					"disabled": true,
 					"name": "Mitigador",
+					"reference": "B135",
 					"cost_type": "percentage",
 					"cost": -60,
 					"affects": "total",
 					"notes": "Glasses"
 				}
 			],
-			"reference": "B123",
-			"notes": "-6 to Vision rolls to spot items within 1 yd; -3 DX to any close manual task, including close combat",
+			"reference": "B134",
+			"notes": "-6 nos testes de Visão para enxergar qualquer coisa que se encontra a menos de um metro de distância e uma penalidade de -3 nos teste de DX para qualquer tarefa manual que exija proximidade, incluindo o combate corporal.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2255,14 +2256,15 @@
 					"id": "bcf5ee4d-8f70-41e5-81ee-9f4a2956f9c3",
 					"disabled": true,
 					"name": "Mitigador",
+					"reference": "B135",
 					"cost_type": "percentage",
 					"cost": -60,
 					"affects": "total",
 					"notes": "Glasses"
 				}
 			],
-			"reference": "B123",
-			"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+			"reference": "B134",
+			"notes": "-6 para enxergar qualquer coisa que se encontra a mais de um metro de distância. Ele também sofre uma penalidade de -2 nos ataques corpo a corpo. Para ataque à distância, dobre a distância até o alvo quando estiver calculando o modificador de distância.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2274,12 +2276,12 @@
 			"name": "Mau Cheiro",
 			"physical": true,
 			"base_points": -10,
-			"reference": "B124",
+			"reference": "B150",
 			"features": [
 				{
 					"type": "reaction_bonus",
 					"amount": -2,
-					"situation": "from most people and animals (although pests or carrion-eating scavengers might be attracted to you!)"
+					"situation": "da maioria das pessoas e animais (embora insetos nocivos e devoradores de carniça sejam atraídos pelo cheiro que você exala!)"
 				}
 			],
 			"categories": [
@@ -2294,7 +2296,7 @@
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B124",
+			"reference": "B147",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2319,8 +2321,8 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B124",
-			"notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
+			"reference": "B143",
+			"notes": "Sempre que sofrer um número de pontos de dano superior a 1/4 dos seus PV em menos de um segundo ou quando presenciar uma punição equivalente sendo causando a um ente querido, o personagem precisa fazer um teste de autocontrole.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2354,7 +2356,7 @@
 					"id": "013cd6ca-bf61-47f4-b896-7e797e7cf4e1",
 					"disabled": true,
 					"name": "Engolfar",
-					"reference": "B40",
+					"reference": "B85",
 					"cost_type": "percentage",
 					"cost": 60,
 					"affects": "total"
@@ -2365,7 +2367,7 @@
 					"id": "245c6cd5-a6be-467b-9e18-fc196982f531",
 					"disabled": true,
 					"name": "Só Sofre Dano de @1. Escolha um entre Contusão/Corrosão/Corte/Queimadura@",
-					"reference": "B40",
+					"reference": "B85",
 					"cost_type": "percentage",
 					"cost": 30,
 					"affects": "total"
@@ -2376,7 +2378,7 @@
 					"id": "feff8222-53e6-431e-b946-0d13bdf135e4",
 					"disabled": true,
 					"name": "Só Sofre Dano de @1. Escolha um entre Contusão/Corrosão/Corte/Queimadura@ ou @2. Escolha um entre Contusão/Corrosão/Corte/Queimadura@",
-					"reference": "B40",
+					"reference": "B85",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -2387,7 +2389,7 @@
 					"id": "877b5159-04fd-4eb7-a0b3-6bd4e7f5dbfc",
 					"disabled": true,
 					"name": "Só Sofre Dano de @1. Escolha um entre Contusão/Corrosão/Corte/Queimadura@, @2. Escolha um entre Contusão/Corrosão/Corte/Queimadura@ ou @3. Escolha um entre Contusão/Corrosão/Corte/Queimadura@",
-					"reference": "B40",
+					"reference": "B85",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total"
@@ -2398,7 +2400,7 @@
 					"id": "1a95d878-1843-491c-af6b-ac99226c01c2",
 					"disabled": true,
 					"name": "Grudento",
-					"reference": "B40",
+					"reference": "B85",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -2409,7 +2411,7 @@
 					"id": "5cd53657-d2b7-4d49-b5be-e9d5efeedc4a",
 					"disabled": true,
 					"name": "Inquebrável",
-					"reference": "B40",
+					"reference": "B85",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total"
@@ -2419,8 +2421,8 @@
 					"version": 1,
 					"id": "301d843f-3824-4ae7-acbc-2a1ab8247a9a",
 					"disabled": true,
-					"name": "Chance única",
-					"reference": "B40",
+					"name": "Chance Única",
+					"reference": "B85",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -2430,14 +2432,14 @@
 					"version": 1,
 					"id": "aca140a4-3b30-4354-aacb-529aa91497ed",
 					"disabled": true,
-					"name": "Super-Binding",
+					"name": "Super-Retenção",
 					"reference": "SU25",
 					"cost_type": "percentage",
 					"cost": 400,
 					"affects": "total"
 				}
 			],
-			"reference": "B40",
+			"reference": "B85",
 			"categories": [
 				"Vantagem"
 			]
@@ -2450,12 +2452,12 @@
 			"mental": true,
 			"supernatural": true,
 			"base_points": 10,
-			"reference": "B40",
+			"reference": "B35",
 			"features": [
 				{
 					"type": "reaction_bonus",
 					"amount": 1,
-					"situation": "from followers of your deity"
+					"situation": "dos seguidores da sua divindade"
 				}
 			],
 			"categories": [
@@ -2469,8 +2471,8 @@
 			"name": "Cegueira",
 			"physical": true,
 			"base_points": -50,
-			"reference": "B124",
-			"notes": "-6 to all combat skills; cannot target hit locations",
+			"reference": "B125",
+			"notes": "Todas as perícias de combate uma penalidade de -6; não é capaz de dirigir um golpe contra um ponto de impacto específico do corpo do oponente",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2483,8 +2485,8 @@
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B125",
-			"notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+			"reference": "B154",
+			"notes": "O personagem precisa ser bem-sucedido em um teste de autocontrole para aceitar a rendição de um inimigo, fugir de uma sentinela, fazer um prisioneiro, etc.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2500,7 +2502,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr",
+						"type": "cont",
 						"st": "thr",
 						"base": "-1",
 						"modifier_per_die": 1
@@ -2530,7 +2532,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr",
+						"type": "cont",
 						"st": "thr",
 						"modifier_per_die": 1
 					},
@@ -2556,7 +2558,7 @@
 					]
 				}
 			],
-			"reference": "B42",
+			"reference": "B61",
 			"categories": [
 				"Vantagem"
 			]
@@ -2582,7 +2584,7 @@
 				{
 					"type": "reaction_bonus",
 					"amount": -1,
-					"situation": "from those who think Bowlegged looks funny"
+					"situation": "de pessoas que acham seu modo de andar engraçado"
 				}
 			],
 			"categories": [
@@ -2597,7 +2599,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 5,
-			"reference": "B41",
+			"reference": "B77",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -2622,7 +2624,7 @@
 			"exotic": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B41",
+			"reference": "B80",
 			"categories": [
 				"Vantagem"
 			]
@@ -2634,7 +2636,7 @@
 			"name": "Mente Aberta",
 			"mental": true,
 			"base_points": -1,
-			"reference": "B163",
+			"reference": "B164",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -2643,12 +2645,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "ff60ead2-c0bd-468a-af8f-d68af79a7047",
-			"name": "Ruídos Altos (Brontofobia)",
+			"name": "Brontofobia (Ruídos Altos)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You avoid any situation where loud noises are likely. A sudden loud noise requires an immediate self-control roll. A thunderstorm is a traumatic experience for you!",
+			"reference": "B142",
+			"notes": "A vítima evita qualquer situação em que haja possibilidade de ruídos altos. Um ruído muito alto que apareça subitamente exige de imediato um teste de autocontrole. Uma tempestade é uma experiência muito traumática para o personagem.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2666,7 +2668,7 @@
 				{
 					"type": "reaction_bonus",
 					"amount": -2,
-					"situation": "from others"
+					"situation": "de outras pessoas"
 				}
 			],
 			"categories": [
@@ -2680,7 +2682,7 @@
 			"name": "Insensível",
 			"mental": true,
 			"base_points": -5,
-			"reference": "B125",
+			"reference": "B147",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -2703,10 +2705,10 @@
 				{
 					"type": "reaction_bonus",
 					"amount": -1,
-					"situation": "from past victims and anyone with Empathy"
+					"situation": "de vítimas antigas e de qualquer pessoa com Empatia"
 				}
 			],
-			"notes": "+1 to Interrogation and Intimidation rolls when you use threats or torture",
+			"notes": "+1 nos testes de Interrogatório e Intimidação quando faz uso de ameaças ou tortura.",
 			"categories": [
 				"Desvantagem"
 			]
