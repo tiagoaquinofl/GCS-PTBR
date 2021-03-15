@@ -8248,7 +8248,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"st": "thr",
 						"base": "-1"
 					},
@@ -9968,7 +9968,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr",
+						"type": "cont",
 						"st": "thr",
 						"modifier_per_die": 1
 					},
@@ -10220,7 +10220,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"st": "thr",
 						"modifier_per_die": 1
 					},
@@ -10921,7 +10921,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "burn",
+						"type": "qmd",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -11710,7 +11710,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cr",
+						"type": "cont",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -11966,7 +11966,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -12666,7 +12666,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "pi++",
+						"type": "pa++",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -12922,7 +12922,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -13178,7 +13178,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "pi+",
+						"type": "pa+",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -13457,7 +13457,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "pi",
+						"type": "pa",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -13736,7 +13736,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "pi-",
+						"type": "pa-",
 						"base": "1d"
 					},
 					"accuracy": "3",
@@ -15749,7 +15749,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "pi+",
+						"type": "pa+",
 						"st": "thr",
 						"modifier_per_die": 1
 					},
@@ -16066,7 +16066,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"base": "1d"
 					},
 					"usage": "Stab",
@@ -16097,7 +16097,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "thr",
 						"base": "-1",
 						"modifier_per_die": 1
@@ -16127,7 +16127,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"st": "thr",
 						"base": "-1",
 						"modifier_per_die": 1
@@ -18141,6 +18141,7 @@
 			"levels": "0",
 			"base_points": -1,
 			"reference": "B164",
+			"notes": "@Substância@",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -21035,7 +21036,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "pi",
+						"type": "pa",
 						"st": "thr",
 						"modifier_per_die": 1
 					},
@@ -24111,7 +24112,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "pi+",
+						"type": "pa+",
 						"st": "thr",
 						"base": "-1"
 					},
@@ -24159,7 +24160,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "thr",
 						"base": "-1"
 					},
@@ -24188,7 +24189,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "thr"
 					},
 					"usage": "Chute",
@@ -24230,7 +24231,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "thr",
 						"base": "-1"
 					},
@@ -24307,7 +24308,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"base": "1d-2"
 					},
 					"usage": "Stab",
@@ -28614,7 +28615,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "thr",
 						"base": "-1"
 					},
@@ -28643,7 +28644,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"st": "thr",
 						"base": "-1"
 					},
@@ -31294,7 +31295,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr",
+						"type": "cont",
 						"st": "thr",
 						"base": "-1",
 						"modifier_per_die": -2
