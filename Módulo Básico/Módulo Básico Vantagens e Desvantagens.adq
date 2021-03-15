@@ -2732,7 +2732,7 @@
 			"name": "Incapaz de Aprender",
 			"mental": true,
 			"base_points": -30,
-			"reference": "B125",
+			"reference": "B145",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2744,7 +2744,7 @@
 			"name": "Incapaz de Falar",
 			"physical": true,
 			"base_points": -15,
-			"reference": "B125",
+			"reference": "B145",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -2770,7 +2770,7 @@
 			"name": "Incapaz de Falar (Mudez)",
 			"physical": true,
 			"base_points": -25,
-			"reference": "B125",
+			"reference": "B145",
 			"categories": [
 				"Desvantagem"
 			]
@@ -2782,7 +2782,7 @@
 			"name": "Cuidadoso",
 			"mental": true,
 			"base_points": -1,
-			"reference": "B163",
+			"reference": "B164",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -2801,7 +2801,7 @@
 					"version": 1,
 					"id": "4f09c6de-6a88-4593-9e01-2441530cb0e6",
 					"disabled": true,
-					"name": "Feather Fall",
+					"name": "Queda Suave",
 					"reference": "P43",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -2819,7 +2819,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B41",
+			"reference": "B81",
 			"categories": [
 				"Vantagem"
 			]
@@ -2840,7 +2840,7 @@
 					"id": "00059922-c93e-4c7e-a116-67b0748e7e9b",
 					"disabled": true,
 					"name": "Estendida",
-					"reference": "B41",
+					"reference": "B46",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -2851,8 +2851,8 @@
 					"version": 1,
 					"id": "45abbec3-81d7-4e37-a2e8-54f6b5006379",
 					"disabled": true,
-					"name": "Sempre Ativa",
-					"reference": "B41",
+					"name": "Sempre Ativo",
+					"reference": "B46",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -2862,7 +2862,7 @@
 					"version": 1,
 					"id": "4e939794-d937-4c17-9f2b-1049b58dd80f",
 					"disabled": true,
-					"name": "Controllable",
+					"name": "Controlável",
 					"reference": "P43",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -2873,14 +2873,14 @@
 					"version": 1,
 					"id": "3322a029-d9a2-4fcd-b414-82df0832319c",
 					"disabled": true,
-					"name": "Dynamic",
+					"name": "Dinâmico",
 					"reference": "P43",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total"
 				}
 			],
-			"reference": "B41",
+			"reference": "B46",
 			"categories": [
 				"Vantagem"
 			]
@@ -2899,7 +2899,7 @@
 					"version": 1,
 					"id": "edd19d8c-c1a5-4e0b-825e-68bdb2311e59",
 					"disabled": true,
-					"name": "Aware",
+					"name": "Consciente",
 					"reference": "P43",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -2915,10 +2915,10 @@
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "@Type@"
+					"notes": "@Tipo@"
 				}
 			],
-			"reference": "B41",
+			"reference": "B46",
 			"categories": [
 				"Vantagem"
 			]
@@ -2931,7 +2931,7 @@
 			"mental": true,
 			"levels": "1",
 			"points_per_level": 5,
-			"reference": "B41",
+			"reference": "B47",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -2977,13 +2977,13 @@
 					"type": "reaction_bonus",
 					"amount": 1,
 					"per_level": true,
-					"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)"
+					"situation": "de seres inteligentes com quem o personagem interage ativamente (em conversas, palestras, etc.)"
 				},
 				{
 					"type": "reaction_bonus",
 					"amount": 1,
 					"per_level": true,
-					"situation": "to Influence rolls"
+					"situation": "em Testes de Influência"
 				}
 			],
 			"categories": [
@@ -2998,8 +2998,8 @@
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B125",
-			"notes": "Make a self-control roll in any situation where you could render aid or are specifically asked for help, but should resist the urge",
+			"reference": "B146",
+			"notes": "Fazer um teste de autocontrole sempre que estiver em uma situação onde poderia prestar auxílio ou onde recebeu um pedido de ajuda, mas deseja resistir.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3017,7 +3017,7 @@
 				{
 					"type": "reaction_bonus",
 					"amount": -1,
-					"situation": "from individuals sensitive to criticism or insults that you interact with"
+					"situation": "de indivíduos sensíveis a críticas ou insultos com quem você interaja"
 				}
 			],
 			"categories": [
@@ -3032,8 +3032,8 @@
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B126",
-			"notes": "Make a self-control roll to do anything but acquire and consume the minimum necessities for survival, or whenever you must choose between two or more actions",
+			"reference": "B131",
+			"notes": "Fazer um teste de autocontrole para realizar qualquer ação que não envolva obter ou consumir o mínimo possível para sua sobrevivência ou quando tiver que escolher entre duas ou mais opções.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3051,7 +3051,7 @@
 					"id": "d91248c9-1b15-4ca2-9086-a955b35f0671",
 					"disabled": true,
 					"name": "Intervalo de 1 hora",
-					"reference": "B126",
+					"reference": "B136",
 					"cost_type": "multiplier",
 					"cost": 0.5
 				},
@@ -3061,7 +3061,7 @@
 					"id": "90c10398-4a43-4c00-8a35-f3ad8a7d5587",
 					"disabled": true,
 					"name": "Intervalo de 2 horas",
-					"reference": "B126",
+					"reference": "B136",
 					"cost_type": "multiplier",
 					"cost": 1
 				},
@@ -3071,7 +3071,7 @@
 					"id": "4f0475ab-7585-41c2-bb6a-55697255ec06",
 					"disabled": true,
 					"name": "Intervalo de 4 horas",
-					"reference": "B126",
+					"reference": "B136",
 					"cost_type": "multiplier",
 					"cost": 1.5
 				},
@@ -3081,7 +3081,7 @@
 					"id": "52382709-62d2-4b29-acbb-981c544572cf",
 					"disabled": true,
 					"name": "Intervalo de 8 horas",
-					"reference": "B126",
+					"reference": "B136",
 					"cost_type": "multiplier",
 					"cost": 2
 				},
@@ -3126,12 +3126,12 @@
 					"version": 1,
 					"id": "6016fdac-c5ae-45b5-9885-09aac3c1c418",
 					"disabled": true,
-					"name": "Suave",
-					"reference": "B126",
+					"name": "Moderada",
+					"reference": "B136",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total",
-					"notes": "-2 para testes de DX, IQ, e autocontrole"
+					"notes": "-2 nos testes de DX, IQ e autocontrole"
 				},
 				{
 					"type": "modifier",
@@ -3139,11 +3139,11 @@
 					"id": "39db4b82-481e-48b3-a721-4818cb747661",
 					"disabled": true,
 					"name": "Grave",
-					"reference": "B126",
+					"reference": "B136",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total",
-					"notes": "-4 para testes de DX, IQ, e autocontrole"
+					"notes": "-4 nos testes de DX, IQ e autocontrole"
 				},
 				{
 					"type": "modifier",
@@ -3151,14 +3151,14 @@
 					"id": "137345ad-aaaa-44ca-9aa4-85521beb0839",
 					"disabled": true,
 					"name": "Excruciante",
-					"reference": "B126",
+					"reference": "B136",
 					"cost_type": "points",
 					"cost": -15,
 					"affects": "total",
-					"notes": "-6 para testes de DX, IQ, e autocontrole"
+					"notes": "-6 nos testes de DX, IQ e autocontrole"
 				}
 			],
-			"reference": "B126",
+			"reference": "B135",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3170,15 +3170,15 @@
 			"name": "Amigável",
 			"mental": true,
 			"base_points": -5,
-			"reference": "B126",
+			"reference": "B122",
 			"features": [
 				{
 					"type": "reaction_bonus",
 					"amount": 2,
-					"situation": "to others"
+					"situation": "de outras pessoas"
 				}
 			],
-			"notes": "-1 para perícias baseadas em IQ, quando estiver sozinho",
+			"notes": "Perícias baseadas em IQ sofrem uma penalidade de -1 quando o personagem está sozinho",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3195,7 +3195,7 @@
 					"version": 1,
 					"id": "a1868c09-c5aa-4e29-aa78-9a913758e874",
 					"disabled": true,
-					"name": "@Amigo com casa em outra cidade@ (lugar pra ficar)",
+					"name": "@Um único amigo com uma casa em outra cidade@ (abrigo)",
 					"cost_type": "points",
 					"cost": 1,
 					"affects": "total"
@@ -3241,7 +3241,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B41",
+			"reference": "B82",
 			"categories": [
 				"Vantagem"
 			]
@@ -3300,7 +3300,7 @@
 					"version": 1,
 					"id": "7aa0567f-a8b7-44ea-9ba4-d06bc752b3b8",
 					"disabled": true,
-					"name": "Aware",
+					"name": "Consciente",
 					"reference": "P44",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -3311,31 +3311,31 @@
 					"version": 1,
 					"id": "d936d074-3572-42dc-ad31-3b6b553befde",
 					"disabled": true,
-					"name": "Projection",
+					"name": "Projeção",
 					"reference": "P43",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
-					"notes": "Only affects insubstantial world"
+					"notes": "Só pode afetar o mundo insubstancial"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "accd74a9-e86f-49e1-91f6-775f0890f5b2",
 					"disabled": true,
-					"name": "Projection",
+					"name": "Projeção",
 					"reference": "P44",
 					"cost_type": "percentage",
 					"cost": 140,
 					"affects": "total",
-					"notes": "Can use abilities on material world"
+					"notes": "Pode usar habilidades no mundo material"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "b588f9c9-f12b-48cc-974f-10e98cafeabe",
 					"disabled": true,
-					"name": "Second Nature",
+					"name": "Segunda Natureza",
 					"reference": "P44",
 					"cost_type": "percentage",
 					"cost": 70,
@@ -3346,7 +3346,7 @@
 					"version": 1,
 					"id": "e32a20e3-5980-4e9d-a44b-55f79994f7a6",
 					"disabled": true,
-					"name": "Fixed Range",
+					"name": "Distância Fixa",
 					"reference": "PSI13",
 					"cost_type": "percentage",
 					"cost": -5,
@@ -3357,14 +3357,14 @@
 					"version": 1,
 					"id": "da6f785c-5d1a-48a5-b83f-2129364bde09",
 					"disabled": true,
-					"name": "Normal Sight",
+					"name": "Visão Normal",
 					"reference": "PSI13",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
 				}
 			],
-			"reference": "B42",
+			"reference": "B47",
 			"categories": [
 				"Vantagem"
 			]
@@ -3373,12 +3373,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "4d68f2c0-0120-4497-ba55-be7bd4183ba4",
-			"name": "Espaços Fechados (Claustrofobia)",
+			"name": "Claustrofobia (Espaços Fechados)",
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B149",
-			"notes": "You are uncomfortable any time you can’t see the sky – or at least a very high ceiling. In a small room or vehicle, you feel the walls closing in on you... You need air! This is a dangerous fear for someone who plans to go underground.",
+			"reference": "B141",
+			"notes": "A vítima se sente desconfortável toda vez que não consegue ver o céu, ou pelo menos um forro alto. Em um aposento ou veículo pequeno, ela se sente como se as paredes estivessem se fechando sobre ela. Ela precisa de ar! Um medo perigoso para quem planeja se aventurar pelos subterrâneos.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3390,12 +3390,12 @@
 			"name": "Clericato",
 			"social": true,
 			"base_points": 5,
-			"reference": "B43",
+			"reference": "B47",
 			"features": [
 				{
 					"type": "reaction_bonus",
 					"amount": 1,
-					"situation": "from members of your religion and those who respect your faith"
+					"situation": "de correligionários ou pessoas que respeitam sua fé"
 				}
 			],
 			"categories": [
@@ -3417,11 +3417,11 @@
 					"id": "bf94f1cf-9acc-4913-a1bf-28553c516265",
 					"disabled": true,
 					"name": "Específico",
-					"reference": "B43",
+					"reference": "B35",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "@Common Material@"
+					"notes": "@Material Comum@"
 				},
 				{
 					"type": "modifier",
@@ -3429,11 +3429,11 @@
 					"id": "6884b8ed-5253-4957-a4f5-afe1af0d00e8",
 					"disabled": true,
 					"name": "Específico",
-					"reference": "B43",
+					"reference": "B35",
 					"cost_type": "percentage",
 					"cost": -60,
 					"affects": "total",
-					"notes": "@Uncommon Material@"
+					"notes": "@Material Incomum@"
 				},
 				{
 					"type": "modifier",
@@ -3441,18 +3441,18 @@
 					"id": "663e38e8-106e-4f47-9a54-eda468283fdb",
 					"disabled": true,
 					"name": "Específico",
-					"reference": "B43",
+					"reference": "B35",
 					"cost_type": "percentage",
 					"cost": -80,
 					"affects": "total",
-					"notes": "@Absurd Material@"
+					"notes": "@Material Absurdo@"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "18d2579e-28a7-4b3c-bce6-ceb406a1474a",
 					"disabled": true,
-					"name": "Attraction",
+					"name": "Atração",
 					"reference": "P45",
 					"cost_type": "percentage",
 					"cost": 25,
@@ -3463,7 +3463,7 @@
 					"version": 1,
 					"id": "7727966d-c45e-4b70-af7b-81dd1892c5ea",
 					"disabled": true,
-					"name": "Requires Low Gravity",
+					"name": "Exige Baixa Gravidade",
 					"reference": "P45",
 					"cost_type": "percentage",
 					"cost": -5,
@@ -3471,7 +3471,7 @@
 					"levels": 1
 				}
 			],
-			"reference": "B43",
+			"reference": "B35",
 			"categories": [
 				"Vantagem"
 			]
@@ -3483,7 +3483,7 @@
 			"name": "Ingênuo",
 			"mental": true,
 			"base_points": -10,
-			"reference": "B126",
+			"reference": "B146",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -3500,7 +3500,7 @@
 					"situation": "from others"
 				}
 			],
-			"notes": "+4 to resist Sex Appeal",
+			"notes": "+4 para resistir a Sex Appeal",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3513,8 +3513,8 @@
 			"mental": true,
 			"levels": "0",
 			"base_points": -1,
-			"reference": "B163",
-			"notes": "@Assunto@",
+			"reference": "B126",
+			"notes": "@Tipo@",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -3527,7 +3527,7 @@
 			"mental": true,
 			"base_points": -15,
 			"reference": "B127",
-			"notes": "Protect any lady, and anyone weaker than yourself. Never break your word. Never ignore an insult to yourself, a lady, your liege-lord, or your faith; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (even in open war if the foe is also noble and chivalrous). Accept any challenge to arms from anyone of greater or equal rank.",
+			"notes": "Como o Código de Honra dos Cavalheiros, exceto que as bandeiras não haviam ainda sido inventadas; o personagem deve se ofender com qualquer insulto ao seu senhor feudal ou à sua fé. Além disso, eles devem proteger qualquer dama ou pessoa mais fraca e aceitar um desafio de qualquer um de posição igual ou superior à sua. Mesmo na guerra, as forças e armas devem ser equivalentes se o oponente também for nobre e cavalheiresco.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3540,7 +3540,7 @@
 			"mental": true,
 			"base_points": -10,
 			"reference": "B127",
-			"notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen.",
+			"notes": "Nunca faltar com a palavra. Nunca ignorar um insulto feito à sua pessoa, a uma dama ou à sua bandeira; os insultos só podem ser apagados com um pedido de desculpa ou um duelo (não necessariamente até a morte!). Nunca tirar vantagem de um oponente; armas e circunstâncias devem ser equivalentes (exceto na guerra). Isso se aplica somente entre cavalheiros. Uma descortesia de alguém de Status social menor que 0 é digna de uma surra de chicote e não de um duelo.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3553,7 +3553,7 @@
 			"mental": true,
 			"base_points": -5,
 			"reference": "B127",
-			"notes": "Always avenge an insult, regardless of the danger; your buddy’s foe is your own; never attack a fellow crewman or buddy except in a fair, open duel.",
+			"notes": "Sempre se vingar de um insulto, independente do perigo que isso possa acarretar; o inimigo de um companheiro é seu inimigo; nunca atacar um companheiro de tripulação ou um amigo, a não ser em um duelo justo. De resto, vale tudo. Este código de honra pode ser usado também por bandoleiros, gangues de motociclistas e assim por diante.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3566,7 +3566,7 @@
 			"mental": true,
 			"base_points": -5,
 			"reference": "B127",
-			"notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association.",
+			"notes": "Atender aos padrões de ética da sua profissão; sempre fazer seu trabalho da melhor maneira possível; apoiar seu grupo, empresa ou cooperativa.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3579,7 +3579,7 @@
 			"mental": true,
 			"base_points": -10,
 			"reference": "B127",
-			"notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his kit. Every soldier should be willing to fight and die for the honor of his unit, service, and country; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a bullet); and wear the uniform with pride.",
+			"notes": "Um oficial deve ser rígido, mas justo, deve liderar à frente de seu exército e cuidar de seus soldados; um homem alistado deve defender seus amigos e cuidar de seu kit de sobrevivência. Qualquer soldado deve estar disposto a lutar e morrer pela honra de sua unidade, exército e nação; deve obedecer às “leis da guerra”; tratar um inimigo honrado com respeito (um inimigo desonrado merece uma bala); e usar o uniforme com orgulho.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3588,7 +3588,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "dedcbeb7-9cd5-4f1a-9a20-855638f5d3a3",
-			"name": "Code of Honor (Theatrical)",
+			"name": "Code of Honor (Teatro)",
 			"mental": true,
 			"base_points": -5,
 			"reference": "B127",
@@ -3600,12 +3600,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "3caf0529-45fe-4d6e-aff0-2b173f24e1d0",
-			"name": "Sexo (Coitofobia)",
+			"name": "Coitofobia (Sexo)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You are terrified by the idea of sexual relations or the loss of your virginity.",
+			"reference": "B142",
+			"notes": "O personagem fica aterrorizado só de pensar em ter uma relação sexual e na perda de sua virgindade.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3618,8 +3618,8 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -5,
-			"reference": "B127",
-			"notes": "Under 50-degrees",
+			"reference": "B154",
+			"notes": "Abaixo de 10°C",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3632,8 +3632,8 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B127",
-			"notes": "Under 65-degrees",
+			"reference": "B154",
+			"notes": "Abaixo de 18°C",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3645,7 +3645,7 @@
 			"name": "Daltonismo",
 			"physical": true,
 			"base_points": -10,
-			"reference": "B127",
+			"reference": "B129",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -3713,7 +3713,7 @@
 			"name": "Paralisia Frente ao Combate",
 			"physical": true,
 			"base_points": -15,
-			"reference": "B127",
+			"reference": "B152",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -3735,7 +3735,7 @@
 					"attribute": "fright_check"
 				}
 			],
-			"notes": "In any situation in which personal harm seems imminent, make a HT roll. Do not roll until the instant you need to fight, run, pull the trigger, or whatever. Any roll over 13 is a failure, even if you have HT 14+. On a success, you can act normally. On a failure, you are mentally stunned. ",
+			"notes": "Em qualquer situação onde uma lesão física parece iminente, o personagem deve fazer um teste de HT. Contudo, a jogada não deve ser feita até o momento em que ele tem que lutar, fugir, puxar o gatilho ou tomar alguma outra ação. Qualquer resultado maior que 13 indica um fracasso, mesmo que o personagem tenha uma HT alta. Um sucesso significa que ele consegue agir normalmente. No caso de um fracasso, ele fica mentalmente atordoado.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -3747,7 +3747,7 @@
 			"name": "Reflexos em Combate",
 			"mental": true,
 			"base_points": 15,
-			"reference": "B43",
+			"reference": "B82",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -3793,7 +3793,7 @@
 					"attribute": "fright_check"
 				}
 			],
-			"notes": "nunca fica \"paralisado\"; +6 em todos os testes de IQ para se recuperar de surpresa ou “atordoamento” mental; Seu grupo recebe +1 nos testes de iniciativa (+2 se você for o líder)",
+			"notes": "O personagem nunca fica “paralisado” em uma situação de surpresa e recebe um bônus de +6 em todos os testes de IQ para voltar a si ou se recuperar de uma situação de surpresa ou “atordoamento” mental. O grupo do jogador recebe um bônus de +1 nos testes de iniciativa para evitar ataques surpresa — +2 se o personagem for o líder.",
 			"categories": [
 				"Vantagem"
 			]
@@ -3806,7 +3806,7 @@
 			"social": true,
 			"base_points": 10,
 			"reference": "B25",
-			"notes": "Starting wealth is twice normal",
+			"notes": "Seu valor de recursos iniciais é o dobro da média",
 			"categories": [
 				"Vantagem",
 				"Riqueza"
@@ -3825,14 +3825,14 @@
 					"version": 1,
 					"id": "9061b3d4-8442-4a84-ae19-0ba89e6857d7",
 					"disabled": true,
-					"name": "Concious",
+					"name": "Ciente",
 					"reference": "P45",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
 				}
 			],
-			"reference": "B43",
+			"reference": "B45",
 			"categories": [
 				"Vantagem"
 			]
@@ -3852,7 +3852,7 @@
 					"version": 1,
 					"id": "37af2236-c0d8-43cf-9fd4-7f0ece9086c7",
 					"disabled": true,
-					"name": "Massively Parallel",
+					"name": "Massivamente Paralelo",
 					"reference": "SU26",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -3864,7 +3864,7 @@
 					"id": "a1d7b482-7c31-4b3b-8f7f-81468ca827fb",
 					"disabled": true,
 					"name": "Controles",
-					"reference": "B43",
+					"reference": "B70",
 					"cost_type": "points",
 					"cost": -25,
 					"affects": "base_only"
@@ -3885,31 +3885,31 @@
 					"version": 1,
 					"id": "2da733f6-90ea-4f75-8c8a-52cbf2f5f9ca",
 					"disabled": true,
-					"name": "Limited, One Ability",
+					"name": "Limitado, Uma Habilidade",
 					"reference": "PSI13",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "@Ability@"
+					"notes": "@Habilidade@"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "aab954da-74fa-42de-a380-3cc99da3285a",
 					"disabled": true,
-					"name": "Limited, One Power",
+					"name": "Limitado, Um Poder",
 					"reference": "PSI13",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
-					"notes": "@Power@"
+					"notes": "@Poder@"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "2e138614-a8d3-4872-88fe-34c81fcf246c",
 					"disabled": true,
-					"name": "Mental Separation Only",
+					"name": "Somente Separação Mental",
 					"reference": "PSI13",
 					"cost_type": "percentage",
 					"cost": -80,
@@ -3920,7 +3920,7 @@
 					"version": 1,
 					"id": "b31f32ff-138e-49a4-85e5-79a04cab2ba0",
 					"disabled": true,
-					"name": "Mentalism",
+					"name": "Mentalismo",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": -10,
@@ -3931,14 +3931,14 @@
 					"version": 1,
 					"id": "db5c300f-5ef1-456a-aea0-76f777a376a5",
 					"disabled": true,
-					"name": "No Mental Separation",
+					"name": "Sem Separação Mental",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
 				}
 			],
-			"reference": "B43",
+			"reference": "B70",
 			"categories": [
 				"Vantagem"
 			]
@@ -3951,17 +3951,17 @@
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B128",
+			"reference": "B127",
 			"features": [
 				{
 					"type": "reaction_bonus",
 					"amount": 1,
-					"situation": "from like-minded extroverts"
+					"situation": "de pessoas extrovertidas como você"
 				},
 				{
 					"type": "reaction_bonus",
 					"amount": -1,
-					"situation": "or worse from sober-minded citizens (GM discretion)"
+					"situation": "ou maior de cidadãos sérios (a critério do MJ)"
 				}
 			],
 			"categories": [
@@ -3989,7 +3989,7 @@
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B128",
+			"reference": "B127",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -4008,7 +4008,7 @@
 				{
 					"type": "reaction_bonus",
 					"amount": 1,
-					"situation": "from pious folk"
+					"situation": "por parte de outras pessoas generosas"
 				}
 			],
 			"categories": [
@@ -4036,7 +4036,7 @@
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B129",
+			"reference": "B127",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -4063,7 +4063,7 @@
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B129",
+			"reference": "B128",
 			"categories": [
 				"Desvantagem"
 			]
@@ -4076,8 +4076,8 @@
 			"physical": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B129",
-			"notes": "In a strange place, or when there’s a commotion going on, you must make a self-control roll",
+			"reference": "B128",
+			"notes": "Em um lugar estranho ou agitado o personagem deve fazer um teste de autocontrole.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -4115,8 +4115,8 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B43",
-			"notes": "If you succeed on a grapple against an opponent no larger than your own SM, on your next turn, and each successive turn, roll a Quick Contest of your ST vs. your victim’s ST or HT, whichever is higher. If you win, your victim takes damage equal to your margin of victory; otherwise, no damage is inflicted",
+			"reference": "B42",
+			"notes": "Realize uma Disputa Rápida entre a ST do personagem e a ST ou HT da vítima (o que for maior). Se o personagem vencer, ele causa dano ao alvo igual à sua margem de vitória no teste; caso contrário, o alvo não sofre dano.",
 			"categories": [
 				"Vantagem"
 			]
@@ -4177,7 +4177,7 @@
 					"version": 1,
 					"id": "083ee360-33df-4ab1-8bf5-520f9e31f2e7",
 					"disabled": true,
-					"name": "Capaz de obter informações por meio de talentos sobrenaturais",
+					"name": "Capazes de obter informações por meio de talentos sobrenaturais",
 					"cost_type": "points",
 					"cost": 1,
 					"affects": "total"
@@ -4273,12 +4273,12 @@
 					"id": "b5112ac7-096a-42ce-9dd1-3fea5b78eb76",
 					"disabled": true,
 					"name": "Favor",
-					"reference": "B55",
+					"reference": "B60",
 					"cost_type": "multiplier",
 					"cost": 0.2
 				}
 			],
-			"reference": "B44",
+			"reference": "B48",
 			"categories": [
 				"Vantagem"
 			]
@@ -4292,7 +4292,7 @@
 			"base_points": -10,
 			"cr": 12,
 			"reference": "B129",
-			"notes": "Make a self-control roll any time you are called on to risk physical danger. Roll at -5 if you must risk death.",
+			"notes": "Sempre que surgir a necessidade de se arriscar fisicamente, o personagem deve fazer um teste de autocontrole. Se houver risco de vida, o teste sofre uma penalidade de -5.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -4304,7 +4304,7 @@
 			"name": "Timidez Incapacitante",
 			"mental": true,
 			"base_points": -20,
-			"reference": "B154",
+			"reference": "B159",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -4568,7 +4568,7 @@
 					}
 				}
 			],
-			"notes": "You avoid strangers whenever possible.",
+			"notes": "O personagem evita pessoas estranhas sempre que possível.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -4577,7 +4577,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "472dde2f-2a43-4b72-90cf-6e5780c05bd3",
-			"name": "Golpeador de Contusão (cont) (@Parte do Corpo@)",
+			"name": "Golpeador Contundente (@Parte do Corpo@)",
 			"physical": true,
 			"exotic": true,
 			"base_points": 5,
@@ -4585,7 +4585,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr",
+						"type": "cont",
 						"st": "thr",
 						"modifier_per_die": 1
 					},
@@ -4603,7 +4603,7 @@
 					]
 				}
 			],
-			"reference": "B88",
+			"reference": "B61",
 			"categories": [
 				"Vantagem"
 			]
@@ -4627,7 +4627,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B46",
+			"reference": "B35",
 			"categories": [
 				"Vantagem"
 			]
@@ -4645,7 +4645,7 @@
 					"version": 1,
 					"id": "ab12b725-01c8-4fc4-8e71-619a54c79496",
 					"disabled": true,
-					"name": "Alienígena",
+					"name": "Estrangeiro",
 					"cost_type": "points",
 					"cost": 1,
 					"affects": "total"
@@ -4662,7 +4662,7 @@
 				}
 			],
 			"reference": "B23",
-			"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"notes": "O personagem está familiarizado com culturas diferentes da sua e não fica sujeito à penalidade de -3",
 			"categories": [
 				"Vantagem"
 			]
@@ -4676,7 +4676,7 @@
 			"base_points": -5,
 			"cr": 12,
 			"reference": "B129",
-			"notes": "Make a self-control roll when presented with an interesting item or situation",
+			"notes": "O personagem precisa fazer um teste de autocontrole quando se deparar com um item ou situação interessante.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -4689,7 +4689,7 @@
 			"mental": true,
 			"supernatural": true,
 			"base_points": -75,
-			"reference": "B129",
+			"reference": "B148",
 			"categories": [
 				"Desvantagem"
 			]
@@ -4698,7 +4698,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "5fd5945d-41f6-44fc-92d4-6825b0e8df0f",
-			"name": "Golpeador de Corte (corte) (@Parte do Corpo@)",
+			"name": "Golpeader Cortante (@Parte do Corpo@)",
 			"physical": true,
 			"exotic": true,
 			"base_points": 7,
@@ -4706,7 +4706,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "thr",
 						"modifier_per_die": 1
 					},
@@ -4735,7 +4735,7 @@
 			"id": "126f049b-f69d-4c65-8769-6226778fbedc",
 			"name": "Cibernética",
 			"physical": true,
-			"reference": "B46",
+			"reference": "B47",
 			"categories": [
 				"Vantagem"
 			]
@@ -4744,12 +4744,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "652ca784-ad5f-45fb-91f9-88b0a83ce9cc",
-			"name": "Cães (Cinofobia)",
+			"name": "Cinofobia (Cães)",
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B149",
-			"notes": "This includes all canines: foxes, wolves, coyotes, wild dogs, etc.",
+			"reference": "B141",
+			"notes": "Isso inclui todos os tipos de caninos: raposas, lobos, coiotes, cães selvagens, etc.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -4772,7 +4772,7 @@
 					"based_on_hash": "clCmjJAswIqLc+mPZKI+aFE4kDc7czXV2702kuA3NyU",
 					"disabled": true,
 					"name": "Campo de Força",
-					"reference": "B47",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -4785,7 +4785,7 @@
 					"based_on_hash": "c9N+rxE6R1w863Tcmqhn7pZUieBxEaUVltgZEYdjTso",
 					"disabled": true,
 					"name": "Enrijecido",
-					"reference": "B47",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
@@ -4799,11 +4799,11 @@
 					"based_on_hash": "B4Dog0Q1p1kyLQdmuzfs8DZwric99BN2fBLbjMypw8s",
 					"disabled": true,
 					"name": "Absorção",
-					"reference": "B46",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": 80,
 					"affects": "total",
-					"notes": "Enhances @Trait@"
+					"notes": "Amplia @Habilidade@"
 				},
 				{
 					"type": "modifier",
@@ -4813,11 +4813,11 @@
 					"based_on_hash": "gBUlO1eQfZlquzFPleaJcvC3/xkv3NscpKFRrx4MUZY",
 					"disabled": true,
 					"name": "Absorção",
-					"reference": "B46",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": 80,
 					"affects": "total",
-					"notes": "Healing only"
+					"notes": "Só para cura"
 				},
 				{
 					"type": "modifier",
@@ -4827,11 +4827,11 @@
 					"based_on_hash": "V2agHEjg5Fpt1CEyr3tY7JoJCEfBsnlBVSPU0mMp+bA",
 					"disabled": true,
 					"name": "Absorção",
-					"reference": "B46",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
-					"notes": "Enhances any trait"
+					"notes": "Amplia qualquer habilidade"
 				},
 				{
 					"type": "modifier",
@@ -4841,7 +4841,7 @@
 					"based_on_hash": "h0dQgt3f9J3WMKw9rhkZM79RVsFBoS+C0PDXl4FG2UU",
 					"disabled": true,
 					"name": "Reflexão",
-					"reference": "B47",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
@@ -4853,7 +4853,7 @@
 					"based_on_id": "6b7d8ba5-2ac9-45cc-a326-85cfa35dab68",
 					"based_on_hash": "HyGBdYPk0gFtVeSZN8nVrgdZchCPay0ZpfjDSqjwxtU",
 					"disabled": true,
-					"name": "Bane",
+					"name": "Maldição",
 					"reference": "H14",
 					"cost_type": "points",
 					"cost": -1,
@@ -4867,7 +4867,7 @@
 					"based_on_id": "54cea911-91e0-4f8d-b112-591cd523ba48",
 					"based_on_hash": "RSNUDXP0de2mUCUeuCX7lgDkZYJBZxuPEnE6lB0e7+Y",
 					"disabled": true,
-					"name": "Bane",
+					"name": "Maldição",
 					"reference": "H14",
 					"cost_type": "percentage",
 					"cost": -5,
@@ -4881,7 +4881,7 @@
 					"based_on_id": "4ff077a2-c8f9-4de9-9851-d4308612ff15",
 					"based_on_hash": "1yvgipyzKVStdAZTSH6BnGCZspojrw/yEF9zsMILM/g",
 					"disabled": true,
-					"name": "Bane",
+					"name": "Maldição",
 					"reference": "H14",
 					"cost_type": "percentage",
 					"cost": -10,
@@ -4895,7 +4895,7 @@
 					"based_on_id": "6373d539-d599-4bc8-995a-ff4f3abbc24b",
 					"based_on_hash": "tdp+j7PasMRHCXLbURCBFFpUJjcVOMXH4Ti3qRP6ewQ",
 					"disabled": true,
-					"name": "Bane",
+					"name": "Maldição",
 					"reference": "H14",
 					"cost_type": "percentage",
 					"cost": -15,
@@ -4910,11 +4910,11 @@
 					"based_on_hash": "IBKq8kq//HPxkYAOnYZtjEVe6v9Dj+A1mUxHMHH96mo",
 					"disabled": true,
 					"name": "Direcional",
-					"reference": "B47",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
-					"notes": "Frent"
+					"notes": "Frente"
 				},
 				{
 					"type": "modifier",
@@ -4924,7 +4924,7 @@
 					"based_on_hash": "6efFaZLmYRm3F5Xr2glU4PhhzGQuDjhqCcpozzh5IMg",
 					"disabled": true,
 					"name": "Flexível",
-					"reference": "B47",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -4937,11 +4937,11 @@
 					"based_on_hash": "/4ruLZj7FKrT7KDAEAV9DIQrgnGC475SUb8ph7Bc+eU",
 					"disabled": true,
 					"name": "Limitada",
-					"reference": "B46",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
-					"notes": "@Very Common Attack Form@"
+					"notes": "@Forma de Ataque Muito Comum@"
 				},
 				{
 					"type": "modifier",
@@ -4951,7 +4951,7 @@
 					"based_on_hash": "lfZkuwjRORrfZfh2V5U6p6VcJYAyopVISoovVc+FFB0",
 					"disabled": true,
 					"name": "Semiablativa",
-					"reference": "B47",
+					"reference": "B84",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -4964,7 +4964,7 @@
 					"based_on_hash": "JiM+8ILa58SsSxvHy6ffHfY1gA+p5516IvEgjS/kPfE",
 					"disabled": true,
 					"name": "Sem Armadura",
-					"reference": "B47",
+					"reference": "B84",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
@@ -4977,11 +4977,11 @@
 					"based_on_hash": "HxBRgQgZHW7fjrEgZKhqClx1qDXvMeQn1iLoa+1xtnc",
 					"disabled": true,
 					"name": "Direcional",
-					"reference": "B47",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "@Direction: Back, Right, Left, Top or Underside@"
+					"notes": "@Direção: Costas, Direita, Esquerda, Acima ou Abaixo@"
 				},
 				{
 					"type": "modifier",
@@ -4991,11 +4991,11 @@
 					"based_on_hash": "YExoWVHj0kjRUZsv+9LUHpzOzWqssXmJShDJiSLJaEg",
 					"disabled": true,
 					"name": "Limitada",
-					"reference": "B46",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "@Common Attack Form@"
+					"notes": "@Forma de Ataque Comum@"
 				},
 				{
 					"type": "modifier",
@@ -5005,10 +5005,11 @@
 					"based_on_hash": "6G+gaALckjyHs6MY5knNesl0NsD17DGGauueW/aXGHI",
 					"disabled": true,
 					"name": "Pele Resistente",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "Effects that just require skin contact or a scratch ignore this DR"
+					"notes": "Qualquer efeito que requer uma ruptura na pele ou contato com a pele afetará o personagem."
 				},
 				{
 					"type": "modifier",
@@ -5018,11 +5019,11 @@
 					"based_on_hash": "syTxqVNBmeulAlKDzux1qAXufaOCsnkYTtPuBO9T2T8",
 					"disabled": true,
 					"name": "Limitada",
-					"reference": "B46",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -60,
 					"affects": "total",
-					"notes": "@Occasional Attack Form@"
+					"notes": "@Forma de Ataque Ocasional@"
 				},
 				{
 					"type": "modifier",
@@ -5032,7 +5033,7 @@
 					"based_on_hash": "h3+Jzn+WdwNHGBkOloCOqCzYp8+mnE8nhN/qjgv2Mb4",
 					"disabled": true,
 					"name": "Ablativa",
-					"reference": "B47",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -80,
 					"affects": "total"
@@ -5045,11 +5046,11 @@
 					"based_on_hash": "Rdz1s6AzyOnlshq7oUNMaY/fB8FWPVBd3p8mYypTzCk",
 					"disabled": true,
 					"name": "Limitada",
-					"reference": "B46",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -80,
 					"affects": "total",
-					"notes": "@Rare Attack Form@"
+					"notes": "@Forma de Ataque Rara@"
 				},
 				{
 					"type": "modifier",
@@ -5058,7 +5059,7 @@
 					"based_on_id": "ad50da43-4bfd-4c2c-b6a7-ce1e7947e838",
 					"based_on_hash": "V4f/pHPxLjZeD/lptxHWDuMGWaBxgUeME5lRIMxxQCE",
 					"disabled": true,
-					"name": "Laminate",
+					"name": "Laminada",
 					"reference": "RSWL18",
 					"cost_type": "percentage",
 					"cost": 10,
@@ -5071,7 +5072,7 @@
 					"based_on_id": "36d22691-c3c7-417a-b81d-1e7474675cfe",
 					"based_on_hash": "mxWAotHlilQU4/Hp9rw+JK16zeGmeDPuo1aptTwrxeQ",
 					"disabled": true,
-					"name": "Malediction-Proof",
+					"name": "À Prova de Maldição",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -5084,7 +5085,7 @@
 					"based_on_id": "4c68ad9d-aee8-44c3-beb5-53afd43db7b1",
 					"based_on_hash": "UV4nJZCuIL4//hH8Q50wWFLAqKzox9Vjp6aNiDgA0Vc",
 					"disabled": true,
-					"name": "Maledictions Only",
+					"name": "Somente Maldições",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": 0,
@@ -5095,14 +5096,14 @@
 					"version": 1,
 					"id": "a48b115e-bf63-41f8-84cd-3b6d1e41653e",
 					"disabled": true,
-					"name": "Parcial (@Ponto de Impacto, 1 nível para cada redutor de -1 para acertar, Tronco é -10% portanto nível 1@)",
-					"reference": "B47",
+					"name": "Parcial (@Ponto de Impacto, 1 nível por -1 de modificador de ataque, Tronco vale -10%@)",
+					"reference": "B83",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B47",
+			"reference": "B83",
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -5122,7 +5123,7 @@
 			"name": "Noção do Perigo",
 			"mental": true,
 			"base_points": 15,
-			"reference": "B47",
+			"reference": "B73",
 			"categories": [
 				"Vantagem"
 			]
@@ -5134,8 +5135,8 @@
 			"name": "Venturoso",
 			"mental": true,
 			"base_points": 15,
-			"reference": "B47",
-			"notes": "Any time you take an unnecessary risk (in the GM’s opinion), you get +1 to all skill rolls",
+			"reference": "B96",
+			"notes": "Toda vez que assume um risco desnecessário (na opinião do Mestre), o personagem recebe um bônus de +1 nos testes de habilidade.",
 			"categories": [
 				"Vantagem"
 			]
@@ -5164,14 +5165,14 @@
 					"version": 1,
 					"id": "f515b6a5-62d7-4105-9622-ffc131556f64",
 					"disabled": true,
-					"name": "Hypersensory",
+					"name": "Hipersensorial",
 					"reference": "P46",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total"
 				}
 			],
-			"reference": "B47",
+			"reference": "B97",
 			"categories": [
 				"Vantagem"
 			]
@@ -5184,7 +5185,7 @@
 			"social": true,
 			"base_points": -25,
 			"reference": "B25",
-			"notes": "Starting wealth is 0",
+			"notes": "Seu valor de recursos iniciais é zero.",
 			"categories": [
 				"Desvantagem",
 				"Riqueza"
@@ -5197,7 +5198,7 @@
 			"name": "Surdez",
 			"physical": true,
 			"base_points": -20,
-			"reference": "B129",
+			"reference": "B158",
 			"categories": [
 				"Desvantagem"
 			]
@@ -5378,7 +5379,7 @@
 			"mental": true,
 			"exotic": true,
 			"base_points": -100,
-			"reference": "B129",
+			"reference": "B152",
 			"categories": [
 				"Desvantagem"
 			]
@@ -5412,7 +5413,7 @@
 			"name": "Dorminhoco",
 			"physical": true,
 			"base_points": 1,
-			"reference": "B101",
+			"reference": "B100",
 			"categories": [
 				"Qualidade"
 			]
@@ -5430,7 +5431,7 @@
 					"id": "ac2f3661-107e-4425-a132-9d90df099e7c",
 					"disabled": true,
 					"name": "Menor",
-					"reference": "B130",
+					"reference": "B139",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total"
@@ -5441,7 +5442,7 @@
 					"id": "aecc1c19-74f1-4379-b1e9-baed32ec4088",
 					"disabled": true,
 					"name": "Maior",
-					"reference": "B130",
+					"reference": "B140",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
@@ -5452,13 +5453,13 @@
 					"id": "dbb776b3-9d95-4203-8e0c-9d500dae7615",
 					"disabled": true,
 					"name": "Grave",
-					"reference": "B130",
+					"reference": "B140",
 					"cost_type": "points",
 					"cost": -15,
 					"affects": "total"
 				}
 			],
-			"reference": "B130",
+			"reference": "B139",
 			"categories": [
 				"Desvantagem"
 			]
@@ -5467,12 +5468,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "75e581f3-66c1-4102-bce8-ae1459c73b51",
-			"name": "Fantasias",
+			"name": "Fantasia",
 			"mental": true,
 			"levels": "0",
 			"base_points": -1,
 			"reference": "B164",
-			"notes": "@Assunto@",
+			"notes": "@Coisa Trivial@",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -5481,12 +5482,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "63f46fa1-5643-4f82-8185-5b897e447f8b",
-			"name": "Multidões (Demofobia)",
+			"name": "Demofobia (Multidões)",
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B149",
-			"notes": "Any group of over a dozen people sets off this fear unless they are all well known to you. The self-control roll is at -1 for over 25 people, -2 for a crowd of 100 or more, -3 for 1,000, -4 for 10,000, and so on.",
+			"reference": "B142",
+			"notes": "Qualquer grupo com mais de uma dúzia de pessoas provoca esse medo, a menos que elas sejam bem conhecidas pela vítima. O personagem deve fazer um teste de autocontrole com uma penalidade de -1 para grupos com mais de 25 pessoas, -2 para uma multidão com mais de 100 pessoas, -3 para 1.000, -4 para 10.000 e assim por diante.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -5637,13 +5638,13 @@
 					"version": 1,
 					"id": "7768eb5d-8010-4f30-9435-398d20591c25",
 					"disabled": true,
-					"name": "Ser Amado",
+					"name": "Ente Querido",
 					"reference": "B131",
 					"cost_type": "multiplier",
 					"cost": 2
 				}
 			],
-			"reference": "B131",
+			"reference": "B130",
 			"categories": [
 				"Desvantagem"
 			]
@@ -5716,11 +5717,11 @@
 					"version": 1,
 					"id": "ba8f3e93-e409-478b-99c3-ecfbefa70089",
 					"disabled": true,
-					"name": "Frequência: Constantemente",
+					"name": "Frequência: Constante",
 					"reference": "B130",
 					"cost_type": "multiplier",
 					"cost": 5,
-					"notes": "Lose 1 HP per minute without it"
+					"notes": "Perde 1 PV por minuto sem ela."
 				},
 				{
 					"type": "modifier",
@@ -5731,7 +5732,7 @@
 					"reference": "B130",
 					"cost_type": "multiplier",
 					"cost": 4,
-					"notes": "Lose 1 HP per 10 minutes after missing a hourly dose"
+					"notes": "Perde 1 PV por 10 minutos sem a aplicação de uma dose horária."
 				},
 				{
 					"type": "modifier",
@@ -5742,7 +5743,7 @@
 					"reference": "B130",
 					"cost_type": "multiplier",
 					"cost": 3,
-					"notes": "Lose 1 HP per hour after missing a daily dose"
+					"notes": "Perde 1 PV por hora sem a aplicação de uma dose diária"
 				},
 				{
 					"type": "modifier",
@@ -5753,7 +5754,7 @@
 					"reference": "B130",
 					"cost_type": "multiplier",
 					"cost": 2,
-					"notes": "Lose 1 HP per six hours after missing a weekly dose"
+					"notes": "Perde 1 PV a cada seis horas sem a aplicação de uma dose semanal."
 				},
 				{
 					"type": "modifier",
@@ -5764,7 +5765,7 @@
 					"reference": "B130",
 					"cost_type": "multiplier",
 					"cost": 1,
-					"notes": "Lose 1 HP per day after missing a monthly dose"
+					"notes": "Perde 1 PV a cada dia sem a aplicação de uma dose mensal."
 				},
 				{
 					"type": "modifier",
@@ -5775,7 +5776,7 @@
 					"reference": "B130",
 					"cost_type": "multiplier",
 					"cost": 0.33333,
-					"notes": "Lose 1 HP per 3 days after missing a seasonal dose"
+					"notes": "Perde 1 PV a cada três dias sem a aplicação de uma dose trimestral."
 				},
 				{
 					"type": "modifier",
@@ -5786,7 +5787,7 @@
 					"reference": "B130",
 					"cost_type": "multiplier",
 					"cost": 0.1,
-					"notes": "Lose 1 HP per 2 weeks after missing a yearly dose"
+					"notes": "Perde 1 PV a cada duas semanas sem a aplicação de uma dose anual."
 				},
 				{
 					"type": "modifier",
@@ -5798,7 +5799,7 @@
 					"cost_type": "percentage",
 					"cost": 30,
 					"affects": "total",
-					"notes": "Age 2 years for each HP lost due to this dependency"
+					"notes": "Para cada PV perdido, personagem também envelhece dois anos."
 				}
 			],
 			"reference": "B130",
@@ -5820,7 +5821,7 @@
 					"id": "6f2811e8-23c5-4607-8784-6440d886ae9d",
 					"disabled": true,
 					"name": "Menor",
-					"reference": "B132",
+					"reference": "B54",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total"
@@ -5831,7 +5832,7 @@
 					"id": "9f7054e1-9a04-4d65-bed5-8666a41ea51a",
 					"disabled": true,
 					"name": "Maior",
-					"reference": "B132",
+					"reference": "B54",
 					"cost_type": "points",
 					"cost": 10,
 					"affects": "total"
@@ -5842,13 +5843,13 @@
 					"id": "68d0328e-ec9f-4eac-99d2-14d52d7670db",
 					"disabled": true,
 					"name": "Superior",
-					"reference": "B132",
+					"reference": "B54",
 					"cost_type": "points",
 					"cost": 15,
 					"affects": "total"
 				}
 			],
-			"reference": "B132",
+			"reference": "B53",
 			"categories": [
 				"Vantagem"
 			]
@@ -5915,7 +5916,7 @@
 					"id": "60b71753-e781-483e-aaed-306417206ccf",
 					"disabled": true,
 					"name": "@Substância/Condição Rara@",
-					"reference": "B48",
+					"reference": "B53",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total"
@@ -5926,7 +5927,7 @@
 					"id": "4a9894b2-d3c8-4ae5-96a5-0d1f74051590",
 					"disabled": true,
 					"name": "@Substância/Condição Ocasional@",
-					"reference": "B48",
+					"reference": "B53",
 					"cost_type": "points",
 					"cost": 10,
 					"affects": "total"
@@ -5937,7 +5938,7 @@
 					"id": "de19c244-f725-4491-a3ed-5b9b09d5d0f4",
 					"disabled": true,
 					"name": "@Substância/Condição Comum@",
-					"reference": "B48",
+					"reference": "B53",
 					"cost_type": "points",
 					"cost": 20,
 					"affects": "total"
@@ -5948,7 +5949,7 @@
 					"id": "fcd07e0a-c328-4c7c-8a6f-2ac1dd92f5de",
 					"disabled": true,
 					"name": "@Substância/Condição Muito Comum@",
-					"reference": "B48",
+					"reference": "B53",
 					"cost_type": "points",
 					"cost": 30,
 					"affects": "total"
@@ -5959,7 +5960,7 @@
 					"id": "64352b79-d299-410e-b363-ff6658516cb5",
 					"disabled": true,
 					"name": "Precisão",
-					"reference": "B48",
+					"reference": "B53",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
@@ -5970,7 +5971,7 @@
 					"id": "9467dba5-9922-4705-a594-270656ff40e6",
 					"disabled": true,
 					"name": "Detecção de Sinais",
-					"reference": "B48",
+					"reference": "B53",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total"
@@ -5981,7 +5982,7 @@
 					"id": "0fbf0474-0c96-4b4f-ae40-6e1ca088d6c3",
 					"disabled": true,
 					"name": "Vaga",
-					"reference": "B48",
+					"reference": "B53",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -5991,7 +5992,7 @@
 					"version": 1,
 					"id": "42b1310a-0243-4d6f-b246-e6ce8a4f9907",
 					"disabled": true,
-					"name": "Analyzing",
+					"name": "Analisador",
 					"reference": "P47",
 					"cost_type": "percentage",
 					"cost": 100,
@@ -6002,7 +6003,7 @@
 					"version": 1,
 					"id": "72e6a01c-845c-43c4-b44d-a5eab5e18433",
 					"disabled": true,
-					"name": "Lock-On",
+					"name": "Direção Aproximada",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -6013,7 +6014,7 @@
 					"version": 1,
 					"id": "006e0217-13f4-4867-bd92-ea1345e75182",
 					"disabled": true,
-					"name": "Precise, Nontargeting",
+					"name": "Precisão, Sem Pontaria",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": 90,
@@ -6024,7 +6025,7 @@
 					"version": 1,
 					"id": "13075e67-2cd1-4157-96b4-1658e72ee85b",
 					"disabled": true,
-					"name": "Analysis Only",
+					"name": "Somente Análise",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": -50,
@@ -6035,14 +6036,14 @@
 					"version": 1,
 					"id": "5f1633d1-7d44-4523-a3a0-9438af35e0ac",
 					"disabled": true,
-					"name": "Cannoy Analyze",
+					"name": "Não Pode Analisar",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B48",
+			"reference": "B53",
 			"categories": [
 				"Vantagem"
 			]
@@ -6055,7 +6056,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 5,
-			"reference": "B49",
+			"reference": "B69",
 			"categories": [
 				"Vantagem"
 			]
@@ -6067,7 +6068,7 @@
 			"name": "Doutrinas Religiosas (Asceticismo)",
 			"mental": true,
 			"base_points": -15,
-			"reference": "B132",
+			"reference": "B136",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6079,7 +6080,7 @@
 			"name": "Doutrinas Religiosas (Monaquismo)",
 			"mental": true,
 			"base_points": -10,
-			"reference": "B132",
+			"reference": "B136",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6091,7 +6092,7 @@
 			"name": "Doutrinas Religiosas (Misticismo)",
 			"mental": true,
 			"base_points": -10,
-			"reference": "B132",
+			"reference": "B136",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6103,7 +6104,7 @@
 			"name": "Doutrinas Religiosas (Ritualismo)",
 			"mental": true,
 			"base_points": -5,
-			"reference": "B132",
+			"reference": "B136",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6123,7 +6124,7 @@
 					"id": "b968ab2c-d4f1-428a-bf9e-94c3406f33be",
 					"disabled": true,
 					"name": "Somente sob a Água",
-					"reference": "B49",
+					"reference": "B44",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total"
@@ -6140,7 +6141,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B49",
+			"reference": "B44",
 			"categories": [
 				"Vantagem"
 			]
@@ -6160,7 +6161,7 @@
 					"id": "17ab7dd3-7774-4c6f-b4b8-f4e209866f47",
 					"disabled": true,
 					"name": "Percepção de Emoções",
-					"reference": "B49",
+					"reference": "B74",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
@@ -6170,14 +6171,14 @@
 					"version": 1,
 					"id": "5b99c3b7-6e6e-44a5-b0e5-e7738f4a1ede",
 					"disabled": true,
-					"name": "Profiling",
+					"name": "Consulta",
 					"reference": "P47",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
 				}
 			],
-			"reference": "B49",
+			"reference": "B74",
 			"categories": [
 				"Vantagem"
 			]
@@ -6196,14 +6197,14 @@
 					"version": 1,
 					"id": "1eec1474-e960-46eb-81f0-a886cf61d920",
 					"disabled": true,
-					"name": "Profiling",
+					"name": "Consulta",
 					"reference": "P47",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
 				}
 			],
-			"reference": "B49",
+			"reference": "B75",
 			"categories": [
 				"Vantagem"
 			]
@@ -6216,7 +6217,7 @@
 			"mental": true,
 			"levels": "0",
 			"base_points": -1,
-			"reference": "B164",
+			"reference": "B163",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -6249,7 +6250,7 @@
 					}
 				}
 			],
-			"notes": "+1 to others’ attempts to identify or follow you",
+			"notes": "+1 nas tentativas de outras pessoas identificarem ou perseguirem o personagem.",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -6262,7 +6263,7 @@
 			"mental": true,
 			"base_points": -1,
 			"reference": "B164",
-			"notes": "-1 on any long task",
+			"notes": "-1 quando faz testes para completar tarefas longas",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -6274,7 +6275,7 @@
 			"name": "Voz Irritante",
 			"physical": true,
 			"base_points": -10,
-			"reference": "B132",
+			"reference": "B161",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -6366,7 +6367,7 @@
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total",
-					"notes": "@Curse@"
+					"notes": "@Maldição@"
 				},
 				{
 					"type": "modifier",
@@ -6377,7 +6378,7 @@
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total",
-					"notes": "@Curse@"
+					"notes": "@Maldição@"
 				},
 				{
 					"type": "modifier",
@@ -6388,10 +6389,10 @@
 					"cost_type": "points",
 					"cost": -15,
 					"affects": "total",
-					"notes": "@Curse@"
+					"notes": "@Maldição@"
 				}
 			],
-			"reference": "B132",
+			"reference": "B148",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6411,7 +6412,7 @@
 					"id": "f13441e8-6a94-4715-8359-eeda924394c8",
 					"disabled": true,
 					"name": "Guelras",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -6422,11 +6423,11 @@
 					"id": "b43ccd22-d6c7-4f5a-b280-55943589bd9d",
 					"disabled": true,
 					"name": "Guelras",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "points",
 					"cost": -20,
 					"affects": "total",
-					"notes": "Suffocates in air"
+					"notes": "Sufoca no ar"
 				},
 				{
 					"type": "modifier",
@@ -6434,7 +6435,7 @@
 					"id": "1ba12fe1-335e-4d84-9bbe-bbceb062c966",
 					"disabled": true,
 					"name": "Absorção de Oxigênio",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -25,
 					"affects": "total"
@@ -6445,11 +6446,11 @@
 					"id": "c6fc6b99-b257-41e8-b7f9-4737752adaa9",
 					"disabled": true,
 					"name": "Reserva de Oxigênio",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "Capaz de prender a respiração por um tempo 25x maior que o normal"
+					"notes": "Capaz de “prender o fôlego” durante um período 25 vezes maior que o normal"
 				},
 				{
 					"type": "modifier",
@@ -6457,11 +6458,11 @@
 					"id": "191bb6c2-2e0a-4b94-bf46-75db1d9e4b04",
 					"disabled": true,
 					"name": "Reserva de Oxigênio",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "Capaz de prender a respiração por um tempo 50x maior que o normal"
+					"notes": "Capaz de “prender o fôlego” durante um período 50 vezes maior que o normal"
 				},
 				{
 					"type": "modifier",
@@ -6469,11 +6470,11 @@
 					"id": "9801cedb-4b05-4d86-b65f-3c0d4418b8a7",
 					"disabled": true,
 					"name": "Reserva de Oxigênio",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "Capaz de prender a respiração por um tempo 100x maior que o normal"
+					"notes": "Capaz de “prender o fôlego” durante um período 100 vezes maior que o normal"
 				},
 				{
 					"type": "modifier",
@@ -6481,11 +6482,11 @@
 					"id": "8b514228-a261-4a95-ab1d-45b893a77df1",
 					"disabled": true,
 					"name": "Reserva de Oxigênio",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
-					"notes": "Capaz de prender a respiração por um tempo 200x maior que o normal"
+					"notes": "Capaz de “prender o fôlego” durante um período 200 vezes maior que o normal"
 				},
 				{
 					"type": "modifier",
@@ -6493,11 +6494,11 @@
 					"id": "cc70e80e-c5a7-4193-bd17-50da8902073b",
 					"disabled": true,
 					"name": "Reserva de Oxigênio",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total",
-					"notes": "Capaz de prender a respiração por um tempo 300x maior que o normal"
+					"notes": "Capaz de “prender o fôlego” durante um período 300 vezes maior que o normal"
 				},
 				{
 					"type": "modifier",
@@ -6505,13 +6506,13 @@
 					"id": "5bf5ac51-9155-48dd-a836-c61786f9e602",
 					"disabled": true,
 					"name": "Combustão de Oxigênio",
-					"reference": "B49",
+					"reference": "B73",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
 				}
 			],
-			"reference": "B49",
+			"reference": "B73",
 			"categories": [
 				"Vantagem"
 			]
@@ -6524,7 +6525,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 10,
-			"reference": "B50",
+			"reference": "B72",
 			"categories": [
 				"Vantagem"
 			]
@@ -6537,7 +6538,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 20,
-			"reference": "B50",
+			"reference": "B72",
 			"categories": [
 				"Vantagem"
 			]
@@ -6550,7 +6551,7 @@
 			"mental": true,
 			"exotic": true,
 			"base_points": 20,
-			"reference": "B50",
+			"reference": "B55",
 			"categories": [
 				"Vantagem"
 			]
@@ -6572,7 +6573,7 @@
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total",
-					"notes": "@Substance@"
+					"notes": "@Substância@"
 				},
 				{
 					"type": "modifier",
@@ -6583,7 +6584,7 @@
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total",
-					"notes": "@Substance@"
+					"notes": "@Substância@"
 				},
 				{
 					"type": "modifier",
@@ -6594,7 +6595,7 @@
 					"cost_type": "points",
 					"cost": -15,
 					"affects": "total",
-					"notes": "@Substance@"
+					"notes": "@Substância@"
 				},
 				{
 					"type": "modifier",
@@ -6607,7 +6608,7 @@
 					"affects": "total"
 				}
 			],
-			"reference": "B132",
+			"reference": "B136",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6629,10 +6630,10 @@
 					"id": "26a11c89-957c-40e7-8019-ee40fa16ed7a",
 					"disabled": true,
 					"name": "Muito Comum",
-					"reference": "B161",
+					"reference": "B143",
 					"cost_type": "multiplier",
 					"cost": 3,
-					"notes": "@What@"
+					"notes": "@A Quê@"
 				},
 				{
 					"type": "modifier",
@@ -6640,10 +6641,10 @@
 					"id": "1fd3d231-fb8a-4a7f-bef8-91c2b7bb93cb",
 					"disabled": true,
 					"name": "Comum",
-					"reference": "B161",
+					"reference": "B143",
 					"cost_type": "multiplier",
 					"cost": 2,
-					"notes": "@What@"
+					"notes": "@A Quê@"
 				},
 				{
 					"type": "modifier",
@@ -6651,10 +6652,10 @@
 					"id": "3a064e40-65f4-4df8-b61e-011ece7d9954",
 					"disabled": true,
 					"name": "Ocasional",
-					"reference": "B161",
+					"reference": "B143",
 					"cost_type": "multiplier",
 					"cost": 1,
-					"notes": "@What@"
+					"notes": "@A Quê@"
 				},
 				{
 					"type": "modifier",
@@ -6662,10 +6663,10 @@
 					"id": "954e3d1f-d580-4ca7-944b-d445c24b71ed",
 					"disabled": true,
 					"name": "Rara",
-					"reference": "B161",
+					"reference": "B143",
 					"cost_type": "multiplier",
 					"cost": 0.5,
-					"notes": "@What@"
+					"notes": "@A Quê@"
 				},
 				{
 					"type": "modifier",
@@ -6673,7 +6674,7 @@
 					"id": "c7ec97d0-96d7-4c66-94fc-fc7a1d658291",
 					"disabled": true,
 					"name": "Não Pode ser Preso",
-					"reference": "B133",
+					"reference": "B124",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -6683,15 +6684,15 @@
 					"version": 1,
 					"id": "9ab2d451-192b-4849-9e5a-97e08978ca3c",
 					"disabled": true,
-					"name": "Insensitive",
+					"name": "Insensível",
 					"reference": "H25",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
 				}
 			],
-			"reference": "B132",
-			"notes": "May not come within level yards of @What@",
+			"reference": "B123",
+			"notes": "Proíbe o personagem de ficar a menos de um metro (por nível) de @De quê@",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6704,7 +6705,7 @@
 			"mental": true,
 			"base_points": -1,
 			"reference": "B164",
-			"notes": "-1 on any long task",
+			"notes": "-1 em qualquer tarefa extensa",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -6738,7 +6739,7 @@
 					"id": "06dc87c8-2e0b-4b07-aa2f-25254687774e",
 					"disabled": true,
 					"name": "Equipamento Duplicado",
-					"reference": "B51",
+					"reference": "B56",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
@@ -6749,7 +6750,7 @@
 					"id": "16f3b0da-f33a-4970-ba77-044b8c51985f",
 					"disabled": true,
 					"name": "Ferimento Único",
-					"reference": "B51",
+					"reference": "B56",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -6760,7 +6761,7 @@
 					"id": "d6acfcde-9d4b-4173-8ff4-4a4fa1ecd185",
 					"disabled": true,
 					"name": "Digital",
-					"reference": "B51",
+					"reference": "B56",
 					"cost_type": "percentage",
 					"cost": -60,
 					"affects": "total"
@@ -6771,7 +6772,7 @@
 					"id": "94c3a3f6-55a9-4fd5-ad41-e17bdaac4ced",
 					"disabled": true,
 					"name": "Recursos Compartilhados",
-					"reference": "B51",
+					"reference": "B56",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
@@ -6781,7 +6782,7 @@
 					"version": 1,
 					"id": "f69aa4f5-7e73-4fb7-ae44-f1cfe37b9f68",
 					"disabled": true,
-					"name": "Construct",
+					"name": "Construto",
 					"reference": "P48",
 					"cost_type": "percentage",
 					"cost": 60,
@@ -6792,7 +6793,7 @@
 					"version": 1,
 					"id": "eec5c5b4-22a7-4099-864b-940646cb19fa",
 					"disabled": true,
-					"name": "Sequential",
+					"name": "Sequencial",
 					"reference": "P48",
 					"cost_type": "percentage",
 					"cost": -40,
@@ -6803,14 +6804,14 @@
 					"version": 1,
 					"id": "9bbc9dfc-c0ab-4a5b-be00-21ce8ae464f9",
 					"disabled": true,
-					"name": "Multiplication",
+					"name": "Multiplicação",
 					"reference": "SU26",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
 				}
 			],
-			"reference": "B50",
+			"reference": "B55",
 			"categories": [
 				"Vantagem"
 			]
@@ -6948,7 +6949,7 @@
 			"mental": true,
 			"base_points": -10,
 			"reference": "B134",
-			"notes": "You have a written comprehension level of \"None\" for all languages, which cannot be improved",
+			"notes": "O personagem começa com um nível “Nenhum” de compreensão da escrita de sua língua materna. Além disso, ele não é capaz de melhorar seu nível de compreensão da escrita em nenhum idioma.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6961,8 +6962,8 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": -2,
-			"reference": "B134",
-			"notes": "-1/level to HT rolls made for survival at -HP or below, and on any HT roll where failure would mean instant death (e.g. heart failure). You may not reduce your HT roll below 3.",
+			"reference": "B139",
+			"notes": "-1 nos testes de HT feitos para verificar a sobrevivência do personagem quando ele está com -1×PVInicial ou abaixo, assim como em qualquer teste onde fracassar causaria a morte súbita do personagem (ex.: ataque cardíaco). Os testes de HT não podem ser reduzidos abaixo de 3.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6974,8 +6975,8 @@
 			"name": "Fácil de Decifrar",
 			"mental": true,
 			"base_points": -10,
-			"reference": "B134",
-			"notes": "Gives others +4 on all Empathy, Body Language, and Psychology rolls to discern your intentions or the truth of your words. They also get +4 to their IQ, Detect Lies, and Gambling rolls in any Quick Contest with your Acting, Fast-Talk, or Gambling skill when you try to lie or bluff.",
+			"reference": "B139",
+			"notes": "Concede às outras pessoas um bônus de +4 nos testes de Empatia, Linguagem Corporal e Psicologia para decifrar as intenções ou a veracidade das palavras do personagem. Elas também recebem o mesmo bônus nos testes de IQ, Detecção de Mentiras e Jogos de Azar durante qualquer Disputa Rápida contra o personagem quando ele usa Dissimulação, Lábia ou Jogos de Azar para mentir ou blefar.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -6994,13 +6995,13 @@
 					"id": "309120f1-8e25-46bf-ba83-6c998f4d9025",
 					"disabled": true,
 					"name": "Fotográfica",
-					"reference": "B51",
+					"reference": "B69",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total"
 				}
 			],
-			"reference": "B51",
+			"reference": "B69",
 			"categories": [
 				"Vantagem"
 			]
@@ -7013,7 +7014,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 20,
-			"reference": "B51",
+			"reference": "B77",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -7037,7 +7038,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -20,
-			"reference": "B134",
+			"reference": "B137",
 			"categories": [
 				"Desvantagem"
 			]
@@ -7055,14 +7056,14 @@
 					"version": 1,
 					"id": "15130107-a6e2-4b7f-9092-477a1428f637",
 					"disabled": true,
-					"name": "Remote",
+					"name": "Remota",
 					"reference": "P48",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
 				}
 			],
-			"reference": "B51",
+			"reference": "B57",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -7109,14 +7110,14 @@
 					"version": 1,
 					"id": "8c04f995-be36-4786-9763-d0ce15d1ee75",
 					"disabled": true,
-					"name": "Remote",
+					"name": "Remota",
 					"reference": "P48",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
 				}
 			],
-			"reference": "B51",
+			"reference": "B57",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -7163,7 +7164,7 @@
 					"id": "de332956-d4a1-4af6-9339-34f1fa617363",
 					"disabled": true,
 					"name": "Indivíduo menos poderoso que o PdJ",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total",
@@ -7175,7 +7176,7 @@
 					"id": "73913cf5-78dc-4fa9-93e8-9182656fb07e",
 					"disabled": true,
 					"name": "Indivíduo com poder igual ao do PdJ",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total",
@@ -7187,11 +7188,11 @@
 					"id": "81b5a233-41ef-48a3-8d98-450dab7c74a2",
 					"disabled": true,
 					"name": "Indivíduo mais poderoso que o PdJ",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -20,
 					"affects": "total",
-					"notes": ">150% of your starting points"
+					"notes": ">150% dos pontos iniciais do personagem"
 				},
 				{
 					"type": "modifier",
@@ -7199,7 +7200,7 @@
 					"id": "4ad57666-9f27-4986-9191-16d65214969b",
 					"disabled": true,
 					"name": "Grupo pequeno com indivíduos menos poderosos",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
@@ -7210,7 +7211,7 @@
 					"id": "8427a345-55ea-4e91-a797-cef5991899d4",
 					"disabled": true,
 					"name": "Grupo médio com indivíduos menos poderosos",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -20,
 					"affects": "total"
@@ -7265,7 +7266,7 @@
 					"id": "08aa132f-60f2-4bed-b3a3-ef4321d2f09f",
 					"disabled": true,
 					"name": "Grupo médio poderoso, ou grande com indíviduos menos poderosos",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -30,
 					"affects": "total"
@@ -7276,7 +7277,7 @@
 					"id": "19ea1f4b-fc64-4c1d-8217-1c7f5cd09190",
 					"disabled": true,
 					"name": "Grupo formidável",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -40,
 					"affects": "total"
@@ -7287,7 +7288,7 @@
 					"id": "1f9b2afd-1cb9-460a-ba7d-8315a7698ba8",
 					"disabled": true,
 					"name": "Desconhecido",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total"
@@ -7298,7 +7299,7 @@
 					"id": "f6364f57-15e6-4d03-bc3f-ebf2c4718dac",
 					"disabled": true,
 					"name": "Gêmeo Maligno",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": 0,
 					"affects": "total"
@@ -7309,11 +7310,11 @@
 					"id": "4560fba2-c960-4c2d-9201-f69dc83ed26f",
 					"disabled": true,
 					"name": "Gêmeo Maligno",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total",
-					"notes": "More skilled or extra abilities"
+					"notes": "Mais capacitado que o PdJ"
 				},
 				{
 					"type": "modifier",
@@ -7321,11 +7322,11 @@
 					"id": "f948ad5e-0ca0-4e8f-84c1-d65105981603",
 					"disabled": true,
 					"name": "Gêmeo Maligno",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total",
-					"notes": "More skilled and extra abilities"
+					"notes": "Mais capacitado que o PdJ"
 				},
 				{
 					"type": "modifier",
@@ -7333,7 +7334,7 @@
 					"id": "43075921-7dd0-468f-9609-296e9f7ebf0b",
 					"disabled": true,
 					"name": "Observador",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "multiplier",
 					"cost": 0.25
 				},
@@ -7343,7 +7344,7 @@
 					"id": "85d6d113-01ac-4074-a7ce-21572db84555",
 					"disabled": true,
 					"name": "Rival",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "multiplier",
 					"cost": 0.5
 				},
@@ -7353,12 +7354,12 @@
 					"id": "1b7c0201-7ba5-46e9-9c3d-2398527a3712",
 					"disabled": true,
 					"name": "Perseguidor",
-					"reference": "B135",
+					"reference": "B146",
 					"cost_type": "multiplier",
 					"cost": 1
 				}
 			],
-			"reference": "B135",
+			"reference": "B146",
 			"categories": [
 				"Desvantagem"
 			]
@@ -7467,7 +7468,7 @@
 					"version": 1,
 					"id": "c02f53b9-8918-478b-a962-3d1a8157f312",
 					"disabled": true,
-					"name": "All-Out",
+					"name": "Total",
 					"reference": "P49",
 					"cost_type": "percentage",
 					"cost": -20,
@@ -7483,7 +7484,7 @@
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
-					"notes": "Instantaneous Acceleration"
+					"notes": "Aceleração Instantânea"
 				},
 				{
 					"type": "modifier",
@@ -7495,11 +7496,11 @@
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
-					"notes": "Complete Maneuverability"
+					"notes": "Total Capacidade de Manobra"
 				}
 			],
 			"reference": "B52",
-			"notes": "Multiply normal @type@ Move by 1 + level",
+			"notes": "Multiplica o Deslocamento em @tipo@ normal por 1 + nível",
 			"categories": [
 				"Vantagem"
 			]
@@ -7508,12 +7509,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "e0023e3d-bbdc-409f-b0fe-a6b1f71411a2",
-			"name": "Aparar Ampliado (@Perícia Arma de Combate Corpo a Corpo@)",
+			"name": "Aparar Ampliado (@Perícia em Arma de Combate Corpo a Corpo@)",
 			"mental": true,
 			"levels": "1",
 			"points_per_level": 5,
 			"reference": "B51",
-			"notes": "Gives +1 bonus to Parry with @Melee weapon skill@ (add manually)",
+			"notes": "O personagem recebe um bônus de +1 no valor de sua manobra Aparar com @Perícia em arma de combate corpo a corpo@ (adicionar manualmente)",
 			"categories": [
 				"Vantagem"
 			]
@@ -7561,7 +7562,7 @@
 			"mental": true,
 			"exotic": true,
 			"base_points": 45,
-			"reference": "B52",
+			"reference": "B73",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -7607,7 +7608,7 @@
 					"attribute": "fright_check"
 				}
 			],
-			"notes": "You immediately act in combat before those without Enhanced Time Sense; Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+			"notes": "O personagem age automaticamente antes daqueles que não têm Noção do Tempo Ampliada; Nunca fica “paralisado”; +6 em todos os testes de IQ para voltar a si ou se recuperar de uma situação de surpresa ou “atordoamento” mental; O grupo do jogador recebe um bônus de +1 nos testes de iniciativa (+2 se o personagem for o líder)",
 			"categories": [
 				"Vantagem"
 			]
@@ -7627,14 +7628,14 @@
 					"version": 1,
 					"id": "f76c7193-67d5-47b3-8b4f-0446b38c550e",
 					"disabled": true,
-					"name": "Multiple Lock-Ons",
+					"name": "Alvos Múltiplos",
 					"reference": "P49",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
 				}
 			],
-			"reference": "B53",
+			"reference": "B81",
 			"categories": [
 				"Vantagem"
 			]
@@ -7643,12 +7644,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "7975fb5c-59ac-400a-aba7-3f2071427c3c",
-			"name": "Insetos (Entomofobia)",
+			"name": "Entomofobia (Insetos)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You are afraid of all “bugs.” Large or poisonous ones give -3 to self-control rolls. Very large ones, or large numbers, give -6. Avoid hills of giant ants.",
+			"reference": "B141",
+			"notes": "A vítima tem medo de todos os “insetos”. No caso de insetos grandes ou venenosos, o teste de autocontrole sofre uma penalidade de -3. Insetos muito grandes, ou em número muito grande, impõem uma penalidade de -6. Evite formigueiros de tanajuras.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -7660,8 +7661,8 @@
 			"name": "Epilepsia",
 			"physical": true,
 			"base_points": -30,
-			"reference": "B136",
-			"notes": "Make a HT roll whenever you are in a stressful situation (especially if your life or the life of a friend is threatened). If you have any sort of Phobia, exposure to the object of your fear counts as a stressful situation; roll vs. HT once every 10 minutes. On a failure, you suffer a seizure that lasts 1d minutes and costs you 1d FP. You can do nothing during that time.",
+			"reference": "B138",
+			"notes": "Sempre que estiver em uma situação de tensão (principalmente se sua vida, ou a de um companheiro, estiver em perigo), o personagem deve fazer um teste de HT. Se ele tiver qualquer tipo de Fobia, a exposição ao motivo do medo também conta como uma situação de tensão; o teste de HT deve ser refeito a cada 10 minutos. Um fracasso ativa uma crise que dura 1d minutos e custa 1d pontos de fadiga. É desnecessário dizer que o personagem não é capaz de fazer nada durante esse período.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -7675,7 +7676,7 @@
 			"levels": "0",
 			"base_points": -1,
 			"reference": "B164",
-			"notes": "\"@Saying@\"",
+			"notes": "\"@Ditado ou Expressão Própria@\"",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -7689,7 +7690,7 @@
 			"exotic": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B53",
+			"reference": "B59",
 			"categories": [
 				"Vantagem"
 			]
@@ -7710,7 +7711,7 @@
 					"id": "a4a4b3db-88eb-412b-8bee-74150d9f3040",
 					"disabled": true,
 					"name": "Extraflexível",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
@@ -7721,7 +7722,7 @@
 					"id": "942fdfcb-f239-4c40-9224-2e1507a43e60",
 					"disabled": true,
 					"name": "Comprido",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -7733,7 +7734,7 @@
 					"id": "3b1fbbca-405f-4592-b831-3ae68f98ee38",
 					"disabled": true,
 					"name": "Pés Manipuladores",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total"
@@ -7744,7 +7745,7 @@
 					"id": "82659421-f2c1-4300-9119-c2406b9403fc",
 					"disabled": true,
 					"name": "Nenhum Ataque Físico",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -7755,7 +7756,7 @@
 					"id": "c6ffffa4-1d92-4c7d-9aac-2097aa9a944e",
 					"disabled": true,
 					"name": "Curto",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -7766,11 +7767,11 @@
 					"id": "3d074340-af06-4b70-aa84-22da87bb081d",
 					"disabled": true,
 					"name": "Fraco",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": -25,
 					"affects": "total",
-					"notes": "Half body ST"
+					"notes": "Metade da ST do corpo"
 				},
 				{
 					"type": "modifier",
@@ -7778,11 +7779,11 @@
 					"id": "b2cccad5-b178-43ec-afc4-eae1c478a0cc",
 					"disabled": true,
 					"name": "Fraco",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "Quarter body ST"
+					"notes": "1/4 da ST do corpo"
 				},
 				{
 					"type": "modifier",
@@ -7790,7 +7791,7 @@
 					"id": "9c654aa3-228f-4f8b-9f0f-58672c44ea9a",
 					"disabled": true,
 					"name": "Base para Armas",
-					"reference": "B53",
+					"reference": "B45",
 					"cost_type": "percentage",
 					"cost": -80,
 					"affects": "total"
@@ -7800,14 +7801,14 @@
 					"version": 1,
 					"id": "e6cb0172-3f80-40db-a521-1c88f00105f6",
 					"disabled": true,
-					"name": "No Grasping Hand",
+					"name": "Sem Mão Capaz de Agarrar",
 					"reference": "MATG28",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
 				}
 			],
-			"reference": "B53",
+			"reference": "B45",
 			"categories": [
 				"Vantagem"
 			]
@@ -18140,7 +18141,6 @@
 			"levels": "0",
 			"base_points": -1,
 			"reference": "B164",
-			"notes": "@Substance@",
 			"categories": [
 				"Peculiaridade"
 			]
