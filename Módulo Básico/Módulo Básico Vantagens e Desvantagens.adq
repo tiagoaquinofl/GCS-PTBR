@@ -152,7 +152,7 @@
 					"id": "12730389-6652-4df8-8b34-ad078b76e408",
 					"disabled": true,
 					"name": "Noção Tridimensional do Espaço",
-					"reference": "B87,
+					"reference": "B87",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
