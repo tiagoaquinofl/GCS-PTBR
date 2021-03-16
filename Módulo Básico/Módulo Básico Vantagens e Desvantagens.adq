@@ -11024,7 +11024,7 @@
 					"cost": 50,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 sec; Resistível"
+					"notes": "1 seg; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11037,7 +11037,7 @@
 					"cost": 25,
 					"affects": "total",
 					"levels": 1,
-					"notes": "10 sec; Resistível"
+					"notes": "10 seg; Resistível"
 				},
 				{
 					"type": "modifier",
