@@ -7827,7 +7827,7 @@
 					"version": 1,
 					"id": "93a98a1c-c1a9-4435-91ca-749a69332a0f",
 					"disabled": true,
-					"name": "Multi-Strike",
+					"name": "Ataque Múltiplo",
 					"reference": "P49",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -7838,7 +7838,7 @@
 					"version": 1,
 					"id": "0a903be4-0089-4554-9aa0-c1992ba1c7db",
 					"disabled": true,
-					"name": "Single Skill",
+					"name": "Perícia Única",
 					"reference": "P49",
 					"cost_type": "percentage",
 					"cost": -20,
@@ -7846,7 +7846,7 @@
 					"notes": "@Perícia@"
 				}
 			],
-			"reference": "B53",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -7855,7 +7855,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "4aec1709-0f45-461a-b72d-879f26b22e5f",
-			"name": "Pontos de Fadiga extras",
+			"name": "Pontos de Fadiga Extras",
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 3,
@@ -7877,7 +7877,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "5c827048-75a3-4899-9cba-498b08d6e85c",
-			"name": "Pontos de Fadiga extras",
+			"name": "Pontos de Fadiga Extras",
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 3,
@@ -7886,11 +7886,11 @@
 					"type": "modifier",
 					"version": 1,
 					"id": "45214028-e559-4766-a2e7-144aa0c8e5ce",
-					"name": "Magic Only",
+					"name": "Somente Magia",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total",
-					"notes": "Subject to involuntary FP drain"
+					"notes": "Sujeito a perda involuntária de PF"
 				}
 			],
 			"reference": "B16",
@@ -7914,13 +7914,13 @@
 					"id": "7f302706-640a-4325-a824-9c45b26aefb8",
 					"disabled": true,
 					"name": "Desconexa",
-					"reference": "B54",
+					"reference": "B46",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
 				}
 			],
-			"reference": "B54",
+			"reference": "B46",
 			"categories": [
 				"Vantagem"
 			]
@@ -7929,7 +7929,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "191c3ab3-b135-499d-bb85-53828206a4b4",
-			"name": "Pontos de Vida extras",
+			"name": "Pontos de Vida Extras",
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
@@ -7984,7 +7984,7 @@
 					"id": "a89ee115-6a18-4524-911a-2566b8a30625",
 					"disabled": true,
 					"name": "@3 ou 4@",
-					"reference": "B54",
+					"reference": "B77",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total"
@@ -7995,7 +7995,7 @@
 					"id": "abd75efb-89ee-4d46-a18f-8009d6ce19ad",
 					"disabled": true,
 					"name": "@5 ou 6@",
-					"reference": "B55",
+					"reference": "B77",
 					"cost_type": "points",
 					"cost": 10,
 					"affects": "total"
@@ -8006,7 +8006,7 @@
 					"id": "6639c262-12d3-486e-a428-747ddffe3a1b",
 					"disabled": true,
 					"name": "@7 ou +@",
-					"reference": "B55",
+					"reference": "B77",
 					"cost_type": "points",
 					"cost": 15,
 					"affects": "total"
@@ -8016,8 +8016,8 @@
 					"version": 1,
 					"id": "145e8ef9-8230-4184-9a4f-e4205e475964",
 					"disabled": true,
-					"name": "Comprido",
-					"reference": "B55",
+					"name": "Comprida",
+					"reference": "B77",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -8029,7 +8029,7 @@
 					"id": "456497b3-3df5-4c41-a02e-23c21ba5c780",
 					"disabled": true,
 					"name": "Incapaz de Chutar",
-					"reference": "B55",
+					"reference": "B78",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -8039,7 +8039,7 @@
 					"version": 1,
 					"id": "f45fe2c9-1576-42d0-a98a-c7f495df7b5e",
 					"disabled": true,
-					"name": "Extra Flexible",
+					"name": "Extraflexível",
 					"reference": "MATG27",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -8050,14 +8050,14 @@
 					"version": 1,
 					"id": "6e155478-b830-4718-a134-188f08d2f0bf",
 					"disabled": true,
-					"name": "Prehensile Feet",
+					"name": "Pés Preênsis",
 					"reference": "MATG28",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
 				}
 			],
-			"reference": "B54",
+			"reference": "B77",
 			"categories": [
 				"Vantagem"
 			]
@@ -8078,7 +8078,7 @@
 					"id": "a3306518-3b87-4aee-81ae-dc3f22d6e14a",
 					"disabled": true,
 					"name": "Cópia",
-					"reference": "B55",
+					"reference": "B96",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -8089,7 +8089,7 @@
 					"id": "f039db6b-bd60-4bf0-a322-f0495cb185f8",
 					"disabled": true,
 					"name": "Exige um Corpo",
-					"reference": "B55",
+					"reference": "B96",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -8104,21 +8104,21 @@
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total",
-					"notes": "@Illegal, rare or expensive body@"
+					"notes": "@Corpo ilegal, raro ou caro@"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "b0d4534a-0b0c-4fda-bf4e-c10b75c4f6e4",
 					"disabled": true,
-					"name": "Brain Pod",
+					"name": "Cápsula Cerebral",
 					"reference": "RSWL19",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
 				}
 			],
-			"reference": "B55",
+			"reference": "B96",
 			"categories": [
 				"Vantagem"
 			]
@@ -8132,7 +8132,7 @@
 			"exotic": true,
 			"levels": "1",
 			"points_per_level": 5,
-			"reference": "B55",
+			"reference": "B45",
 			"categories": [
 				"Vantagem"
 			]
@@ -8145,8 +8145,8 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": -2,
-			"reference": "B136",
-			"notes": "Require 1 hour/level more sleep for a full night's rest (max 4)",
+			"reference": "B157",
+			"notes": "Cada nível (até no máximo 4) indica que o personagem necessita de uma hora a mais de sono.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8165,7 +8165,7 @@
 					"id": "ce98072c-602b-43f3-8eee-302019194e73",
 					"disabled": true,
 					"name": "Ativa",
-					"reference": "B66",
+					"reference": "B89",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
@@ -8176,7 +8176,7 @@
 					"id": "92d81ffe-3420-42a5-9d8c-f3d3d124c45c",
 					"disabled": true,
 					"name": "Seletiva",
-					"reference": "B66",
+					"reference": "B89",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
@@ -8188,7 +8188,7 @@
 					"id": "f19083da-6b06-4316-9297-66ab804adb4f",
 					"disabled": true,
 					"name": "Defensiva",
-					"reference": "B66",
+					"reference": "B89",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -8198,15 +8198,15 @@
 					"version": 1,
 					"id": "7493e850-b3cb-44f7-be30-9aea7a1cff7f",
 					"disabled": true,
-					"name": "Wishing",
+					"name": "Desejo",
 					"reference": "P59",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
 				}
 			],
-			"reference": "B66",
-			"notes": "Usable once per 30 minutes of play",
+			"reference": "B89",
+			"notes": "Utilizável uma vez a cada 30 minutos de jogo",
 			"categories": [
 				"Vantagem"
 			]
@@ -8225,13 +8225,13 @@
 					"id": "478df057-c461-425c-8d04-17a240d0e6e4",
 					"disabled": true,
 					"name": "Fanatismo Extremista",
-					"reference": "B136",
+					"reference": "B139",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total"
 				}
 			],
-			"reference": "B136",
+			"reference": "B139",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8252,7 +8252,7 @@
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Bite",
+					"usage": "Mordida",
 					"reach": "C",
 					"parry": "No",
 					"block": "No",
@@ -8267,7 +8267,7 @@
 					]
 				}
 			],
-			"reference": "B91",
+			"reference": "B52",
 			"categories": [
 				"Vantagem"
 			]
@@ -8284,10 +8284,10 @@
 				{
 					"type": "reaction_bonus",
 					"amount": 1,
-					"situation": "from others in social situations when you have a chance to plan your attire in advance"
+					"situation": "nos testes de reação em situações sociais quando tiver a chance de escolher sua roupa com antecedência"
 				}
 			],
-			"notes": "You can give someone else a +1 reaction bonus from others when you put together their outfit",
+			"notes": "O personagem também pode conceder para outra pessoa um bônus de +1 nos testes de reação quando criar um modelo para ela",
 			"categories": [
 				"Vantagem"
 			]
@@ -8344,7 +8344,7 @@
 					}
 				}
 			],
-			"notes": "+2 ST vs. knockback",
+			"notes": "+2 na ST para resistir a ser derrubado",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8357,7 +8357,7 @@
 			"mental": true,
 			"levels": "1",
 			"points_per_level": -2,
-			"reference": "B136",
+			"reference": "B158",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -8392,7 +8392,7 @@
 			"mental": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B55",
+			"reference": "B52",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -8471,7 +8471,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 5,
-			"reference": "B55",
+			"reference": "B81",
 			"categories": [
 				"Vantagem"
 			]
@@ -8484,7 +8484,7 @@
 			"social": true,
 			"base_points": 50,
 			"reference": "B25",
-			"notes": "Starting wealth is 100x normal",
+			"notes": "valor de recursos iniciais do personagem é 100 vezes a média",
 			"categories": [
 				"Vantagem",
 				"Riqueza"
@@ -8497,8 +8497,8 @@
 			"name": "Boa Forma",
 			"physical": true,
 			"base_points": 5,
-			"reference": "B55",
-			"notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+			"reference": "B45",
+			"notes": "+1 em todos os testes de HT (para manter a consciência, evitar a morte, resistir doenças e venenos, etc.); recupera PF no dobro da velocidade normal (exceto PF gasta em magias ou poderes psiônicos)",
 			"categories": [
 				"Vantagem"
 			]
@@ -8516,11 +8516,11 @@
 					"id": "e66d07e9-3a32-4993-9ec4-ab99f97d440e",
 					"disabled": true,
 					"name": "Suave",
-					"reference": "B136",
+					"reference": "B140",
 					"cost_type": "points",
 					"cost": -5,
 					"affects": "total",
-					"notes": "Duration: 2d seconds; -2 on all skill rolls"
+					"notes": "Duração de 2d segundos; -2 nos testes de habilidade"
 				},
 				{
 					"type": "modifier",
@@ -8528,11 +8528,11 @@
 					"id": "dea65bf7-f5a5-408b-be53-69896a7394b9",
 					"disabled": true,
 					"name": "Grave",
-					"reference": "B136",
+					"reference": "B140",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total",
-					"notes": "Duration: 1d minutes; -5 on all skill rolls"
+					"notes": "Duração de 1d minutos; -5 nos testes de habilidade"
 				},
 				{
 					"type": "modifier",
@@ -8540,14 +8540,15 @@
 					"id": "9529ef70-5491-4e2e-b152-9c00304b6972",
 					"disabled": true,
 					"name": "Incapacitante",
+					"reference": "B140",
 					"cost_type": "points",
 					"cost": -20,
 					"affects": "total",
-					"notes": "Duration: 3d minutes; Precludes all skill use"
+					"notes": "Duração de 3d minutos; impede a utilização de qualquer perícia"
 				}
 			],
-			"reference": "B136",
-			"notes": "In any situation that the GM feels is stressful, he will roll 3d. On a 6 or less, you have a flashback. The GM will roll whenever you miss a Fright Check or make the roll exactly, and whenever you fail a self-control roll for another stress-related disadvantage.",
+			"reference": "B140",
+			"notes": "Em qualquer situação que considerar estressante, o Mestre deve jogar 3d. No caso de um resultado de 6 ou menos, o personagem tem um flashback. O Mestre também deve fazer o teste sempre que o personagem fracassar em uma Verificação de Pânico — ou obtiver o resultado exato — ou quando ele fracassar em um teste de autocontrole para resistir a outra desvantagem relacionada ao estresse.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8559,7 +8560,7 @@
 			"name": "Flexibilidade",
 			"physical": true,
 			"base_points": 5,
-			"reference": "B56",
+			"reference": "B60",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -8589,7 +8590,7 @@
 					}
 				}
 			],
-			"notes": "May ignore up to -3 in penalties for close quarters",
+			"notes": "O personagem pode ignorar penalidades de até -3 por trabalhar em espaços apertados",
 			"categories": [
 				"Vantagem"
 			]
@@ -8601,7 +8602,7 @@
 			"name": "Flexibilidade (Ultraflexibilidade das Juntas)",
 			"physical": true,
 			"base_points": 15,
-			"reference": "B56",
+			"reference": "B61",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -8631,7 +8632,7 @@
 					}
 				}
 			],
-			"notes": "May ignore up to -5 in penalties for close quarters",
+			"notes": "O personagem pode ignorar penalidades de até -5 por trabalhar em espaços apertados.",
 			"categories": [
 				"Vantagem"
 			]
@@ -8651,7 +8652,7 @@
 					"id": "6ad7ecc5-8832-4a9c-82b4-85254a94daf5",
 					"disabled": true,
 					"name": "Voo Espacial Newtoniano",
-					"reference": "B56",
+					"reference": "B99",
 					"cost_type": "percentage",
 					"cost": 25,
 					"affects": "total"
@@ -8662,7 +8663,7 @@
 					"id": "48fd82c3-d8f0-4be7-a69b-1d5c7897f608",
 					"disabled": true,
 					"name": "Voo Espacial",
-					"reference": "B56",
+					"reference": "B99",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
@@ -8673,7 +8674,7 @@
 					"id": "b53b501f-2ecc-4c99-8766-5766e670ce73",
 					"disabled": true,
 					"name": "Incapaz de Pairar",
-					"reference": "B56",
+					"reference": "B99",
 					"cost_type": "percentage",
 					"cost": -15,
 					"affects": "total"
@@ -8684,7 +8685,7 @@
 					"id": "6c2b8127-d1d7-4201-bfb4-8fdb13f344e6",
 					"disabled": true,
 					"name": "Planar Controlado",
-					"reference": "B56",
+					"reference": "B100",
 					"cost_type": "percentage",
 					"cost": -45,
 					"affects": "total"
@@ -8695,7 +8696,7 @@
 					"id": "0c826766-8e63-4205-aa62-db6598e2b4f0",
 					"disabled": true,
 					"name": "Planar",
-					"reference": "B56",
+					"reference": "B100",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -8706,7 +8707,7 @@
 					"id": "19cb7f15-94dc-4622-b798-4eb2d8dd1668",
 					"disabled": true,
 					"name": "Mais Leve que o Ar",
-					"reference": "B56",
+					"reference": "B100",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -8717,11 +8718,11 @@
 					"id": "b924f3a8-46a9-41ca-93ee-8c6980e1624f",
 					"disabled": true,
 					"name": "Limite Baixo de Voo",
-					"reference": "B56",
+					"reference": "B100",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total",
-					"notes": "30'"
+					"notes": "9 m"
 				},
 				{
 					"type": "modifier",
@@ -8733,7 +8734,7 @@
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
-					"notes": "10'"
+					"notes": "3 m"
 				},
 				{
 					"type": "modifier",
@@ -8745,7 +8746,7 @@
 					"cost_type": "percentage",
 					"cost": -25,
 					"affects": "total",
-					"notes": "5'"
+					"notes": "1,5 m"
 				},
 				{
 					"type": "modifier",
@@ -8753,7 +8754,7 @@
 					"id": "eedf31a5-c7ad-4967-9c43-ec1cc31f3680",
 					"disabled": true,
 					"name": "Asas Pequenas",
-					"reference": "B56",
+					"reference": "B99",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -8764,7 +8765,7 @@
 					"id": "3c786352-fa26-4862-8b6a-6cfef78a995c",
 					"disabled": true,
 					"name": "Somente Voo Espacial",
-					"reference": "B56",
+					"reference": "B100",
 					"cost_type": "percentage",
 					"cost": -75,
 					"affects": "total"
@@ -8775,7 +8776,7 @@
 					"id": "ef21e56c-ec8d-4d9f-9643-c5ff26f41ad7",
 					"disabled": true,
 					"name": "Alado",
-					"reference": "B56",
+					"reference": "B99",
 					"cost_type": "percentage",
 					"cost": -25,
 					"affects": "total"
@@ -8785,7 +8786,7 @@
 					"version": 1,
 					"id": "6551975e-39ce-4013-bf89-1eda2fd4f32e",
 					"disabled": true,
-					"name": "Planetary",
+					"name": "Planetário",
 					"reference": "P50",
 					"cost_type": "percentage",
 					"cost": -5,
@@ -8796,7 +8797,7 @@
 					"version": 1,
 					"id": "0151bb33-5645-42aa-afbe-414074cceffb",
 					"disabled": true,
-					"name": "Requires Surface",
+					"name": "Exige Superfície",
 					"reference": "P50",
 					"cost_type": "percentage",
 					"cost": -20,
@@ -8819,15 +8820,15 @@
 					"version": 1,
 					"id": "ecf503cc-493c-4d8a-a0d9-7aa0b79c2bd2",
 					"disabled": true,
-					"name": "Slow, Move 1",
+					"name": "Lenta, Deslocamento 1",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": -45,
 					"affects": "total"
 				}
 			],
-			"reference": "B56",
-			"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+			"reference": "B98",
+			"notes": "O Deslocamento do personagem em voo é igual à sua Velocidade Básica × 2; descarte todas as frações",
 			"categories": [
 				"Vantagem"
 			]
@@ -8840,7 +8841,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -15,
-			"reference": "B136",
+			"reference": "B143",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8853,7 +8854,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -5,
-			"reference": "B136",
+			"reference": "B142",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8866,7 +8867,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -15,
-			"reference": "B137",
+			"reference": "B142",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8879,7 +8880,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B137",
+			"reference": "B142",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8892,7 +8893,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -50,
-			"reference": "B137",
+			"reference": "B142",
 			"notes": "Automatically fail HT roll to stay alive if reduced to -HP or below",
 			"categories": [
 				"Desvantagem"
@@ -8906,7 +8907,7 @@
 			"mental": true,
 			"supernatural": true,
 			"base_points": -10,
-			"reference": "B137",
+			"reference": "B123",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8931,7 +8932,7 @@
 			"name": "Experiência-G (Todas)",
 			"mental": true,
 			"base_points": 10,
-			"reference": "B57",
+			"reference": "B59",
 			"categories": [
 				"Vantagem"
 			]
@@ -8944,7 +8945,7 @@
 			"mental": true,
 			"levels": "1",
 			"points_per_level": 1,
-			"reference": "B57",
+			"reference": "B59",
 			"categories": [
 				"Vantagem"
 			]
@@ -8956,7 +8957,7 @@
 			"name": "Intolerância-G (incremento de 0,1G)",
 			"physical": true,
 			"base_points": -10,
-			"reference": "B137",
+			"reference": "B147",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8968,7 +8969,7 @@
 			"name": "Intolerância-G (incremento de 0,05G)",
 			"physical": true,
 			"base_points": -20,
-			"reference": "B137",
+			"reference": "B147",
 			"categories": [
 				"Desvantagem"
 			]
@@ -8987,13 +8988,13 @@
 					"id": "b406c46f-502c-47b3-9be8-5bfb710578cf",
 					"disabled": true,
 					"name": "Rápido",
-					"reference": "B57",
+					"reference": "B52",
 					"cost_type": "points",
 					"cost": 25,
 					"affects": "total"
 				}
 			],
-			"reference": "B57",
+			"reference": "B52",
 			"categories": [
 				"Vantagem"
 			]
@@ -9051,7 +9052,7 @@
 			"mental": true,
 			"levels": "1",
 			"points_per_level": 5,
-			"reference": "B57",
+			"reference": "B39",
 			"categories": [
 				"Vantagem"
 			]
@@ -9064,8 +9065,8 @@
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B137",
-			"notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+			"reference": "B143",
+			"notes": "O personagem deve fazer um teste de autocontrole para resistir qualquer iguaria tentadora ou um bom vinho, se por alguma razão precisar fazê-lo. No caso de um fracasso, ele consome a refeição sem se importar com as consequências.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9078,8 +9079,8 @@
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B137",
-			"notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
+			"reference": "B126",
+			"notes": "O personagem deve fazer um teste de autocontrole sempre que algum patrimônio for oferecido como pagamento por um trabalho lícito, proventos de uma aventura, pilhagem ou apenas isca. No caso de um fracasso, ele fará o que for preciso para obter o pagamento.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9091,7 +9092,7 @@
 			"name": "Gregário",
 			"mental": true,
 			"base_points": -10,
-			"reference": "B126",
+			"reference": "B122",
 			"features": [
 				{
 					"type": "reaction_bonus",
@@ -9099,7 +9100,7 @@
 					"situation": "to others"
 				}
 			],
-			"notes": "-2 to IQ-based skills when alone, or -1 in a group of 4 or less",
+			"notes": "Quando está sozinho suas perícias baseadas em IQ sofrem uma penalidade de -2; ou -1 se ele estiver em um grupo com quatro pessoas ou menos.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9120,13 +9121,13 @@
 					"id": "64550492-083e-4c4a-a86b-2b212e7d3ead",
 					"disabled": true,
 					"name": "Somente Tamanho Máximo",
-					"reference": "B58",
+					"reference": "B50",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total"
 				}
 			],
-			"reference": "B58",
+			"reference": "B50",
 			"categories": [
 				"Vantagem"
 			]
@@ -9138,7 +9139,7 @@
 			"name": "Complexo de Culpa",
 			"mental": true,
 			"base_points": -5,
-			"reference": "B137",
+			"reference": "B127",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9151,7 +9152,7 @@
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B137",
+			"reference": "B129",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -9188,7 +9189,7 @@
 			"name": "Atirador",
 			"mental": true,
 			"base_points": 25,
-			"reference": "B58",
+			"reference": "B43",
 			"categories": [
 				"Vantagem"
 			]
@@ -9215,7 +9216,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": -5,
-			"reference": "B138",
+			"reference": "B123",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -9351,13 +9352,13 @@
 					"type": "reaction_bonus",
 					"amount": -1,
 					"per_level": true,
-					"situation": "from others where being tidy or well-groomed would matter"
+					"situation": "de pessoas que se importam com a apresentação pessoal"
 				},
 				{
 					"type": "reaction_bonus",
 					"amount": -1,
 					"per_level": true,
-					"situation": "to any Influence roll where being tidy or well-groomed would matter"
+					"situation": "para Testes de Influência em que estar apresentável faz diferença"
 				}
 			],
 			"categories": [
@@ -9371,7 +9372,7 @@
 			"name": "Duro de Ouvido",
 			"physical": true,
 			"base_points": -10,
-			"reference": "B138",
+			"reference": "B136",
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -9379,7 +9380,7 @@
 					"attribute": "hearing"
 				}
 			],
-			"notes": "-4 on any skill roll where it is important that you understand someone who is talking",
+			"notes": "-4 em todos os testes de Audição e nos testes de habilidade em situações em que se precisa entender o que alguém está dizendo.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9392,8 +9393,8 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B58",
-			"notes": "+1/level to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death (due to heart failure, poison, etc.). If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+			"reference": "B56",
+			"notes": "Cada nível nesta vantagem concede um bônus de +1 nos testes de HT feitos para ver se o personagem consegue sobreviver quando seu número de Pontos de Vida é menor que -1×PVInicial e em qualquer teste de HT onde um fracasso resulta na morte instantânea do personagem (por parada cardíaca, envenenamento, etc.). Se o bônus desta vantagem fizer a diferença entre a vida e a morte, o personagem entra em colapso e fica aparentemente morto (ou inválido), mas volta ao normal depois do período de tempo normal. Um sucesso em um teste de Diagnose (ou de Mecânica, no caso de máquinas) revela a verdade.",
 			"categories": [
 				"Vantagem"
 			]
@@ -9406,8 +9407,8 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 2,
-			"reference": "B59",
-			"notes": "+1/level to any HT roll to avoid unconsciousness – whether as a result of injury, drugs, or ultra-tech weapons – and to resist supernatural abilities that cause unconsciousness",
+			"reference": "B53",
+			"notes": "Cada nível em Difícil de Subjugar concede um bônus de +1 nos testes de HT feitos para verificar se o personagem evita a inconsciência — seja por ferimentos, drogas ou o efeito de armas de alta tecnologia — e resistir a habilidades sobrenaturais que provocam inconsciência",
 			"categories": [
 				"Vantagem"
 			]
@@ -9427,7 +9428,7 @@
 					"id": "bba3192a-7571-4c82-a69f-d331c9baa720",
 					"disabled": true,
 					"name": "Cura pela Fé",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -9438,11 +9439,11 @@
 					"id": "5e6b1294-e3ba-4718-925a-3274831e9991",
 					"disabled": true,
 					"name": "Xenocura",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "All Mammals"
+					"notes": "Todos os Mamíferos"
 				},
 				{
 					"type": "modifier",
@@ -9450,11 +9451,11 @@
 					"id": "6532082a-8b8a-49c0-85e4-47556068668a",
 					"disabled": true,
 					"name": "Xenocura",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total",
-					"notes": "All Earthly Life"
+					"notes": "Toda Vida Terrena"
 				},
 				{
 					"type": "modifier",
@@ -9462,11 +9463,11 @@
 					"id": "8eccd81e-4803-409e-ad5d-e427beb77cd6",
 					"disabled": true,
 					"name": "Xenocura",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": 60,
 					"affects": "total",
-					"notes": "All Carbon-Based Life"
+					"notes": "Toda Vida Baseada em Carbono"
 				},
 				{
 					"type": "modifier",
@@ -9474,11 +9475,11 @@
 					"id": "399ab66a-3763-4cc5-b335-3c4e8c69a24c",
 					"disabled": true,
 					"name": "Xenocura",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": 80,
 					"affects": "total",
-					"notes": "Anything Alive"
+					"notes": "Qualquer Coisa Viva"
 				},
 				{
 					"type": "modifier",
@@ -9486,11 +9487,11 @@
 					"id": "ff993d1f-034e-43c3-9fe4-cd4d52ffb130",
 					"disabled": true,
 					"name": "Xenocura",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
-					"notes": "Anything Animate"
+					"notes": "Qualquer Coisa Animada"
 				},
 				{
 					"type": "modifier",
@@ -9498,7 +9499,7 @@
 					"id": "527037e9-28cd-4bb1-9321-a979bc495cb2",
 					"disabled": true,
 					"name": "Somente Doenças",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
@@ -9509,7 +9510,7 @@
 					"id": "1f5d5f74-706d-4287-ba1d-47b16b53d457",
 					"disabled": true,
 					"name": "Somente Ferimentos",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -9520,7 +9521,7 @@
 					"id": "3a272e23-ca77-42e9-827a-d8be53006a84",
 					"disabled": true,
 					"name": "Somente sua Raça",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -9531,7 +9532,7 @@
 					"id": "f9993b8c-5b39-4e1e-b2f4-c7c80ef0d2ae",
 					"disabled": true,
 					"name": "Cura Psíquica",
-					"reference": "B59",
+					"reference": "B51",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -9541,7 +9542,7 @@
 					"version": 1,
 					"id": "129983ab-8dc5-412a-91df-d40fcb2e0acc",
 					"disabled": true,
-					"name": "Affects Self",
+					"name": "Afeta a Si Mesmo",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": 50,
@@ -9552,7 +9553,7 @@
 					"version": 1,
 					"id": "013bc89e-d08b-4208-ba20-ac31c0ebc8f3",
 					"disabled": true,
-					"name": "Cure Affliction",
+					"name": "Curar Atribulação",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": 60,
@@ -9563,7 +9564,7 @@
 					"version": 1,
 					"id": "4ebea4b1-ed77-49d5-94bb-b336845e5981",
 					"disabled": true,
-					"name": "Affliction Only",
+					"name": "Somente Atribulação",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": -40,
@@ -9574,67 +9575,67 @@
 					"version": 1,
 					"id": "1218fadc-d473-4a56-a849-c665954ca1e0",
 					"disabled": true,
-					"name": "Capped",
+					"name": "Limitada",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": -25,
 					"affects": "total",
-					"notes": "2 Pontos de Fadiga"
+					"notes": "2 PF"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "f824e930-4c27-4ab0-9cbe-6c049e3600b0",
 					"disabled": true,
-					"name": "Capped",
+					"name": "Limitada",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total",
-					"notes": "4 Pontos de Fadiga"
+					"notes": "4 PF"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "c8e4b56a-07af-4452-8bbb-e6a2892d7a88",
 					"disabled": true,
-					"name": "Capped",
+					"name": "Limitada",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": -15,
 					"affects": "total",
-					"notes": "6 Pontos de Fadiga"
+					"notes": "6 PF"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "4f27cf98-a413-4945-9be1-7828df4bf07b",
 					"disabled": true,
-					"name": "Capped",
+					"name": "Limitada",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total",
-					"notes": "8 Pontos de Fadiga"
+					"notes": "8 PF"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "c8f40584-eec8-4668-b2d3-66991c5413c7",
 					"disabled": true,
-					"name": "Capped",
+					"name": "Limitada",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": -5,
 					"affects": "total",
-					"notes": "10 Pontos de Fadiga"
+					"notes": "10 PF"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
 					"id": "a22bb62e-0894-466a-84f0-6de1ffefcea5",
 					"disabled": true,
-					"name": "Empathic",
+					"name": "Empática",
 					"reference": "P51",
 					"cost_type": "percentage",
 					"cost": -50,
@@ -9645,14 +9646,14 @@
 					"version": 1,
 					"id": "cc59ab25-7662-4ba9-9b35-5ce9702fff8e",
 					"disabled": true,
-					"name": "Restore Limbs",
+					"name": "Restaurar Membros",
 					"reference": "PSI14",
 					"cost_type": "percentage",
 					"cost": 80,
 					"affects": "total"
 				}
 			],
-			"reference": "B59",
+			"reference": "B51",
 			"categories": [
 				"Vantagem"
 			]
@@ -9661,11 +9662,11 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "c0de44ae-e813-4167-9b68-e0d09825a3b1",
-			"name": "Luz Solar (Heliofobia)",
+			"name": "Heliofobia (Luz Solar)",
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B150",
+			"reference": "B141",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9677,7 +9678,7 @@
 			"name": "Hemofilia",
 			"physical": true,
 			"base_points": -30,
-			"reference": "B138",
+			"reference": "B144",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -9693,7 +9694,7 @@
 					}
 				]
 			},
-			"notes": "Any untreated wound bleeds at a rate equal to its original damage every minute",
+			"notes": "Qualquer ferimento não tratado sangra a uma razão igual ao número de pontos de dano original, por minuto",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9702,12 +9703,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "ca7cc593-3121-427a-bc6b-dc16d558e6d9",
-			"name": "Sangue (Hematofobia)",
+			"name": "Hematofobia (Sangue)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B149",
-			"notes": "The sight of blood gives you the screaming willies! You need to make a self-control roll during most combats...",
+			"reference": "B142",
+			"notes": "Ver sangue dá arrepios. O personagem deve fazer um teste de autocontrole durante a maioria dos combates...",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9720,7 +9721,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": 5,
-			"reference": "B59",
+			"reference": "B63",
 			"categories": [
 				"Vantagem"
 			]
@@ -9729,12 +9730,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "30b83f35-7eeb-43c9-8962-34f45e04dbf3",
-			"name": "Feitos Heroicos de @Um entre Força, Destreza, ou Vitalidade@",
+			"name": "Feitos Heroicos de @Um dentre ST, DX, ou HT@",
 			"mental": true,
 			"supernatural": true,
 			"base_points": 10,
-			"reference": "B41",
-			"notes": "Once per game session, you may add 1d to @One of Strength, Dexterity, or Health@, which lasts 3d seconds",
+			"reference": "B35",
+			"notes": "Uma vez a cada sessão de jogo, o personagem pode adicionar 1d à @Um dentre ST, DX ou HT@. O bônus dura 3d segundos.",
 			"categories": [
 				"Vantagem"
 			]
@@ -9743,12 +9744,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "359ab9bb-a589-4623-bc77-dde22cb1df92",
-			"name": "Répteis (Ofiofobia)",
+			"name": "Ofiofobia (Répteis)",
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "You come unglued at the thought of reptiles, amphibians, and similar scaly slimies. A very large reptile, or a poisonous one, gives -2 to self-control rolls; a horde of reptiles (such as a snake pit) gives -4.",
+			"reference": "B142",
+			"notes": "O personagem fica aterrorizado só de pensar em répteis, anfíbios e outras criaturas escamosas/pegajosas. Um réptil muito grande ou venenoso exige um teste de autocontrole com uma penalidade de -2; uma quantidade muito grande de répteis (como um ninho de cobras) implica em uma penalidade de -4.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9760,8 +9761,8 @@
 			"name": "Sem Imaginação",
 			"mental": true,
 			"base_points": -5,
-			"reference": "B138",
-			"notes": "-2 penalty on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage.",
+			"reference": "B155",
+			"notes": "O personagem sofre uma penalidade de -2 em qualquer tarefa que exigir criatividade ou imaginação, incluindo a maioria dos testes da perícia Artista, todos os testes de Engenharia para criar invenções e todos os testes de habilidade para utilizar a vantagem Desenvolvedor.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9774,7 +9775,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 5,
-			"reference": "B59",
+			"reference": "B53",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -9898,8 +9899,8 @@
 			"name": "Hipoalgia (Alto Limiar de Dor)",
 			"physical": true,
 			"base_points": 10,
-			"reference": "B59",
-			"notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
+			"reference": "B63",
+			"notes": "O personagem nunca sofre as penalidades relacionadas ao choque quando é ferido. Além disso, ele recebe um bônus de +3 nos testes de HT para não ficar nocauteado ou atordoado e para resistir torturas físicas.",
 			"categories": [
 				"Vantagem"
 			]
@@ -9925,7 +9926,7 @@
 			"mental": true,
 			"exotic": true,
 			"base_points": 5,
-			"reference": "B59",
+			"reference": "B80",
 			"categories": [
 				"Vantagem"
 			]
@@ -9938,7 +9939,7 @@
 			"physical": true,
 			"base_points": 1,
 			"reference": "B101",
-			"notes": "+1 to trained Acting skill for the sole purpose of \"acting innocent\"",
+			"notes": "+1 na perícia Dissimulação quando estiver tentando “parecer inocente”",
 			"categories": [
 				"Qualidade"
 			]
@@ -9951,8 +9952,8 @@
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B138",
-			"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+			"reference": "B144",
+			"notes": "O personagem deve fazer um teste de autocontrole sempre que se defrontar com leis irracionais para ver se há necessidade de violá-las; no caso de um fracasso, o personagem deverá obedecê-las, sejam quais forem as consequências. Se conseguir resistir a seus impulsos e agir desonestamente, deve fazer outro teste de autocontrole depois disso. No caso de um fracasso, ele se entregará às autoridades.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -9972,7 +9973,7 @@
 						"st": "thr",
 						"modifier_per_die": 1
 					},
-					"usage": "Trample",
+					"usage": "Escoicear",
 					"reach": "C,1",
 					"parry": "No",
 					"block": "No",
@@ -9994,7 +9995,7 @@
 					]
 				}
 			],
-			"reference": "B42",
+			"reference": "B61",
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -10010,12 +10011,12 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "b642c55d-009f-4455-a94a-8acc27813cc7",
-			"name": "Armas (Hoplofobia)",
+			"name": "Hoplofobia (Armas)",
 			"mental": true,
 			"base_points": -20,
 			"cr": 12,
-			"reference": "B150",
-			"notes": "The presence of any sort of weaponry is stressful. Trying to use a weapon, or being threatened with one, requires a self-control roll at -2.",
+			"reference": "B141",
+			"notes": "Qualquer tipo de arma deixa o personagem transtornado. Usar ou ser ameaçado com uma arma exige um teste de autocontrole com uma penalidade de -2.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10028,7 +10029,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B139",
+			"reference": "B145",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10041,7 +10042,7 @@
 			"physical": true,
 			"base_points": -1,
 			"reference": "B165",
-			"notes": "Additional -3 to any penalties assessed for excessive drinking the previous evening and add 3 hours to hangover duration",
+			"notes": "O personagem sofre uma penalidade de -3 no dia seguinte ao consumir muita bebida alcoólica. Acrescente três horas à duração de suas ressacas.",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -10072,7 +10073,7 @@
 					"id": "888eed3f-7db6-4ef4-82b1-08a5762a3c8b",
 					"disabled": true,
 					"name": "Penalidade em DX se não estiver usando uma roupa ou armadura sob medida",
-					"reference": "B139",
+					"reference": "B129",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -10083,10 +10084,10 @@
 							"attribute": "dx"
 						}
 					],
-					"notes": "Clothing and armor costs 10% more than usual"
+					"notes": "É necessário pagar mais 10% por equipamentos feitos sob medida"
 				}
 			],
-			"reference": "B139",
+			"reference": "B129",
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -10107,7 +10108,7 @@
 					}
 				}
 			],
-			"notes": "Gives others +3 on attempts to identify or follow you",
+			"notes": "+3 nas tentativas de outras pessoas de identificá-lo ou rastreá-lo.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10127,7 +10128,7 @@
 					"id": "5fad754c-890d-45a8-a82e-cd514d8f51eb",
 					"disabled": true,
 					"name": "Banda Baixa Estendida",
-					"reference": "B60",
+					"reference": "B97",
 					"cost_type": "percentage",
 					"cost": 30,
 					"affects": "total"
@@ -10138,7 +10139,7 @@
 					"id": "aaf3f5a6-880b-4b10-9784-2ad92b93fdf4",
 					"disabled": true,
 					"name": "Banda Alta Estendida",
-					"reference": "B60",
+					"reference": "B97",
 					"cost_type": "percentage",
 					"cost": 30,
 					"affects": "total"
@@ -10153,10 +10154,10 @@
 					"cost_type": "percentage",
 					"cost": 30,
 					"affects": "total",
-					"notes": "@Special@"
+					"notes": "@Especial@"
 				}
 			],
-			"reference": "B60",
+			"reference": "B97",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -10191,7 +10192,7 @@
 			"mental": true,
 			"supernatural": true,
 			"base_points": 15,
-			"reference": "B60",
+			"reference": "B64",
 			"categories": [
 				"Vantagem"
 			]
@@ -10203,7 +10204,7 @@
 			"name": "Criativo",
 			"mental": true,
 			"base_points": -1,
-			"reference": "B164",
+			"reference": "B163",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -10212,7 +10213,7 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "b221e78e-489e-4e44-8d1f-e6d5aeb7f429",
-			"name": "Golpeador de Perfuração (perf) (@Parte do Corpo@)",
+			"name": "Golpeador de Perfuração (@Parte do Corpo@)",
 			"physical": true,
 			"exotic": true,
 			"base_points": 8,
@@ -10238,7 +10239,7 @@
 					]
 				}
 			],
-			"reference": "B88",
+			"reference": "B61",
 			"categories": [
 				"Vantagem"
 			]
@@ -10255,8 +10256,8 @@
 					"version": 1,
 					"id": "329f36f7-2f56-4595-a439-d6d7ceb722da",
 					"disabled": true,
-					"name": "0.3G",
-					"reference": "B60",
+					"name": "0,3G",
+					"reference": "B95",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total"
@@ -10266,8 +10267,8 @@
 					"version": 1,
 					"id": "f974ad25-1b2d-4400-8a2e-ed1c315b90d4",
 					"disabled": true,
-					"name": "0.5G",
-					"reference": "B60",
+					"name": "0,5G",
+					"reference": "B95",
 					"cost_type": "points",
 					"cost": 10,
 					"affects": "total"
@@ -10278,7 +10279,7 @@
 					"id": "64b8c7e5-bfc0-4819-88c8-04444cd7d848",
 					"disabled": true,
 					"name": "1G",
-					"reference": "B60",
+					"reference": "B95",
 					"cost_type": "points",
 					"cost": 15,
 					"affects": "total"
@@ -10289,7 +10290,7 @@
 					"id": "8ccb99b0-305d-475d-8c3e-6c24c519f033",
 					"disabled": true,
 					"name": "5G",
-					"reference": "B60",
+					"reference": "B95",
 					"cost_type": "points",
 					"cost": 20,
 					"affects": "total"
@@ -10300,13 +10301,13 @@
 					"id": "93779a78-e4fc-4306-a1fc-6cf389fe3cf0",
 					"disabled": true,
 					"name": "10G",
-					"reference": "B60",
+					"reference": "B95",
 					"cost_type": "points",
 					"cost": 25,
 					"affects": "total"
 				}
 			],
-			"reference": "B60",
+			"reference": "B95",
 			"categories": [
 				"Vantagem"
 			]
@@ -10319,8 +10320,8 @@
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B139",
-			"notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+			"reference": "B145",
+			"notes": "O personagem precisa de um sucesso em um teste de autocontrole para ser capaz de esperar e ponderar. No caso de um fracasso, ele deve agir.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10345,7 +10346,7 @@
 					}
 				}
 			],
-			"notes": "May only know @Skill@ at default (i.e. no points spent)",
+			"notes": "O personagem é incapaz de aprender uma determinada perícia, e seu valor predefinido sofre uma penalidade adicional de -4.",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -10407,7 +10408,7 @@
 					"id": "7007ee4f-9997-431c-a0df-c1b4247b9156",
 					"disabled": true,
 					"name": "Consumo Ampliado 1 (x2)",
-					"reference": "B139",
+					"reference": "B128",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
@@ -10418,7 +10419,7 @@
 					"id": "6bee8a11-a82a-4562-8832-9b8b9a053500",
 					"disabled": true,
 					"name": "Consumo Ampliado 2 (x4)",
-					"reference": "B139",
+					"reference": "B128",
 					"cost_type": "points",
 					"cost": -20,
 					"affects": "total"
@@ -10429,13 +10430,13 @@
 					"id": "9b84556f-c65d-4b0f-a9fe-d0a3d8feff8e",
 					"disabled": true,
 					"name": "Consumo Ampliado 3 (x8)",
-					"reference": "B139",
+					"reference": "B128",
 					"cost_type": "points",
 					"cost": -30,
 					"affects": "total"
 				}
 			],
-			"reference": "B139",
+			"reference": "B128",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10482,7 +10483,7 @@
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 10,
-			"reference": "B14",
+			"reference": "B15",
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -10526,7 +10527,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B139",
+			"reference": "B158",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10539,7 +10540,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B139",
+			"reference": "B158",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10552,7 +10553,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B139",
+			"reference": "B158",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10565,7 +10566,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B139",
+			"reference": "B158",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10578,7 +10579,7 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B139",
+			"reference": "B158",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10621,7 +10622,7 @@
 					"id": "fc2b398f-467b-4c36-857b-98087975f0c4",
 					"disabled": true,
 					"name": "Manuseadores Precários",
-					"reference": "B15",
+					"reference": "B14",
 					"cost_type": "percentage",
 					"cost": -40,
 					"affects": "total"
@@ -10632,7 +10633,7 @@
 					"id": "89e24b12-233b-4ad9-a77a-934e7bc640f7",
 					"disabled": true,
 					"name": "Tamanho",
-					"reference": "B15",
+					"reference": "B14",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total",
@@ -10643,7 +10644,7 @@
 					"version": 1,
 					"id": "4f3a7bdb-ed81-4735-87e8-d9eaeb4856c7",
 					"disabled": true,
-					"name": "Super-Effort",
+					"name": "Super-Esforço",
 					"reference": "SU24",
 					"cost_type": "percentage",
 					"cost": 300,
@@ -10694,15 +10695,15 @@
 			"mental": true,
 			"base_points": -5,
 			"cr": 12,
-			"reference": "B140",
+			"reference": "B146",
 			"features": [
 				{
 					"type": "reaction_bonus",
 					"amount": -1,
-					"situation": "to new things"
+					"situation": "para coisas novas"
 				}
 			],
-			"notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+			"notes": "O personagem deve fazer um teste de autocontrole quando encontrar algo estranho. No caso de um fracasso, ele ignora o fato.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10715,8 +10716,8 @@
 			"mental": true,
 			"base_points": -10,
 			"cr": 12,
-			"reference": "B140",
-			"notes": "Make a self-control roll whenever a choice confronts you, modified downward by 1 for each alternative you can see. If you fail, you do nothing.",
+			"reference": "B145",
+			"notes": "O personagem precisa fazer um teste de autocontrole toda vez que se deparar com uma escolha, modificado para baixo de acordo com o número de alternativas existentes. No caso de um fracasso, ele não faz nada.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10741,8 +10742,8 @@
 			"name": "Indomável",
 			"mental": true,
 			"base_points": 15,
-			"reference": "B60",
-			"notes": "Impossible to influence through ordinary words or actions",
+			"reference": "B65",
+			"notes": "É impossível influenciar o personagem por meio de palavras ou ações comuns.",
 			"categories": [
 				"Vantagem"
 			]
@@ -10755,7 +10756,7 @@
 			"physical": true,
 			"supernatural": true,
 			"base_points": -5,
-			"reference": "B140",
+			"reference": "B123",
 			"categories": [
 				"Desvantagem"
 			]
@@ -10775,13 +10776,13 @@
 					"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
 					"disabled": true,
 					"name": "Sem visão normal",
-					"reference": "B60",
+					"reference": "B65",
 					"cost_type": "points",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B60",
+			"reference": "B65",
 			"categories": [
 				"Vantagem"
 			]
@@ -10800,11 +10801,11 @@
 					"id": "26605205-a95d-4690-9dc0-cc648294a15e",
 					"disabled": true,
 					"name": "Difuso",
-					"reference": "B60",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 100,
 					"affects": "total",
-					"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury"
+					"notes": "O personagem é imune a lesões incapacitantes e reduz o dano que ele sofre com a maioria dos golpes físicos; a maioria dos inimigos (a critério do Mestre) não é capaz de empurrar ou agarrar o personagem! Ele não sangra, não é afetado por toxinas de origem sanguínea é imune a ataques que interrompem a circulação de uma parte do sangue do corpo. Ataques por perfuração ou perfurantes (de qualquer gravidade) nunca provocam mais que 1 PV de dano, independente do dano penetrante! Outros tipos de ataques também nunca causam mais que 2 PV de dano. Exceção: ataques de área, de cone e explosões causam o dano normal."
 				},
 				{
 					"type": "modifier",
@@ -10812,11 +10813,11 @@
 					"id": "e98b0c17-141f-45ca-aaf2-5d6ff9f9ab87",
 					"disabled": true,
 					"name": "Homogêneo",
-					"reference": "B60",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 40,
 					"affects": "total",
-					"notes": "Altered wound modifiers: imp & pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10"
+					"notes": "Aplica-se os seguintes modificadores de ferimento: perf e pa++, ×1/2; pa+, ×1/3; pa, ×1/5; e pa-, ×1/10"
 				},
 				{
 					"type": "modifier",
@@ -10824,11 +10825,11 @@
 					"id": "27ef0bd2-f4b7-4c88-9bd4-c84557d3f790",
 					"disabled": true,
 					"name": "Sem Sangue",
-					"reference": "B61",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
-					"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body"
+					"notes": "O personagem não sangra, não é afetado por toxinas de origem sanguínea é imune a ataques que interrompem a circulação de uma parte do sangue do corpo"
 				},
 				{
 					"type": "modifier",
@@ -10836,11 +10837,11 @@
 					"id": "4fa959a6-3b06-42d4-b9a9-ad02e2a7f809",
 					"disabled": true,
 					"name": "Sem Cérebro",
-					"reference": "B61",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
-					"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye"
+					"notes": "O cérebro do personagem não pode ser usado como alvo para causar dano adicional. um golpe no crânio ou no olho é considerado como um golpe normal no rosto (com a diferença que um ferimento no olho pode mutilar esse órgão)."
 				},
 				{
 					"type": "modifier",
@@ -10848,11 +10849,11 @@
 					"id": "ff796ec8-c350-48cc-b6a2-74f7c48bc261",
 					"disabled": true,
 					"name": "Sem Olhos",
-					"reference": "B61",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
-					"notes": "Eyes may not be targeted. Immune to blinding attacks"
+					"notes": "O personagem não tem olhos, logo eles não podem ser atacados. O personagem é imune a ataques que produzem cegueira."
 				},
 				{
 					"type": "modifier",
@@ -10860,11 +10861,11 @@
 					"id": "cdab2614-a6a1-47ea-8c7c-f42698d872cb",
 					"disabled": true,
 					"name": "Sem Cabeça",
-					"reference": "B61",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 7,
 					"affects": "total",
-					"notes": "Skull, Brain and Face cannot be targeted"
+					"notes": "Crânio, cérebro e rosto não podem ser usados como alvo"
 				},
 				{
 					"type": "modifier",
@@ -10872,11 +10873,11 @@
 					"id": "e0ef00ad-30d2-494c-8ceb-931ff304cb1f",
 					"disabled": true,
 					"name": "Sem Pescoço",
-					"reference": "B61",
+					"reference": "B95",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
-					"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled"
+					"notes": "O personagem não tem pescoço. Por esse motivo, ele não tem o ponto de impacto “pescoço” e não pode ser decapitado, asfixiado nem estrangulado."
 				},
 				{
 					"type": "modifier",
@@ -10884,11 +10885,11 @@
 					"id": "a4374f61-3843-4e33-b1f4-a2890ee6cba1",
 					"disabled": true,
 					"name": "Sem Órgãos Vitais",
-					"reference": "B61",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 5,
 					"affects": "total",
-					"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso"
+					"notes": "Considere todos os golpes em “órgãos vitais” ou na “virilha” como golpes no tronco."
 				},
 				{
 					"type": "modifier",
@@ -10896,14 +10897,14 @@
 					"id": "8d81f217-bc0f-443a-b6cb-281287f84a77",
 					"disabled": true,
 					"name": "Não-Vivo",
-					"reference": "B61",
+					"reference": "B94",
 					"cost_type": "points",
 					"cost": 20,
 					"affects": "total",
-					"notes": "Altered wound modifiers: imp & pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5"
+					"notes": "Aplica-se os seguintes modificadores de ferimento: perf e pa++, ×1; pa+, ×1/2; pa, ×1/3; e pa-, ×1/5"
 				}
 			],
-			"reference": "B60",
+			"reference": "B94",
 			"categories": [
 				"Vantagem"
 			]
@@ -10953,7 +10954,7 @@
 					"id": "43590304-7133-40ce-949e-deff1c1b93c2",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -10966,7 +10967,7 @@
 					"id": "18dbeeb5-e68c-4ab5-9303-1384370dfef7",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -10979,7 +10980,7 @@
 					"id": "c46b9811-1c50-4cf2-b580-4aec5333d604",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total",
@@ -10992,12 +10993,12 @@
 					"id": "57d3d5e1-95b1-448c-a6bd-c60743f4f180",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr"
+					"notes": "1 h"
 				},
 				{
 					"type": "modifier",
@@ -11005,12 +11006,12 @@
 					"id": "3d66a8c0-76e0-403f-8bd2-7dc19fc231af",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day"
+					"notes": "1 dia"
 				},
 				{
 					"type": "modifier",
@@ -11018,12 +11019,12 @@
 					"id": "1e31e06e-21ac-4f9b-9f53-426ea447a68c",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 sec; Resistible"
+					"notes": "1 sec; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11031,12 +11032,12 @@
 					"id": "5328014e-acb3-478a-b2e1-1523dcffdffb",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 25,
 					"affects": "total",
 					"levels": 1,
-					"notes": "10 sec; Resistible"
+					"notes": "10 sec; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11044,12 +11045,12 @@
 					"id": "31df85fe-1e9a-4618-bd81-e33d77621215",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 min; Resistible"
+					"notes": "1 min; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11057,12 +11058,12 @@
 					"id": "f1638ba4-5f91-4e17-af60-e12a9654e1a3",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr; Resistible"
+					"notes": "1 h; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11070,12 +11071,12 @@
 					"id": "381c286a-9e3e-4164-93d6-781e1b4d63dc",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 5,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day; Resistible"
+					"notes": "1 dia; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11083,11 +11084,11 @@
 					"id": "e8312ca8-1d6f-41be-bb51-0f76456a7c62",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "Mildly"
+					"notes": "Levemente"
 				},
 				{
 					"type": "modifier",
@@ -11095,11 +11096,11 @@
 					"id": "f0179fb0-adfc-49f6-92d0-995f94ae4fef",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
-					"notes": "Highly"
+					"notes": "Altamente"
 				},
 				{
 					"type": "modifier",
@@ -11107,11 +11108,11 @@
 					"id": "90caed7d-c665-4b56-9e99-28736cb070f5",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "1HP per 10 dmg"
+					"notes": "1 PV de trauma por impacto para cada 10 pontos de dano básico"
 				},
 				{
 					"type": "modifier",
@@ -11119,7 +11120,7 @@
 					"id": "6aacb4ba-74f8-43a5-b9e1-a11b10eecdfa",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -11131,7 +11132,7 @@
 					"id": "7372eaee-5713-4055-a571-fdf9b34dbc46",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -11143,12 +11144,12 @@
 					"id": "c7f3a30e-b7d8-4d01-8f29-6782d0f2977f",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -11156,7 +11157,7 @@
 					"id": "df1d1580-1841-4417-b143-bf070ee5f251",
 					"disabled": true,
 					"name": "Radiação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
@@ -11167,7 +11168,7 @@
 					"id": "b15ffc01-d8b9-48da-b405-98b88cbca061",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -11178,7 +11179,7 @@
 					"id": "2648b152-6bcc-4e36-8533-9cb8f26a6bc1",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -11190,7 +11191,7 @@
 					"id": "cf3d7f8c-8b75-429c-b5e1-210395c1ddee",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -11202,7 +11203,7 @@
 					"id": "21d302aa-0f56-4746-a9ed-58e4cb618cf3",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -11214,7 +11215,7 @@
 					"id": "763facd6-8f3d-42ce-95bc-f19a674a0139",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -11226,7 +11227,7 @@
 					"id": "0452127e-ec5a-4c5d-9ee8-31a62996a2df",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -11250,11 +11251,11 @@
 					"id": "13e4f7c7-d467-4d62-9129-2b6fe19b2fee",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -11262,7 +11263,7 @@
 					"id": "b839ff68-70fc-40d4-b406-dd8ebae35a5b",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
@@ -11274,7 +11275,7 @@
 					"id": "0346821e-b3b2-4d47-a99b-31af86f6e25e",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
@@ -11286,7 +11287,7 @@
 					"id": "1f7d191c-83fd-4cef-8f4b-a0bdcfa0c0b7",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -11296,14 +11297,14 @@
 					"version": 1,
 					"id": "a4343d58-ea1b-4cf3-9d39-215e0f8c7af6",
 					"disabled": true,
-					"name": "Surge, Arcing",
+					"name": "Sobretensão em Arco",
 					"reference": "PSI20",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
 				}
 			],
-			"reference": "B61",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -11353,7 +11354,7 @@
 					"id": "34b02ae4-c4d7-493a-b898-3e1ee52561cd",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -11366,7 +11367,7 @@
 					"id": "029557b2-743e-4787-abda-eb6406c2cc43",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -11379,7 +11380,7 @@
 					"id": "40b27381-27d3-430a-8675-58733c972737",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total",
@@ -11392,12 +11393,12 @@
 					"id": "5e021902-29bf-4e29-891c-75d9578e6241",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr"
+					"notes": "1 h"
 				},
 				{
 					"type": "modifier",
@@ -11405,12 +11406,12 @@
 					"id": "19ad9e0e-657c-4f2c-922f-84152ef7f8ff",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day"
+					"notes": "1 dia"
 				},
 				{
 					"type": "modifier",
@@ -11418,12 +11419,12 @@
 					"id": "9bfaa345-8ad6-406d-8a1a-cb7b45ecb3fd",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 sec; Resistible"
+					"notes": "1 seg; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11431,12 +11432,12 @@
 					"id": "dd0a5c28-e6bb-4e19-988b-5a7486f41755",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 25,
 					"affects": "total",
 					"levels": 1,
-					"notes": "10 sec; Resistible"
+					"notes": "10 seg; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11444,12 +11445,12 @@
 					"id": "e26ba6d0-63de-4b92-943b-6571fb41fc59",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 min; Resistible"
+					"notes": "1 min; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11457,12 +11458,12 @@
 					"id": "fa9780ff-48a1-4438-89fa-42872617f5d9",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr; Resistible"
+					"notes": "1 h; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11470,12 +11471,12 @@
 					"id": "64fdfc94-d3f2-43f9-b86b-0a2665780657",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 5,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day; Resistible"
+					"notes": "1 dia; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -11483,11 +11484,11 @@
 					"id": "d6032d78-b3cf-442d-bb5d-8a43cb4f613c",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "Mildly"
+					"notes": "Levemente"
 				},
 				{
 					"type": "modifier",
@@ -11495,11 +11496,11 @@
 					"id": "2aac704e-7d10-4cce-b8a1-c24f814d6fd2",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
-					"notes": "Highly"
+					"notes": "Altamente"
 				},
 				{
 					"type": "modifier",
@@ -11507,11 +11508,11 @@
 					"id": "ffeb09ca-1d76-4062-8152-faae35fefeda",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "1HP per 10 dmg"
+					"notes": "1 PV de trauma por impacto para cada 10 pontos de dano básico"
 				},
 				{
 					"type": "modifier",
@@ -11519,7 +11520,7 @@
 					"id": "bd75ddac-10ec-4e20-8ddc-1281835b1a50",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -11531,7 +11532,7 @@
 					"id": "9f81b529-d882-4239-b1c7-0791361b5142",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -11543,12 +11544,12 @@
 					"id": "51041f19-f85a-4467-b84e-c3abe1b5b211",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -11556,7 +11557,7 @@
 					"id": "29049d16-2350-47d4-b108-c95f3217b44d",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -11567,7 +11568,7 @@
 					"id": "460b526f-c504-4b52-a62e-361547051ddf",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -11579,7 +11580,7 @@
 					"id": "cede7089-574d-4750-aaca-6d5c08808fe6",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -11591,7 +11592,7 @@
 					"id": "6f4cd714-0d07-4645-bc0e-f8d953bee6c0",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -11603,7 +11604,7 @@
 					"id": "968c666b-9311-447d-be51-7b0eae31f9c6",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -11615,7 +11616,7 @@
 					"id": "69d90b98-0544-415f-9760-484e4aa46cc8",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -11639,11 +11640,11 @@
 					"id": "96a07db2-e6bf-45ff-8267-127f46e664da",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -11651,11 +11652,11 @@
 					"id": "e7a34a1d-07e8-40ae-b531-26ff504e9054",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -11663,11 +11664,11 @@
 					"id": "24d772e7-1cea-49cc-8297-095778a337b0",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -11675,7 +11676,7 @@
 					"id": "c5cb6a87-1a83-4b9c-912d-7bfa3d2b0846",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -11686,13 +11687,13 @@
 					"id": "ce8addb9-159c-46df-b1af-26da1acdee3e",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B61",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -11742,7 +11743,7 @@
 					"id": "24bd9282-2346-4e4d-9d1f-10a40c27ed7f",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -11754,7 +11755,7 @@
 					"id": "08658eb0-c97a-4833-b811-853fc5b8f17e",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -11766,12 +11767,12 @@
 					"id": "abcb4e28-06b0-4f0d-80ce-eeaec4bb40b9",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -11779,7 +11780,7 @@
 					"id": "21cb3b74-7cb6-4816-b62f-b45fe63c3372",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -11802,7 +11803,7 @@
 					"id": "a77f086e-5c4e-4ee1-b8f0-f03f692e1a39",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -11814,7 +11815,7 @@
 					"id": "bfa27d40-097f-4d57-8ce7-5e6826e8e45e",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -11826,7 +11827,7 @@
 					"id": "ac58028e-0257-4dd4-af92-3eecef9fb784",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -11838,7 +11839,7 @@
 					"id": "7c0d227e-dcac-40a1-9b7d-c7e1858194c1",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -11862,11 +11863,11 @@
 					"id": "49d2487c-3eac-4776-9d5e-38e51c28a26b",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -11874,11 +11875,11 @@
 					"id": "bfe22a25-1649-40bf-8a3e-0d5293fca27f",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -11886,11 +11887,11 @@
 					"id": "2e2d2eda-7a05-449a-a2ce-68e5c058ac6f",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -11898,7 +11899,7 @@
 					"id": "ab4768bd-98cb-417f-bdcf-f40d78cac1b2",
 					"disabled": true,
 					"name": "Sem Trauma por Impacto",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -11909,7 +11910,7 @@
 					"id": "78d56d0d-c1cc-4233-9733-2a3180be86d5",
 					"disabled": true,
 					"name": "Sem Projeção",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -11920,7 +11921,7 @@
 					"id": "1fd23c30-d01c-4e82-bc27-718742d91dd3",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -11931,7 +11932,7 @@
 					"id": "19bf1802-ce8d-492a-931a-063c36244ebb",
 					"disabled": true,
 					"name": "Projeção Dupla",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -11942,13 +11943,13 @@
 					"id": "386b3dcd-65a3-47c1-979e-5ec490e86d5c",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B61",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -11998,11 +11999,11 @@
 					"id": "738ce48b-a68e-4d05-a438-2933b8e05d7a",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "BT as for Crushing"
+					"notes": "Os ataques por corte, perfuração e perfurante com essa ampliação causam o mesmo trauma por impacto que um ataque por esmagamento"
 				},
 				{
 					"type": "modifier",
@@ -12010,7 +12011,7 @@
 					"id": "38957701-aa97-478a-b954-174048ed5854",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -12022,7 +12023,7 @@
 					"id": "0af1d253-4b2d-4496-bbae-38c629cc3954",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -12034,12 +12035,12 @@
 					"id": "8cfe2a20-5cba-4817-a21a-5d622bd9fb94",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -12047,7 +12048,7 @@
 					"id": "19ce7db1-e880-4ed3-bbe9-1b6efe784afd",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -12070,7 +12071,7 @@
 					"id": "c4d97b3d-5c7a-4016-b249-2032e2681816",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -12082,7 +12083,7 @@
 					"id": "21abf2f5-59fa-4211-9e47-cda9bcbae75b",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -12094,7 +12095,7 @@
 					"id": "5423bdd9-1f4a-4035-a09e-cd5cf34f4278",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -12106,7 +12107,7 @@
 					"id": "16e683bc-68b5-4c12-b836-ac5456a09e48",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -12130,11 +12131,11 @@
 					"id": "a9a09c70-3cb7-4f9c-93fb-6f827ecfa36e",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -12142,11 +12143,11 @@
 					"id": "d17c1e24-90ee-4733-bf6d-4917925e16f7",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -12154,11 +12155,11 @@
 					"id": "92414909-77fa-4e92-b84e-d4bc91e792f7",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -12166,7 +12167,7 @@
 					"id": "6578cf07-1416-45b9-90bd-c6183273721c",
 					"disabled": true,
 					"name": "Sem Trauma por Impacto",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -12177,7 +12178,7 @@
 					"id": "fa10ede0-3a62-4f0d-9e1b-4950e29643e2",
 					"disabled": true,
 					"name": "Sem Projeção",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -12188,7 +12189,7 @@
 					"id": "fcc4d20f-7e3c-40a5-9bb6-72a158a9f651",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -12199,13 +12200,13 @@
 					"id": "fcc87158-db3b-4d41-87ee-83bdf6145a0c",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B61",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -12255,7 +12256,7 @@
 					"id": "ae0a8ee3-55d2-479b-8c1c-ec90466311ca",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -12268,7 +12269,7 @@
 					"id": "eb46e9ac-757f-40f7-b112-08436159dca2",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -12281,7 +12282,7 @@
 					"id": "d96a351a-98c1-4ce6-8213-a802f9b3755f",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total",
@@ -12294,12 +12295,12 @@
 					"id": "020e9969-8753-45d5-8a1f-abb67b83e246",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr"
+					"notes": "1 h"
 				},
 				{
 					"type": "modifier",
@@ -12307,12 +12308,12 @@
 					"id": "4e7f6fee-292d-4cf7-96b3-498068737331",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day"
+					"notes": "1 dia"
 				},
 				{
 					"type": "modifier",
@@ -12320,12 +12321,12 @@
 					"id": "d9e14aff-1189-400d-9168-aea66fc7db6d",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 sec; Resistible"
+					"notes": "1 seg; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -12333,12 +12334,12 @@
 					"id": "22576e31-2f73-4dbc-87be-20e7f2ba2aa9",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 25,
 					"affects": "total",
 					"levels": 1,
-					"notes": "10 sec; Resistible"
+					"notes": "10 seg; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -12346,12 +12347,12 @@
 					"id": "64f214ca-c798-4b01-a63a-44839ca86c0a",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 min; Resistible"
+					"notes": "1 min; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -12359,12 +12360,12 @@
 					"id": "df4d3ce6-75b0-47ab-89a6-23894fe149e2",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr; Resistible"
+					"notes": "1 h; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -12372,12 +12373,12 @@
 					"id": "9fc3a313-f43d-430f-a11c-2ec2581fe864",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 5,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day; Resistible"
+					"notes": "1 dia; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -12385,11 +12386,11 @@
 					"id": "9a6baf4b-1144-4868-a8ac-50f3acdfe0cf",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "Mildly"
+					"notes": "Levemente"
 				},
 				{
 					"type": "modifier",
@@ -12397,11 +12398,11 @@
 					"id": "6a7ab408-3fe1-44a1-8b45-1778e71d8ffb",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
-					"notes": "Highly"
+					"notes": "Altamente"
 				},
 				{
 					"type": "modifier",
@@ -12409,7 +12410,7 @@
 					"id": "bdda2cce-21c0-482e-bbdd-a0a45cae0541",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -12421,7 +12422,7 @@
 					"id": "d0432a9d-ee10-4ad9-8ff1-3367443a614c",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -12433,12 +12434,12 @@
 					"id": "a7825e5b-96be-4131-a0d4-dcc0bf86f1f0",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -12446,7 +12447,7 @@
 					"id": "3fc7940e-ad0a-446a-8a01-51f228ad4e52",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -12457,7 +12458,7 @@
 					"id": "5c4f165e-3a8b-4183-843d-73c9c88d075d",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -12469,7 +12470,7 @@
 					"id": "925f5158-f964-4aaa-9bda-2d2d62934010",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -12481,7 +12482,7 @@
 					"id": "e5ebaf1b-4e22-4199-b379-d1b1789a6977",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -12493,7 +12494,7 @@
 					"id": "5fc9898a-e2c3-4dc4-a30c-6a35bfa886a8",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -12505,7 +12506,7 @@
 					"id": "fc63dba9-8f6d-4c0c-90b5-17031e3fd54e",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -12529,11 +12530,11 @@
 					"id": "d210cd4e-969e-46fa-a32b-dfc4fffad15d",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -12541,11 +12542,11 @@
 					"id": "1da139da-b8c5-4cc7-9ac4-a60ef7112ee7",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -12553,11 +12554,11 @@
 					"id": "c8c583e3-c482-4472-ab17-6f0b62fcd739",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -12565,7 +12566,7 @@
 					"id": "1466eaaa-f94b-40c3-a605-2098483ebed8",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -12576,7 +12577,7 @@
 					"id": "b3010148-178b-4c6f-bcfb-f722af53b665",
 					"disabled": true,
 					"name": "Perigo: Desidratação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -12587,7 +12588,7 @@
 					"id": "278c9613-5330-43a8-bb09-a9c319523eb9",
 					"disabled": true,
 					"name": "Perigo: Afogamento",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total"
@@ -12598,7 +12599,7 @@
 					"id": "dac34aa3-076a-4e64-b3fd-439175d47570",
 					"disabled": true,
 					"name": "Perigo: Congelamento",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -12609,7 +12610,7 @@
 					"id": "7a55c984-3ccb-40d0-93d5-38301ba45336",
 					"disabled": true,
 					"name": "Perigo: Sono Perdido",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total"
@@ -12620,7 +12621,7 @@
 					"id": "5e5bd9e9-2fa8-447b-82cc-f6215a572b66",
 					"disabled": true,
 					"name": "Perigo: Fome",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total"
@@ -12631,7 +12632,7 @@
 					"id": "08bdad4d-9465-4086-8d33-c7c028ebc47d",
 					"disabled": true,
 					"name": "Perigo: Sufocamento",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total"
@@ -12642,13 +12643,13 @@
 					"id": "aecdc239-2ede-4c36-80e3-a6fc8bbb06f0",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B61",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -12698,7 +12699,7 @@
 					"id": "06cf6384-94bb-4c78-ba3d-529c152a55cb",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -12709,7 +12710,7 @@
 					"id": "d2c574be-85a6-4417-ac5b-54def2fd77fc",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -12721,7 +12722,7 @@
 					"id": "aaaa3d59-75bd-47b6-8904-14e4e1271a28",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -12733,12 +12734,12 @@
 					"id": "ab08c693-fb99-46a2-82b5-cbd5000605c7",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -12746,7 +12747,7 @@
 					"id": "864957a2-d975-40f0-b7c5-939f2950ef05",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -12757,7 +12758,7 @@
 					"id": "3d2f117a-4a32-4fc4-ad4b-1030e159135b",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -12769,7 +12770,7 @@
 					"id": "957b78fe-911c-4214-9164-47e8e7609474",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -12781,7 +12782,7 @@
 					"id": "29099a6c-112d-42cf-88ef-2c6e3fcd66c5",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -12793,7 +12794,7 @@
 					"id": "1431ee3e-07e7-4111-8771-d75bed4505ff",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -12805,7 +12806,7 @@
 					"id": "703ed26b-3a3c-4fef-9841-e10cbff8ea8b",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -12829,11 +12830,11 @@
 					"id": "c16d6486-0589-426b-bbd1-eb776e9e2cab",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -12841,11 +12842,11 @@
 					"id": "341a49c9-8398-4e9e-9938-31caa9cba828",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -12853,11 +12854,11 @@
 					"id": "cd849539-1f54-42b7-8c5d-ac1fab56e42d",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -12865,7 +12866,7 @@
 					"id": "dfe1b1f1-dfb6-4359-bb50-86691e716bac",
 					"disabled": true,
 					"name": "Sem Trauma por Impacto",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -12876,7 +12877,7 @@
 					"id": "65284573-d528-4567-a467-2b4457fce8a6",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -12887,7 +12888,7 @@
 					"id": "72e89a4e-fd95-436e-b69e-56f956ca3c31",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -12897,14 +12898,14 @@
 					"version": 1,
 					"id": "461b2c52-ea7f-486f-9b6e-6541487b5761",
 					"disabled": true,
-					"name": "AP Ammo",
+					"name": "Munição PA",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 35,
 					"affects": "total"
 				}
 			],
-			"reference": "B62",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -12954,7 +12955,7 @@
 					"id": "908144c3-d779-4959-bf4f-073c0c27c142",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -12965,7 +12966,7 @@
 					"id": "a4ed98b1-2f14-4741-8c82-1d6a4c9a450c",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -12977,7 +12978,7 @@
 					"id": "34bbcb52-6e98-42ce-9d45-4917ebea6473",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -12989,12 +12990,12 @@
 					"id": "42eb029f-2c01-4730-991e-4df4684f6e2c",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -13002,7 +13003,7 @@
 					"id": "e281af48-e8b6-43ca-b3fa-4f18a6771e4b",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -13013,7 +13014,7 @@
 					"id": "cacd4bc8-a05a-4460-9903-d8d4c36727b2",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -13025,7 +13026,7 @@
 					"id": "1cb3f3aa-3419-4226-8f9e-21a947b65c67",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -13037,7 +13038,7 @@
 					"id": "5f3d3c1e-ae59-4a43-9d4d-4adfea13d6c3",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -13049,7 +13050,7 @@
 					"id": "e6adf6cd-99c7-4396-bb44-bc910b25c9b4",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -13061,7 +13062,7 @@
 					"id": "1948c4a7-54f8-4edf-a429-5a5dd91260c6",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -13085,11 +13086,11 @@
 					"id": "0d6ce02c-cf69-49a9-9ddc-dcc8228536cc",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -13097,11 +13098,11 @@
 					"id": "8a1aed72-abfb-43f8-b03c-92c4bfdffc3c",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -13109,11 +13110,11 @@
 					"id": "26d5346d-4bdb-4e23-982e-41880a1d9fde",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -13121,7 +13122,7 @@
 					"id": "7697456d-8544-4845-9fce-70a38be83c69",
 					"disabled": true,
 					"name": "Sem Trauma por Impacto",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -13132,7 +13133,7 @@
 					"id": "0b039e75-48eb-478e-9122-c09761af3f65",
 					"disabled": true,
 					"name": "Sem Projeção",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -13143,7 +13144,7 @@
 					"id": "4cdb348e-96ad-4cf8-9ad5-2c3a3bd93f4b",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -13154,13 +13155,13 @@
 					"id": "7be73b7e-8b65-4f67-be14-68a1205e24ed",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B61",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -13210,11 +13211,11 @@
 					"id": "23d69d1c-1101-4231-938a-8fa1e67b25fc",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "1HP per 10 dmg"
+					"notes": "1 PV de trauma por impacto para cada 10 pontos de dano básico"
 				},
 				{
 					"type": "modifier",
@@ -13222,7 +13223,7 @@
 					"id": "ffa2b14d-c7ae-42a2-bbd3-5f62788ac9a3",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -13234,7 +13235,7 @@
 					"id": "e1fabcd0-4fd0-47fe-b268-06b4386eb7c3",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -13246,12 +13247,12 @@
 					"id": "84156019-59e8-4d41-99ba-b88c9d21b649",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -13259,7 +13260,7 @@
 					"id": "d8af325b-07a7-440f-8fc1-85a1dd225c31",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -13270,7 +13271,7 @@
 					"id": "3fd094ba-37bc-42d1-a69b-56fce9f046cf",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -13282,7 +13283,7 @@
 					"id": "48d116b0-8ec3-4905-97e0-c56a3e2a19d2",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -13294,7 +13295,7 @@
 					"id": "f98905d5-cd46-4f1c-9f12-6535c01e9ed9",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -13306,7 +13307,7 @@
 					"id": "7f5b33eb-f10e-4f51-a22f-1dee6642ef42",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -13318,7 +13319,7 @@
 					"id": "43ba5b9f-54fd-4bb3-9b3e-f3a3d1a076ff",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -13342,11 +13343,11 @@
 					"id": "c9cc5518-1f99-4b14-8af9-16fe6a1774d4",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -13354,11 +13355,11 @@
 					"id": "12be80dd-63b9-498d-8b7b-b376f8dd5775",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -13366,11 +13367,11 @@
 					"id": "e4f5b07a-839a-45c2-8b96-a5df36d4a86c",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -13378,7 +13379,7 @@
 					"id": "1a4eda0d-92c7-44f8-8dea-a1de3b1bd93a",
 					"disabled": true,
 					"name": "Sem Trauma por Impacto",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -13389,7 +13390,7 @@
 					"id": "ec741993-27d5-45ee-853a-f89fa5189ec2",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -13400,7 +13401,7 @@
 					"id": "c2d32a24-c0fa-4ced-a733-30303f385fcc",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -13410,7 +13411,7 @@
 					"version": 1,
 					"id": "a576282d-bcfc-4c9a-8d48-4a80bfdca6d6",
 					"disabled": true,
-					"name": "AP Ammo",
+					"name": "Munição PA",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 45,
@@ -13421,7 +13422,7 @@
 					"version": 1,
 					"id": "98f2980e-bcb5-4c6b-8cf6-a9546902c4bb",
 					"disabled": true,
-					"name": "HP Ammo",
+					"name": "Munição PO",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -13432,14 +13433,14 @@
 					"version": 1,
 					"id": "e8c63cf1-f44e-46e2-9c3f-b25e9be048c6",
 					"disabled": true,
-					"name": "Multi-Ammo",
+					"name": "Múltiplas Munições",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 65,
 					"affects": "total"
 				}
 			],
-			"reference": "B62",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -13489,11 +13490,11 @@
 					"id": "59ced55e-ad36-41ab-b283-f3bd8537761c",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "1HP per 10 dmg"
+					"notes": "1 PV de trauma por impacto para cada 10 pontos de dano básico"
 				},
 				{
 					"type": "modifier",
@@ -13501,7 +13502,7 @@
 					"id": "077f7a3a-c6ef-4c65-85c7-c708bad6322b",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -13513,7 +13514,7 @@
 					"id": "0effe4b8-526d-4e3e-93f8-437fb4de1dad",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -13525,12 +13526,12 @@
 					"id": "39da3804-2555-415d-a746-aaca56bb84fc",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -13538,7 +13539,7 @@
 					"id": "fc60e204-4aae-4aa9-9f16-f5affc4f9b0f",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -13549,7 +13550,7 @@
 					"id": "dca19758-c235-46da-9863-768a4c000628",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -13561,7 +13562,7 @@
 					"id": "db697800-dbaa-439d-8331-c5430b3c297e",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -13573,7 +13574,7 @@
 					"id": "1bd838d6-22e8-4038-ad75-3d2b0cd44cd8",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -13585,7 +13586,7 @@
 					"id": "336a1d18-4b34-426e-a1b8-591785729128",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -13597,7 +13598,7 @@
 					"id": "e9d4d5fc-554b-4c29-bf5e-f880e5512d4d",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -13621,11 +13622,11 @@
 					"id": "07615cb1-2b14-493c-ab28-88e8082ace85",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -13633,11 +13634,11 @@
 					"id": "b26bdf2a-8230-4e7e-aff1-5928b62c709a",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -13645,11 +13646,11 @@
 					"id": "ed96db28-1287-4c6e-b1a2-948df78d89b8",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -13657,7 +13658,7 @@
 					"id": "94d851cc-b423-4218-9bb9-813283b3fdde",
 					"disabled": true,
 					"name": "Sem Trauma por Impacto",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -13668,7 +13669,7 @@
 					"id": "71822e94-6d6c-40f3-b9ff-328d6acd1a5c",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -13679,7 +13680,7 @@
 					"id": "2ddfe21a-8a88-430e-b5ae-517a4c82ef38",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -13689,7 +13690,7 @@
 					"version": 1,
 					"id": "b0a53b8f-e0df-40e2-8b5a-ca54d4e31ad9",
 					"disabled": true,
-					"name": "AP Ammo",
+					"name": "Munição PA",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -13700,7 +13701,7 @@
 					"version": 1,
 					"id": "f1c37091-1d85-4b79-8038-06a97b77246a",
 					"disabled": true,
-					"name": "HP Ammo",
+					"name": "Munição PO",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 20,
@@ -13711,14 +13712,14 @@
 					"version": 1,
 					"id": "8ed0841c-4201-4484-9b41-0af6e3730358",
 					"disabled": true,
-					"name": "Multi-Ammo",
+					"name": "Múltiplas Munições",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total"
 				}
 			],
-			"reference": "B62",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -13768,11 +13769,11 @@
 					"id": "b75fb394-b99f-4cb6-9d14-0b3b4e647baa",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "1HP per 10 dmg"
+					"notes": "1 PV de trauma por impacto para cada 10 pontos de dano básico"
 				},
 				{
 					"type": "modifier",
@@ -13780,7 +13781,7 @@
 					"id": "28303fd4-3e93-41a7-b08f-4a4d3006bfbf",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -13792,7 +13793,7 @@
 					"id": "8ffb16f0-dfd9-4832-8302-cce07cee80ad",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -13804,12 +13805,12 @@
 					"id": "b89afb25-e638-4b1c-8b8f-e1a41b5a69b9",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -13817,7 +13818,7 @@
 					"id": "b5ace5ae-137a-4490-8eba-fcf881bbc3cd",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -13828,7 +13829,7 @@
 					"id": "aadaf9d8-6b7b-4dbd-95ac-1c4e8a372848",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -13840,7 +13841,7 @@
 					"id": "963a0ecb-4d42-4b70-b71d-cbe9e39c64b0",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -13852,7 +13853,7 @@
 					"id": "9721d33f-4094-4ef2-8efb-b0b5b7a62245",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -13864,7 +13865,7 @@
 					"id": "76f5beab-c2ea-43e7-bacc-df68738e0d5d",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -13876,7 +13877,7 @@
 					"id": "d2ec4745-3e03-47c8-9d5d-b0dd58f65a16",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -13900,11 +13901,11 @@
 					"id": "25811386-bd36-472e-9de6-8fa84fa9e212",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -13912,11 +13913,11 @@
 					"id": "3135a4b1-9954-4eff-9154-0c6ecea31d61",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -13924,11 +13925,11 @@
 					"id": "327afc23-4f33-4fdb-aa8f-9206d69817bb",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -13936,7 +13937,7 @@
 					"id": "a9c4af66-d697-467b-b1c6-acf5f172e4b4",
 					"disabled": true,
 					"name": "Sem Trauma por Impacto",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -20,
 					"affects": "total"
@@ -13947,7 +13948,7 @@
 					"id": "1551a029-27ea-4e43-a4de-a5523c7ebe0a",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -13958,7 +13959,7 @@
 					"id": "244a5069-24cc-4300-8eb2-4c9e12c0dc10",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
@@ -13968,14 +13969,14 @@
 					"version": 1,
 					"id": "20823eb3-bf0b-4d60-8ad0-a5ebc4350e9b",
 					"disabled": true,
-					"name": "HP Ammo",
+					"name": "Munição PO",
 					"reference": "PU4:18",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total"
 				}
 			],
-			"reference": "B62",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
@@ -14025,7 +14026,7 @@
 					"id": "638d7af6-9883-4c0a-a4f4-724e07929871",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -14038,7 +14039,7 @@
 					"id": "3557cb2c-f7b5-43d3-9086-61a7574f2aef",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -14051,7 +14052,7 @@
 					"id": "374a177a-b5fe-4859-9f1d-baaf76bf73b6",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 40,
 					"affects": "total",
@@ -14064,12 +14065,12 @@
 					"id": "6432f1ae-e87e-44ce-bd4d-afbf5506fb2b",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr"
+					"notes": "1 h"
 				},
 				{
 					"type": "modifier",
@@ -14077,12 +14078,12 @@
 					"id": "b665f341-8ba2-4610-8bf0-ace4a84cd14d",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day"
+					"notes": "1 dia"
 				},
 				{
 					"type": "modifier",
@@ -14090,12 +14091,12 @@
 					"id": "432a0fc4-ea46-49db-9772-c90d78313b2f",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 sec; Resistible"
+					"notes": "1 seg; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -14103,12 +14104,12 @@
 					"id": "3d5749eb-62e3-4e62-8432-219770f999cc",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 25,
 					"affects": "total",
 					"levels": 1,
-					"notes": "10 sec; Resistible"
+					"notes": "10 seg; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -14116,12 +14117,12 @@
 					"id": "59f3d0df-b12d-4652-8bd9-c71268f9c9bb",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 min; Resistible"
+					"notes": "1 min; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -14129,12 +14130,12 @@
 					"id": "7984f0fd-b883-489f-a0d3-02dcf05227b7",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 10,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 hr; Resistible"
+					"notes": "1 h; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -14142,12 +14143,12 @@
 					"id": "b6918f73-02fa-45bc-83fa-b16439a3250b",
 					"disabled": true,
 					"name": "Cíclico",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 5,
 					"affects": "total",
 					"levels": 1,
-					"notes": "1 day; Resistible"
+					"notes": "1 dia; Resistível"
 				},
 				{
 					"type": "modifier",
@@ -14155,11 +14156,11 @@
 					"id": "ae8b11ba-a459-4a63-9936-90369a649705",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "Mildly"
+					"notes": "Levemente"
 				},
 				{
 					"type": "modifier",
@@ -14167,11 +14168,11 @@
 					"id": "ce7bc11f-fb0a-4160-a523-76465b42396b",
 					"disabled": true,
 					"name": "Contagioso",
-					"reference": "B103",
+					"reference": "B104",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
-					"notes": "Highly"
+					"notes": "Altamente"
 				},
 				{
 					"type": "modifier",
@@ -14179,11 +14180,11 @@
 					"id": "b8d17d93-35a3-43c4-a172-93980659851c",
 					"disabled": true,
 					"name": "Trauma por Impacto Duplo",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total",
-					"notes": "1HP per 10 dmg"
+					"notes": "1 PV de trauma por impacto para cada 10 pontos de dano básico"
 				},
 				{
 					"type": "modifier",
@@ -14191,7 +14192,7 @@
 					"id": "f5aa00ef-dac3-4379-ab0c-ab495034d1a5",
 					"disabled": true,
 					"name": "Explosão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -14203,7 +14204,7 @@
 					"id": "1325d13c-5261-49f7-8ed4-0cc23f190a78",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
@@ -14215,12 +14216,12 @@
 					"id": "876eb22a-4fda-4e21-ac8d-51ed5d75ffd9",
 					"disabled": true,
 					"name": "Fragmentação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 15,
 					"affects": "total",
 					"levels": 1,
-					"notes": "Hot"
+					"notes": "Quente"
 				},
 				{
 					"type": "modifier",
@@ -14228,7 +14229,7 @@
 					"id": "8295b64d-117c-4af0-bdd5-4abda07b3c6d",
 					"disabled": true,
 					"name": "Radiação",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total"
@@ -14239,7 +14240,7 @@
 					"id": "8bbac961-18e3-404b-a496-263ed0b36e85",
 					"disabled": true,
 					"name": "Sobretensão",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": 20,
 					"affects": "total"
@@ -14250,7 +14251,7 @@
 					"id": "f5e29054-576c-48d1-9041-76498fbdd263",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 50,
 					"affects": "total",
@@ -14262,7 +14263,7 @@
 					"id": "b7a9c8a1-15ea-4dd5-8147-5f8f1989c92f",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 100,
 					"affects": "total",
@@ -14274,7 +14275,7 @@
 					"id": "45ab2bd6-13aa-4fc7-bc5e-f96026e27b00",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total",
@@ -14286,7 +14287,7 @@
 					"id": "65a6d106-0aaf-4cb6-94bd-328d685c9469",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B102",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 200,
 					"affects": "total",
@@ -14298,7 +14299,7 @@
 					"id": "64f709b8-1f48-4d99-9bab-e0ab35a6fae6",
 					"disabled": true,
 					"name": "Efeito Colateral",
-					"reference": "B109",
+					"reference": "B105",
 					"cost_type": "percentage",
 					"cost": 0,
 					"affects": "total",
@@ -14322,11 +14323,11 @@
 					"id": "770c7cf2-4525-428c-8fdb-4ac85c63b8de",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -30,
 					"affects": "total",
-					"notes": "0.5"
+					"notes": "0,5"
 				},
 				{
 					"type": "modifier",
@@ -14334,11 +14335,11 @@
 					"id": "d7357b09-cf21-4146-8bcf-f146cbbc2a8f",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total",
-					"notes": "0.2"
+					"notes": "0,2"
 				},
 				{
 					"type": "modifier",
@@ -14346,11 +14347,11 @@
 					"id": "5125bdb8-3e26-4a16-b72c-e90df4a1c828",
 					"disabled": true,
 					"name": "Divisor de Armadura",
-					"reference": "B110",
+					"reference": "B112",
 					"cost_type": "percentage",
 					"cost": -70,
 					"affects": "total",
-					"notes": "0.1"
+					"notes": "0,1"
 				},
 				{
 					"type": "modifier",
@@ -14358,7 +14359,7 @@
 					"id": "9f935517-5c4e-4305-afbc-2985b560237e",
 					"disabled": true,
 					"name": "Sem Ferimento",
-					"reference": "B111",
+					"reference": "B113",
 					"cost_type": "percentage",
 					"cost": -50,
 					"affects": "total"
@@ -14369,13 +14370,13 @@
 					"id": "c6ef375e-4909-47ac-884a-483974c9d75c",
 					"disabled": true,
 					"name": "Incendiário",
-					"reference": "B104",
+					"reference": "B108",
 					"cost_type": "percentage",
 					"cost": -10,
 					"affects": "total"
 				}
 			],
-			"reference": "B62",
+			"reference": "B42",
 			"categories": [
 				"Vantagem"
 			]
