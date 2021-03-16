@@ -1338,7 +1338,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -1940,7 +1940,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+1"
 					},
@@ -2060,7 +2060,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -3414,7 +3414,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+1"
 					},
@@ -4039,7 +4039,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+1"
 					},
@@ -4174,7 +4174,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "1d"
 					},
@@ -5872,7 +5872,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw"
 					},
 					"strength": "8",
@@ -7610,7 +7610,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+3"
 					},
@@ -7746,7 +7746,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+3"
 					},
@@ -7832,7 +7832,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+3"
 					},
@@ -8031,7 +8031,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+5"
 					},
@@ -8627,7 +8627,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw"
 					},
 					"strength": "8",
@@ -8659,7 +8659,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw"
 					},
 					"strength": "8",
@@ -9757,7 +9757,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+1"
 					},
@@ -9877,7 +9877,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -10136,7 +10136,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "-2"
 					},
@@ -13114,7 +13114,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "1d-2",
 						"armor_divisor": 10
@@ -13212,7 +13212,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -13387,7 +13387,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+3"
 					},
@@ -14492,7 +14492,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+4"
 					},
@@ -16898,7 +16898,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "-1"
 					},
@@ -17462,7 +17462,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -18338,7 +18338,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw"
 					},
 					"strength": "8",
@@ -18523,7 +18523,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "thr",
 						"base": "-1"
 					},
@@ -18831,7 +18831,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "-3"
 					},
@@ -21008,7 +21008,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -21041,7 +21041,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -21084,7 +21084,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+1"
 					},
@@ -21202,7 +21202,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+2"
 					},
@@ -21293,7 +21293,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+1"
 					},
@@ -21413,7 +21413,7 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cut",
+						"type": "corte",
 						"st": "sw",
 						"base": "+3"
 					},
