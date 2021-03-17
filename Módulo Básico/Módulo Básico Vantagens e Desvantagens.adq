@@ -1339,7 +1339,7 @@
 					"cost": 5,
 					"affects": "total",
 					"levels": 1,
-					"notes": "@Level of Absorptive Change. 1 None, 2, Light, 3, Medium, 4, Heavy, 5, Extra Heavy@"
+					"notes": "@Nível de Mudança com Absorção. 1 Nenhuma, 2, Leve, 3, Média, 4, Pesada, 5, Muito Pesada@"
 				},
 				{
 					"type": "modifier",
