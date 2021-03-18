@@ -3588,10 +3588,10 @@
 			"type": "advantage",
 			"version": 1,
 			"id": "dedcbeb7-9cd5-4f1a-9a20-855638f5d3a3",
-			"name": "Code of Honor (Teatro)",
+			"name": "Código de Honra (Teatro)",
 			"mental": true,
 			"base_points": -5,
-			"reference": "B127",
+			"reference": "BS186",
 			"categories": [
 				"Desvantagem"
 			]
