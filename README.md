@@ -1,7 +1,7 @@
 # GCS-PTBR
 
 Tradução em Português do Brasil para os arquivos de Biblioteca e internacionalização do GURPS Character Sheet.
-O programa pode ser baixado em gurpscharactersheet.com
+O programa pode ser baixado em [**GurpsCharacterSheet.com**](https://gurpscharactersheet.com)
 ##### CRÉDITOS
 Versão inicial do pt.i18n por **_Thiago de Assis_** (compartilhado no grupo [*GURPS FAN MADE*](https://www.facebook.com/groups/1784591384922526/))
 
