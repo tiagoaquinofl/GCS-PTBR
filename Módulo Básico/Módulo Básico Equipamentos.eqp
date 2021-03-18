@@ -1343,7 +1343,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -1945,7 +1945,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -1997,7 +1997,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -2155,7 +2155,7 @@
 						"st": "sw"
 					},
 					"strength": "6",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -2216,7 +2216,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -2855,7 +2855,7 @@
 						"st": "thr"
 					},
 					"strength": "7",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
@@ -3419,7 +3419,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -3471,7 +3471,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -3966,7 +3966,7 @@
 						"base": "1d-3"
 					},
 					"strength": "3",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -4044,7 +4044,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -4096,7 +4096,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -5798,7 +5798,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -5876,7 +5876,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -5937,7 +5937,7 @@
 						"st": "thr"
 					},
 					"strength": "8",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -6045,7 +6045,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -6701,7 +6701,7 @@
 						"base": "+4"
 					},
 					"strength": "13†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -7124,7 +7124,7 @@
 						"armor_divisor": 5
 					},
 					"strength": "3",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -7615,7 +7615,7 @@
 						"base": "+3"
 					},
 					"strength": "11‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -7653,7 +7653,7 @@
 						"base": "+3"
 					},
 					"strength": "11†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1-3*",
 					"parry": "0U",
 					"block": "No",
@@ -7751,7 +7751,7 @@
 						"base": "+3"
 					},
 					"strength": "12‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -7837,7 +7837,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -7874,7 +7874,7 @@
 						"base": "+2"
 					},
 					"strength": "12†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -8036,7 +8036,7 @@
 						"base": "+5"
 					},
 					"strength": "13‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -8112,7 +8112,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1-3*",
 					"parry": "0U",
 					"block": "No",
@@ -8631,7 +8631,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9674,7 +9674,7 @@
 						"base": "+1"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9762,7 +9762,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -9814,7 +9814,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9882,7 +9882,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -9919,7 +9919,7 @@
 						"base": "+1"
 					},
 					"strength": "10†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -10000,7 +10000,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1-4*",
 					"parry": "-2U",
 					"block": "No",
@@ -10054,7 +10054,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "4",
 					"parry": "No",
 					"block": "No",
@@ -10141,7 +10141,7 @@
 						"base": "-2"
 					},
 					"strength": "6",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C,1",
 					"parry": "-1",
 					"block": "No",
@@ -10182,7 +10182,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -11348,7 +11348,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -11400,7 +11400,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -11736,7 +11736,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -11769,7 +11769,7 @@
 						"base": "+3"
 					},
 					"strength": "10†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2,3*",
 					"parry": "0",
 					"block": "No",
@@ -12240,7 +12240,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -12650,7 +12650,7 @@
 						"base": "+4"
 					},
 					"strength": "13‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -13168,7 +13168,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -13217,7 +13217,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -13255,7 +13255,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -13584,7 +13584,7 @@
 						"base": "+1"
 					},
 					"strength": "7",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -14497,7 +14497,7 @@
 						"base": "+4"
 					},
 					"strength": "12‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -14535,7 +14535,7 @@
 						"base": "+4"
 					},
 					"strength": "12‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -15417,7 +15417,7 @@
 						"base": "+2"
 					},
 					"strength": "7†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "+2",
 					"block": "No",
@@ -15450,7 +15450,7 @@
 						"base": "+2"
 					},
 					"strength": "7†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1,2",
 					"parry": "+2",
 					"block": "No",
@@ -15650,7 +15650,7 @@
 						"base": "+1"
 					},
 					"strength": "9",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1,2",
 					"parry": "0F",
 					"block": "No",
@@ -16903,7 +16903,7 @@
 						"base": "-1"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -16955,7 +16955,7 @@
 						"base": "+1"
 					},
 					"strength": "8",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -17124,7 +17124,7 @@
 						"st": "thr"
 					},
 					"strength": "7",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
@@ -18234,7 +18234,7 @@
 						"st": "sw"
 					},
 					"strength": "6",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -18280,7 +18280,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -18342,7 +18342,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -18403,7 +18403,7 @@
 						"st": "thr"
 					},
 					"strength": "8",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -18836,7 +18836,7 @@
 						"base": "-3"
 					},
 					"strength": "5",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C,1",
 					"parry": "-1",
 					"block": "No",
@@ -18878,7 +18878,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -18963,7 +18963,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -19176,7 +19176,7 @@
 						"base": "+1"
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -20130,7 +20130,7 @@
 						"base": "+2"
 					},
 					"strength": "9",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1*",
 					"parry": "0",
 					"block": "No",
@@ -20163,7 +20163,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1,2*",
 					"parry": "0",
 					"block": "No",
@@ -21013,7 +21013,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -21089,7 +21089,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -21140,7 +21140,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -21298,7 +21298,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -21350,7 +21350,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -21418,7 +21418,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -21455,7 +21455,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -22606,7 +22606,7 @@
 						"armor_divisor": 0.5
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
