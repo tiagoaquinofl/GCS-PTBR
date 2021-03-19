@@ -1439,7 +1439,7 @@
 			"value": "35",
 			"weight": "3 lb",
 			"reference": "B289",
-			"notes": "For weighing goods",
+			"notes": "Utilizados para pesar produtos.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -2817,7 +2817,7 @@
 			"value": "400",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "Gives (TL-4) levels of Telescopic Vision.",
+			"notes": "Concede (NT - 4) níveis de Visão Telescópica.",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -3699,7 +3699,7 @@
 			"value": "1200",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "Jams bugs in 10-yard radius. 8 hrs.",
+			"notes": "Danifica escutas num raio de 10 metros. 8 h.",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -3715,7 +3715,7 @@
 			"tech_level": "7",
 			"value": "200",
 			"reference": "B289",
-			"notes": "-7 to spot, 1/4-mile range, transmits for 1 week.",
+			"notes": "Penalidade de -7 para ser notada, alcance de 400 m; transmite uma semana.",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -3732,7 +3732,7 @@
 			"value": "100",
 			"weight": "17 lb",
 			"reference": "B288",
-			"notes": "Supports 3,700 lbs.",
+			"notes": "Suporta 2 t.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -3747,7 +3747,7 @@
 			"value": "200",
 			"weight": "34 lb",
 			"reference": "B288",
-			"notes": "Supports 3,700 lbs.",
+			"notes": "Suporta 2 t.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -3762,7 +3762,7 @@
 			"value": "1000",
 			"weight": "1 lb",
 			"reference": "B289",
-			"notes": "Has 10x zoom. Gives Night Vision 5. 7 hrs.",
+			"notes": "Tem um zoom de 10×. Concede Visão Noturna 5. 7 h.",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -3777,7 +3777,7 @@
 			"value": "50",
 			"weight": "3 lb",
 			"reference": "B289",
-			"notes": "Basic equipment for Photography skill. Extra film is 32 shots ($10, neg.).",
+			"notes": "Equipamento básico para a perícia Fotografia. Filme adicional com 32 poses ($10, desp.).",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -3791,7 +3791,7 @@
 			"tech_level": "6",
 			"value": "10",
 			"reference": "B289",
-			"notes": "Extra film with 32 shots",
+			"notes": "Filme adicional com 32 poses",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -3806,7 +3806,7 @@
 			"value": "50",
 			"weight": "2 lb",
 			"reference": "B288",
-			"notes": "Uses 1/4 gallon of kerosene per 4 hrs",
+			"notes": "Utiliza um litro de querosene a cada 4 h.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -4155,7 +4155,7 @@
 			"value": "250",
 			"weight": "0.25 lb",
 			"reference": "B288",
-			"notes": "Only works in some areas; $20/month fee., 10 hrs.",
+			"notes": "Funciona apenas em algumas áreas; $20/taxa mensal. 10 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -5087,7 +5087,7 @@
 			"value": "1500",
 			"weight": "3 lb",
 			"reference": "B288",
-			"notes": "Modem plugs into phone. 2 hrs.",
+			"notes": "O modem pode ser ligado a uma linha telefônica. 2 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -5102,7 +5102,7 @@
 			"value": "1000",
 			"weight": "2 lb",
 			"reference": "B288",
-			"notes": "Display glasses and wireless modem. 8 hrs.",
+			"notes": "Óculos-monitor e modem sem fio. 8 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -5198,7 +5198,7 @@
 					}
 				}
 			],
-			"notes": "A complete kit for treating serous injuries. Includes sterile bandages, sutures, and drugs appropriate for the TL. Includes IV drip, needle, and plasma. Counts as improvised gear (-5) for Surgery",
+			"notes": "Um kit completo para o tratamento de ferimentos graves. Inclui bandagens esterilizadas, suturas e remédios adequados NT. inclui soro intravenoso, agulha e plasma. Pode ser usado como equipamento improvisado (-5) para Cirurgia.",
 			"categories": [
 				"Equipamento Médico"
 			]
@@ -6006,7 +6006,7 @@
 			"value": "500",
 			"weight": "30 lb",
 			"reference": "B289",
-			"notes": "1d+3(2) burn per second. Each gas bottle gives 30 seconds of cutting. Extra gas bottles are $50, 15 lbs. per bottle.",
+			"notes": "1d+3(2) ponto de dano por queimadura por segundo. Cada recipiente de gás rende 30 segundos de corte. Cada recipiente de gás adicional custa $50 e pesa 7,5 kg.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -6021,7 +6021,7 @@
 			"value": "50",
 			"weight": "15 lb",
 			"reference": "B289",
-			"notes": "Extra Gas Bottle",
+			"notes": "Recipiente de Gás Adicional",
 			"categories": [
 				"Ferramentas"
 			]
@@ -6456,7 +6456,7 @@
 			"value": "40",
 			"weight": "2 lb",
 			"reference": "B288",
-			"notes": "Audible for several miles",
+			"notes": "Audível a vários quilômetros.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -6471,7 +6471,7 @@
 			"value": "200",
 			"weight": "1 lb",
 			"reference": "B289",
-			"notes": "Block loud noises (e.g. gunshots). Give Protected Hearing.",
+			"notes": "Bloqueia sons altos (ex.: tiros). Concede Audição Protegida.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			]
@@ -6613,7 +6613,7 @@
 			"value": "1500",
 			"weight": "3 lb",
 			"reference": "B289",
-			"notes": "+2 to pick electronic locks",
+			"notes": "+2 para arrombar fechaduras eletrônicas.",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -6828,7 +6828,7 @@
 			"value": "20",
 			"weight": "1 lb",
 			"reference": "B288",
-			"notes": "30' beam, lasts 5 hours",
+			"notes": "Facho de 9 m. Ilumina por 5 horas",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -6843,7 +6843,7 @@
 			"value": "10",
 			"weight": "0.25 lb",
 			"reference": "B288",
-			"notes": "15' beam, lasts 1 hour",
+			"notes": "Facho de 4,5 m. Ilumina por 1 hora",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -7712,7 +7712,7 @@
 			"value": "200",
 			"weight": "3 lb",
 			"reference": "B288",
-			"notes": "Satellite-updated, lasts 24 hours; Grants Absolute Direction (Requires Signal)",
+			"notes": "Atualizado por satélite; concede Senso de Direção (Necessário Sinal). 24 h.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -7727,7 +7727,7 @@
 			"value": "20",
 			"weight": "2 lb",
 			"reference": "B288",
-			"notes": "Supports 300 lbs; throw to STx2 yards",
+			"notes": "Pode ser arremessado até ST×2 metros. Suporta 150 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -8978,7 +8978,7 @@
 			"value": "15",
 			"weight": "1 lb",
 			"reference": "B289",
-			"notes": "Holds 20 arrows or bolts",
+			"notes": "Espaço para 20 flechas ou virotes.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			],
@@ -9153,7 +9153,7 @@
 			"value": "25",
 			"weight": "0.5 lb",
 			"reference": "B289",
-			"notes": "Fits most pistols",
+			"notes": "Quase todos os tipos de pistola.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			],
@@ -9168,7 +9168,7 @@
 			"value": "50",
 			"weight": "1 lb",
 			"reference": "B289",
-			"notes": "Allows use of Holdout, but gives -1 to Fast-Draw.",
+			"notes": "Permite o uso de Ocultamento, mas impõe uma penalidade de -1 em Saque Rápido.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			],
@@ -9183,7 +9183,7 @@
 			"tech_level": "7",
 			"value": "40",
 			"reference": "B289",
-			"notes": "Scanner tracks at 1-mile range. 12 hrs.",
+			"notes": "Rastreamento num raio de 1,5 km. 12 h.",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -9949,7 +9949,7 @@
 					]
 				}
 			],
-			"notes": "Using Two-Handed Sword skill",
+			"notes": "Usando a perícia de Espada de Duas Mãos.",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -10089,7 +10089,7 @@
 			"value": "20",
 			"weight": "2 lb",
 			"reference": "B288",
-			"notes": "Uses 1 pint of oil per 24 hours",
+			"notes": "Ilumina por 24 horas com 0,5 litro de óleo.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -10116,7 +10116,7 @@
 			"tech_level": "6",
 			"value": "15",
 			"reference": "B289",
-			"notes": "Lets you retrieve a dropped weapon on a DX roll. Each attempt requires a Ready maneuver. Can be cut: -6 to hit, DR 6, HP 4.",
+			"notes": "Permite recuperar uma arma que caiu no caso de um sucesso num teste de DX. Cada tentativa exige uma manobra Preparar. Pode ser cortada: penalidade de -6 nas tentativas de acertar, RD 6, PV 4.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			],
@@ -10467,7 +10467,7 @@
 			"value": "500",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "Eavesdrop through glass. 300-yd. range.",
+			"notes": "Consegue ouvir através de vidros. Alcance de 300 m.",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -10613,7 +10613,7 @@
 			"tech_level": "8",
 			"value": "100",
 			"reference": "B289",
-			"notes": "+1 to skill; see Laser Sights (B412). 6 hrs.",
+			"notes": "Bônus de +1 sobre o NH; v. Miras a Laser (B412). 6 h.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			]
@@ -11107,7 +11107,7 @@
 			"value": "100",
 			"weight": "6 lb",
 			"reference": "B288",
-			"notes": "Floats up to 350 lbs.",
+			"notes": "Flutua até 175 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -13004,7 +13004,7 @@
 			"value": "50",
 			"weight": "3 lb",
 			"reference": "B289",
-			"notes": "+3 to find metal items. 8 hrs.",
+			"notes": "+3 para encontrar objetos de metal. 8 h.",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -13018,7 +13018,7 @@
 			"tech_level": "8",
 			"value": "500",
 			"reference": "B289",
-			"notes": "Stores pictures on optical disk.",
+			"notes": "Armazena imagens em um disco óptico.",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -13033,7 +13033,7 @@
 			"value": "200",
 			"weight": "0.5 lb",
 			"reference": "B288",
-			"notes": "Palm-sized, with 3-hour tape",
+			"notes": "Cabe na palma da mão; cada fita grava 3 horas",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -13046,7 +13046,7 @@
 			"description": "Minigravador Digital",
 			"tech_level": "8",
 			"reference": "B288",
-			"notes": "Palm-sized, 3 hrs. recording time",
+			"notes": "Cabe na palma da mão; grava 3 horas",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -13060,7 +13060,7 @@
 			"tech_level": "7",
 			"value": "5",
 			"reference": "B288",
-			"notes": "3-hour tape",
+			"notes": "Grava 3 horas",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -13473,7 +13473,7 @@
 			"tech_level": "8",
 			"value": "100",
 			"reference": "B289",
-			"notes": "Pinhead-sized audio-visual bug (-10 to spot)",
+			"notes": "Escuta audiovisual do tamanho de um alfinete (-10 para ser notada).",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -13560,7 +13560,7 @@
 			"value": "600",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "Give Night Vision 9. 8 hrs.",
+			"notes": "Concede Visão Noturna 9. 8 h.",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -15581,7 +15581,7 @@
 			"value": "6000",
 			"weight": "15 lb",
 			"reference": "B288",
-			"notes": "VHF radio. 20-mile range. 12 hrs.",
+			"notes": "Rádio VHF. Alcance de 30 km. 12 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -15596,7 +15596,7 @@
 			"value": "100",
 			"weight": "1 lb",
 			"reference": "B288",
-			"notes": "Classic \"walkie-talkie.\" 2-mile range. 12 hrs.",
+			"notes": "O clássico “walkie-talkie”. Alcance de 3 km. 12 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -15611,7 +15611,7 @@
 			"value": "500",
 			"weight": "0.5 lb",
 			"reference": "B288",
-			"notes": "With throat mike. 1-mile range. 12 hrs.",
+			"notes": "Com microfone na garganta. Alcance de 1,5 km. 12 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -15626,7 +15626,7 @@
 			"value": "5000",
 			"weight": "0.5 lb",
 			"reference": "B288",
-			"notes": "With throat mike. 1-mile range. Secure, encrypted version. 12 hrs.",
+			"notes": "Com microfone na garganta. Alcance de 1,5 km. Versão segura e criptografada. 12 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -17153,7 +17153,7 @@
 			"value": "3000",
 			"weight": "3 lb",
 			"reference": "B288",
-			"notes": "Global range, satellite relay. 1 hr.",
+			"notes": "Alcance global, transmissão por satélite. 1 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -17342,12 +17342,12 @@
 			"version": 1,
 			"id": "6e15c4ff-fec5-411a-b23e-93d12ad69727",
 			"quantity": 1,
-			"description": "Mira, 4x",
+			"description": "Mira, 4×",
 			"tech_level": "6",
 			"value": "150",
 			"weight": "1.5 lb",
 			"reference": "B289",
-			"notes": "+2 to Acc for aimed shots only.",
+			"notes": "+2 em Prec somente no caso de tiros apontados.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			]
@@ -17357,12 +17357,12 @@
 			"version": 1,
 			"id": "c04ca6e6-6f8f-4221-95b4-1a88f7bf1dee",
 			"quantity": 1,
-			"description": "Mira de Imagem Térmica, 4x",
+			"description": "Mira de Imagem Térmica, 4×",
 			"tech_level": "8",
 			"value": "8000",
 			"weight": "4 lb",
 			"reference": "B289",
-			"notes": "+2 to Acc for aimed shots only. Gives the user Infravision. 2 hrs.",
+			"notes": "+2 em Prec somente no caso de tiros apontados. Concede Infravisão ao usuário. 2 h.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			]
@@ -17443,7 +17443,7 @@
 			"value": "1500",
 			"weight": "32 lb",
 			"reference": "B288",
-			"notes": "Includes 2-hour underwater air tank",
+			"notes": "Equipamento básico para a perícia Mergulho: tanque de oxigênio para 2 horas debaixo d’água, com regulador, máscara, etc.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -18472,7 +18472,7 @@
 			"value": "250",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "Gives (TL-5) levels of Parabolic Hearing.",
+			"notes": "Concede (NT - 5) níveis de Audição Parabólica.",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -18565,7 +18565,7 @@
 			"value": "400",
 			"weight": "1 lb",
 			"reference": "B289",
-			"notes": "Reduces damage by -1 per die; see Silencers (B412)",
+			"notes": "Reduz o dano em -1 por dado; v. Silenciadores (B412)",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			]
@@ -18608,7 +18608,7 @@
 			"value": "100",
 			"weight": "15 lb",
 			"reference": "B288",
-			"notes": "+3 HT to resist freezing",
+			"notes": "HT+3 para resistir ao frio.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -20255,7 +20255,7 @@
 			"tech_level": "2",
 			"value": "25",
 			"reference": "B289",
-			"notes": "Bônus de +1 para controlar a montaria.",
+			"notes": "+1 para controlar a montaria.",
 			"categories": [
 				"Equipamento de Equitação"
 			]
@@ -20269,7 +20269,7 @@
 			"tech_level": "6",
 			"value": "500",
 			"reference": "B289",
-			"notes": "Holds 36 exposures, uses microfilm",
+			"notes": "36 poses e utiliza microfilme.",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -20498,7 +20498,7 @@
 			"value": "3000",
 			"weight": "10 lb",
 			"reference": "B289",
-			"notes": "Basic equipment for a specific scientific skill (e.g., Chemistry or Forensics).",
+			"notes": "Equipamento básico para uma perícia científica específica (exemplo: Química ou Perícia Forense).",
 			"categories": [
 				"Ferramentas"
 			]
@@ -20526,7 +20526,7 @@
 					}
 				]
 			},
-			"notes": "DR4, with key lock",
+			"notes": "Suporta 50 kg. RD 4, com fechadura.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			],
@@ -20900,7 +20900,7 @@
 			"value": "500",
 			"weight": "6 lb",
 			"reference": "B289",
-			"notes": "Gives (TL-3) levels of Telescopic Vision.",
+			"notes": "Concede (NT - 3) níveis de Visão Telescópica.",
 			"categories": [
 				"Sensores e Equipamentos Óticos"
 			]
@@ -20988,7 +20988,7 @@
 					}
 				]
 			},
-			"notes": "Keeps 1 pint hot [24 hours] or cold [72 hours]",
+			"notes": "Mantém 0,5 litro de líquido aquecido (24 h) ou frio (72 h).",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			],
@@ -21514,7 +21514,7 @@
 			"value": "15",
 			"weight": "0.5 lb",
 			"reference": "B288",
-			"notes": "Receive-only; picks up radio stations. 8 hrs.",
+			"notes": "Só recebe; sintoniza estações de rádio. 8 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -21544,7 +21544,7 @@
 			"value": "150",
 			"weight": "3 lb",
 			"reference": "B288",
-			"notes": "5'' x 5'' flat-screen. 4 hrs.",
+			"notes": "Tela de 5 polegadas. 4 h.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -22028,7 +22028,7 @@
 			"value": "5",
 			"weight": "0.1 lb",
 			"reference": "B288",
-			"notes": "Bottle of 50; Purifies 1 quart each",
+			"notes": "Garrafa com 50 unidades. Cada unidade purifica 1 litro.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -22058,7 +22058,7 @@
 			"value": "10",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "For writing; erasable",
+			"notes": "Para escrever; pode ser apagado.",
 			"categories": [
 				"Equipamentos de Comunicação e Informação"
 			]
@@ -22072,7 +22072,7 @@
 			"value": "50",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "Belt and suspenders with puches and rings for gear",
+			"notes": "Cinto e suspensórios com bolsas e anéis para equipamento.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			],
