@@ -7,8 +7,8 @@
 			"type": "modifier",
 			"version": 1,
 			"id": "4c9ca0f0-c156-492f-bfb3-fabf4e068403",
-			"name": "Distância Ampliada 2x",
-			"reference": "B106",
+			"name": "Alcance Ampliado 2x",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total"
@@ -18,7 +18,7 @@
 			"version": 1,
 			"id": "7e78d8eb-520d-425e-bb42-2c20e0bc3379",
 			"name": "Prazo Estendido 3x",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total"
@@ -27,8 +27,8 @@
 			"type": "modifier",
 			"version": 1,
 			"id": "1cd6ffc6-df75-4c48-9522-c62136b9780d",
-			"name": "Distância Ampliada 5x",
-			"reference": "B106",
+			"name": "Alcance Ampliado 5x",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total"
@@ -38,7 +38,7 @@
 			"version": 1,
 			"id": "67faee7a-d439-483b-a29b-b6b9a984015d",
 			"name": "Prazo Estendido 10x",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 40,
 			"affects": "total"
@@ -47,8 +47,8 @@
 			"type": "modifier",
 			"version": 1,
 			"id": "4624da5e-a53f-498b-8c75-735eb16bda40",
-			"name": "Distância Ampliada x10",
-			"reference": "B106",
+			"name": "Alcance Ampliado x10",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 30,
 			"affects": "total"
@@ -57,8 +57,8 @@
 			"type": "modifier",
 			"version": 1,
 			"id": "d2a89287-e2bd-429c-9d3b-cc0c2aed12dd",
-			"name": "Distância Ampliada x20",
-			"reference": "B106",
+			"name": "Alcance Ampliado x20",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 40,
 			"affects": "total"
@@ -68,7 +68,7 @@
 			"version": 1,
 			"id": "4f4fbb60-8825-4c85-a8ea-791cc97521e1",
 			"name": "Prazo Estendido 30x",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 60,
 			"affects": "total"
@@ -77,8 +77,8 @@
 			"type": "modifier",
 			"version": 1,
 			"id": "8a762b96-e0db-4cab-9f63-cfd5ece16e49",
-			"name": "Distância Ampliada x50",
-			"reference": "B106",
+			"name": "Alcance Ampliado x50",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total"
@@ -88,7 +88,7 @@
 			"version": 1,
 			"id": "38c799ea-b229-4438-9595-3509bafc37ad",
 			"name": "Prazo Estendido 100x",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 80,
 			"affects": "total"
@@ -97,8 +97,8 @@
 			"type": "modifier",
 			"version": 1,
 			"id": "bd49dd83-b27c-42f6-972d-88e4a1f8d985",
-			"name": "Distância Ampliada x100",
-			"reference": "B106",
+			"name": "Alcance Ampliado x100",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 60,
 			"affects": "total"
@@ -108,7 +108,7 @@
 			"version": 1,
 			"id": "f067101b-6eaa-4432-97ee-44238c07ec00",
 			"name": "Prazo Estendido 300x",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total"
@@ -118,7 +118,7 @@
 			"version": 1,
 			"id": "15f3c08c-e5a2-495d-9c9f-30a4a964f30e",
 			"name": "Prazo Estendido 1000x",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 120,
 			"affects": "total"
@@ -132,7 +132,7 @@
 			"cost_type": "percentage",
 			"cost": 0,
 			"affects": "total",
-			"notes": "Must enter cost manually"
+			"notes": "Inserir o custo manualmente"
 		},
 		{
 			"type": "modifier",
@@ -144,7 +144,7 @@
 			"cost": 5,
 			"affects": "total",
 			"levels": 1,
-			"notes": "+1/level to Accuracy"
+			"notes": "+1/nível em Precisão"
 		},
 		{
 			"type": "modifier",
@@ -171,19 +171,19 @@
 			"version": 1,
 			"id": "6ee4ca1c-db0d-49c2-9d7a-6167e59d47c8",
 			"name": "Efeito de Área",
-			"reference": "B102",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
 			"levels": 1,
-			"notes": "2^level radius"
+			"notes": "2^nível de raio"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "e2aeed88-df4a-4c84-b648-a7ec32355349",
 			"name": "Divisor de Armadura (2)",
-			"reference": "B102",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total"
@@ -193,7 +193,7 @@
 			"version": 1,
 			"id": "949a9cdd-a872-4151-a7d2-43fa59e63903",
 			"name": "Divisor de Armadura (3)",
-			"reference": "B102",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total"
@@ -203,7 +203,7 @@
 			"version": 1,
 			"id": "0b941635-bbb2-463d-99a0-70f14d488a6a",
 			"name": "Divisor de Armadura (5)",
-			"reference": "B102",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 150,
 			"affects": "total"
@@ -213,7 +213,7 @@
 			"version": 1,
 			"id": "cac96a97-2345-4e03-a3b3-fb8a7aab87a7",
 			"name": "Divisor de Armadura (10)",
-			"reference": "B102",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 200,
 			"affects": "total"
@@ -223,7 +223,7 @@
 			"version": 1,
 			"id": "8e453e3f-3f12-4133-a39c-05c59f29de08",
 			"name": "Aura",
-			"reference": "B102",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 80,
 			"affects": "total"
@@ -233,11 +233,11 @@
 			"version": 1,
 			"id": "84362959-be4d-4d5b-b4b8-26463afa06b1",
 			"name": "Baseado em @Atributo@",
-			"reference": "B102",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total",
-			"notes": "Must manually alter advantage for Attribute chosen"
+			"notes": "Alterar a vantagem manualmente para o Atributo escolhido"
 		},
 		{
 			"type": "modifier",
@@ -248,135 +248,135 @@
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total",
-			"notes": "Area Effect or Cone"
+			"notes": "Efeito de Área ou Cone"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "464d0b6f-2e7a-4307-abb8-f12179377e71",
 			"name": "Radiação por Queimadura (rad)",
-			"reference": "B105",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total",
-			"notes": "In addition to regular damage"
+			"notes": "Em adição ao dano normal"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "cb0a1770-7037-465d-87d9-afc4eb9eafa3",
 			"name": "Cone",
-			"reference": "B103",
+			"reference": "B104",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
-			"notes": "Must manually adjust cost upwards +10% per yard of maximum width"
+			"notes": "Ajusta manualmente o custo em +10% para cada metro de largura máxima"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "e1a9cd75-8d18-43f2-bf14-0ab6ac3e84a8",
 			"name": "Cósmica",
-			"reference": "B103",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
-			"notes": "Ability other than an attack or a defense"
+			"notes": "Habilidade que não seja um ataque ou defesa."
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "14b13aab-cfba-4562-9f0a-7ba9e8f14fd7",
 			"name": "Cósmica",
-			"reference": "B103",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total",
-			"notes": "Attack with a lingering special effect"
+			"notes": "Ataque com efeito especial prolongado"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "18efc6e6-0f18-4841-9ee8-80b52c6dc769",
 			"name": "Cósmica",
-			"reference": "B103",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
-			"notes": "Defense or countermeasure"
+			"notes": "Defesa ou contramedida"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "b67c31b4-0e39-47b4-82ef-3e1dcd0610c1",
 			"name": "Cósmica",
-			"reference": "B103",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 300,
 			"affects": "total",
-			"notes": "Irresistible attack"
+			"notes": "Ataque irresistível"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "9f028321-76e2-495d-a5e3-87c2bb99fb58",
 			"name": "Cíclico - 1 dia",
-			"reference": "B103",
+			"reference": "B104",
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total",
-			"notes": "Halted by @description of what halts the cycle@"
+			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "9c085632-450f-4ce4-aa1a-d3fdb4939b4b",
 			"name": "Cíclico - 1 hora",
-			"reference": "B103",
+			"reference": "B104",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total",
-			"notes": "Halted by @description of what halts the cycle@"
+			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "282e6542-e9fc-4bb3-b493-c8871056c4ab",
 			"name": "Cíclico - 1 minuto",
-			"reference": "B103",
+			"reference": "B104",
 			"cost_type": "percentage",
 			"cost": 40,
 			"affects": "total",
-			"notes": "Halted by @description of what halts the cycle@"
+			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "cf056076-ef57-48f6-be16-72b3cb86af43",
 			"name": "Cíclico - 1 segundo",
-			"reference": "B103",
+			"reference": "B104",
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total",
-			"notes": "Halted by @description of what halts the cycle@"
+			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "58f87447-822d-4f26-8db1-22d6f53739b2",
 			"name": "Cíclico - 10 segundos",
-			"reference": "B103",
+			"reference": "B104",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
-			"notes": "Halted by @description of what halts the cycle@"
+			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "417ab43b-9ad0-4652-b077-2c7916d804a2",
 			"name": "Trauma por Impacto Duplo (tid)",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total"
@@ -386,7 +386,7 @@
 			"version": 1,
 			"id": "077c022f-9ea3-4eb5-93ab-ad3129e7a3a1",
 			"name": "Projeção Dupla (pdp)",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total"
@@ -406,7 +406,7 @@
 			"version": 1,
 			"id": "90e02616-e10a-4b70-b7d9-43de584130aa",
 			"name": "Explosão (exp)",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
@@ -417,41 +417,41 @@
 			"version": 1,
 			"id": "0ebae95b-f762-4365-aec6-fa3c4390ffbb",
 			"name": "Retardo Fixo",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 0,
 			"affects": "total",
-			"notes": "@delay period@, @method to neutralize@"
+			"notes": "@período de retardo@, @forma de neutralizar@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "71193529-387e-46ba-a5ad-7fbbd6becbdf",
 			"name": "Acompanhamento",
-			"reference": "B105",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 0,
 			"affects": "total",
-			"notes": "Cost is variable and must be entered manually"
+			"notes": "O custo é variável e deve ser inserido manualmente"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "10fa0088-2982-4531-8ba5-a4833b649ab4",
 			"name": "Fragmentação (frag)",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 15,
 			"affects": "total",
 			"levels": 1,
-			"notes": "Take levels equal to the number of dice"
+			"notes": "Escolha um nível igual ao número de dados"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "67761396-4442-4685-82d9-e64d91080dab",
 			"name": "Guiado",
-			"reference": "B105",
+			"reference": "B106",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total"
@@ -461,7 +461,7 @@
 			"version": 1,
 			"id": "9a209bd3-97f4-4d62-887c-2233c073fdec",
 			"name": "Perigo",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total",
@@ -472,7 +472,7 @@
 			"version": 1,
 			"id": "b641e5c1-1c79-4166-b216-eafea978dae6",
 			"name": "Perigo",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 0,
 			"affects": "total",
@@ -483,7 +483,7 @@
 			"version": 1,
 			"id": "fe4ba515-333d-4e26-a719-5b7461248bdd",
 			"name": "Perigo",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total",
@@ -494,7 +494,7 @@
 			"version": 1,
 			"id": "3840cdf6-fd44-40cb-be10-b93d0ea66637",
 			"name": "Perigo",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
@@ -505,7 +505,7 @@
 			"version": 1,
 			"id": "3f33f14f-abc2-4e9c-acfb-6bc3fdc451d7",
 			"name": "Perigo",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 40,
 			"affects": "total",
@@ -516,7 +516,7 @@
 			"version": 1,
 			"id": "0563610f-0fe3-4844-91e3-7962c8545e5b",
 			"name": "Perigo",
-			"reference": "B104",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 0,
 			"affects": "total",
@@ -527,18 +527,18 @@
 			"version": 1,
 			"id": "0b0d5d93-ac35-4b0a-80a0-743e4bb28984",
 			"name": "Teleguiado (@Sentido@)",
-			"reference": "B105",
+			"reference": "B106",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
-			"notes": "Must manually add +1% per point of cost of the chosen sense to the cost of Homing"
+			"notes": "Adicione manualmente +1% por ponto de custo do sentido escolhido ao custo de Teleguiado"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "48038195-f56f-4402-b7fb-810c66e0f2c8",
 			"name": "Incendiário (inc)",
-			"reference": "B105",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total"
@@ -548,7 +548,7 @@
 			"version": 1,
 			"id": "5f1cd59a-baf4-4b23-b527-e560e5f7e2a6",
 			"name": "Jato",
-			"reference": "B106",
+			"reference": "B107",
 			"cost_type": "percentage",
 			"cost": 0,
 			"affects": "total"
@@ -569,18 +569,18 @@
 			"version": 1,
 			"id": "9cd3c6da-1226-4b0a-8285-a8b967d59ad2",
 			"name": "Interligação",
-			"reference": "B106",
+			"reference": "B107",
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total",
-			"notes": "@linked abilities@, must be used as a single ability"
+			"notes": "@habilidades interligadas@, devem ser utilizadas em conjunto"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "1d7c96b8-5d59-46fa-827a-649887a6d9b3",
 			"name": "Assinatura Discreta",
-			"reference": "B106",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total"
@@ -594,7 +594,7 @@
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total",
-			"notes": "-1 per yard of range"
+			"notes": "-1 para cada metro da distância"
 		},
 		{
 			"type": "modifier",
@@ -605,14 +605,14 @@
 			"cost_type": "percentage",
 			"cost": 200,
 			"affects": "total",
-			"notes": "Uses Long-Distance Modifiers"
+			"notes": "Utiliza Modificadores de Longa Distância"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "899a6949-bad9-401a-9e60-f3aea5ce6a2a",
 			"name": "Mobilidade",
-			"reference": "B107",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 40,
 			"affects": "total",
@@ -623,7 +623,7 @@
 			"version": 1,
 			"id": "44abf0d2-8573-41f5-936f-f972d64c6a96",
 			"name": "Assinatura Inexistente",
-			"reference": "B106",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total"
@@ -633,7 +633,7 @@
 			"version": 1,
 			"id": "5c3a94f2-e091-4413-a66f-236687eb9955",
 			"name": "De cima",
-			"reference": "B107",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 30,
 			"affects": "total"
@@ -643,7 +643,7 @@
 			"version": 1,
 			"id": "acdea83d-78b2-4b63-8b26-4c178111e85b",
 			"name": "Prazo Permanente",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 300,
 			"affects": "total"
@@ -653,18 +653,18 @@
 			"version": 1,
 			"id": "0e0423ba-732a-4f14-8f1d-75a07e49f12f",
 			"name": "Prazo Permanente",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 150,
 			"affects": "total",
-			"notes": "Dispelled by @method of dispelling effect@"
+			"notes": "Dissipado por @condições para dissipar o efeito@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "757a2c1f-11c3-4231-93ab-839d1db3ab7b",
 			"name": "Persistente",
-			"reference": "B107",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 40,
 			"affects": "total"
@@ -684,7 +684,7 @@
 			"version": 1,
 			"id": "07f85bb2-ae3e-406d-95eb-a07e0b3f8f09",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 40,
 			"affects": "total",
@@ -695,7 +695,7 @@
 			"version": 1,
 			"id": "2f519d7e-c1c2-44f7-8ee3-52c47b1c7e4f",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
@@ -706,7 +706,7 @@
 			"version": 1,
 			"id": "ac137207-60a9-4ec9-a1ed-5c5ac34c354a",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 70,
 			"affects": "total",
@@ -717,7 +717,7 @@
 			"version": 1,
 			"id": "d3f6c24f-0fe5-4da8-9b4a-0f20b2e8d718",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 100,
 			"affects": "total",
@@ -728,7 +728,7 @@
 			"version": 1,
 			"id": "1ef234e2-dc51-44cd-86fe-e90616935ffa",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 150,
 			"affects": "total",
@@ -739,7 +739,7 @@
 			"version": 1,
 			"id": "3dc9ea87-8627-41c7-aa0e-82b6bb1b5052",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 200,
 			"affects": "total",
@@ -750,7 +750,7 @@
 			"version": 1,
 			"id": "538f46c0-7690-464d-a5d4-4f7db297cf0a",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 250,
 			"affects": "total",
@@ -761,7 +761,7 @@
 			"version": 1,
 			"id": "71eff140-36ed-4a7d-b808-5030d31ca715",
 			"name": "Fogo Contínuo",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 300,
 			"affects": "total",
@@ -772,7 +772,7 @@
 			"version": 1,
 			"id": "1ca12f24-5287-4311-93c9-6c073652245f",
 			"name": "Custo em Pontos de Fadiga Red.",
-			"reference": "B108",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total",
@@ -783,7 +783,7 @@
 			"version": 1,
 			"id": "2b83a49f-07d1-4418-b552-051537202346",
 			"name": "Tempo Reduzido",
-			"reference": "B108",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total",
@@ -794,7 +794,7 @@
 			"version": 1,
 			"id": "f50ccddb-f787-48c3-8798-8eba97cd4c1a",
 			"name": "Agente Respiratório",
-			"reference": "B108",
+			"reference": "B102",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total"
@@ -804,7 +804,7 @@
 			"version": 1,
 			"id": "f00d3455-be24-49eb-b382-4cc85546a95b",
 			"name": "Área Seletiva",
-			"reference": "B108",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total"
@@ -814,7 +814,7 @@
 			"version": 1,
 			"id": "9c2e244a-c88b-490d-924d-6c6e991a1043",
 			"name": "Fogo Seletivo",
-			"reference": "B108",
+			"reference": "B106",
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total"
@@ -824,7 +824,7 @@
 			"version": 1,
 			"id": "997c5950-4568-42f2-b6e4-ef978e7209f6",
 			"name": "Seletividade",
-			"reference": "B108",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total"
@@ -834,18 +834,18 @@
 			"version": 1,
 			"id": "e3ef2f15-6eb8-4980-aac3-c46777aacdb8",
 			"name": "Base Sensorial (@Sentidos)",
-			"reference": "B109",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 150,
 			"affects": "total",
-			"notes": "Manually add +50% for each sense beyond the first"
+			"notes": "Adicionar manualmente +50% para cada sentido afetado depois do primeiro"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "0f8b0253-7226-4e10-91b9-778feca993da",
 			"name": "Efeito Colateral",
-			"reference": "B109",
+			"reference": "B105",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total"
@@ -855,7 +855,7 @@
 			"version": 1,
 			"id": "55d277cc-6a80-442d-a9d2-c43c7277302f",
 			"name": "Sobretensão (sob)",
-			"reference": "B105",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total"
@@ -869,29 +869,29 @@
 			"cost_type": "percentage",
 			"cost": 0,
 			"affects": "total",
-			"notes": "Cost must be manually entered"
+			"notes": "Inserir o custo manualmente"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "4420f98e-c13c-47e4-8c15-a522381db947",
 			"name": "Radiação por Toxina (rad)",
-			"reference": "B105",
+			"reference": "B108",
 			"cost_type": "percentage",
 			"cost": 25,
 			"affects": "total",
-			"notes": "Instead of regular damage"
+			"notes": "Substitui o dano normal"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "ed718ed2-30c4-4256-9651-79fe53e10ace",
 			"name": "Retardo Induzido",
-			"reference": "B105",
+			"reference": "B109",
 			"cost_type": "percentage",
 			"cost": 50,
 			"affects": "total",
-			"notes": "@trigger@, @method to neutralize@"
+			"notes": "@gatilho@, @forma de neutralizar@"
 		},
 		{
 			"type": "modifier",
@@ -922,7 +922,7 @@
 			"cost_type": "percentage",
 			"cost": 20,
 			"affects": "total",
-			"notes": "@method to neutralize@"
+			"notes": "@forma de neutralizar@"
 		},
 		{
 			"type": "modifier",
@@ -933,40 +933,40 @@
 			"cost_type": "percentage",
 			"cost": 10,
 			"affects": "total",
-			"notes": "Delay up to 10 seconds, @method to neutralize@"
+			"notes": "Retardo de até 10 segundos, @forma de neutralizar@"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "041a0265-ba5d-40f9-93c7-5930bd28bab6",
 			"name": "Barreira",
-			"reference": "B109",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 60,
 			"affects": "total",
-			"notes": "Permeable"
+			"notes": "Permeável"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "9402b4f1-3e4c-42f8-8e74-517bdb6ef35e",
 			"name": "Barreira",
-			"reference": "B109",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 30,
 			"affects": "total",
-			"notes": "Permeable Line"
+			"notes": "Linha Permeável"
 		},
 		{
 			"type": "modifier",
 			"version": 1,
 			"id": "2d7809d4-512f-40d4-b558-e6cae29a1e94",
 			"name": "Barreira",
-			"reference": "B109",
+			"reference": "B103",
 			"cost_type": "percentage",
 			"cost": 60,
 			"affects": "total",
-			"notes": "Rigid"
+			"notes": "Rígida"
 		},
 		{
 			"type": "modifier",
@@ -977,7 +977,7 @@
 			"cost_type": "percentage",
 			"cost": 30,
 			"affects": "total",
-			"notes": "Rigid Line"
+			"notes": "Linha Rígida"
 		}
 	]
 }
