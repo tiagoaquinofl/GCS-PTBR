@@ -28,7 +28,7 @@
 							"reference": "B277",
 							"cost_type": "to_base_cost",
 							"cost": "x4",
-							"notes": "Increase 1/2D and Max range by 20%"
+							"notes": "Aumente a distância 1/2D e Max em 20%."
 						}
 					]
 				},
@@ -49,7 +49,7 @@
 							"reference": "B280",
 							"cost_type": "to_base_cost",
 							"cost": "x2",
-							"notes": "+1 to Acc; +1 to Malf"
+							"notes": "+1 na Prec e +1 no Mauf"
 						},
 						{
 							"type": "eqp_modifier",
@@ -59,7 +59,7 @@
 							"reference": "B280",
 							"cost_type": "to_base_cost",
 							"cost": "x5",
-							"notes": "+2 to Acc; +1 to Malf"
+							"notes": "+2 na Prec e +1 no Mauf"
 						}
 					]
 				},
@@ -70,7 +70,7 @@
 					"disabled": true,
 					"name": "Qualidade da Arma de Combate Corpo a Corpo, Arremesso, Flecha e Virote",
 					"reference": "B274",
-					"notes": "Weapon damage is included in the modifiers",
+					"notes": "O dano da arma já está incluído nestes modificadores",
 					"open": true,
 					"children": [
 						{
@@ -90,7 +90,7 @@
 									"reference": "B274",
 									"cost_type": "to_base_cost",
 									"cost": "x0.4",
-									"notes": "+2 to break, -1 Acc if thrown"
+									"notes": "+2 no teste de quebra, -1 na Prec se arremessado"
 								},
 								{
 									"type": "eqp_modifier",
@@ -107,7 +107,7 @@
 											"selection_type": "this_weapon"
 										}
 									],
-									"notes": "-1 to break; blades only"
+									"notes": "-1 no teste de quebra; somente lâminas"
 								},
 								{
 									"type": "eqp_modifier",
@@ -117,7 +117,7 @@
 									"reference": "B274",
 									"cost_type": "to_base_cost",
 									"cost": "x3",
-									"notes": "-1 to break; for non-blades that do only crushing or impaling damage"
+									"notes": "-1 no teste de quebra; armas sem lâmina que causam dano por contusão ou perfuração"
 								},
 								{
 									"type": "eqp_modifier",
@@ -134,14 +134,14 @@
 											"selection_type": "this_weapon"
 										}
 									],
-									"notes": "-1 to break; for non-blades that do cutting damage"
+									"notes": "-1 no teste de quebra; armas sem lâmina que causam dano por corte"
 								},
 								{
 									"type": "eqp_modifier",
 									"version": 1,
 									"id": "431dc28d-d5cd-45e8-ba48-591362d71614",
 									"name": "Altíssima Qualidade",
-									"reference": "B274",
+									"reference": "B275",
 									"cost_type": "to_base_cost",
 									"cost": "x20",
 									"features": [
@@ -151,7 +151,7 @@
 											"selection_type": "this_weapon"
 										}
 									],
-									"notes": "-2 to break; for fencing weapons and swords only"
+									"notes": "-2 no teste de quebra; +2 no dano por corte ou perfuração; somente as armas de esgrima e as espadas"
 								}
 							]
 						},
@@ -172,7 +172,7 @@
 									"reference": "B274",
 									"cost_type": "to_base_cost",
 									"cost": "x0.2",
-									"notes": "+2 to break, -1 Acc if thrown"
+									"notes": "+2 no teste de quebra, -1 na Prec se arremessado"
 								},
 								{
 									"type": "eqp_modifier",
@@ -196,14 +196,14 @@
 											"selection_type": "this_weapon"
 										}
 									],
-									"notes": "-1 to break; for blades that do cutting and impaling damage"
+									"notes": "-1 no teste de quebra; somente lâminas"
 								},
 								{
 									"type": "eqp_modifier",
 									"version": 1,
 									"id": "41b1736e-bf77-4dd6-83f3-8923bb4d5309",
 									"name": "Altíssima Qualidade",
-									"reference": "B274",
+									"reference": "B275",
 									"cost_type": "to_base_cost",
 									"cost": "x4",
 									"features": [
@@ -213,7 +213,7 @@
 											"selection_type": "this_weapon"
 										}
 									],
-									"notes": "-2 to break; +2 to cutting and impaling damage; for fencing weapons and swords only"
+									"notes": "-2 no teste de quebra; +2 no dano por corte ou perfuração; somente as armas de esgrima e as espadas"
 								},
 								{
 									"type": "eqp_modifier",
@@ -223,7 +223,7 @@
 									"based_on_hash": "rdRv3ym/K3/SejdSEliWj4NKXjM9qN6MTZS9eeP9frU",
 									"name": "Qualidade Superior",
 									"reference": "B274",
-									"notes": "-1 to break; for other weapons"
+									"notes": "-1 teste de quebra; para outras armas"
 								}
 							]
 						}
@@ -239,7 +239,7 @@
 			"reference": "B275",
 			"cost_type": "to_base_cost",
 			"cost": "x19",
-			"notes": "+2 to break"
+			"notes": "+2 no teste de quebra"
 		},
 		{
 			"type": "eqp_modifier",
@@ -249,7 +249,7 @@
 			"reference": "B275",
 			"cost_type": "to_base_cost",
 			"cost": "x2",
-			"notes": "Reduced wounding multiplier to vulnerable targets: x2 becomes x1.5, x3 becomes x2, x4 becomes x3"
+			"notes": "Multiplicador de ferimento reduzido em criaturas com Vulnerabilidade: ×2 torna-se ×1,5, ×3 torna-se ×2 e ×4 torna-se ×3"
 		},
 		{
 			"type": "eqp_modifier",
