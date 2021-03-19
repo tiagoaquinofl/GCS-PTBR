@@ -108,7 +108,7 @@ k:"* To change the setting on existing sheets, use the per-sheet settings availa
 v:"* Para mudar as configurações de planilhas existentes, use as configurações por-planilha disponíveis na barra de ferramentas"
 
 k:"** From container - not modifiable here **"
-v:"** From container - not modifiable here **"
+v:"** Do contêiner - não modificável aqui **"
 
 k:", notes {0},"
 v:", notas {0},"
@@ -300,8 +300,7 @@ k:"Alternative Abilities"
 v:"Habilidades Alternativas"
 
 k:"An attack that misses by 1 hits the torso instead. Heart, lungs, kidneys, etc. Increase the wounding modifier for an impaling or any piercing attack to x3. Increase the wounding modifier for a tight-beam burning attack to x2. Other attacks cannot target the vitals."
-v:"Um ataque que fracassar por 1 atinge o tronco. Coração, pulmões, rins, etc. Aumente o modificador de ferimento para ataques por perfuração ou qualquer ataque perfurante para ×3. Aumente o modificador de ferimento para ataques
-por queimadura de feixe concentrado para ×2. Outros ataques não podem visar os órgãos vitais."
+v:"Um ataque que fracassar por 1 atinge o tronco. Coração, pulmões, rins, etc. Aumente o modificador de ferimento para ataques por perfuração ou qualquer ataque perfurante para ×3. Aumente o modificador de ferimento para ataques por queimadura de feixe concentrado para ×2. Outros ataques não podem visar os órgãos vitais."
 
 k:"An attack that misses by 1 hits the torso instead. Human males and the males of similar species suffer double shock from crushing damage, and get -5 to knockdown rolls. Otherwise, treat as a torso hit."
 v:"Um ataque que fracassar por 1 atinge o tronco. Homens humanos e os machos de espécies semelhantes sofrem o dobro do choque de danos por contusão e sofrem uma penalidade de -5 nos testes de nocaute. Caso contrário, trate como um golpe no tronco."
@@ -313,8 +312,7 @@ k:"An attack that misses by 1 hits the torso instead. Neck and throat. Increase 
 v:"Um ataque que fracassar por 1 atinge o tronco. Pescoço e garganta. Aumente o modificador de ferimento de ataques por contusão e por corrosão para ×1,5 e por corte para ×2. A critério do Mestre, uma pessoa morta por um golpe por corte no pescoço pode ser decapitada!"
 
 k:"An attack that misses by 1 hits the torso instead. Only impaling, piercing, and tight-beam burning attacks can target the eye – and only from the front or sides. Injury over HP÷10 blinds the eye. Otherwise, treat as skull, but without the extra DR!"
-v:"Um ataque que fracassar por 1 atinge o tronco. Apenas ataques perfurantes, por perfuração e por queimadura de feixe concentrado podem visar os olhos — e somente ataques frontais ou laterais. Qualquer dano acima de PV/10 cega o
-olho. Caso contrário, trate como crânio, mas sem a RD adicional!"
+v:"Um ataque que fracassar por 1 atinge o tronco. Apenas ataques perfurantes, por perfuração e por queimadura de feixe concentrado podem visar os olhos — e somente ataques frontais ou laterais. Qualquer dano acima de PV/10 cega o olho. Caso contrário, trate como crânio, mas sem a RD adicional!"
 
 k:"An attack that misses by 1 hits the torso instead. Wounding modifier is x4. Knockdown rolls are at -10. Critical hits use the Critical Head Blow Table (B556). Exception: These special effects do not apply to toxic damage."
 v:"Um ataque que fracassar por 1 atinge o tronco. O modificador de ferimento é ×4. Os testes de nocaute sofrem uma penalidade de -10. Golpes fulminantes usam a Tabela de Golpe Fulminante na Cabeça (B557). Exceção: esses efeitos não se aplicam a dano por toxina."
@@ -743,7 +741,7 @@ k:"Dead"
 v:"Morto"
 
 k:"Decrease Skill Level"
-v:"Decrease Skill Level"
+v:"Diminuir NH"
 
 k:"Decrement"
 v:"Diminuir"
@@ -1050,7 +1048,7 @@ v:"Concede um bônus dano de arma de"
 k:"Gives an attribute bonus of"
 v:"Concede um bônus de atributo de"
 
-k:"Preferências Globais…"
+k:"Global Preferences…"
 v:"Preferências Globais…"
 
 k:"Grams"
@@ -1661,7 +1659,7 @@ k:"Open Page Reference"
 v:"Abrir Página de Referência"
 
 k:"Opens/closes all hierarchical rows"
-v:"Opens/closes all hierarchical rows"
+v:"Abre/fecha todas as linhas hierárquicas"
 
 k:"Open…"
 v:"Abrir…"
