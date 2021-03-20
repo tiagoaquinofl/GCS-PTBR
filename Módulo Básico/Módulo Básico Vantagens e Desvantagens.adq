@@ -3793,7 +3793,7 @@
 					"attribute": "fright_check"
 				}
 			],
-			"notes": "O personagem nunca fica “paralisado” em uma situação de surpresa e recebe um bônus de +6 em todos os testes de IQ para voltar a si ou se recuperar de uma situação de surpresa ou “atordoamento” mental. O grupo do jogador recebe um bônus de +1 nos testes de iniciativa para evitar ataques surpresa — +2 se o personagem for o líder.",
+			"notes": "O personagem nunca fica “paralisado” em uma situação de surpresa; +6 em todos os testes de IQ para voltar a si ou se recuperar de uma situação de surpresa ou “atordoamento” mental.  Seu grupo recebe +1 nos testes de iniciativa (+2 se você for o líder)",
 			"categories": [
 				"Vantagem"
 			]
