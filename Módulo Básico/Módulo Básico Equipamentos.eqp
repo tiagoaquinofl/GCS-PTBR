@@ -7054,7 +7054,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -10304,7 +10304,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -10373,7 +10373,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -11488,7 +11488,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -11557,7 +11557,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -12838,7 +12838,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -12905,7 +12905,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -19038,7 +19038,7 @@
 						"st": "thr"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
@@ -19107,7 +19107,7 @@
 						"base": "+1"
 					},
 					"strength": "0",
-					"usage": "Golpe com Escudo",
+					"usage": "Golpe c/ Escudo",
 					"reach": "1",
 					"parry": "Não",
 					"block": "+0",
