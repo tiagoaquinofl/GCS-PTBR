@@ -2510,7 +2510,7 @@
 					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -2538,8 +2538,8 @@
 					},
 					"usage": "Chute",
 					"reach": "C,1",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -4591,7 +4591,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -4712,7 +4712,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -8254,8 +8254,8 @@
 					},
 					"usage": "Mordida",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -9973,10 +9973,10 @@
 						"st": "thr",
 						"modifier_per_die": 1
 					},
-					"usage": "Escoicear",
+					"usage": "Coice",
 					"reach": "C,1",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -10227,7 +10227,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -15756,7 +15756,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -16072,8 +16072,8 @@
 					},
 					"usage": "Estocada",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -16106,7 +16106,7 @@
 					"usage": "Talho",
 					"reach": "C,1",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -16136,7 +16136,7 @@
 					"usage": "Estocada",
 					"reach": "C,1",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -21043,7 +21043,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -24119,8 +24119,8 @@
 					},
 					"usage": "Bicada",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -24168,7 +24168,7 @@
 					"usage": "Talho",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -24195,8 +24195,8 @@
 					},
 					"usage": "Chute",
 					"reach": "C,1",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -24238,8 +24238,8 @@
 					},
 					"usage": "Mordida",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -24314,8 +24314,8 @@
 					},
 					"usage": "GdP",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -28631,7 +28631,7 @@
 					"usage": "Talho",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -28660,7 +28660,7 @@
 					"usage": "GdP",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -31311,8 +31311,8 @@
 					},
 					"usage": "Mordida",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
