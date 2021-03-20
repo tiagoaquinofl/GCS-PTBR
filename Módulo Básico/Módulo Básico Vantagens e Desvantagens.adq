@@ -16070,7 +16070,7 @@
 						"type": "perf",
 						"base": "1d"
 					},
-					"usage": "Stab",
+					"usage": "Estocada",
 					"reach": "C",
 					"parry": "No",
 					"block": "No",
@@ -16103,7 +16103,7 @@
 						"base": "-1",
 						"modifier_per_die": 1
 					},
-					"usage": "Slash",
+					"usage": "Talho",
 					"reach": "C,1",
 					"parry": "0",
 					"block": "No",
@@ -16133,7 +16133,7 @@
 						"base": "-1",
 						"modifier_per_die": 1
 					},
-					"usage": "Stab",
+					"usage": "Estocada",
 					"reach": "C,1",
 					"parry": "0",
 					"block": "No",
@@ -24117,7 +24117,7 @@
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Bicar",
+					"usage": "Bicada",
 					"reach": "C",
 					"parry": "No",
 					"block": "No",
@@ -24165,7 +24165,7 @@
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Retalhar",
+					"usage": "Talho",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
@@ -28628,7 +28628,7 @@
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Retalhar",
+					"usage": "Talho",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
