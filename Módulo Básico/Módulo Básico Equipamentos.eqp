@@ -22568,6 +22568,7 @@
 			"value": "10",
 			"weight": "0.25 lb",
 			"reference": "B288",
+			"notes": "Capac. 4 litros de líquido (4 kg no caso de água).",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -22686,5 +22687,20 @@
 				"Equipamentos de Camping e Sobrevivência"
 			]
 		}
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "21189c14-0a4d-4364-b449-099ba5b1ecf4",
+			"based_on_id": "cd1b93fc-4423-444c-980a-28072f82492d",
+			"based_on_hash": "Y7luCabBwtsU344Fkk9p5UX6c+sA54XPl/Kd16ki19Y",
+			"quantity": 1,
+			"description": "Água (1 litro)",
+			"weight": "1 kg",
+			"reference": "B426",
+			"notes": "Um personagem (humanoide) necessita de 2 litros de água por dia — 3 em climas quentes, 5 no calor do deserto! Se beber menos que o necessário, ele perde 1 PF a cada oito horas. Se beber menos de um litro num dia, ele perde 1 PF e 1 PV adicional por dia.",
+			"categories": [
+				"Equipamentos de Camping e Sobrevivência"
+			]
+		},
 	]
 }
