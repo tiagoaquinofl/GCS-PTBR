@@ -25814,7 +25814,8 @@
 			"mental": true,
 			"base_points": -15,
 			"cr": 12,
-			"reference": "B132",
+			"reference": "B132",,
+			"notes": "Em qualquer situação de tensão, é necessário fazer um teste de autocontrole (não mais que um teste/hora [tempo de jogo]). No caso de um fracasso, outra personalidade emerge e  e comporta de acordo com suas peculiaridades e desvantagens mentais.",
 			"categories": [
 				"Desvantagem"
 			]
