@@ -22691,11 +22691,9 @@
 			"type": "equipment",
 			"version": 1,
 			"id": "21189c14-0a4d-4364-b449-099ba5b1ecf4",
-			"based_on_id": "cd1b93fc-4423-444c-980a-28072f82492d",
-			"based_on_hash": "Y7luCabBwtsU344Fkk9p5UX6c+sA54XPl/Kd16ki19Y",
 			"quantity": 1,
 			"description": "Água (1 litro)",
-			"weight": "1 kg",
+			"weight": "2 lb",
 			"reference": "B426",
 			"notes": "Um personagem (humanoide) necessita de 2 litros de água por dia — 3 em climas quentes, 5 no calor do deserto! Se beber menos que o necessário, ele perde 1 PF a cada oito horas. Se beber menos de um litro num dia, ele perde 1 PF e 1 PV adicional por dia.",
 			"categories": [
