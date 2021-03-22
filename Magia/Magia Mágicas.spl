@@ -19949,7 +19949,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ffaa36aa-5b7a-4fad-8422-21703e0ca879",
-			"name": "Ocultar",
+			"name": "Esconder",
 			"reference": "M113",
 			"difficulty": "IQ/H",
 			"college": "Luz e Trevas",
