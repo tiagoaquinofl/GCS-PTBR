@@ -1675,7 +1675,7 @@
 					}
 				]
 			},
-			"notes": "Double casting cost if plant moves",
+			"notes": "Dobre o custo se a planta se mover",
 			"categories": [
 				"Plantas"
 			]
@@ -1902,7 +1902,7 @@
 					}
 				]
 			},
-			"notes": "Costs 5 to reverse an Arboreal Immurement",
+			"notes": "Custo de 5 para reverter um Enclausuramento Arbóreo",
 			"categories": [
 				"Plantas"
 			]
@@ -11144,7 +11144,7 @@
 					}
 				]
 			},
-			"notes": "affects only inanimate objects",
+			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
 				"Fazer e Quebrar"
 			]
@@ -15094,7 +15094,7 @@
 					}
 				]
 			},
-			"notes": "affects only inanimate objects",
+			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
 				"Fazer e Quebrar"
 			]
@@ -16554,7 +16554,7 @@
 					}
 				]
 			},
-			"notes": "+1 point burn damage to all melee attacks",
+			"notes": "Os ataques corpo a corpo contra o alvo provocam +1 ponto de dano por fogo",
 			"categories": [
 				"Fogo"
 			]
@@ -16592,7 +16592,7 @@
 					}
 				]
 			},
-			"notes": "+2 points burn damage with missiles fired from weapon",
+			"notes": "+2 de dano por fogo por projéteis disparados por uma arma",
 			"categories": [
 				"Fogo"
 			]
@@ -16668,7 +16668,7 @@
 					}
 				]
 			},
-			"notes": "+2 points burn damage from attacks with melee weapon",
+			"notes": "+2 de dano por fogo de ataques com arma corpo a corpo",
 			"categories": [
 				"Fogo"
 			]
@@ -20984,7 +20984,7 @@
 					}
 				]
 			},
-			"notes": "+2 freezing damage to missiles fired from weapon",
+			"notes": "+2 de dano por gelo por projéteis disparados por uma arma",
 			"categories": [
 				"Água"
 			]
@@ -21127,7 +21127,7 @@
 					}
 				]
 			},
-			"notes": "+2 freezing damage to melee weapons",
+			"notes": "+2 de dano por gelo de ataques com arma corpo a corpo",
 			"categories": [
 				"Água"
 			]
@@ -23665,7 +23665,7 @@
 					}
 				]
 			},
-			"notes": "blinds only when darkness penalty is -5 or more",
+			"notes": "Cega somente se a penalidade de combate de escuridão for -5 ou pior",
 			"categories": [
 				"Luz"
 			]
@@ -23976,7 +23976,7 @@
 					}
 				]
 			},
-			"notes": "+2 points burn damage to missiles fired with weapon",
+			"notes": "+2 de dano por fogo por projéteis disparados por uma arma",
 			"categories": [
 				"Ar",
 				"Clima"
@@ -24127,7 +24127,7 @@
 					}
 				]
 			},
-			"notes": "+2 burn damage with melee weapon",
+			"notes": "+2 de dano por fogo de ataques com arma corpo a corpo",
 			"categories": [
 				"Ar",
 				"Clima"
@@ -30013,7 +30013,7 @@
 					}
 				]
 			},
-			"notes": "Throws object with ST 15, p. B355.  Cost: 1 pt for an item up to 10 lbs (1d dmg); 2 pts for something up to 25 lbs (1d+1 dmg).",
+			"notes": "Arremessa um objeto com ST 15 (v. B349). Custo: 1 ponto para um objeto de até 5kg (1d de dano); 2 pontos por algo de até 10kg (1d+1 de dano).",
 			"categories": [
 				"Deslocamento"
 			]
@@ -30842,7 +30842,7 @@
 					}
 				]
 			},
-			"notes": "Double casting cost in poor or rocky soil/desert",
+			"notes": "Dobre o custo em solos pobres, como planícies rochosas ou deserto arenoso.",
 			"categories": [
 				"Terra",
 				"Plantas"
@@ -35061,7 +35061,7 @@
 					}
 				]
 			},
-			"notes": "Must know the Animal Control spell for the type of animal being \"ridden\"",
+			"notes": "O conjurador deve conhecer a magia Controlar (Animal) para o tipo de animal que está sendo “montado”.",
 			"categories": [
 				"Animais"
 			]
@@ -35148,7 +35148,7 @@
 					}
 				]
 			},
-			"notes": "only affects inanimate objects",
+			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
 				"Fazer e Quebrar"
 			]
@@ -38004,7 +38004,7 @@
 					}
 				]
 			},
-			"notes": "only affects inanimate objects",
+			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
 				"Fazer e Quebrar"
 			]
@@ -44921,7 +44921,7 @@
 					}
 				]
 			},
-			"notes": "Transforms another spell into a Missile spell",
+			"notes": "Transforma outra magia em uma magia de Projétil.",
 			"categories": [
 				"Metamágicas"
 			]
@@ -47279,7 +47279,7 @@
 					}
 				]
 			},
-			"notes": "Half cost for beer, double cost for spirits",
+			"notes": "Metade do custo para cerveja, o dobro do custo para bebidas destiladas.",
 			"categories": [
 				"Alimentos"
 			]
@@ -47404,7 +47404,7 @@
 					}
 				]
 			},
-			"notes": "affects only inanimate objects",
+			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
 				"Fazer e Quebrar"
 			]
@@ -47969,7 +47969,7 @@
 					}
 				]
 			},
-			"notes": "Throws any weapon with ST 15",
+			"notes": "Arremessa qualquer arma com ST 15",
 			"categories": [
 				"Deslocamento"
 			]
