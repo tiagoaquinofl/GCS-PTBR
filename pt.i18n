@@ -210,7 +210,7 @@ k:"A summary of all points spent on skills for this character"
 v:"Um resumo de todos os pontos gastos em perícias para este personagem"
 
 k:"A summary of all points spent on spells for this character"
-v:"Um resumo de todos os pontos gastos em magias para este personagem"
+v:"Um resumo de todos os pontos gastos em mágicas para este personagem"
 
 k:"About GCS"
 v:"Sobre o GCS"
@@ -348,7 +348,7 @@ k:"Any notes that you would like to show up in the list along with this skill"
 v:"Quaisquer notas que você gostaria que aparecesse na lista junto com esta perícia"
 
 k:"Any notes that you would like to show up in the list along with this spell"
-v:"Quaisquer notas que você gostaria que aparecesse na lista junto com esta magia"
+v:"Quaisquer notas que você gostaria que aparecesse na lista junto com esta mágica"
 
 k:"Any notes that you would like to show up in the list along with this technique"
 v:"Quaisquer notas que você gostaria que aparecesse na lista junto com esta técnica"
@@ -759,7 +759,7 @@ k:"Decrement Skill Level"
 v:"Diminuir NH"
 
 k:"Decrement Spell Level"
-v:"Diminuir NH de Magia"
+v:"Diminuir NH da Mágica"
 
 k:"Decrement Tech Level"
 v:"Diminuir NT"
@@ -1037,10 +1037,10 @@ k:"Gives a skill point bonus of"
 v:"Concede um bônus de ponto de perícia de"
 
 k:"Gives a spell level bonus of"
-v:"Concede um bônus de nível de magia de"
+v:"Concede um bônus de nível de mágica de"
 
 k:"Gives a spell point bonus of"
-v:"Concede um bônus de ponto de magia de"
+v:"Concede um bônus de ponto de mágica de"
 
 k:"Gives a weapon damage bonus of"
 v:"Concede um bônus dano de arma de"
@@ -1223,7 +1223,7 @@ k:"Increment Skill Level"
 v:"Aumentar NH"
 
 k:"Increment Spell Level"
-v:"Aumentar NH de Magia"
+v:"Aumentar NH da Mágica"
 
 k:"Increment Tech Level"
 v:"Aumentar NT"
@@ -1557,7 +1557,7 @@ k:"New Other Equipment Container"
 v:"Novo Contêiner de Outros Equipamentos"
 
 k:"New Ritual Magic Spell"
-v:"Novo Feitiço de Magia Ritual"
+v:"Novo Feitiço de Mágica Ritualística"
 
 k:"New Skill"
 v:"Nova Perícia"
@@ -1569,13 +1569,13 @@ k:"New Skills Library"
 v:"Nova Biblioteca de Perícias"
 
 k:"New Spell"
-v:"Nova Magia"
+v:"Nova Mágica"
 
 k:"New Spell Container"
-v:"Novo Contêiner de Magias"
+v:"Novo Contêiner de Mágicas"
 
 k:"New Spells Library"
-v:"Nova Biblioteca de Magias"
+v:"Nova Biblioteca de Mágicas"
 
 k:"New Technique"
 v:"Nova Técnica"
@@ -2124,16 +2124,16 @@ k:"Show User Description *"
 v:"Exibir Descrição do Usuário *"
 
 k:"Show the College column in character sheet spells list *"
-v:"Exibir a coluna Escola na lista de magias da planilha de personagem *"
+v:"Exibir a coluna Escola na lista de mágicas da planilha de personagem *"
 
 k:"Show the College column in the spells list"
-v:"Exibir a coluna Escola na lista de magias"
+v:"Exibir a coluna Escola na lista de mágicas"
 
 k:"Show the Difficulty column in character sheet skills and spells lists *"
-v:"Exibir a coluna Dificuldade nas listas de magias e perícias da planilha de personagem *"
+v:"Exibir a coluna Dificuldade nas listas de mágicas e perícias da planilha de personagem *"
 
 k:"Show the Difficulty column in the skills and spells lists"
-v:"Exibir a coluna Dificuldade nas listas de magias e perícias"
+v:"Exibir a coluna Dificuldade nas listas de mágicas e perícias"
 
 k:"Show the title rather than the name in the page footer"
 v:"Exibir o título ao invés do nome no rodapé da página"
@@ -2190,13 +2190,13 @@ k:"Specifies the layout of the various blocks of data on the character sheet"
 v:"Especifica o leiaute de vários blocos de dados na planilha de personagem"
 
 k:"Spell"
-v:"Magia"
+v:"Mágica"
 
 k:"Spells"
-v:"Magias"
+v:"Mágicas"
 
 k:"Spells Library"
-v:"Biblioteca de Magias"
+v:"Biblioteca de Mágicas"
 
 k:"Sponsor GCS Development"
 v:"Patrocinar o Desenvolvimento do GCS"
@@ -2277,7 +2277,7 @@ k:"The attribute this skill is based on"
 v:"O atributo em que esta perícia se baseia"
 
 k:"The attribute this spell is based on"
-v:"O atributo em que esta magia se baseia"
+v:"O atributo em que esta mágica se baseia"
 
 k:"The base cost modifier"
 v:"O modificador básico de custo"
@@ -2301,13 +2301,13 @@ k:"The casting cost field may not be empty"
 v:"O campo de custo de operação não pode ficar vazio"
 
 k:"The casting cost of the spell"
-v:"O custo de operação desta magia"
+v:"O custo de operação desta mágica"
 
 k:"The casting time field may not be empty"
 v:"O campo de tempo de operação não pode ficar vazio"
 
 k:"The casting time of the spell"
-v:"O tempo de operação desta magia"
+v:"O tempo de operação desta mágica"
 
 k:"The category or categories the advantage belongs to"
 v:"A categoria ou categorias a que a vantagem pertence"
@@ -2328,10 +2328,10 @@ k:"The category or categories the skill belongs to (separate multiple categories
 v:"A categoria ou categorias a que a perícia pertence (separar múltiplas categorias com uma vírgula)"
 
 k:"The category or categories the spell belongs to"
-v:"A categoria ou categorias a que a magia pertence"
+v:"A categoria ou categorias a que a mágica pertence"
 
 k:"The category or categories the spell belongs to (separate multiple categories with a comma)"
-v:"A categoria ou categorias a que a magia pertence (separar múltiplas categorias com uma vírgula)"
+v:"A categoria ou categorias a que a mágica pertence (separar múltiplas categorias com uma vírgula)"
 
 k:"The category or categories the technique belongs to (separate multiple categories with a comma)"
 v:"A categoria ou categorias a que a técnica pertence (separar múltiplas categorias com uma vírgula)"
@@ -2373,16 +2373,16 @@ k:"The class field may not be empty"
 v:"O campo de classe não pode ficar vazio"
 
 k:"The class of spell (Area, Missile, etc.)"
-v:"A classe da magia (Área, Projétil, etc.)"
+v:"A classe da mágica (Área, Projétil, etc.)"
 
 k:"The class of the spell"
-v:"A classe da magia"
+v:"A classe da mágica"
 
 k:"The college of the spell"
-v:"A escola da magia"
+v:"A escola da mágica"
 
 k:"The college the spell belongs to"
-v:"A escola a que a magia pertence"
+v:"A escola a que a mágica pertence"
 
 k:"The cost adjustment for this modifier"
 v:"O ajuste de custo para este modificador"
@@ -2397,7 +2397,7 @@ k:"The cost modifier's total value"
 v:"O valor total do modificador de custo"
 
 k:"The cost to maintain a spell after its initial duration"
-v:"O custo para manter uma magia após sua duração inicial"
+v:"O custo para manter uma mágica após sua duração inicial"
 
 k:"The damage the weapon inflicts"
 v:"O dano causado pela arma"
@@ -2412,13 +2412,13 @@ k:"The difficulty of learning this technique"
 v:"A dificuldade de aprendizado desta técnica"
 
 k:"The difficulty of the spell"
-v:"A dificuldade desta magia"
+v:"A dificuldade desta mágica"
 
 k:"The duration field may not be empty"
 v:"O campo de duração não pode ficar vazio"
 
 k:"The duration of the spell once its cast"
-v:"A duração da magia após sua operação"
+v:"A duração da mágica após sua operação"
 
 k:"The encumbrance level"
 v:"O nível de base de carga"
@@ -2454,7 +2454,7 @@ k:"The mana cost to cast the spell"
 v:"O custo de mana para esta operação mágica"
 
 k:"The mana cost to maintain the spell"
-v:"O custo de mana para a manutenção da magia"
+v:"O custo de mana para a manutenção da mágica"
 
 k:"The maximum amount above the default skill level that this technique can be raised"
 v:"O valor máximo acima do NH padrão ao qual essa técnica pode ser elevada"
@@ -2484,13 +2484,13 @@ k:"The name of the advantage, without any notes"
 v:"O nome da vantagem sem nenhuma nota"
 
 k:"The name of the base skill, such as \"Ritual Magic\" or \"Thaumatology\""
-v:"O nome da perícia básica, como \"Magia Ritual\" ou \"Taumatologia\""
+v:"O nome da perícia básica, como \"Mágica Ritualística\" ou \"Taumatologia\""
 
 k:"The name of the skill this technique defaults from"
 v:"O nome da perícia em que esta técnica se baseia"
 
 k:"The name of the spell, without any notes"
-v:"O nome da magia sem nenhuma nota"
+v:"O nome da mágica sem nenhuma nota"
 
 k:"The name, level and notes describing an advantage"
 v:"O nome, nível e notas que descrevem uma vantagem"
@@ -2499,7 +2499,7 @@ k:"The name, specialty, tech level and notes describing a skill"
 v:"O nome, especialidade, NT e notas que descrevem uma perícia"
 
 k:"The name, tech level and notes describing the spell"
-v:"O nome, NT e notas que descrevem uma magia"
+v:"O nome, NT e notas que descrevem uma mágica"
 
 k:"The name/description of the equipment, without any notes"
 v:"O nome/descrição do equipamento, sem nenhuma nota"
@@ -2517,7 +2517,7 @@ k:"The number of points spent on this skill"
 v:"O número de pontos gastos nesta perícia"
 
 k:"The number of points spent on this spell"
-v:"O número de pontos gastos nesta magia"
+v:"O número de pontos gastos nesta mágica"
 
 k:"The number of points spent on this technique"
 v:"O número de pontos gastos nesta técnica"
@@ -2535,7 +2535,7 @@ k:"The number of uses remaining for this equipment"
 v:"O número de usos restantes para este equipamento"
 
 k:"The penalty to skill level based on the number of prerequisite spells"
-v:"A penalidade no NH baseada no número de magias pré-requisito"
+v:"A penalidade no NH baseada no número de mágicas pré-requisito"
 
 k:"The per level cost of this advantage. If this is set to zero and there is a value other than zero in the level field, then the value in the base points field will be used"
 v:"O custo por nível desta vantagem. Se for configurado para zero e houver um valor diferente de zero no campo de nível, então o valor no campo pontos básicos será utilizado"
@@ -2550,7 +2550,7 @@ k:"The points spent in the skill"
 v:"Os pontos gastos na perícia"
 
 k:"The points spent in the spell"
-v:"Os pontos gastos na magia"
+v:"Os pontos gastos na mágica"
 
 k:"The quantity of this piece of equipment"
 v:"A quantidade de exemplares desta peça de equipamento"
@@ -2577,7 +2577,7 @@ k:"The relative skill level"
 v:"O NH relativo"
 
 k:"The relative spell level"
-v:"O NH de magia relativo"
+v:"O NH de mágica relativo"
 
 k:"The resistance"
 v:"A resistência"
@@ -2601,7 +2601,7 @@ k:"The skill level with the weapon"
 v:"O NH com a arma"
 
 k:"The source of power for the spell"
-v:"A fonte de energia da magia"
+v:"A fonte de energia da mágica"
 
 k:"The specialization of the skill, if any, this technique defaults from"
 v:"A especialização da perícia, se houver, na qual esta técnica se baseia"
@@ -2610,13 +2610,13 @@ k:"The specialization, if any, taken for this skill"
 v:"A especialização, se houver, escolhida para esta perícia"
 
 k:"The spell duration"
-v:"A duração da magia"
+v:"A duração da mágica"
 
 k:"The spell level"
-v:"O NH da magia"
+v:"O NH da mágica"
 
 k:"The spell level and relative spell level to roll against.\n"
-v:"O NH da magia e o NH relativo da magia para se disputar num teste.\n"
+v:"O NH da mágica e o NH relativo da mágica para se disputar num teste.\n"
 
 k:"The sum of the points spent by children of this container"
 v:"A soma dos pontos gastos por derivados deste contêiner"
@@ -2822,7 +2822,7 @@ k:"Untitled Skills"
 v:"Perícias Sem Título"
 
 k:"Untitled Spells"
-v:"Magias Sem Título"
+v:"Mágicas Sem Título"
 
 k:"Untitled Template"
 v:"Modelo Sem Título"
@@ -2978,10 +2978,10 @@ k:"Whether this skill requires tech level specialization, and, if so, at what te
 v:"Se esta perícia requer uma especialização em NT, e, se sim, em qual NT ela foi aprendida"
 
 k:"Whether this spell requires tech level specialization"
-v:"Se esta magia requer uma especialização em NT"
+v:"Se esta mágica requer uma especialização em NT"
 
 k:"Whether this spell requires tech level specialization, and, if so, at what tech level it was learned"
-v:"Se esta magia requer uma especialização em NT, e, se sim, em qual NT ela foi aprendida"
+v:"Se esta mágica requer uma especialização em NT, e, se sim, em qual NT ela foi aprendida"
 
 k:"Whether to limit the maximum level that can be achieved or not"
 v:"Se deve-se limitar o nível máximo que pode ser atingido ou não"
@@ -3213,13 +3213,13 @@ k:"skill"
 v:"perícia"
 
 k:"spell"
-v:"magia"
+v:"mágica"
 
 k:"spell(s)"
-v:"magia(s)"
+v:"mágica(s)"
 
 k:"spells"
-v:"magias"
+v:"mágicas"
 
 k:"starts with"
 v:"começa com"
@@ -3324,7 +3324,7 @@ k:"to the skull"
 v:"ao crânio"
 
 k:"to the spell whose name"
-v:"para a magia cujo nome"
+v:"para a mágica cujo nome"
 
 k:"to the tail"
 v:"à cauda"
