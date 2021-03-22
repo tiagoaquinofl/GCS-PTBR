@@ -2124,10 +2124,10 @@ k:"Show User Description *"
 v:"Exibir Descrição do Usuário *"
 
 k:"Show the College column in character sheet spells list *"
-v:"Exibir a coluna Faculdade na lista de magias da planilha de personagem *"
+v:"Exibir a coluna Escola na lista de magias da planilha de personagem *"
 
 k:"Show the College column in the spells list"
-v:"Exibir a coluna Faculdade na lista de magias"
+v:"Exibir a coluna Escola na lista de magias"
 
 k:"Show the Difficulty column in character sheet skills and spells lists *"
 v:"Exibir a coluna Dificuldade nas listas de magias e perícias da planilha de personagem *"
@@ -2379,10 +2379,10 @@ k:"The class of the spell"
 v:"A classe da magia"
 
 k:"The college of the spell"
-v:"A faculdade da magia"
+v:"A escola da magia"
 
 k:"The college the spell belongs to"
-v:"A faculdade a que a magia pertence"
+v:"A escola a que a magia pertence"
 
 k:"The cost adjustment for this modifier"
 v:"O ajuste de custo para este modificador"
@@ -3119,7 +3119,7 @@ k:"from advantage %s"
 v:"da vantagem %s"
 
 k:"from different colleges"
-v:"de faculdades diferentes"
+v:"de escolas diferentes"
 
 k:"from equipment %s"
 v:"do equipamento %s"
@@ -3237,7 +3237,7 @@ k:"to "
 v:"para "
 
 k:"to all colleges"
-v:"para todas as faculdades"
+v:"para todas as escolas"
 
 k:"to base cost"
 v:"para o custo básico"
@@ -3285,7 +3285,7 @@ k:"to the brain"
 v:"ao cérebro"
 
 k:"to the college whose name"
-v:"para a faculdade cujo nome"
+v:"para a escola cujo nome"
 
 k:"to the eyes"
 v:"aos olhos"
@@ -3363,7 +3363,7 @@ k:"which "
 v:"qual "
 
 k:"whose college name"
-v:"cujo nome da faculdade"
+v:"cujo nome da escola"
 
 k:"whose name"
 v:"cujo nome"
@@ -3420,7 +3420,7 @@ k:"{0}% Cost of Living Increase"
 v:"{0}% Aumento de Custo de Vida"
 
 k:"{0}Must be assigned to a college\n"
-v:"{0}Deve ser alocada a uma faculdade\n"
+v:"{0}Deve ser alocada a uma escola\n"
 
 k:"{0}Requires a skill named {1}\n"
 v:"{0}Precisa da perícia chamada {1}\n"
@@ -3459,7 +3459,7 @@ k:"{0}{1} an advantage whose name {2}"
 v:"{0}{1} uma vantagem cujo nome {2}"
 
 k:"{0}{1} college count which {2}\n"
-v:"{0}{1} soma de faculdades que {2}\n"
+v:"{0}{1} soma de escolas que {2}\n"
 
 k:"{0}{1} {2} which {3}"
 v:"{0}{1} {2} que {3}"
@@ -3468,7 +3468,7 @@ k:"{0}{1} {2} {3} of any kind\n"
 v:"{0}{1} {2} {3} de qualquer tipo\n"
 
 k:"{0}{1} {2} {3} whose college {4}\n"
-v:"{0}{1} {2} {3} cuja faculdade {4}\n"
+v:"{0}{1} {2} {3} cuja escola {4}\n"
 
 k:"{0}{1} {2} {3} whose name {4}\n"
 v:"{0}{1} {2} {3} cujo nome {4}\n"
