@@ -1914,7 +1914,7 @@
 			"name": "Armadura",
 			"reference": "M167",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2 por RD",
@@ -1941,7 +1941,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -2052,7 +2052,7 @@
 			"name": "Domo Atmosférico",
 			"reference": "M169",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "4",
@@ -2092,7 +2092,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -3122,7 +3122,7 @@
 			"name": "Gira-Lâminas",
 			"reference": "M168",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -3162,7 +3162,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -3430,7 +3430,7 @@
 			"name": "Bloquear",
 			"reference": "M166",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"casting_cost": "1 por BD",
@@ -3454,7 +3454,7 @@
 						},
 						"notes": {
 							"compare": "contains",
-							"qualifier": "uma escola (proteção e advertência)"
+							"qualifier": "uma escola (proteção e aviso)"
 						}
 					},
 					{
@@ -3472,7 +3472,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -5563,7 +5563,7 @@
 			"name": "Apanhar Projéteis",
 			"reference": "M168",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"casting_cost": "2",
@@ -5590,7 +5590,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -7900,7 +7900,7 @@
 			"name": "Frescor",
 			"reference": "M187",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência ou Água",
+			"college": "Proteção e Aviso ou Água",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -7927,7 +7927,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Água"
 			]
 		},
@@ -10543,7 +10543,7 @@
 			"name": "Desviar Projétil",
 			"reference": "M143",
 			"difficulty": "IQ/H",
-			"college": "Deslocamento ou Proteção e Advertência",
+			"college": "Deslocamento ou Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"casting_cost": "1",
@@ -10571,7 +10571,7 @@
 			},
 			"categories": [
 				"Deslocamento",
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -10929,7 +10929,7 @@
 			"name": "Detecção de Veneno",
 			"reference": "M166",
 			"difficulty": "IQ/H",
-			"college": "Cura ou Proteção e Advertência",
+			"college": "Cura ou Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área/Informação",
 			"casting_cost": "2",
@@ -10970,7 +10970,7 @@
 			},
 			"categories": [
 				"Cura",
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -17181,7 +17181,7 @@
 			"name": "Domo de Força",
 			"reference": "M170",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "3",
@@ -17209,7 +17209,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (proteção e advertência)"
+									"qualifier": "uma escola (proteção e aviso)"
 								}
 							},
 							{
@@ -17259,7 +17259,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -17269,7 +17269,7 @@
 			"name": "Muralha de Força",
 			"reference": "M170",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2/m",
@@ -17296,7 +17296,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -17570,7 +17570,7 @@
 						"sub_type": "college",
 						"qualifier": {
 							"compare": "contains",
-							"qualifier": "Proteção e Advertência"
+							"qualifier": "Proteção e Aviso"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -19583,7 +19583,7 @@
 			"name": "Robustez",
 			"reference": "M167",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"casting_cost": "1 por RD",
@@ -19610,7 +19610,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -22242,7 +22242,7 @@
 			"name": "Braço de Ferro",
 			"reference": "M169",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"casting_cost": "1",
@@ -22278,7 +22278,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -25073,7 +25073,7 @@
 			"name": "Tranca Mágica",
 			"reference": "M166",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Chave Mestra",
@@ -25100,7 +25100,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -26465,7 +26465,7 @@
 			"name": "Escudo Antiprojéteis",
 			"reference": "M168",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "5",
@@ -26505,7 +26505,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -26815,7 +26815,7 @@
 			"name": "Neblina Mística",
 			"reference": "M168",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "1",
@@ -26875,7 +26875,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (proteção e advertência)"
+									"qualifier": "uma escola (proteção e aviso)"
 								}
 							},
 							{
@@ -26899,7 +26899,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -27145,7 +27145,7 @@
 			"name": "Rouxinol",
 			"reference": "M167",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "2",
@@ -27172,7 +27172,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -32324,7 +32324,7 @@
 			"name": "Refletir Olhar",
 			"reference": "M168",
 			"difficulty": "IQ/VH",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"resist": "Ataques visuais",
@@ -32352,7 +32352,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -33754,7 +33754,7 @@
 			"name": "Imunidade a Ácido",
 			"reference": "M190",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência ou Água",
+			"college": "Proteção e Aviso ou Água",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2 ou 6",
@@ -33781,7 +33781,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Água"
 			]
 		},
@@ -33829,7 +33829,7 @@
 			"name": "Imunidade à Doenças",
 			"reference": "M90",
 			"difficulty": "IQ/H",
-			"college": "Cura ou Proteção e Advertência",
+			"college": "Cura ou Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "4",
@@ -33870,7 +33870,7 @@
 			},
 			"categories": [
 				"Cura",
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -33954,7 +33954,7 @@
 			"name": "Imunidade a Relâmpagos",
 			"reference": "M196",
 			"difficulty": "IQ/H",
-			"college": "Ar ou Proteção e Advertência ou Clima",
+			"college": "Ar ou Proteção e Aviso ou Clima",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -33982,7 +33982,7 @@
 			},
 			"categories": [
 				"Ar",
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Clima"
 			]
 		},
@@ -34068,7 +34068,7 @@
 			"name": "Imunidade a Veneno",
 			"reference": "M91",
 			"difficulty": "IQ/H",
-			"college": "Cura ou Proteção e Advertência",
+			"college": "Cura ou Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "4",
@@ -34096,7 +34096,7 @@
 			},
 			"categories": [
 				"Cura",
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -34106,7 +34106,7 @@
 			"name": "Imunidade à Pressão",
 			"reference": "M169",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "Varia",
@@ -34133,7 +34133,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -34143,7 +34143,7 @@
 			"name": "Imunidade à Radiação",
 			"reference": "M182",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência ou Tecnológica ou Radiação",
+			"college": "Proteção e Aviso ou Tecnológica ou Radiação",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "Varia",
@@ -34170,7 +34170,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Radiação",
 				"Tecnológica"
 			]
@@ -34182,7 +34182,7 @@
 			"name": "Imunidade ao Som",
 			"reference": "M173",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência ou Som",
+			"college": "Proteção e Aviso ou Som",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -34209,7 +34209,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Som"
 			]
 		},
@@ -34220,7 +34220,7 @@
 			"name": "Imunidade à Água",
 			"reference": "M186",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência ou Água",
+			"college": "Proteção e Aviso ou Água",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -34279,7 +34279,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Água"
 			]
 		},
@@ -34871,7 +34871,7 @@
 			"name": "Devolver Projétil",
 			"reference": "M168",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"casting_cost": "2",
@@ -34898,7 +34898,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -34948,7 +34948,7 @@
 			"name": "Reverter Projéteis",
 			"reference": "M168",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "7",
@@ -34988,7 +34988,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -36801,7 +36801,7 @@
 			"name": "Percepção do Perigo",
 			"reference": "M166",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Informação",
 			"casting_cost": "3",
@@ -36836,7 +36836,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -36956,7 +36956,7 @@
 			"name": "Percepção de Observação",
 			"reference": "M167",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "1 ou 3",
@@ -36996,7 +36996,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -37172,7 +37172,7 @@
 			"name": "Sombrear",
 			"reference": "M169",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1",
@@ -37212,7 +37212,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -38066,7 +38066,7 @@
 			"name": "Escudo",
 			"reference": "M167",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2 por BD",
@@ -38090,7 +38090,7 @@
 						},
 						"notes": {
 							"compare": "contains",
-							"qualifier": "uma escola (proteção e advertência)"
+							"qualifier": "uma escola (proteção e aviso)"
 						}
 					},
 					{
@@ -38108,7 +38108,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -44496,7 +44496,7 @@
 			"name": "Escudo Antiteleporte",
 			"reference": "M170",
 			"difficulty": "IQ/H",
-			"college": "Portal ou Proteção e Advertência",
+			"college": "Portal ou Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "1#",
@@ -44556,7 +44556,7 @@
 			},
 			"categories": [
 				"Portal",
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -45913,7 +45913,7 @@
 			"name": "Girar Lâmina",
 			"reference": "M167",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Bloqueio",
 			"casting_cost": "1",
@@ -45953,7 +45953,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -46051,7 +46051,7 @@
 			"name": "Guarda-Chuva",
 			"reference": "M185",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência ou Água",
+			"college": "Proteção e Aviso ou Água",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1",
@@ -46091,7 +46091,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Água"
 			]
 		},
@@ -46140,7 +46140,7 @@
 			"name": "Domo Absoluto",
 			"reference": "M170",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "6",
@@ -46194,7 +46194,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (proteção e advertência)"
+									"qualifier": "uma escola (proteção e aviso)"
 								}
 							},
 							{
@@ -46218,7 +46218,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -46228,7 +46228,7 @@
 			"name": "Muralha Absoluta",
 			"reference": "M170",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Mágicas Invasoras",
@@ -46269,7 +46269,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -47105,7 +47105,7 @@
 			"name": "Tepidez",
 			"reference": "M74",
 			"difficulty": "IQ/H",
-			"college": "Fogo ou Proteção e Advertência",
+			"college": "Fogo ou Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -47133,7 +47133,7 @@
 			},
 			"categories": [
 				"Fogo",
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -47143,7 +47143,7 @@
 			"name": "Sentinela",
 			"reference": "M167",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência",
+			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "1",
@@ -47170,7 +47170,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência"
+				"Proteção e Aviso"
 			]
 		},
 		{
@@ -47696,7 +47696,7 @@
 			"name": "Domo Climático",
 			"reference": "M169",
 			"difficulty": "IQ/H",
-			"college": "Proteção e Advertência ou Clima",
+			"college": "Proteção e Aviso ou Clima",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "3",
@@ -47762,7 +47762,7 @@
 				]
 			},
 			"categories": [
-				"Proteção e Advertência",
+				"Proteção e Aviso",
 				"Clima"
 			]
 		},
