@@ -161,7 +161,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cor/point",
+						"type": "cor/ponto",
 						"base": "1d"
 					},
 					"precisão": "1",
@@ -174,7 +174,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -258,12 +258,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cor/point",
+						"type": "cor/ponto",
 						"base": "1d-1"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -272,7 +272,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -583,12 +583,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "kb/point",
+						"type": "kb/ponto",
 						"base": "2d"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -597,7 +597,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -2427,11 +2427,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn ex/point",
+						"type": "qmd ex/ponto",
 						"base": "1d-1"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -3619,10 +3619,10 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn",
+						"type": "qmd",
 						"base": "1d"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -3775,10 +3775,10 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn",
+						"type": "qmd",
 						"base": "1d"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -4873,12 +4873,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn/point",
+						"type": "qmd/ponto",
 						"base": "1d+1"
 					},
-					"usage": "Breath",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Sopro",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -5060,12 +5060,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn/point",
+						"type": "qmd/ponto",
 						"base": "1d"
 					},
-					"usage": "Breath",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Sopro",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -5287,11 +5287,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr +1d-1 burn/second",
+						"type": "cont +1d-1 qmd/segundo",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -5406,11 +5406,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "+1d burn/point",
+						"type": "+1d qmd/ponto",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -6829,7 +6829,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cr ex/2 points",
+						"type": "cont ex/2 pontos",
 						"base": "1d"
 					},
 					"precisão": "1",
@@ -6842,7 +6842,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -8629,12 +8629,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn",
+						"type": "qmd",
 						"base": "1d-1"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -10144,11 +10144,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr +1d/point",
+						"type": "cont +1d/ponto",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -10593,11 +10593,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "dehydrate/point",
+						"type": "desidratar/ponto",
 						"base": "1d-1"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -11028,11 +11028,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "/point",
+						"type": "/ponto",
 						"base": "1d"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -14547,12 +14547,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn",
+						"type": "qmd",
 						"base": "1d"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -14850,9 +14850,9 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "removes vital organ"
+						"type": "remove órgão vital"
 					},
-					"usage": "Grapple",
+					"usage": "Agarrão",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -15017,11 +15017,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "frag/2 points",
+						"type": "frag/2 pontos",
 						"base": "1d"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -15117,7 +15117,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "burn ex/2 points",
+						"type": "qmd ex/2 pontos",
 						"base": "1d"
 					},
 					"precisão": "1",
@@ -15130,7 +15130,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -15176,7 +15176,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "burn ex/2 points",
+						"type": "qmd ex/2 pontos",
 						"base": "1d-1"
 					},
 					"precisão": "3",
@@ -15189,7 +15189,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -16206,12 +16206,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "point burn/point",
+						"type": "ponto de qmd/ponto",
 						"base": "+1"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -16268,7 +16268,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "burn/point",
+						"type": "qmd/ponto",
 						"base": "1d"
 					},
 					"precisão": "1",
@@ -16281,7 +16281,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -16415,12 +16415,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn/point",
+						"type": "qmd/ponto",
 						"base": "1d"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -16429,7 +16429,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -16692,11 +16692,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "Blinds"
+						"type": "Cega"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -17716,11 +17716,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "freezing/point",
+						"type": "freezing/ponto",
 						"base": "1d"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -19292,12 +19292,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr",
+						"type": "cont",
 						"base": "1d-2"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -20690,7 +20690,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "imp/point",
+						"type": "perf/ponto",
 						"base": "1d-1"
 					},
 					"precisão": "3",
@@ -20703,7 +20703,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -20799,7 +20799,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cr/point",
+						"type": "cont/ponto",
 						"base": "1d"
 					},
 					"precisão": "2",
@@ -20812,7 +20812,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -20858,12 +20858,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "freezing/point",
+						"type": "freezing/ponto",
 						"base": "1d+1"
 					},
-					"usage": "Breath",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Sopro",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -21007,11 +21007,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "+paralysis",
+						"type": "+paralisia",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -23615,11 +23615,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "Blinds"
+						"type": "Cega"
 					},
-					"usage": "Jet",
+					"usage": "Jato",
 					"reach": "10",
-					"parry": "No",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -23628,7 +23628,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -23812,7 +23812,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "burn/point",
+						"type": "qmd/ponto",
 						"base": "1d-1"
 					},
 					"precisão": "3",
@@ -23825,7 +23825,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -24000,12 +24000,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn/point",
+						"type": "qmd/ponto",
 						"base": "1d"
 					},
-					"usage": "Gaze",
-					"reach": "2/point",
-					"parry": "No",
+					"usage": "Olhar",
+					"reach": "2/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -24014,7 +24014,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Gaze"
+							"specialization": "Olhar"
 						}
 					]
 				}
@@ -24151,11 +24151,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn",
+						"type": "qmd",
 						"base": "1d"
 					},
-					"reach": "2/point",
-					"parry": "No",
+					"reach": "2/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -26627,12 +26627,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "kb/point - Blinds",
+						"type": "kb/ponto - Cega",
 						"base": "1d"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -26641,7 +26641,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -27685,9 +27685,9 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "Petrification"
+						"type": "Petrificação"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -29929,11 +29929,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "Cough/Sneeze"
+						"type": "Tosse/Espirro"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -29978,7 +29978,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "Special cr"
+						"type": "cr especial"
 					},
 					"precisão": "1",
 					"range": "20/60",
@@ -31300,7 +31300,7 @@
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -31395,12 +31395,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn",
+						"type": "qmd",
 						"base": "1d-1"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -31482,12 +31482,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "imp",
+						"type": "perf",
 						"base": "1d-2"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -31670,12 +31670,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr/point",
+						"type": "cont/ponto",
 						"base": "1d-1"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -34627,7 +34627,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "cegar"
+									"qualifier": "Cega"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -35084,11 +35084,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "(pi ++)/point",
+						"type": "(pa ++)/ponto",
 						"base": "1d"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -35210,11 +35210,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr +1d-1 tox/second",
+						"type": "cont +1d-1 tox/segundo",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -35504,11 +35504,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "Blinds"
+						"type": "Cega"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -35517,7 +35517,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -37940,11 +37940,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "/point",
+						"type": "/ponto",
 						"base": "1d"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -38129,11 +38129,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr +1d+1 burn/point",
+						"type": "cont +1d+1 qmd/ponto",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -39198,11 +39198,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "Cough/Weep"
+						"type": "Tosse/Lacrimejar"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -39311,12 +39311,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "kb/point - Blinds",
+						"type": "kb/ponto - Cega",
 						"base": "1d"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -39325,7 +39325,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -39728,11 +39728,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "Stuns"
+						"type": "Atordoa"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -39741,7 +39741,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -39836,12 +39836,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "point burn/second",
+						"type": "ponto de qmd/segundo",
 						"base": "+1"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -39899,12 +39899,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn/2 points",
+						"type": "qmd/2 pontos",
 						"base": "1d-1"
 					},
 					"usage": "Área",
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -40382,7 +40382,7 @@
 			"college": "Animais",
 			"power_source": "Arcana",
 			"spell_class": "Projétil; Especial",
-			"casting_cost": "1 por 5 m strand; max 100 metros",
+			"casting_cost": "1 por fio de 5 m; máx 100 metros",
 			"maintenance_cost": "Metade",
 			"casting_time": "1 seg",
 			"duration": "1 min",
@@ -40390,10 +40390,10 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "grapple ST 10/strand"
+						"type": "agarrão ST 10/fio"
 					},
 					"precisão": "3",
-					"range": "5/point",
+					"range": "5/ponto",
 					"defaults": [
 						{
 							"type": "DX",
@@ -40402,7 +40402,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -40486,12 +40486,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cor/point",
+						"type": "cor/ponto",
 						"base": "1d"
 					},
-					"usage": "Breath",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Sopro",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -41446,12 +41446,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "burn/point",
+						"type": "qmd/ponto",
 						"base": "1d-1"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -41460,7 +41460,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -41670,7 +41670,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cr/point",
+						"type": "cont/ponto",
 						"base": "1d+1"
 					},
 					"precisão": "2",
@@ -41683,7 +41683,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -42353,7 +42353,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "090d8f51-877c-4012-ab84-8b0f59ad8f16",
-			"name": "Cegar",
+			"name": "Cega",
 			"reference": "M38",
 			"difficulty": "IQ/H",
 			"college": "Controle do Corpo",
@@ -43412,7 +43412,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "imp/point",
+						"type": "perf/ponto",
 						"base": "1d-1"
 					},
 					"precisão": "2",
@@ -43425,7 +43425,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -44884,7 +44884,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Projectile"
+							"specialization": "Projétil"
 						}
 					]
 				}
@@ -45320,11 +45320,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr + Paralysis",
+						"type": "cont + Paralisia",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -47191,12 +47191,12 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr/point",
+						"type": "cont/ponto",
 						"base": "1d"
 					},
-					"usage": "Jet",
-					"reach": "1/point",
-					"parry": "No",
+					"usage": "Jato",
+					"reach": "1/ponto",
+					"parry": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -47205,7 +47205,7 @@
 						{
 							"type": "skill",
 							"name": "Ataque Inato",
-							"specialization": "Beam"
+							"specialization": "Feixe"
 						}
 					]
 				}
@@ -47378,11 +47378,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "/2 points",
+						"type": "/2 pontos",
 						"base": "1d"
 					},
 					"reach": "Especial",
-					"parry": "No"
+					"parry": "Não"
 				}
 			],
 			"prereqs": {
@@ -47934,7 +47934,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "per weapon"
+						"type": "por arma"
 					},
 					"precisão": "1",
 					"range": "20/40",
@@ -48076,11 +48076,11 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-						"type": "cr +1d",
+						"type": "cont +1d",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
+					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
