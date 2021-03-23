@@ -10643,7 +10643,7 @@
 			"name": "Retardo",
 			"reference": "M130",
 			"difficulty": "IQ/H",
-			"college": "Metamágicas ou Ligação",
+			"college": "Metamágicas ou Conexão",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -10704,7 +10704,7 @@
 				]
 			},
 			"categories": [
-				"Ligação",
+				"Conexão",
 				"Metamágicas"
 			]
 		},
@@ -24246,7 +24246,7 @@
 			"name": "Conexão",
 			"reference": "M131",
 			"difficulty": "IQ/H",
-			"college": "Metamágicas ou Ligação",
+			"college": "Metamágicas ou Conexão",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "8",
@@ -24273,7 +24273,7 @@
 				]
 			},
 			"categories": [
-				"Ligação",
+				"Conexão",
 				"Metamágicas"
 			]
 		},
@@ -32362,7 +32362,7 @@
 			"name": "Reflexo",
 			"reference": "M132",
 			"difficulty": "IQ/H",
-			"college": "Metamágicas ou Ligação",
+			"college": "Metamágicas ou Conexão",
 			"power_source": "Arcana",
 			"spell_class": "Especial",
 			"casting_cost": "custo da mágica do objetivo",
@@ -32402,7 +32402,7 @@
 				]
 			},
 			"categories": [
-				"Ligação",
+				"Conexão",
 				"Metamágicas"
 			]
 		},
