@@ -83,6 +83,9 @@ v:"%s %s\n%s Arquitetura\nJava %s"
 k:"%s (%s per %s)"
 v:"%s (%s por %s)"
 
+k:"%s Locations"
+v:"%s - Pontos de Impacto"
+
 k:"%s Output Templates"
 v:"%s Modelos de Saída"
 
@@ -151,6 +154,15 @@ v:"resta 1 item ser nomeado."
 
 k:"1 sec"
 v:"1 seg"
+
+k:"; Cost: -%d"
+v:"; Custo: -%d"
+
+k:"; Cost: -1"
+v:"; Custo: -1"
+
+k:"; Time: x1/%d, rounded up, min 1 sec"
+v:"; Tempo: x1/%d, arredondado para cima, mín 1 seg"
 
 k:"<html><body><b>Double-click</b> to set a character portrait.<br><br>The dimensions of the chosen picture should be in a ratio of<br><b>3 pixels wide for every 4 pixels tall</b> to scale without distortion.<br><br>Dimensions of <b>{0}x{1}</b> are ideal.</body></html>"
 v:"<html><body><b>Clique duplo</b> para configurar um retrato de personagem.<br><br>As dimensões da imagem escolhida devem ter uma proporção de<br><b>3 pixels de largura para cada 4 pixels de altura</b> para ajustar o tamanho sem distorção.<br><br>Dimensões de <b>{0}x{1}</b> são ideais.</body></html>"
@@ -395,8 +407,8 @@ v:"Divisor de Armadura"
 k:"Attributes"
 v:"Atributos"
 
-k:"Automatically name new characters"
-v:"Nomear automaticamente novos personagens"
+k:"Automatically fill in new character identity and description information with randomized choices"
+v:"Preencher automaticamente a identidade e descrição de novos personagens com valores aleatórios"
 
 k:"Available options:"
 v:"Opções disponíveis:"
@@ -463,6 +475,9 @@ v:"Data Nasc.:"
 
 k:"Black"
 v:"Pretos"
+
+k:"Bite"
+v:"Mordida"
 
 k:"Block"
 v:"Bloqueio"
@@ -1132,9 +1147,6 @@ v:"Alto"
 k:"Hindleg"
 v:"Perna Traseira"
 
-k:"Hit Locations"
-v:"Ponto de Impacto"
-
 k:"Hit Points"
 v:"Pontos de Vida"
 
@@ -1269,6 +1281,9 @@ v:"Arquivos JPEG"
 
 k:"Jump To Search"
 v:"Pular para Busca"
+
+k:"Kick"
+v:"Chute"
 
 k:"Kilograms"
 v:"Quilogramas"
@@ -1832,6 +1847,9 @@ v:"Imprimir…"
 k:"Pts"
 v:"Pts"
 
+k:"Punch"
+v:"Soco"
+
 k:"Qty"
 v:"Qtd"
 
@@ -2007,7 +2025,16 @@ k:"Right Leg"
 v:"Perna Dir"
 
 k:"Ritual Magic Spell"
-v:"Ritual Magic Spell"
+v:"Mágica Ritualística"
+
+k:"Ritual: "
+v:"Ritual: "
+
+k:"Ritual: need both hands and feet free and must speak; Time: 2x"
+v:"Ritual: precisa das duas mãos e pés livres e deve falar; Tempo: 2x"
+
+k:"Ritual: speak quietly and make a gesture"
+v:"Ritual: falar baixinho e fazer um gesto"
 
 k:"RoF"
 v:"CdT"
@@ -2134,6 +2161,24 @@ v:"Exibir a coluna Dificuldade nas listas de mágicas e perícias da planilha de
 
 k:"Show the Difficulty column in the skills and spells lists"
 v:"Exibir a coluna Dificuldade nas listas de mágicas e perícias"
+
+k:"Show the advantage modifier cost adjustments in the advantage list"
+v:"Exibir o modificador e o custo dos ajustes na lista de vantagens"
+
+k:"Show the advantage modifier cost adjustments in the advantage list *"
+v:"Exibir o modificador e o custo dos ajustes na lista de vantagens *"
+
+k:"Show the equipment modifier cost and weight adjustments in the equipment lists"
+v:"Exibir o custo do modificador e o ajuste do peso na lista de equipamentos"
+
+k:"Show the equipment modifier cost and weight adjustments in the equipment lists *"
+v:"Exibir o custo do modificador e o ajuste do peso na lista de equipamentos *"
+
+k:"Show the spell ritual, cost and time adjustments in the spell list"
+v:"Exibir os ajustes de ritual, custo e duração na lista de mágicas"
+
+k:"Show the spell ritual, cost and time adjustments in the spell list *"
+v:"Exibir os ajustes de ritual, custo e duração na lista de mágicas *"
 
 k:"Show the title rather than the name in the page footer"
 v:"Exibir o título ao invés do nome no rodapé da página"
@@ -3185,6 +3230,9 @@ v:"deve especificar um ou mais arquivos de planilha para processar"
 k:"note"
 v:"nota"
 
+k:"none"
+v:"nenhum"
+
 k:"of any kind"
 v:"de qualquer tipo"
 
@@ -3211,6 +3259,9 @@ v:"modificador de tamanho"
 
 k:"skill"
 v:"perícia"
+
+k:"speak a word or two OR make a small gesture"
+v:"falar uma ou duas palavras OU fazer um pequeno gesto"
 
 k:"spell"
 v:"mágica"
