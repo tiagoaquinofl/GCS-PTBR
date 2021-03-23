@@ -1705,7 +1705,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "espírito da caveira"
+							"qualifier": "espírito de caveira"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -6938,7 +6938,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "95e04eff-86c3-48af-86bf-34119361b344",
-			"name": "Conduzir Energia Elétrica",
+			"name": "Conduzir Corrente Elétrica",
 			"reference": "M180",
 			"difficulty": "IQ/VH",
 			"tech_level": "",
@@ -6959,7 +6959,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "localizar energia elétrica"
+							"qualifier": "localizar corrente elétrica"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -12575,7 +12575,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "b484c516-c71f-4684-b243-c6b997a450b4",
-			"name": "Extrair Energia Elétrica",
+			"name": "Extrair Corrente Elétrica",
 			"reference": "M180",
 			"difficulty": "IQ/VH",
 			"tech_level": "",
@@ -12614,7 +12614,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "roubar energia elétrica"
+							"qualifier": "roubar corrente elétrica"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -22988,7 +22988,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ca00bb54-834a-4409-9f9b-8601857b7cdf",
-			"name": "Emprestar Energia Elétrica",
+			"name": "Emprestar Corrente Elétrica",
 			"reference": "M180",
 			"difficulty": "IQ/H",
 			"tech_level": "",
@@ -23009,7 +23009,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "localizar energia elétrica"
+							"qualifier": "localizar corrente elétrica"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -36638,7 +36638,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "4fb9eb6a-951b-4366-b6f5-76a8517846e3",
-			"name": "Localizar Energia Elétrica",
+			"name": "Localizar Corrente Elétrica",
 			"reference": "M179",
 			"difficulty": "IQ/H",
 			"tech_level": "",
@@ -38652,7 +38652,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "71c56e9d-c5af-4206-a9db-29c4702ae1b3",
-			"name": "Espírito da Caveira",
+			"name": "Espírito de Caveira",
 			"reference": "M151",
 			"difficulty": "IQ/H",
 			"college": "Necromancia",
@@ -40923,7 +40923,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "7600344b-5090-41fb-a0c3-b04d83878306",
-			"name": "Roubar Energia Elétrica",
+			"name": "Roubar Corrente Elétrica",
 			"reference": "M180",
 			"difficulty": "IQ/VH",
 			"tech_level": "",
@@ -40957,7 +40957,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "conduzir energia elétrica"
+							"qualifier": "conduzir corrente elétrica"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -42009,7 +42009,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "28128169-0026-4dd1-879e-aedd29e1d347",
-			"name": "Cessar Energia Elétrica",
+			"name": "Cessar Corrente Elétrica",
 			"reference": "M179",
 			"difficulty": "IQ/H",
 			"college": "Tecnológica ou Energia",
@@ -42029,7 +42029,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "localizar energia elétrica"
+							"qualifier": "localizar corrente elétrica"
 						},
 						"quantity": {
 							"compare": "at_least",
