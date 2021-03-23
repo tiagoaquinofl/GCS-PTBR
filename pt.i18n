@@ -42,16 +42,16 @@ k:"  Creating from text template... "
 v:"  Criando a partir de arquivo de texto modelo... "
 
 k:" (e.g. '+5 lb', '-5 lb', '+10%', '-10%')"
-v:" (e.g. '+5 kg', '-5 kg', '+10%', '-10%')"
+v:" (ex: '+5 kg', '-5 kg', '+10%', '-10%')"
 
 k:" (e.g. '+5 lb', '-5 lb', 'x10%', 'x3', 'x2/3')"
-v:" (e.g. '+5 kg', '-5 kg', 'x10%', 'x3', 'x2/3')"
+v:" (ex: '+5 kg', '-5 kg', 'x10%', 'x3', 'x2/3')"
 
 k:" (e.g. '+5', '-5', '+10%', '-10%', 'x3.2)"
-v:" (e.g. '+5', '-5', '+10%', '-10%', 'x3.2)"
+v:" (ex: '+5', '-5', '+10%', '-10%', 'x3.2)"
 
 k:" (e.g. 'x2', '+2 CF', '-0.2 CF')"
-v:" (e.g. 'x2', '+2 FC', '-0.2 FC')"
+v:" (ex: 'x2', '+2 FC', '-0.2 FC')"
 
 k:" Block"
 v:" Bloqueio"
@@ -171,7 +171,7 @@ k:"<html><body>Current hit points at or below this point cause<br>the character 
 v:"<html><body>Pontos de vida atuais iguais ou abaixo deste ponto fazem<br>o personagem fazer um <b>teste de HT</b> para evitar a morte</body></html>"
 
 k:"<html><body>Current hit points at or below this point indicate the character<br>is on the verge of collapse, causing the character to <b>roll vs. HT</b><br>(at -1 per full multiple of HP below zero) every second to avoid<br>falling unconscious</body></html>"
-v:"<html><body>Pontos de vida atuais iguais ou abaixo deste ponto indicam que o personagem<br>está prestes a desmaiar, e ele deve fazer um <b>teste de HT</b><br>(a cada múltiplo dos PV abaixo de zeroa) a cada segundo para evitar<br>desmaiar</body></html>"
+v:"<html><body>Pontos de vida atuais iguais ou abaixo deste ponto indicam que o personagem<br>está prestes a desmaiar, e ele deve fazer um <b>teste de HT</b><br>(a cada múltiplo dos PV abaixo de zero) a cada segundo para evitar<br>desmaiar</body></html>"
 
 k:"<html><body>TL0: Stone Age (Prehistory and later)<br>TL1: Bronze Age (3500 B.C.+)<br>TL2: Iron Age (1200 B.C.+)<br>TL3: Medieval (600 A.D.+)<br>TL4: Age of Sail (1450+)<br>TL5: Industrial Revolution (1730+)<br>TL6: Mechanized Age (1880+)<br>TL7: Nuclear Age (1940+)<br>TL8: Digital Age (1980+)<br>TL9: Microtech Age (2025+?)<br>TL10: Robotic Age (2070+?)<br>TL11: Age of Exotic Matter<br>TL12: Anything Goes</body></html>"
 v:"<html><body>NT0: Idade da Pedra (Pré-história e eras posteriores)<br>NT1: Idade do Bronze (3500 a.C. +)<br>NT2: Idade do Ferro (1200 a.C. +)<br>NT3: Idade Média (600 d.C. +)<br>NT4: Era dos Descobrimentos (1450+)<br>NT5: Revolução Industrial (1730+)<br>NT6: Era da Automação (1880+)<br>NT7: Era Nuclear (1940+)<br>NT8: Era Digital (1980+)<br>NT9: Era da Microtecnologia (2025+)<br>NT10: Era da Robótica (2070+)<br>NT11: Era da Matéria Exótica<br>NT12: O que o Mestre quiser</body></html>"
@@ -1845,7 +1845,7 @@ k:"Print…"
 v:"Imprimir…"
 
 k:"Pts"
-v:"Pts"
+v:"Ptos"
 
 k:"Punch"
 v:"Soco"
@@ -2031,10 +2031,10 @@ k:"Ritual: "
 v:"Ritual: "
 
 k:"Ritual: need both hands and feet free and must speak; Time: 2x"
-v:"Ritual: precisa das duas mãos e pés livres e deve falar; Tempo: 2x"
+v:"Ritual: deve ter ambas as mãos e os dois pés livres e deve falar; Tempo: 2x"
 
 k:"Ritual: speak quietly and make a gesture"
-v:"Ritual: falar baixinho e fazer um gesto"
+v:"Ritual: falar algumas palavras silenciosas e fazer um gesto."
 
 k:"RoF"
 v:"CdT"
