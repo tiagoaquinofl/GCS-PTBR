@@ -156,7 +156,7 @@
 			"casting_cost": "1-Aptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -1205,7 +1205,7 @@
 			"casting_cost": "8",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -1242,7 +1242,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "1 min/pt",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -2145,7 +2145,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -2745,7 +2745,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -3360,7 +3360,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -3398,7 +3398,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -3436,7 +3436,7 @@
 			"casting_cost": "1 por BD",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -4558,7 +4558,7 @@
 			"casting_cost": "1-5",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -4595,7 +4595,7 @@
 			"casting_cost": "1-5",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -4632,7 +4632,7 @@
 			"casting_cost": "1-5",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -4669,7 +4669,7 @@
 			"casting_cost": "1-5",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -5401,7 +5401,7 @@
 			"casting_cost": "1-3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -5569,7 +5569,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -5606,7 +5606,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -6365,7 +6365,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -6824,7 +6824,7 @@
 			"casting_cost": "2-2xAptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -7262,7 +7262,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "2 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -8176,7 +8176,7 @@
 			"resist": "Mágica do objetivo",
 			"casting_cost": "Half countered spell",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -10139,7 +10139,7 @@
 			"casting_cost": "1-3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -10474,7 +10474,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -10549,7 +10549,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -10809,7 +10809,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -10883,7 +10883,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -11201,7 +11201,7 @@
 			"casting_cost": "1 ou 3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11239,7 +11239,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11324,7 +11324,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11539,7 +11539,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11615,7 +11615,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11664,7 +11664,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11740,7 +11740,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11816,7 +11816,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -11866,7 +11866,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11942,7 +11942,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -11979,7 +11979,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12028,7 +12028,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12065,7 +12065,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12102,7 +12102,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12134,7 +12134,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12171,7 +12171,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12208,7 +12208,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12245,7 +12245,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -12321,7 +12321,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "1 h",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -14845,7 +14845,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -15012,7 +15012,7 @@
 			"casting_cost": "2-6",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -15112,7 +15112,7 @@
 			"casting_cost": "2-2xAptidão Mágica#",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -15171,7 +15171,7 @@
 			"casting_cost": "2-2xAptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -16073,7 +16073,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -16125,7 +16125,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "2 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -16263,7 +16263,7 @@
 			"casting_cost": "1-Aptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -16687,7 +16687,7 @@
 			"casting_cost": "4",
 			"maintenance_cost": "-",
 			"casting_time": "2 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -16825,7 +16825,7 @@
 			"casting_cost": "10#",
 			"maintenance_cost": "-",
 			"casting_time": "2 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -17773,7 +17773,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -18319,7 +18319,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -19127,7 +19127,7 @@
 			"casting_cost": "1/objetivo",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -19376,7 +19376,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "2 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -19589,7 +19589,7 @@
 			"casting_cost": "1 por RD",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -20295,7 +20295,7 @@
 			"spell_class": "Informação",
 			"casting_cost": "Varia",
 			"casting_time": "1 seg/pt",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -20407,7 +20407,7 @@
 			"casting_cost": "1/m",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -20685,7 +20685,7 @@
 			"casting_cost": "1-Aptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -20794,7 +20794,7 @@
 			"casting_cost": "1-Aptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -21145,7 +21145,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -21183,7 +21183,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -21220,7 +21220,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -21258,7 +21258,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -22248,7 +22248,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -22511,7 +22511,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -22548,7 +22548,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -22675,7 +22675,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -23807,7 +23807,7 @@
 			"casting_cost": "1-Aptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -24291,7 +24291,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -25897,7 +25897,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Reconhecimento"
 			]
@@ -27909,7 +27909,7 @@
 			"casting_cost": "4",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -29048,7 +29048,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -29142,7 +29142,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -29344,7 +29344,7 @@
 			"casting_cost": "20",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -29382,7 +29382,7 @@
 			"casting_cost": "20",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -29973,7 +29973,7 @@
 			"casting_cost": "1 ou 2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -30213,7 +30213,7 @@
 			"casting_cost": "2/dia",
 			"maintenance_cost": "-",
 			"casting_time": "Varia",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -30250,7 +30250,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -30288,7 +30288,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "1 h/pt",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -30791,7 +30791,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Ar"
 			]
@@ -32129,7 +32129,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -32293,7 +32293,7 @@
 			"casting_cost": "4 ou 6",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -32331,7 +32331,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -34776,7 +34776,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "4 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -34877,7 +34877,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -34916,7 +34916,7 @@
 			"casting_cost": "8",
 			"maintenance_cost": "-",
 			"casting_time": "10 min",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -35079,7 +35079,7 @@
 			"casting_cost": "1/d",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -35324,7 +35324,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36303,7 +36303,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Ar"
 			]
@@ -36321,7 +36321,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36358,7 +36358,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Terra"
 			]
@@ -36376,7 +36376,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Fogo"
 			]
@@ -36394,7 +36394,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Alimentos"
 			]
@@ -36413,7 +36413,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Energia",
 				"Tecnológica"
@@ -36432,7 +36432,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36517,7 +36517,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Máquina",
 				"Tecnológica"
@@ -36536,7 +36536,7 @@
 			"casting_cost": "6",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36573,7 +36573,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36610,7 +36610,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Plantas"
 			]
@@ -36628,7 +36628,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Plástico",
 				"Tecnológica"
@@ -36648,7 +36648,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Energia",
 				"Tecnológica"
@@ -36667,7 +36667,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36705,7 +36705,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Água"
 			]
@@ -36723,7 +36723,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36807,7 +36807,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -36852,7 +36852,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -36889,7 +36889,7 @@
 			"casting_cost": "1/área, mín 2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Comunicação"
 			]
@@ -36907,7 +36907,7 @@
 			"casting_cost": "1/2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Comunicação"
 			]
@@ -36925,7 +36925,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -37012,7 +37012,7 @@
 			"casting_cost": "1/2 (mín 1)",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -37935,7 +37935,7 @@
 			"casting_cost": "1-3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -38124,7 +38124,7 @@
 			"casting_cost": "1-3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "melee_weapon",
@@ -39958,7 +39958,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -40933,7 +40933,7 @@
 			"casting_cost": "Nenhum",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -41665,7 +41665,7 @@
 			"casting_cost": "1-Aptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -41774,7 +41774,7 @@
 			"casting_cost": "10",
 			"maintenance_cost": "-",
 			"casting_time": "5 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -42541,7 +42541,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -43407,7 +43407,7 @@
 			"casting_cost": "1-3xAptidão Mágica",
 			"maintenance_cost": "-",
 			"casting_time": "1-3 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
@@ -44192,7 +44192,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -44363,7 +44363,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -44426,7 +44426,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "_",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -44572,7 +44572,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -44609,7 +44609,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Reconhecimento"
 			]
@@ -44702,7 +44702,7 @@
 			"casting_cost": "1 ou 3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Alimentos"
 			]
@@ -44721,7 +44721,7 @@
 			"casting_cost": "1 ou 3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Energia",
 				"Tecnológica"
@@ -44740,7 +44740,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -44939,7 +44939,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -45052,7 +45052,7 @@
 			"casting_cost": "5",
 			"maintenance_cost": "-",
 			"casting_time": "5 min",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -45127,7 +45127,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -45203,7 +45203,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -45240,7 +45240,7 @@
 			"casting_cost": "1/seg #",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -45277,7 +45277,7 @@
 			"casting_cost": "1/seg #",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -45382,7 +45382,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"categories": [
 				"Controle do Corpo"
 			]
@@ -45475,7 +45475,7 @@
 			"casting_cost": "3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -45882,7 +45882,7 @@
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -45919,7 +45919,7 @@
 			"casting_cost": "1",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -46109,7 +46109,7 @@
 			"casting_cost": "Varia",
 			"maintenance_cost": "Varia",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -47008,7 +47008,7 @@
 			"casting_cost": "2 ou 3",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": false,
@@ -47929,7 +47929,7 @@
 			"casting_cost": "1/0,5kg",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
-			"duration": "Instant",
+			"duration": "Instantânea",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
