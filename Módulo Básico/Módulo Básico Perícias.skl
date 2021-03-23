@@ -17,18 +17,18 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Finanças",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Estatística",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Comércio",
 					"modifier": -5
 				}
@@ -51,12 +51,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia Aérea",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia Aquática",
 					"modifier": -4
 				}
@@ -79,12 +79,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Atuação",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Oratória",
 					"modifier": -5
 				}
@@ -104,7 +104,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Comércio",
 					"modifier": -3
 				},
@@ -132,12 +132,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia Aquática",
 					"modifier": -4
 				}
@@ -289,13 +289,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Paleontologia",
 					"specialization": "Paleoantropologia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sociologia",
 					"modifier": -3
 				}
@@ -318,12 +318,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia Aérea",
 					"modifier": -4
 				}
@@ -365,7 +365,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Civil",
 					"modifier": -4
@@ -386,7 +386,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -413,7 +413,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -436,7 +436,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -463,7 +463,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -486,7 +486,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -513,7 +513,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -536,7 +536,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -563,7 +563,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -586,7 +586,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -613,7 +613,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -636,7 +636,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -663,7 +663,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -686,7 +686,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -713,7 +713,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -736,7 +736,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -763,7 +763,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -786,7 +786,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -813,7 +813,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -879,7 +879,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Trajes de Combate",
 					"modifier": -4
@@ -906,7 +906,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Trajes de Combate",
 					"modifier": -4
@@ -933,7 +933,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Blindagem Individual",
 					"modifier": -4
@@ -960,7 +960,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Escudos de Força",
 					"modifier": -4
@@ -987,7 +987,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Armas Pesadas",
 					"modifier": -4
@@ -1014,7 +1014,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Armas de Combate Corpo a Corpo",
 					"modifier": -4
@@ -1041,7 +1041,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Armas de Projétil",
 					"modifier": -4
@@ -1068,7 +1068,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Armas Pequenas",
 					"modifier": -4
@@ -1095,7 +1095,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Blindagem de Veículos",
 					"modifier": -4
@@ -1268,7 +1268,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1292,31 +1292,31 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Caligrafia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Desenho",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Iluminuras",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Pintura",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1340,31 +1340,31 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Desenho",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Iluminuras",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Pintura",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Arte Corporal",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1388,31 +1388,31 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Caligrafia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Iluminuras",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Pintura",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Arte Corporal",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1436,31 +1436,31 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Caligrafia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Desenho",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Pintura",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Arte Corporal",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1484,7 +1484,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1508,24 +1508,24 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arquitetura",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Decoração de Cena",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Marcenaria",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1549,31 +1549,31 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Caligrafia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Desenho",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Iluminuras",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Arte Corporal",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1597,7 +1597,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1622,24 +1622,24 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arquitetura",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Decoração de Interiores",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Marcenaria",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1663,7 +1663,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1688,24 +1688,24 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Carpintaria",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Decoração de Interiores",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"specialization": "Decoração de Cena",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artista",
 					"modifier": -6
 				}
@@ -1762,7 +1762,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meditação",
 					"modifier": -4
 				}
@@ -1785,12 +1785,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maça/Machado de Duas Mãos",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mangual",
 					"modifier": -4
 				}
@@ -1848,7 +1848,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Boemia",
 					"modifier": -3
 				}
@@ -1873,17 +1873,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Mergulho",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje Pressurizado",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje NBQ",
 					"modifier": -2
 				}
@@ -1909,12 +1909,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Feixe",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Pistola",
 					"modifier": -4
@@ -1941,12 +1941,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Feixe",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Pistola",
 					"modifier": -4
@@ -1973,7 +1973,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Feixe",
 					"modifier": -4
 				}
@@ -1999,12 +1999,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Feixe",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Rifle",
 					"modifier": -4
@@ -2029,7 +2029,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"specialization": "Motocicleta",
 					"modifier": -4
@@ -2052,12 +2052,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Bioengenharia",
 					"modifier": -4
 				}
@@ -2078,12 +2078,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Bioengenharia",
 					"modifier": -4
 				}
@@ -2104,12 +2104,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Bioengenharia",
 					"modifier": -4
 				}
@@ -2130,12 +2130,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Bioengenharia",
 					"modifier": -4
 				}
@@ -2160,7 +2160,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2186,7 +2186,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2212,7 +2212,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2238,7 +2238,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2264,7 +2264,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2290,7 +2290,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2316,7 +2316,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2342,7 +2342,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2368,7 +2368,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2394,7 +2394,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2420,7 +2420,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2446,7 +2446,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2472,7 +2472,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2498,7 +2498,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				}
@@ -2580,25 +2580,25 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Lancha",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Veleiro",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Sem Motor",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante de Navio",
 					"modifier": -4
 				}
@@ -2627,25 +2627,25 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Lancha",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Veleiro",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Sem Motor",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante de Navio",
 					"modifier": -4
 				}
@@ -2674,19 +2674,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Barco Grande a Motor",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Veleiro",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Sem Motor",
 					"modifier": -3
@@ -2716,19 +2716,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Barco Grande a Motor",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Lancha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Sem Motor",
 					"modifier": -3
@@ -2758,19 +2758,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Barco Grande a Motor",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Lancha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Veleiro",
 					"modifier": -3
@@ -2832,12 +2832,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Detecção de Mentiras",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Psicologia",
 					"modifier": -4
 				}
@@ -2862,7 +2862,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia",
 					"modifier": -3
 				}
@@ -3065,27 +3065,27 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espada de Energia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Rapieira",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sabre",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas Curtas",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espada de Duas Mãos",
 					"modifier": -4
 				},
@@ -3113,7 +3113,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"modifier": -2
 				}
@@ -3235,18 +3235,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Topografia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"modifier": -4
 				}
@@ -3271,7 +3271,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Alquimia",
 					"modifier": -3
 				}
@@ -3383,12 +3383,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Rede",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Escudo",
 					"modifier": -4
 				}
@@ -3409,12 +3409,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "@Perícia Média@",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Esporte de Combate",
 					"specialization": "@Perícia Média@",
 					"modifier": -3
@@ -3439,12 +3439,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "@Perícia Fácil@",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Esporte de Combate",
 					"specialization": "@Perícia Fácil@",
 					"modifier": -3
@@ -3469,12 +3469,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "@Perícia Difícil@",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Esporte de Combate",
 					"specialization": "@Perícia Difícil@",
 					"modifier": -3
@@ -3499,12 +3499,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "@Perícia Média@",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arte de Combate",
 					"specialization": "@Perícia Média@",
 					"modifier": -3
@@ -3529,12 +3529,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "@Perícia Fácil@",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arte de Combate",
 					"specialization": "@Perícia Fácil@",
 					"modifier": -3
@@ -3559,12 +3559,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "@Perícia Difícil@",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arte de Combate",
 					"specialization": "@Perícia Difícil@",
 					"modifier": -3
@@ -3710,17 +3710,17 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Literatura",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Poesia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Escrita",
 					"modifier": -3
 				},
@@ -3746,18 +3746,18 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Performance em Grupo",
 					"specialization": "Condução de Orquestra",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Composição Musical",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Instrumentos Musicais",
 					"modifier": -3
 				},
@@ -3828,7 +3828,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cuidados com a Casa",
 					"modifier": -5
 				}
@@ -3852,7 +3852,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cuidados com a Casa",
 					"modifier": -5
 				}
@@ -3876,7 +3876,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cuidados com a Casa",
 					"modifier": -5
 				}
@@ -3900,7 +3900,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cuidados com a Casa",
 					"modifier": -5
 				}
@@ -3924,7 +3924,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Falsificação",
 					"modifier": -2
 				}
@@ -3948,7 +3948,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Psicologia",
 					"modifier": -4
 				}
@@ -3988,7 +3988,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Criptologia",
 					"modifier": -5
@@ -4011,7 +4011,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Criptologia",
 					"modifier": -5
@@ -4034,7 +4034,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Criptologia",
 					"modifier": -5
@@ -4061,12 +4061,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4094,12 +4094,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4127,12 +4127,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4159,12 +4159,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4192,12 +4192,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4224,12 +4224,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4256,12 +4256,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4289,12 +4289,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4321,12 +4321,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4353,12 +4353,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4385,12 +4385,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pesquisa",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Assuntos Atuais",
 					"modifier": -4
 				}
@@ -4433,12 +4433,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Linguagem Corporal",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Psicologia",
 					"modifier": -4
 				}
@@ -4464,17 +4464,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Primeiros Socorros",
 					"modifier": -8
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Veterinária",
 					"modifier": -5
 				}
@@ -4497,7 +4497,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Política",
 					"modifier": -6
 				}
@@ -4652,7 +4652,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquiagem",
 					"modifier": -3
 				}
@@ -4677,22 +4677,22 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mergulho",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Combate",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje NBQ",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje Pressurizado",
 					"modifier": -4
 				}
@@ -4739,13 +4739,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"specialization": "Carreta Pesada",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -4
 				}
@@ -4774,13 +4774,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"specialization": "Carreta Pesada",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -4
 				}
@@ -4809,7 +4809,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -5
 				}
@@ -4838,13 +4838,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"specialization": "Sobre Esteiras",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -4
 				}
@@ -4873,13 +4873,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"specialization": "Automóvel",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -4
 				}
@@ -4908,7 +4908,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -5
 				}
@@ -4937,7 +4937,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -5
 				}
@@ -4966,12 +4966,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Combate",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -5
 				}
@@ -5000,7 +5000,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ciclismo",
 					"modifier": -4
 				}
@@ -5029,13 +5029,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"specialization": "Semitrator",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Condução",
 					"modifier": -4
 				}
@@ -5058,7 +5058,7 @@
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arremesso",
 					"modifier": -4
 				}
@@ -5163,17 +5163,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Finanças",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Análise de Mercado",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Comércio",
 					"modifier": -6
 				}
@@ -5266,7 +5266,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Elétrico",
 					"modifier": -3
@@ -5292,18 +5292,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Comunicações (Comu)",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
@@ -5329,18 +5329,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Comunicações (Comu)",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
@@ -5366,19 +5366,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Guerra Eletrônica (GE)",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5405,19 +5405,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Escudos de Força",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5442,19 +5442,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Transmissores de Matéria (TM)",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5479,19 +5479,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Mídia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5517,19 +5517,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Medicinal",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5555,19 +5555,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Paracrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5592,19 +5592,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Psicotrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5629,19 +5629,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Científicos",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5666,19 +5666,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Sistemas de Segurança",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5705,19 +5705,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Sensores",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5742,19 +5742,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Sonar",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5779,19 +5779,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Vigilância",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5818,19 +5818,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"specialization": "Temporal",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"modifier": -4
 				}
@@ -5855,19 +5855,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Comunicações (Comu)",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -5892,19 +5892,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Comunicações (Comu)",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -5929,18 +5929,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Computadores",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -5965,19 +5965,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Guerra Eletrônica (GE)",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6003,19 +6003,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Escudos de Força",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6040,19 +6040,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Transmissores de Matéria (TM)",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6077,19 +6077,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Mídia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6114,19 +6114,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Medicinal",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6151,19 +6151,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Paracrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6188,19 +6188,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Psicotrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6225,19 +6225,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Científicos",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6262,19 +6262,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Sistemas de Segurança",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6299,19 +6299,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Sensores",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6336,19 +6336,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Sonar",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6373,19 +6373,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Vigilância",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6410,19 +6410,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Temporal",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Eletrônica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -4
 				}
@@ -6465,7 +6465,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armeiro",
 					"specialization": "Armas Pesadas",
 					"modifier": -6
@@ -6510,7 +6510,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armeiro",
 					"specialization": "Armas Pesadas",
 					"modifier": -6
@@ -6555,7 +6555,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"specialization": "Automóvel",
 					"modifier": -6
@@ -6600,7 +6600,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arquitetura",
 					"modifier": -6
 				}
@@ -6644,7 +6644,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"specialization": "Mecanismos",
 					"modifier": -6
@@ -6689,7 +6689,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"specialization": "Demolição",
 					"modifier": -6
@@ -6734,7 +6734,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Eletricista",
 					"modifier": -6
 				}
@@ -6778,7 +6778,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conserto de Equipamento Eletrônico",
 					"modifier": -6
 				}
@@ -6856,12 +6856,12 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Química",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Metalurgia",
 					"modifier": -6
 				}
@@ -6905,7 +6905,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"specialization": "Micromáquinas",
 					"modifier": -6
@@ -6950,13 +6950,13 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"specialization": "Demolição",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"modifier": -6
 				}
@@ -7000,7 +7000,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"specialization": "Nanomáquinas",
 					"modifier": -6
@@ -7062,7 +7062,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Paracrônica",
 					"modifier": -6
@@ -7107,7 +7107,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Psicotrônica",
 					"modifier": -6
@@ -7152,7 +7152,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"specialization": "Robótica",
 					"modifier": -6
@@ -7197,7 +7197,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"specialization": "Navios",
 					"modifier": -6
@@ -7242,7 +7242,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armeiro",
 					"specialization": "Armas Pequenas",
 					"modifier": -6
@@ -7287,7 +7287,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"specialization": "Naves Espaciais",
 					"modifier": -6
@@ -7349,7 +7349,7 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Temporal",
 					"modifier": -6
@@ -7438,7 +7438,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Acrobacia",
 					"modifier": -5
 				}
@@ -7498,17 +7498,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ritual Religioso",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Magia Ritualística",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Teologia",
 					"modifier": -3
 				}
@@ -7698,25 +7698,25 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Bélica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Mineração",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"specialization": "Demolição Subaquática (DS)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"modifier": -4
 				}
@@ -7742,25 +7742,25 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Bélica",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Mineração",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"specialization": "Demolição Subaquática (DS)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"modifier": -4
 				}
@@ -7802,13 +7802,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"specialization": "Desarmamento de Dispositivo Nuclear(DDN)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"modifier": -4
 				}
@@ -7835,12 +7835,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Química",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"modifier": -4
 				}
@@ -7866,13 +7866,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"specialization": "Desarmamento de Dispositivo Explosivo (DDE)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"modifier": -4
 				}
@@ -7898,13 +7898,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"specialization": "Demolição",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Explosivos",
 					"modifier": -4
 				}
@@ -7928,7 +7928,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "Aves de Rapina",
 					"modifier": -3
@@ -7953,12 +7953,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Jardinagem",
 					"modifier": -3
 				}
@@ -8094,7 +8094,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Dissimulação",
 					"modifier": -5
 				}
@@ -8266,12 +8266,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Punga",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prestidigitação",
 					"modifier": -4
 				}
@@ -8291,17 +8291,17 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Contabilidade",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Economia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Comércio",
 					"modifier": -6
 				}
@@ -8357,15 +8357,15 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina Alternativa"
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina"
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Veterinária",
 					"modifier": -4
 				}
@@ -8407,12 +8407,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maça/Machado",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mangual de Duas Mãos",
 					"modifier": -3
 				}
@@ -8526,27 +8526,27 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas de Lâmina Larga",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas Curtas",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espada de Duas Mãos",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Jitte/Sai",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Faca",
 					"modifier": -3
 				},
@@ -8574,17 +8574,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Kusari",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote Monofio",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote",
 					"modifier": -3
 				}
@@ -8623,7 +8623,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Criminologia",
 					"modifier": -4
 				}
@@ -8647,7 +8647,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Falsificação de Dinheiro",
 					"modifier": -2
 				}
@@ -8672,12 +8672,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ocultismo",
 					"modifier": -3
 				}
@@ -8701,12 +8701,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ocultismo",
 					"modifier": -3
 				}
@@ -8730,12 +8730,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ocultismo",
 					"modifier": -3
 				}
@@ -8759,12 +8759,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ocultismo",
 					"modifier": -3
 				}
@@ -8788,12 +8788,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ocultismo",
 					"modifier": -3
 				}
@@ -8817,12 +8817,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ocultismo",
 					"modifier": -3
 				}
@@ -8846,12 +8846,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ocultismo",
 					"modifier": -3
 				}
@@ -8875,7 +8875,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Artilharia",
 					"modifier": -5
 				}
@@ -8940,7 +8940,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Estatística",
 					"modifier": -5
@@ -8984,7 +8984,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cultivo",
 					"modifier": -3
 				}
@@ -9028,19 +9028,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"specialization": "Similares à Terra",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meteorologia",
 					"specialization": "Similares à Terra",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9065,19 +9065,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"specialization": "Similares à Terra",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meteorologia",
 					"specialization": "Similares à Terra",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9102,19 +9102,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"specialization": "Gigantes Gasosos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meteorologia",
 					"specialization": "Gigantes Gasosos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9139,19 +9139,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"specialization": "Terrestre Hostil",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meteorologia",
 					"specialization": "Terrestre Hostil",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9176,19 +9176,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"specialization": "Anões de Gelo",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meteorologia",
 					"specialization": "Anões de Gelo",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9213,19 +9213,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"specialization": "Planetas Gélidos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meteorologia",
 					"specialization": "Planetas Gélidos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9250,19 +9250,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"specialization": "Planetas Rochosos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meteorologia",
 					"specialization": "Planetas Rochosos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9287,12 +9287,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Economia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9317,12 +9317,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conhecimento do Terreno",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"modifier": -5
 				}
@@ -9347,13 +9347,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "Física, Similares à Terra",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prospecção",
 					"modifier": -5
 				}
@@ -9378,13 +9378,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "Física, Similares à Terra",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prospecção",
 					"modifier": -5
 				}
@@ -9409,13 +9409,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "Física, Gigantes Gasosos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prospecção",
 					"modifier": -5
 				}
@@ -9440,13 +9440,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "Física, Terrestre Hostil",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prospecção",
 					"modifier": -5
 				}
@@ -9471,13 +9471,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "Física, Anões de Gelo",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prospecção",
 					"modifier": -5
 				}
@@ -9502,13 +9502,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "Física, Planetas Gélidos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prospecção",
 					"modifier": -5
 				}
@@ -9533,13 +9533,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geografia",
 					"specialization": "Física, Planetas Rochosos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prospecção",
 					"modifier": -5
 				}
@@ -9760,7 +9760,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Dança",
 					"modifier": -2
 				}
@@ -9840,7 +9840,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Dança",
 					"modifier": -2
 				}
@@ -9971,12 +9971,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Instrumentos Musicais",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Canto",
 					"modifier": -3
 				}
@@ -10056,7 +10056,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Atuação",
 					"modifier": -5
 				}
@@ -10136,7 +10136,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Encenação de Combate",
 					"modifier": -2
 				}
@@ -10161,7 +10161,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Canhoneiro",
 					"modifier": -4
 				}
@@ -10187,7 +10187,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Canhoneiro",
 					"modifier": -4
 				}
@@ -10213,7 +10213,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Canhoneiro",
 					"modifier": -4
 				}
@@ -10239,7 +10239,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Canhoneiro",
 					"modifier": -4
 				}
@@ -10265,7 +10265,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Canhoneiro",
 					"modifier": -4
 				}
@@ -10291,7 +10291,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Canhoneiro",
 					"modifier": -4
 				}
@@ -10317,7 +10317,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"modifier": -4
 				}
@@ -10343,7 +10343,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"modifier": -4
 				}
@@ -10369,7 +10369,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"modifier": -4
 				}
@@ -10395,7 +10395,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"modifier": -4
 				}
@@ -10421,49 +10421,49 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Lançador de Granadas (LG)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Girofoguete",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Leve Antiarmadura (ALA)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Mosquete",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Pistola",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Rifle",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Espingarda",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora de Mão (MM)",
 					"modifier": -2
@@ -10490,49 +10490,49 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Lançador de Granadas (LG)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Girofoguete",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Leve Antiarmadura (ALA)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora Leve (ML)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Pistola",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Rifle",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Espingarda",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora de Mão (MM)",
 					"modifier": -2
@@ -10559,55 +10559,55 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Lançador de Granadas (LG)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Girofoguete",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Leve Antiarmadura (ALA)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora Leve (ML)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Mosquete",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Feixe",
 					"specialization": "Pistola",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Rifle",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Espingarda",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora de Mão (MM)",
 					"modifier": -2
@@ -10634,55 +10634,55 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Lançador de Granadas (LG)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Girofoguete",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Leve Antiarmadura (ALA)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora Leve (ML)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Mosquete",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Pistola",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Feixe",
 					"specialization": "Rifle",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Espingarda",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora de Mão (MM)",
 					"modifier": -2
@@ -10709,49 +10709,49 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Lançador de Granadas (LG)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Girofoguete",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Leve Antiarmadura (ALA)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora Leve (ML)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Mosquete",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Pistola",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Rifle",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora de Mão (MM)",
 					"modifier": -2
@@ -10778,49 +10778,49 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Lançador de Granadas (LG)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Girofoguete",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Arma Leve Antiarmadura (ALA)",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Metralhadora Leve (ML)",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Mosquete",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Pistola",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Rifle",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Fogo",
 					"specialization": "Espingarda",
 					"modifier": -2
@@ -10945,7 +10945,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Trato Social",
 					"specialization": "Alta Sociedade",
 					"modifier": -3
@@ -11154,7 +11154,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prestidigitação",
 					"modifier": -3
 				}
@@ -11290,7 +11290,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ataque Inato",
 					"modifier": -2
 				}
@@ -11315,7 +11315,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ataque Inato",
 					"modifier": -2
 				}
@@ -11340,7 +11340,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ataque Inato",
 					"modifier": -2
 				}
@@ -11365,7 +11365,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ataque Inato",
 					"modifier": -2
 				}
@@ -11390,7 +11390,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Estratégia",
 					"modifier": -6
 				}
@@ -11415,12 +11415,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Intimidação",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Psicologia",
 					"modifier": -4
 				}
@@ -11445,7 +11445,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Dissimulação",
 					"modifier": -3
 				}
@@ -11527,13 +11527,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ferreiro",
 					"specialization": "Cobre",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ferreiro",
 					"specialization": "Chumbo e Estanho",
 					"modifier": -4
@@ -11553,17 +11553,17 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espada de Energia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adaga de Esgrima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas Curtas",
 					"modifier": -3
 				},
@@ -11792,17 +11792,17 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espada de Energia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adaga de Esgrima",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas Curtas",
 					"modifier": -3
 				},
@@ -11830,12 +11830,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Escalada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante de Navio",
 					"modifier": -4
 				}
@@ -11858,22 +11858,22 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote de Energia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote Monofio",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mangual de Duas Mãos",
 					"modifier": -4
 				}
@@ -11911,7 +11911,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lança",
 					"modifier": -3
 				}
@@ -12126,7 +12126,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Projetor de Líquidos",
 					"modifier": -4
 				}
@@ -12152,7 +12152,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Projetor de Líquidos",
 					"modifier": -4
 				}
@@ -12178,7 +12178,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Projetor de Líquidos",
 					"modifier": -4
 				}
@@ -12204,7 +12204,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Projetor de Líquidos",
 					"modifier": -4
 				}
@@ -12230,7 +12230,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Projetor de Líquidos",
 					"modifier": -4
 				}
@@ -12296,7 +12296,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -5
 				}
@@ -12319,27 +12319,27 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Jitte/Sai",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Faca",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Rapieira",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sabre",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Terçado",
 					"modifier": -3
 				}
@@ -12364,7 +12364,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Disfarce",
 					"modifier": -2
 				}
@@ -12387,12 +12387,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Economia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Comércio",
 					"modifier": -4
 				}
@@ -12435,12 +12435,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Física",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"modifier": -5
 				}
@@ -12465,7 +12465,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Programação de Computadores",
 					"modifier": -5
 				}
@@ -12490,7 +12490,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Criptografia",
 					"modifier": -5
 				}
@@ -12575,12 +12575,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cartografia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"modifier": -4
 				}
@@ -12606,18 +12606,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Espaçonave",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12642,18 +12642,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Espaçonave",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12678,18 +12678,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Reator Antimatéria",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12714,18 +12714,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Autogiro",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12750,18 +12750,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Automóvel",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12786,18 +12786,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Mecanismos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12822,18 +12822,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Equipamento de Construção",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12858,18 +12858,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Antigravidade",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12894,18 +12894,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Motor a Diesel",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12930,18 +12930,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Reator de Fissão",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -12966,18 +12966,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Equipamento de Voo Pessoal",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13002,18 +13002,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Submarino de Flutuação Livre",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13038,18 +13038,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Célula de Combustível",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13074,18 +13074,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Reator de Fusão",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13110,18 +13110,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Turbina a Gás",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13146,18 +13146,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Motor a Gasolina",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13182,18 +13182,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Planador",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13218,18 +13218,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Semitrator",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13254,18 +13254,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Aeronave Pesada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13290,18 +13290,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Carreta Pesada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13326,18 +13326,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Helicóptero",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13362,18 +13362,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Aeronave de Alta Performance",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13398,18 +13398,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Espaçonave de Alta Performance",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13434,18 +13434,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Aerodeslizador",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13470,18 +13470,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Submarino Grande",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13506,18 +13506,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Sobre Pernas",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13542,18 +13542,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Aeronave Leve",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13578,18 +13578,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Mais Leve Que o Ar",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13614,18 +13614,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Nave a Vela",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13650,18 +13650,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Asas de Baixa Gravidade",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13686,18 +13686,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Espaçonave de Baixa Performance",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13722,18 +13722,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Meca",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13758,18 +13758,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Micromáquinas",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13794,18 +13794,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Minissubmarino",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13830,18 +13830,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Motocicleta",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13866,18 +13866,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Nanomáquinas",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13902,18 +13902,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Propulsores sem Reação",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13938,18 +13938,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Robótica",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -13974,18 +13974,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Foguetes",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica"
 				}
 			],
@@ -14009,18 +14009,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Motor a Vapor",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -14045,18 +14045,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Sobre Esteiras",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -14081,18 +14081,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Sobre Esteiras",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -14117,18 +14117,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Ultraleve",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -14153,18 +14153,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Vertol",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -14189,18 +14189,18 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Engenharia",
 					"specialization": "Sobre Rodas",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maquinista",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mecânica",
 					"modifier": -4
 				}
@@ -14223,7 +14223,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Auto-Hipnose",
 					"modifier": -4
 				}
@@ -14280,12 +14280,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Finanças",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Análise de Mercado",
 					"modifier": -4
 				}
@@ -14306,17 +14306,17 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Química",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Joalheiro",
 					"modifier": -8
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ferreiro",
 					"modifier": -8
 				}
@@ -14480,12 +14480,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arremedo",
 					"specialization": "Chamados dos Pássaros",
 					"modifier": -6
@@ -14512,12 +14512,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arremedo",
 					"specialization": "Sons de Animais",
 					"modifier": -6
@@ -14544,12 +14544,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Dissimulação",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Linguística",
 					"modifier": -4
 				}
@@ -14572,7 +14572,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Meditação",
 					"modifier": -5
 				}
@@ -14595,17 +14595,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote de Energia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Kusari",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote",
 					"modifier": -3
 				}
@@ -14664,12 +14664,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Instrumentos Musicais",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Poesia",
 					"modifier": -2
 				}
@@ -14766,7 +14766,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -3
 				}
@@ -14793,7 +14793,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -3
 				}
@@ -14820,7 +14820,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -3
 				}
@@ -14847,7 +14847,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -3
 				}
@@ -14874,7 +14874,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -3
 				}
@@ -14901,7 +14901,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -3
 				}
@@ -14928,7 +14928,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -3
 				}
@@ -14952,18 +14952,18 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Astronomia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Terra",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Mar",
 					"modifier": -2
@@ -14987,18 +14987,18 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Astronomia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Terra",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Mar",
 					"modifier": -2
@@ -15022,18 +15022,18 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Astronomia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Aplicada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Espaço",
 					"modifier": -5
@@ -15061,24 +15061,24 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cartografia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Topografia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Ar",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Mar",
 					"modifier": -2
@@ -15102,23 +15102,23 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Astronomia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante de Navio",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Ar",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Terra",
 					"modifier": -2
@@ -15142,18 +15142,18 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Astronomia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Matemática",
 					"specialization": "Aplicada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Navegação",
 					"specialization": "Hiperespaço",
 					"modifier": -5
@@ -15180,17 +15180,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Combate",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Mergulho",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje Pressurizado",
 					"modifier": -2
 				}
@@ -15229,7 +15229,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Capa",
 					"modifier": -5
 				}
@@ -15272,7 +15272,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Perseguição",
 					"modifier": -5
 				}
@@ -15397,7 +15397,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "Equinos",
 					"modifier": -5
@@ -15419,12 +15419,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Paleontologia",
 					"modifier": -2
 				}
@@ -15446,17 +15446,17 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Paleontologia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Antropologia",
 					"modifier": -2
 				}
@@ -15478,12 +15478,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Paleontologia",
 					"modifier": -2
 				}
@@ -15506,12 +15506,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Paleontologia",
 					"modifier": -2
 				}
@@ -15535,12 +15535,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lábia",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Oratória",
 					"modifier": -3
 				}
@@ -15598,12 +15598,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Dissimulação",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Oratória",
 					"modifier": -2
 				}
@@ -15687,17 +15687,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Biologia",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Conhecimento das Ervas",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -5
 				}
@@ -15724,12 +15724,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Química",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina",
 					"modifier": -5
 				}
@@ -15773,7 +15773,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Operação de Aparelhos Eletrônicos",
 					"specialization": "Mídia",
 					"modifier": -5
@@ -15800,12 +15800,12 @@
 					"modifier": -7
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Primeiros Socorros",
 					"modifier": -11
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Veterinária",
 					"modifier": -5
 				}
@@ -15909,17 +15909,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Diagnose",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cirurgia",
 					"modifier": -5
 				}
@@ -15943,12 +15943,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Surrupiar",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Prestidigitação",
 					"modifier": -4
 				}
@@ -15973,13 +15973,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave de Alta Performance",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -4
 				}
@@ -16004,13 +16004,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave de Alta Performance",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -4
 				}
@@ -16031,19 +16031,19 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Helicóptero",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Pesada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				},
@@ -16052,13 +16052,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Leve",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave de Alta Performance",
 					"modifier": -4
@@ -16084,13 +16084,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Vertol",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				}
@@ -16115,13 +16115,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Vertol",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				}
@@ -16146,19 +16146,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Leve",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Ultraleve",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -4
 				}
@@ -16183,19 +16183,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave de Alta Performance",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Leve",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -4
 				}
@@ -16220,19 +16220,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Autogiro",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Vertol",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				}
@@ -16257,25 +16257,25 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Pesada",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Leve",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				}
@@ -16300,13 +16300,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave de Baixa Performance",
 					"modifier": -2
@@ -16332,30 +16332,30 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Planador",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Pesada",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave de Alta Performance",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Ultraleve",
 					"modifier": -2
@@ -16381,7 +16381,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				}
@@ -16406,7 +16406,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave de Baixa Performance",
 					"modifier": -4
@@ -16432,7 +16432,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Planador",
 					"modifier": -4
@@ -16458,13 +16458,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave de Alta Performance",
 					"modifier": -2
@@ -16490,30 +16490,30 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Planador",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Leve",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave Pesada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Aeronave de Alta Performance",
 					"modifier": -4
@@ -16539,19 +16539,19 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Antigravidade",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Helicóptero",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"modifier": -5
 				}
@@ -16574,7 +16574,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Escrita",
 					"modifier": -5
 				}
@@ -16598,17 +16598,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Química",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Farmácia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina",
 					"modifier": -3
 				}
@@ -16633,17 +16633,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lança",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Bastão",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maça/Machado de Duas Mãos",
 					"modifier": -4
 				}
@@ -16667,7 +16667,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Diplomacia",
 					"modifier": -5
 				}
@@ -16839,12 +16839,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Comércio",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Psicologia",
 					"modifier": -4
 				}
@@ -16871,7 +16871,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Geologia",
 					"modifier": -4
 				}
@@ -16894,7 +16894,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sociologia",
 					"modifier": -4
 				}
@@ -16917,17 +16917,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Dissimulação",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Atuação",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Política",
 					"modifier": -5
 				}
@@ -16978,22 +16978,22 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas de Lâmina Larga",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adaga de Esgrima",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sabre",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Terçado",
 					"modifier": -3
 				}
@@ -17014,13 +17014,13 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Magia Ritualística",
 					"specialization": "@Especialização@",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Teologia",
 					"specialization": "@Especialização@",
 					"modifier": -4
@@ -17115,7 +17115,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Escrita",
 					"modifier": -3
 				}
@@ -17234,7 +17234,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "@Especialização@",
 					"modifier": -3
@@ -17259,7 +17259,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "Camelo",
 					"modifier": -3
@@ -17284,7 +17284,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "Golfinho",
 					"modifier": -3
@@ -17309,7 +17309,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "Dragão",
 					"modifier": -3
@@ -17334,7 +17334,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "Equinos",
 					"modifier": -3
@@ -17355,7 +17355,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Magia Ritualística",
 					"modifier": -6
 				}
@@ -17417,27 +17417,27 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas de Lâmina Larga",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas Curtas",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adaga de Esgrima",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Rapieira",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Terçado",
 					"modifier": -3
 				}
@@ -17462,7 +17462,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Jogos de Entretenimento",
 					"modifier": -3
 				}
@@ -17487,7 +17487,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Jogos de Entretenimento",
 					"modifier": -3
 				}
@@ -17512,7 +17512,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Trato Social",
 					"specialization": "Servo",
 					"modifier": -2
@@ -17539,7 +17539,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Manha",
 					"modifier": -3
 				}
@@ -17607,7 +17607,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Trato Social",
 					"specialization": "Alta Sociedade",
 					"modifier": -2
@@ -17690,7 +17690,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Mergulho",
 					"modifier": -2
 				}
@@ -17735,7 +17735,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Criminologia",
 					"modifier": -5
 				}
@@ -17818,12 +17818,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Observação",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Furtividade",
 					"modifier": -4
 				}
@@ -17849,7 +17849,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Escudo",
 					"specialization": "Força",
 					"modifier": -2
@@ -17875,7 +17875,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Escudo",
 					"specialization": "Broquel",
 					"modifier": -2
@@ -17962,12 +17962,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante Aéreo",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Mais Leve Que o Ar",
 					"modifier": -5
@@ -18033,12 +18033,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante Aéreo",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Mais Leve Que o Ar",
 					"modifier": -5
@@ -18104,18 +18104,18 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante de Navio",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Barco Grande a Motor",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Remo/Vela",
 					"specialization": "Veleiro",
 					"modifier": -5
@@ -18181,18 +18181,18 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante Espacial",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave de Baixa Performance",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave de Alta Performance",
 					"modifier": -5
@@ -18258,18 +18258,18 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante Espacial",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave de Baixa Performance",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Pilotagem",
 					"specialization": "Espaçonave de Alta Performance",
 					"modifier": -5
@@ -18335,12 +18335,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tripulante de Submarino",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Submarino",
 					"specialization": "Submarino Grande",
 					"modifier": -5
@@ -18360,37 +18360,37 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas de Lâmina Larga",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espada de Energia",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Jitte/Sai",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Faca",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sabre",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Terçado",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tonfa",
 					"modifier": -3
 				},
@@ -18469,7 +18469,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Surrupiar",
 					"modifier": -5
 				}
@@ -18531,22 +18531,22 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas Curtas",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adaga de Esgrima",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Rapieira",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sabre",
 					"modifier": -3
 				}
@@ -18572,12 +18572,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Joalheiro",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ferreiro",
 					"modifier": -4
 				}
@@ -18602,7 +18602,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ferreiro",
 					"modifier": -4
 				}
@@ -18627,12 +18627,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Joalheiro",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ferreiro",
 					"modifier": -4
 				}
@@ -18674,12 +18674,12 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Antropologia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Psicologia",
 					"modifier": -4
 				}
@@ -18740,12 +18740,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Haste",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Bastão",
 					"modifier": -2
 				}
@@ -18769,7 +18769,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arma de Arremesso",
 					"specialization": "Lança",
 					"modifier": -4
@@ -18825,12 +18825,12 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Haste",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Lança",
 					"modifier": -2
 				}
@@ -18850,7 +18850,7 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Atuação",
 					"modifier": -3
 				}
@@ -18899,17 +18899,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Análise de Informação",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tática",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Estratégia",
 					"modifier": -4
 				}
@@ -18933,17 +18933,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Análise de Informação",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tática",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Estratégia",
 					"modifier": -4
 				}
@@ -18967,17 +18967,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Análise de Informação",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Tática",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Estratégia",
 					"modifier": -4
 				}
@@ -19050,13 +19050,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Submarino",
 					"specialization": "Submarino Grande",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Submarino",
 					"specialization": "Minissubmarino",
 					"modifier": -4
@@ -19082,13 +19082,13 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Submarino",
 					"specialization": "Submarino de Flutuação Livre",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Submarino",
 					"specialization": "Minissubmarino",
 					"modifier": -4
@@ -19114,7 +19114,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Submarino",
 					"modifier": -4
 				}
@@ -19254,22 +19254,22 @@
 			},
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Primeiros Socorros",
 					"modifier": -12
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Fisiologia",
 					"modifier": -8
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Veterinária",
 					"modifier": -5
 				}
@@ -19293,48 +19293,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -19359,48 +19359,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Deserto",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Selva",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Montanha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Planície",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Floresta",
 					"modifier": -3
@@ -19425,48 +19425,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar de Água Salgada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -19491,48 +19491,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar de Água Salgada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -19557,48 +19557,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ártico",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Selva",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Montanha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Planície",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Floresta",
 					"modifier": -3
@@ -19623,48 +19623,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar de Água Salgada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -19689,54 +19689,54 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ártico",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Deserto",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Selva",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Montanha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Planície",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Floresta",
 					"modifier": -3
@@ -19761,48 +19761,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ártico",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Deserto",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Montanha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Planície",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Floresta",
 					"modifier": -3
@@ -19827,48 +19827,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ártico",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Deserto",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Selva",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Planície",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Floresta",
 					"modifier": -3
@@ -19893,48 +19893,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar de Água Salgada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -19959,48 +19959,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ártico",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Deserto",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Selva",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Montanha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Floresta",
 					"modifier": -3
@@ -20025,48 +20025,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar de Água Salgada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -20091,54 +20091,54 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar de Água Salgada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -20163,48 +20163,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lagoa Tropical",
 					"modifier": -4
@@ -20229,54 +20229,54 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ártico",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Deserto",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Selva",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Montanha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Planície",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Floresta",
 					"modifier": -3
@@ -20301,54 +20301,54 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Margem",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Cavidade Marítima",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Lago de Água Doce",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar Aberto",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Recife",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Mar de Água Salgada",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Rio/Córrego",
 					"modifier": -4
@@ -20373,48 +20373,48 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ártico",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Deserto",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Ilha/Litoral",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Selva",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Montanha",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Planície",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Sobrevivência",
 					"specialization": "Pântano",
 					"modifier": -3
@@ -20643,7 +20643,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Estratégia",
 					"modifier": -6
 				}
@@ -20687,19 +20687,19 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "@Especialização@",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cavalgar",
 					"specialization": "@Especialização@",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Carroceiro",
 					"modifier": -3
 				}
@@ -20724,13 +20724,13 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"specialization": "Equinos",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cavalgar",
 					"specialization": "Equinos",
 					"modifier": -2
@@ -20774,7 +20774,7 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Ritual Religioso",
 					"specialization": "@Especialização@",
 					"modifier": -4
@@ -20798,7 +20798,7 @@
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Soltar",
 					"modifier": -4
 				}
@@ -20898,7 +20898,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arremesso",
 					"modifier": -2
 				}
@@ -20923,7 +20923,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arma de Arremesso",
 					"specialization": "Lança",
 					"modifier": -2
@@ -20969,7 +20969,7 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arremesso",
 					"modifier": -2
 				}
@@ -20994,12 +20994,12 @@
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arremessador de Lança",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arma de Arremesso",
 					"specialization": "Arpão",
 					"modifier": -2
@@ -21044,7 +21044,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas Curtas",
 					"modifier": -3
 				}
@@ -21068,7 +21068,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Naturalista",
 					"modifier": -5
 				}
@@ -21092,7 +21092,7 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Arrombamento",
 					"modifier": -3
 				}
@@ -21116,17 +21116,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maça/Machado",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Armas de Haste",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mangual de Duas Mãos",
 					"modifier": -4
 				}
@@ -21150,17 +21150,17 @@
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Mangual",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Kusari",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Maça/Machado de Duas Mãos",
 					"modifier": -4
 				}
@@ -21180,12 +21180,12 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espadas de Lâmina Larga",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Espada de Energia",
 					"modifier": -4
 				},
@@ -21253,17 +21253,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Mergulho",
 					"modifier": -4
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje NBQ",
 					"modifier": -2
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Traje de Combate",
 					"modifier": -2
 				}
@@ -21295,17 +21295,17 @@
 			"points": 1,
 			"defaults": [
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Adestramento de Animais",
 					"modifier": -6
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Medicina",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Cirurgia",
 					"modifier": -5
 				}
@@ -21361,17 +21361,17 @@
 					"modifier": -5
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote de Energia",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Kusari",
 					"modifier": -3
 				},
 				{
-					"type": "skill",
+					"type": "Skill",
 					"name": "Chicote Monofio",
 					"modifier": -3
 				}
