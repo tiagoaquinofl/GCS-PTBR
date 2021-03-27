@@ -21606,7 +21606,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "7a3ad881-7c6f-4ffd-9b06-a2790c6de4d5",
-			"name": "Auto-Suficiência",
+			"name": "Autossuficiência",
 			"reference": "M96",
 			"difficulty": "IQ/H",
 			"college": "Ilusão e Criação",
@@ -21713,7 +21713,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "auto-suficiência"
+							"qualifier": "autossuficiência"
 						},
 						"quantity": {
 							"compare": "at_least",
