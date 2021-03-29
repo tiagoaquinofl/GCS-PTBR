@@ -6017,7 +6017,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "purificar a terra"
+							"qualifier": "purificar terra"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -9439,7 +9439,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "purificar a água"
+							"qualifier": "purificar água"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -17494,7 +17494,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "purificar a água"
+							"qualifier": "purificar água"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -30782,7 +30782,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "3fdd4735-427f-4d27-a5c5-f32a3d3dcdd2",
-			"name": "Purificar o Ar",
+			"name": "Purificar Ar",
 			"reference": "M23",
 			"difficulty": "IQ/H",
 			"college": "Ar",
@@ -30800,7 +30800,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "95cf2e11-b2f5-4830-bbb2-18cc82e8c6c9",
-			"name": "Purificar a Terra",
+			"name": "Purificar Terra",
 			"reference": "M54",
 			"difficulty": "IQ/H",
 			"college": "Plant ou Terra",
@@ -30852,7 +30852,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "f7f25856-3744-489d-9e2d-d28e70865ba7",
-			"name": "Purificar o Alimento",
+			"name": "Purificar Alimento",
 			"reference": "M78",
 			"difficulty": "IQ/H",
 			"college": "Alimentos",
@@ -30889,7 +30889,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "c9b8d3aa-e9d2-4394-b25a-2be7ae25347f",
-			"name": "Purificar o Combustível",
+			"name": "Purificar Combustível",
 			"reference": "M179",
 			"difficulty": "IQ/H",
 			"tech_level": "",
@@ -30923,7 +30923,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "purificar a água"
+							"qualifier": "purificar água"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -30941,7 +30941,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "d9af2513-3ffd-4884-b133-91624aad8381",
-			"name": "Purificar a Água",
+			"name": "Purificar Água",
 			"reference": "M184",
 			"difficulty": "IQ/H",
 			"college": "Água",
@@ -47257,7 +47257,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "purificar a água"
+							"qualifier": "purificar água"
 						},
 						"quantity": {
 							"compare": "at_least",
