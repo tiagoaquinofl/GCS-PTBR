@@ -405,7 +405,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "42ed6450-c689-4d79-a711-989de22d0a5a",
-			"name": "Afeta Espíritos",
+			"name": "Afetar Espíritos",
 			"reference": "M151",
 			"difficulty": "IQ/H",
 			"college": "Necromancia",
