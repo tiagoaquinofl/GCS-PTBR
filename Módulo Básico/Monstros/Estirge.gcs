@@ -1,0 +1,548 @@
+{
+	"type": "character",
+	"version": 1,
+	"id": "27912dfe-d91f-4d88-8c04-cb81b77b8fa2",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_on_10": false,
+		"base_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"show_difficulty": false,
+		"show_advantage_modifier_adj": false,
+		"show_equipment_modifier_adj": false,
+		"show_spell_adj": true,
+		"use_title_in_footer": false,
+		"extra_space_around_encumbrance": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "May 16, 2020, 12:00 AM",
+	"modified_date": "Mar 29, 2021, 2:22 PM",
+	"profile": {
+		"name": "Estirge",
+		"weight": "9 kg",
+		"SM": -1,
+		"body_type": "avian"
+	},
+	"total_points": -66,
+	"ST": 5,
+	"DX": 15,
+	"IQ": 4,
+	"HT": 11,
+	"will_adj": 6,
+	"per_adj": 6,
+	"move_adj": -4,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "6a31a3f2-0803-4ccb-b8f1-f2292175f872",
+			"based_on_id": "bc9fe5de-5ea0-4b35-85b1-30fe4c51e3ed",
+			"based_on_hash": "SWI2oeOzEFAdg+t//toEo1jUf8p+trI6ni1CfLJOmgQ",
+			"name": "Sanguinolência",
+			"mental": true,
+			"base_points": -10,
+			"cr": 9,
+			"reference": "B154",
+			"notes": "O personagem precisa ser bem-sucedido em um teste de autocontrole para aceitar a rendição de um inimigo, fugir de uma sentinela, fazer um prisioneiro, etc.",
+			"categories": [
+				"Desvantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8a8a9519-9088-4448-9cf1-42d20bd6694b",
+			"based_on_id": "e12493bf-51f3-4f78-baad-714d3d34b535",
+			"based_on_hash": "ljUt+96UR5MqXLSFI/NJMxGFYWLmhv8HpT8aZZWOZnU",
+			"name": "Voo",
+			"physical": true,
+			"exotic": true,
+			"base_points": 40,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5d41adb0-dae6-4ced-94e3-7ee9cb6a9ca9",
+					"based_on_id": "413743f2-a16c-4641-96e1-91f52f0a01fa",
+					"based_on_hash": "/d5VS/oZiM44SGuP2mBZGfS0PxbUGoEvfZ0EGxzj+zI",
+					"disabled": true,
+					"name": "Voo Espacial Newtoniano",
+					"reference": "B99",
+					"cost_type": "percentage",
+					"cost": 25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cf0f67da-b1ea-4260-acc9-effc9f8250c4",
+					"based_on_id": "df18f6e0-eb0c-49b3-9a35-d78b6c1e1be9",
+					"based_on_hash": "8xPwqFZeAzDSw7p6F816IHefP2cFACfKcYbjDycSqyE",
+					"disabled": true,
+					"name": "Voo Espacial",
+					"reference": "B99",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9ad37675-aca0-4e87-89d2-1fc09c3401a3",
+					"based_on_id": "470fcc8b-0413-4555-8865-0e6f105d8c48",
+					"based_on_hash": "YEgviNoK7UJ5f4N5O2+8wjg7HzswCoRhMUoXAjZ1Ygo",
+					"disabled": true,
+					"name": "Incapaz de Pairar",
+					"reference": "B99",
+					"cost_type": "percentage",
+					"cost": -15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b90efc43-54f1-49fb-bf95-490580b0b90d",
+					"based_on_id": "666e7358-50e1-4b88-9b9b-14acd12b299c",
+					"based_on_hash": "JRJIA7RzqZskM8WC7A1wtuIRnCSy/KuukDc4PIt0YOk",
+					"disabled": true,
+					"name": "Planar Controlado",
+					"reference": "B100",
+					"cost_type": "percentage",
+					"cost": -45,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6e474950-e2fe-49de-8809-1433d7b7c1ed",
+					"based_on_id": "6cba093d-aca3-4395-a915-b1275511b1c6",
+					"based_on_hash": "74Hivcuq3UQ+HC69CVi8cwBOgc4HPSe3XpY92wZRDz0",
+					"disabled": true,
+					"name": "Planar",
+					"reference": "B100",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6cd5a5ca-d2b2-41a5-837b-68b8b83ba9db",
+					"based_on_id": "2e044026-3711-4d90-b631-e1a02de25dc4",
+					"based_on_hash": "HZsX96paQ64N4MYKAzrjuMpUPGhjvXy+1j8zzhsA3Ew",
+					"disabled": true,
+					"name": "Mais Leve que o Ar",
+					"reference": "B100",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e181692c-998f-43f0-ad5a-aaef9dc0c045",
+					"based_on_id": "851b79e5-a3b8-41fb-b4e7-b063d20ad4aa",
+					"based_on_hash": "DOT1e80jLiwRB0ee+eZa4QThj8LWQDacYHehFNGSfAA",
+					"disabled": true,
+					"name": "Limite Baixo de Voo",
+					"reference": "B100",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "9 m"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3b6cf47f-c16f-42fa-b06b-5013ebed6513",
+					"based_on_id": "68f288ed-ea2e-46cd-8f57-77b5774eb376",
+					"based_on_hash": "thd/uf14edyXubZq0UfzaF348jRYhlDS+vVNgAPBOok",
+					"disabled": true,
+					"name": "Limite Baixo de Voo",
+					"reference": "B56",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "3 m"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9efd0a45-76be-4314-b54b-4399f6f56ee0",
+					"based_on_id": "f82d4d5d-ad5f-41ed-9346-306393730181",
+					"based_on_hash": "V9vtXqhjg0CGkig9+NHDr0cGPuU5CrcCCTZb9dRNOgg",
+					"disabled": true,
+					"name": "Limite Baixo de Voo",
+					"reference": "B56",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total",
+					"notes": "1,5 m"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "81210696-b2f3-4e6f-835e-252d03e14ee3",
+					"based_on_id": "13f20dc8-e981-4ce8-a3db-781b1a473a35",
+					"based_on_hash": "E8BXGjETs2LKeDiZVcuWALwvLrQhxJMLKY1BYnBiCas",
+					"disabled": true,
+					"name": "Asas Pequenas",
+					"reference": "B99",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3c042e4c-6107-4ced-aa3a-d7217891cf57",
+					"based_on_id": "fd3e3aca-5f5b-4098-9b74-ba76dc34dcf5",
+					"based_on_hash": "UU6Ba346LHu23WAAi1Pjt8yUAQ7QUx9lrcBjbEltJP8",
+					"disabled": true,
+					"name": "Somente Voo Espacial",
+					"reference": "B100",
+					"cost_type": "percentage",
+					"cost": -75,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4a7bf618-83a2-4e43-a545-3361c45db334",
+					"based_on_id": "d007a65b-6728-481b-b8b5-a62d7b4b695c",
+					"based_on_hash": "RDhj64k1U29mK25KSqC3HN0eKDRBqy6P74mt3apDgY0",
+					"name": "Alado",
+					"reference": "B99",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "eaf4a13d-2b4d-40bb-8765-37672b6d762c",
+					"based_on_id": "5f56d8a1-fabc-4ab3-ac70-c1a10461a5fe",
+					"based_on_hash": "c0wb4NvWFBhODKS12GRzlSJ98u2DUmffHE7PYITgAEs",
+					"disabled": true,
+					"name": "Planetário",
+					"reference": "P50",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b39c056b-35f3-4e5f-966a-fa53131f90e6",
+					"based_on_id": "3f569a24-7ada-4e1d-875d-d2bdfd6235cf",
+					"based_on_hash": "X3pT1V/Vr6R5JAJX9/jGllvDvmU1ij19aZm7/BmfnQ4",
+					"disabled": true,
+					"name": "Exige Superfície",
+					"reference": "P50",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1f7632d7-1f09-4a18-a3bf-5801418c72c1",
+					"based_on_id": "d6f984bc-a0c8-453a-b3a5-9f8c6b13e347",
+					"based_on_hash": "fq3SZitBNcBN/HoSgQiEIk5iktUMeipePHzxCWB72FE",
+					"disabled": true,
+					"name": "Lenta",
+					"reference": "PSI14",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total",
+					"notes": "Basic Speed"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c99d6fb9-8dc3-49a1-97c4-47d9ba5af2d5",
+					"based_on_id": "557bca63-b174-4cb8-a8ce-d288b6bafaf2",
+					"based_on_hash": "fdZpTXPiSoRkpZVgLcdlOrjVvVXQumX3g9XgKOUu/xE",
+					"disabled": true,
+					"name": "Lenta, Deslocamento 1",
+					"reference": "PSI14",
+					"cost_type": "percentage",
+					"cost": -45,
+					"affects": "total"
+				}
+			],
+			"reference": "B98",
+			"notes": "Deslocamento Aéreo 12",
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "a5f677d7-88c7-4aff-9ea5-df79025f208d",
+			"based_on_id": "617e4769-153a-457b-9bf6-33cd0c1ab724",
+			"based_on_hash": "QRK/E11DmZ27AIXOxeoqi+5Oj6pUN0SElsI8dtURqIo",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Animal Selvagem",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c9c582dc-3389-4190-923c-a39c3a5e013c",
+					"based_on_id": "3ff0f6f3-483f-42cc-83ab-dedd4e022b00",
+					"based_on_hash": "2PI9W0FUXfUGzz1aqOknr/832FhCAfcdPR4T5diA+SI",
+					"name": "Bestial",
+					"mental": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B124",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0fbc2cae-aae8-4ee5-b2e1-a532ead6ad36",
+					"based_on_id": "814224e2-2e0f-48b8-8d04-f054986794d2",
+					"based_on_hash": "wCNx/EHVGJJyM/qnVOpKb2cor0AsvG7eSBKT4OYHUSY",
+					"name": "Incapaz de Falar",
+					"physical": true,
+					"base_points": -15,
+					"reference": "B145",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "gagueira"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0554514b-ac26-491e-b70f-22972cc433cb",
+					"based_on_id": "eb06e5c1-da8d-4f87-9a0c-ced1d277333c",
+					"based_on_hash": "Y+izR+LBr+LeUkHC2oqXz7fiHNwefTNiYSEyC/luzFE",
+					"name": "Sem Imaginação",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B155",
+					"notes": "O personagem sofre uma penalidade de -2 em qualquer tarefa que exigir criatividade ou imaginação, incluindo a maioria dos testes da perícia Artista, todos os testes de Engenharia para criar invenções e todos os testes de habilidade para utilizar a vantagem Desenvolvedor.",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3bbf1a3d-ae9a-4559-ae9e-8e321e83bf5d",
+					"based_on_id": "01506e76-d3ec-4dbd-9633-49a7b0528653",
+					"based_on_hash": "OJk6yZAWbC5WhJt9RyBfoJ/0i9wj6JDOtF7NWdoDTUQ",
+					"name": "Características Proibidas (IQ Fixa)",
+					"mental": true,
+					"reference": "B263"
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "50f8aa7c-835c-4f5f-b0a9-35b9a557f07f",
+			"based_on_id": "707e522a-2fd6-412e-ac81-b44721b44de6",
+			"based_on_hash": "vHmlfRk7deNxvyCC3NeCR4bAorLdZXvxLaq1gbp1mkE",
+			"name": "Visão Noturna",
+			"physical": true,
+			"levels": "5",
+			"points_per_level": 1,
+			"reference": "B97",
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "b34b3ed8-9016-4542-baa6-1749ec02f7d3",
+			"based_on_id": "68f5a69d-72ef-4012-978d-80363b1fdb94",
+			"based_on_hash": "ojehPoKvidtCRwuOHKhSKQsR5gsoEPQxoCl3ZCDJa7k",
+			"name": "Manuseadores Precários",
+			"physical": true,
+			"base_points": -30,
+			"reference": "B149",
+			"features": [
+				{
+					"type": "cost_reduction",
+					"attribute": "st",
+					"percentage": 40
+				},
+				{
+					"type": "cost_reduction",
+					"attribute": "dx",
+					"percentage": 40
+				}
+			],
+			"categories": [
+				"Desvantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "d62fb843-524c-4306-8904-4f1ec6f317a8",
+			"based_on_id": "adc31fa2-7771-4242-ad70-b40435a721a1",
+			"based_on_hash": "d3OAMXrh0NTZgt6jHQznTxisLdWp6AHxC+bdEuqPklI",
+			"name": "Bico Afiado",
+			"physical": true,
+			"exotic": true,
+			"base_points": 1,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "pa+",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bicada",
+					"reach": "C",
+					"parry": "Não",
+					"block": "Não",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Briga"
+						}
+					]
+				}
+			],
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "eedcdedf-d8ed-4609-a4ca-ad79e2f6424e",
+					"based_on_id": "bd3971dd-9552-493f-9d82-bd79bace3494",
+					"based_on_hash": "AN6CHjwiDKuHNpAh0MpcfN0/HhYiUdMXsabvtdXz4aU",
+					"name": "Concedido pela Mordida de Vampiro",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "B52",
+			"categories": [
+				"Qualidade"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c53a85b7-d1ac-4c02-8867-4d02e605c11a",
+			"based_on_id": "801fb576-188c-4563-b07a-de39f220273a",
+			"based_on_hash": "p3yQn6F6R2hNJIQP/o5lKadpQZiAOqEmMAAco7Pgb48",
+			"name": "Mordida de Vampiro",
+			"physical": true,
+			"exotic": true,
+			"levels": "0",
+			"base_points": 30,
+			"points_per_level": 5,
+			"reference": "B72",
+			"notes": "o personagem pode sugar 1 PV/nível por segundo. A cada 3 PV roubados, o personagem cura 1 PV ou 1 PF (decisão do personagem). Pode morder em um combate sem se alimentar. Adicionar Dentes (Dentes Afiados) ou Dentes (Bico Afiado) – a critério do jogador, sem custo adicional de pontos.",
+			"categories": [
+				"Vantagem"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "efd400c5-3cb2-462e-ac9b-a6cf9aa08527",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 4,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "55ee6bc7-c78a-4534-8c79-6e598df17562",
+			"text": "Uma estirge é uma criatura passeriforme sugadora de sangue, do tamanho de um corvo, com um bico comprido e olhos grandes. Estirges são noturnas. Uma estirge ataca com seu bico comprido e farpado. Se seu ataque penetrar a armadura, ela suga o sangue da vítima.\n\nAs estirges têm uma mira excelente e são capazes de atacar pela abertura dos olhos de um capacete. Apenas duas estirges podem atacar desta forma no mesmo segundo, mas um ataque bem sucedido pode facilmente cegar o olho!",
+			"reference": "B461"
+		}
+	],
+	"print_settings": {
+		"printer": "Microsoft Print to PDF",
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "color",
+		"sides": "duplex",
+		"quality": "normal",
+		"resolution": "120000"
+	}
+}
