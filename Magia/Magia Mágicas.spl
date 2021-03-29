@@ -13947,7 +13947,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "ampliar objeto"
+							"qualifier": "alongar objeto"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -15222,7 +15222,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "89e7cc65-8f3c-4fb3-93c5-125e7199810d",
-			"name": "Ampliar Objeto",
+			"name": "Alongar Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
 			"college": "Fazer e Quebrar",
