@@ -1,0 +1,86 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "9584c470-eba6-4d40-8cf1-565b55145ca0",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "617e4769-153a-457b-9bf6-33cd0c1ab724",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Animal Selvagem",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3ff0f6f3-483f-42cc-83ab-dedd4e022b00",
+					"based_on_id": "fa8dc745-e31b-404f-af4b-e68d548542e3",
+					"based_on_hash": "Sfl7ThY1oLaE3xQNuroI6xIMNnARe0fmZSjZpDjvx0o",
+					"name": "Bestial",
+					"mental": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B124",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "814224e2-2e0f-48b8-8d04-f054986794d2",
+					"based_on_id": "faf68507-ab47-4bd4-b345-1dc341a8a891",
+					"based_on_hash": "h8cml8OBQcqC21/NYT1o8//6jyaHORcOxAidL7lO7PE",
+					"name": "Incapaz de Falar",
+					"physical": true,
+					"base_points": -15,
+					"reference": "B145",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "gagueira"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "eb06e5c1-da8d-4f87-9a0c-ced1d277333c",
+					"based_on_id": "4226edcf-2ac0-453f-8692-e61905e8921d",
+					"based_on_hash": "nVy2OorCDgsJl6KnvYvNdxR0BcKEuP4BVto/Cs/azEU",
+					"name": "Sem Imaginação",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B155",
+					"notes": "O personagem sofre uma penalidade de -2 em qualquer tarefa que exigir criatividade ou imaginação, incluindo a maioria dos testes da perícia Artista, todos os testes de Engenharia para criar invenções e todos os testes de habilidade para utilizar a vantagem Desenvolvedor.",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "01506e76-d3ec-4dbd-9633-49a7b0528653",
+					"based_on_id": "4cfe714b-ed6b-406f-8f66-a1a4e6b67838",
+					"based_on_hash": "TBbJbRmpD9XcNnc21gU8cldJqsZ7BQLpD1rGaG32RMo",
+					"name": "Características Proibidas (IQ Fixa)",
+					"mental": true,
+					"reference": "B263"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "fcb33885-73ee-4c6b-9d79-0db56be7206b",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "ae529965-b8ed-4ba8-b931-1c54c72c385f",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Ictioide",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "1c06acd5-a178-4dce-980f-93d28e1dffd2",
+					"based_on_id": "cb6e6d92-4839-48dc-829d-ae99ecd18eb6",
+					"based_on_hash": "a7USX40pkbIrD7kiRk2wV2fr54tKM79wocVQvdyuAt8",
+					"name": "Sem Pernas (Aquático)",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f089b133-af3b-4cb0-a2c7-1f6f5f709bde",
+							"based_on_id": "5f030d3c-8167-4c45-a086-b64a3a6c476e",
+							"based_on_hash": "10zVFCTcuqQFWYtTAG3YW3SVZweCwvReDHAYkHw/2NI",
+							"disabled": true,
+							"name": "Não Mergulha",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2dddb38a-f44a-4bc9-ba06-d7c0696160da",
+							"based_on_id": "2ae0c860-ff99-4eff-9167-a5fca83d598b",
+							"based_on_hash": "VgN7kzHBxbe4PWypqWmNd5h6QjRyav/KE68KtEw4hO4",
+							"disabled": true,
+							"name": "Incapaz de proteger @Nadadeiras/Mastros/Remos/Velas@",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						}
+					],
+					"reference": "B156",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "04ae170d-56c3-4846-a495-5160887f6061",
+					"based_on_id": "74c5e98f-a70c-4847-863e-2bb80a3c7aab",
+					"based_on_hash": "0fmXZKQ9fZSj+YuQWTiehhIsi0u47SHHab3LKeX3bGQ",
+					"name": "Sem Manuseadores",
+					"physical": true,
+					"base_points": -50,
+					"reference": "B149",
+					"features": [
+						{
+							"type": "cost_reduction",
+							"attribute": "st",
+							"percentage": 40
+						},
+						{
+							"type": "cost_reduction",
+							"attribute": "dx",
+							"percentage": 40
+						}
+					],
+					"categories": [
+						"Desvantagem"
+					]
+				}
+			]
+		}
+	]
+}

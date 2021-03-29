@@ -1,0 +1,166 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "465612e7-057f-431e-b14d-c0cd72388151",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "964f4df9-93d8-4020-9fa0-74131bbd615c",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Quadrúpede",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2c7a7360-ec8c-41b8-9a6b-3072f80a1c41",
+					"based_on_id": "cf875dd7-1d65-4c22-9b9c-30848c1d3d5d",
+					"based_on_hash": "7U0hW/n6vb4ORw75dk/jaKdoVMvJyELGFC6m9mubXtM",
+					"name": "Pernas Adicionais",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a653ef35-a566-4ec5-b950-6ff1aed8cf9d",
+							"based_on_id": "a89ee115-6a18-4524-911a-2566b8a30625",
+							"based_on_hash": "DmoTyfJTk1ArMkwme/YETS+2gWsJiq9CNHck7yUdm9Y",
+							"name": "4",
+							"reference": "B77",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "09cb7787-3062-4322-ab57-f2ad54ba402f",
+							"based_on_id": "abd75efb-89ee-4d46-a18f-8009d6ce19ad",
+							"based_on_hash": "+788xQyd6N3Pup2XOm/SVnKD+IldsTA3Uines9rhY7M",
+							"disabled": true,
+							"name": "@5 ou 6@",
+							"reference": "B77",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f4076045-7ced-4674-923d-ff07f182171e",
+							"based_on_id": "6639c262-12d3-486e-a428-747ddffe3a1b",
+							"based_on_hash": "f1NUHqZqiVKr/snQuHFs+zb1YQzGl76LsRPtqaa2Ktk",
+							"disabled": true,
+							"name": "@7 ou +@",
+							"reference": "B77",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6fa97362-6226-4a2e-9e7f-985b86b623ae",
+							"based_on_id": "145e8ef9-8230-4184-9a4f-e4205e475964",
+							"based_on_hash": "OuV1YTazV6R+KX81SWelnkDZSVnIO90bx3sN6Ik5HO0",
+							"disabled": true,
+							"name": "Comprida",
+							"reference": "B77",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e38e1047-08d6-436b-adde-669d5f50e4f2",
+							"based_on_id": "456497b3-3df5-4c41-a02e-23c21ba5c780",
+							"based_on_hash": "whYukbc6fPYD1wrEd7oR4BOWCOZMBbn9KuapdeTV+2c",
+							"disabled": true,
+							"name": "Incapaz de Chutar",
+							"reference": "B78",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fe101804-fa3c-4767-8b21-a427fc765a26",
+							"based_on_id": "f45fe2c9-1576-42d0-a98a-c7f495df7b5e",
+							"based_on_hash": "1h9tLVVC3ZMS/BYUvOUf4nyK74zASrmuzZb+Z8SoYuA",
+							"disabled": true,
+							"name": "Extraflexível",
+							"reference": "MATG27",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d3846a33-51f0-435b-a2dc-baf2fa1ada77",
+							"based_on_id": "6e155478-b830-4718-a134-188f08d2f0bf",
+							"based_on_hash": "ycvcM98Ik4t1NdlGWKCcEDpTc2mWV7zkoL+b5on792c",
+							"disabled": true,
+							"name": "Pés Preênsis",
+							"reference": "MATG28",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"reference": "B77",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "58c5bf2e-6eda-4a5a-bd2f-93e02f6a4669",
+					"based_on_id": "8355954c-26f6-42b4-a44c-d57b5a171895",
+					"based_on_hash": "Sk/zeMoiRtgXplhgwP2JvROYtbziu4cg0qgWdDAR8aE",
+					"name": "Horizontal",
+					"physical": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B145",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ea0a9fc3-4249-457f-97f1-713cf1baa49b",
+					"based_on_id": "68f5a69d-72ef-4012-978d-80363b1fdb94",
+					"based_on_hash": "ojehPoKvidtCRwuOHKhSKQsR5gsoEPQxoCl3ZCDJa7k",
+					"name": "Manuseadores Precários",
+					"physical": true,
+					"base_points": -30,
+					"reference": "B149",
+					"features": [
+						{
+							"type": "cost_reduction",
+							"attribute": "st",
+							"percentage": 40
+						},
+						{
+							"type": "cost_reduction",
+							"attribute": "dx",
+							"percentage": 40
+						}
+					],
+					"categories": [
+						"Desvantagem"
+					]
+				}
+			]
+		}
+	]
+}

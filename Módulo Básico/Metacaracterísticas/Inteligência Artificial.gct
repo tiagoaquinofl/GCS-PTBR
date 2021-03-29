@@ -1,0 +1,129 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "9c4c1f91-de15-4ef1-9a8a-4905ac3d1644",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "c46c5510-3af0-4438-9e35-15bd75b1ec58",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Inteligência Artificial",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4c6e2770-48ae-433a-bdef-bfeb0ecabf98",
+					"name": "Noção Exata do Tempo",
+					"mental": true,
+					"base_points": 2,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e1830b10-082b-4286-aa34-c825edbdf81a",
+							"disabled": true,
+							"name": "Cronolocalização",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total"
+						}
+					],
+					"reference": "B74",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "78e4a6e4-4b4e-4cba-befb-e6b94f08dcd4",
+					"name": "Mente Digital",
+					"physical": true,
+					"exotic": true,
+					"base_points": 5,
+					"reference": "B69",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b4f532c9-913d-4295-8a52-7f051b7f77b0",
+					"name": "Não Dorme",
+					"physical": true,
+					"exotic": true,
+					"base_points": 20,
+					"reference": "B72",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0b3da3e5-9ef2-4982-b324-ce4289c3dd08",
+					"name": "Memória Eidética",
+					"mental": true,
+					"base_points": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "309120f1-8e25-46bf-ba83-6c998f4d9025",
+							"name": "Fotográfica",
+							"reference": "B69",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						}
+					],
+					"reference": "B69",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4d2f5d1a-5447-485c-a8bd-482a132b6d2e",
+					"name": "Cálculos Instantâneos",
+					"mental": true,
+					"base_points": 2,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6e674a5c-f7c3-411e-9f19-a0eb4f682c5b",
+							"name": "Matemático Intuitivo",
+							"reference": "B46",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total"
+						}
+					],
+					"reference": "B46",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2f4d5aa7-c1e7-435d-90e1-774df08eb2ef",
+					"name": "Reprogramável",
+					"mental": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B153",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	]
+}
