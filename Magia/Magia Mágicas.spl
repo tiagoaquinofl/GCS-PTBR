@@ -19067,7 +19067,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "cadef8ee-9ef5-4b8f-9e86-b9fc63caf052",
-			"name": "Voz Superior",
+			"name": "Voz Amplificada",
 			"reference": "M173",
 			"difficulty": "IQ/H",
 			"college": "Som",
@@ -26092,7 +26092,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "voz superior"
+							"qualifier": "voz amplificada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -34670,7 +34670,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "voz superior"
+									"qualifier": "voz amplificada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -39756,7 +39756,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "voz superior"
+							"qualifier": "voz amplificada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -48415,7 +48415,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "voz superior"
+							"qualifier": "voz amplificada"
 						},
 						"quantity": {
 							"compare": "at_least",
