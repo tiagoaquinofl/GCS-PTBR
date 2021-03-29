@@ -1,0 +1,401 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "db595a53-30b7-4927-9410-021bd794d025",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "c87eb0c1-5495-4089-97e8-d14e7df7f166",
+			"container_type": "race",
+			"name": "Anão",
+			"reference": "B261",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "257f00a8-2dcb-4667-b9b0-5da3dfc46c92",
+					"name": "Modificadores de Atributos",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7d6f8f11-7f3f-42aa-b0e6-5b9f71389f66",
+							"based_on_id": "38edb538-c1a5-4e46-8225-fe457e234bb6",
+							"based_on_hash": "X0PXs6EPGURwVAPT+I38UKo7Eo6HRffKUTjxOiLqf8E",
+							"name": "HT +1",
+							"reference": "B15",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"attribute": "ht"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "82788d58-8c4a-404d-88fd-81fc97c09baa",
+							"based_on_id": "ebc62956-e12d-453d-9ca9-bb77d23ea46d",
+							"based_on_hash": "uA2DCgK8JDyKbm184p2Puxhx2MMY/tlpNlaoy8nJfdE",
+							"name": "Vont +1",
+							"reference": "B16",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"attribute": "will"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8b85bf52-c6f8-4765-9d2e-1b1a87fff831",
+							"based_on_id": "4ada3d54-0a4f-4095-967f-8bec3c0a6aac",
+							"based_on_hash": "DiMTekz3qRasDjC43X6fR9TFctreuViIGNbAwZq3aho",
+							"name": "MT -1",
+							"reference": "B19",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": -1,
+									"attribute": "sm"
+								}
+							]
+						}
+					],
+					"reference": "B15"
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8c91ad6d-2e22-4f0b-ab69-c73eec1f0745",
+					"based_on_id": "2354ea98-2169-47e2-a388-eb5f1fd6107a",
+					"based_on_hash": "tq7D3YwQr6GZITWAoZKH1rsZ1zHhdkf1/xPL8JSLFzI",
+					"name": "Detectar",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a7f136d9-6da1-41bc-9a23-44fc040fffe8",
+							"based_on_id": "60b71753-e781-483e-aaed-306417206ccf",
+							"based_on_hash": "K93uYEL/ycjKtZtnxTtY7/kFkoHSU6WBoo+2hafXdMg",
+							"name": "Ouro",
+							"reference": "B53",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "084ac1b1-9b6a-4dc3-a4c4-198c68f5074f",
+							"based_on_id": "4a9894b2-d3c8-4ae5-96a5-0d1f74051590",
+							"based_on_hash": "zQe1NGW61QudVljwes1eTIZJpXB1ZibId1eNyL3/3e8",
+							"disabled": true,
+							"name": "@Substância/Condição Ocasional@",
+							"reference": "B53",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cb968430-24a3-4172-b197-96cf5d780d36",
+							"based_on_id": "de19c244-f725-4491-a3ed-5b9b09d5d0f4",
+							"based_on_hash": "TdtCsVTzAtOpiaqDSozyYwidKNzzaecj4KCyDMWXTKI",
+							"disabled": true,
+							"name": "@Substância/Condição Comum@",
+							"reference": "B53",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "227346c7-6a8f-45bc-9f37-c6e105cb5246",
+							"based_on_id": "fcd07e0a-c328-4c7c-8a6f-2ac1dd92f5de",
+							"based_on_hash": "YfJZjI8qulT036C84Cwcq0MjZ9h8bw+sDvPgZFFmcYQ",
+							"disabled": true,
+							"name": "@Substância/Condição Muito Comum@",
+							"reference": "B53",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37e8680f-d38f-41d7-9d39-eedc8c4d2aa9",
+							"based_on_id": "64352b79-d299-410e-b363-ff6658516cb5",
+							"based_on_hash": "kTcsMhlszR3vdweFmfcL0sjO1KDhWONOhHGNQLvB274",
+							"disabled": true,
+							"name": "Precisão",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f874c55a-44de-456c-9381-78fecea8460d",
+							"based_on_id": "9467dba5-9922-4705-a594-270656ff40e6",
+							"based_on_hash": "MMA7LEeT5nAqGDgpg1++GBFS0aokRAyLusbmXtGKeFY",
+							"disabled": true,
+							"name": "Detecção de Sinais",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d2ddae7b-c0e2-4709-82a3-652952ef7fca",
+							"based_on_id": "0fbf0474-0c96-4b4f-ae40-6e1ca088d6c3",
+							"based_on_hash": "BiXW7kEGljCddpG+MZR57iPZh5t2Wmx11x5RKEFHeWk",
+							"name": "Vaga",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "505c90ac-0eef-4e71-9567-557cf98dd76a",
+							"based_on_id": "42b1310a-0243-4d6f-b246-e6ce8a4f9907",
+							"based_on_hash": "G7c1W5hs9IOaMILmbmecdeM2IgPnDfHaDkyTjgNirNg",
+							"disabled": true,
+							"name": "Analisador",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ffc2c5b9-fc6f-4400-9ac1-e4823cdd104c",
+							"based_on_id": "72e6a01c-845c-43c4-b44d-a5eab5e18433",
+							"based_on_hash": "qkn8+VFkfILOk5uxk1cWsbw+W0VyjUvg8069rTQgdNw",
+							"disabled": true,
+							"name": "Direção Aproximada",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9e1d4fca-1b4b-41b4-b532-d5c50a609fc9",
+							"based_on_id": "006e0217-13f4-4867-bd92-ea1345e75182",
+							"based_on_hash": "M7EzcF2IF573QRMRSv/TJZgTB8yzFk1Yq8lmQaS4EV4",
+							"disabled": true,
+							"name": "Precisão, Sem Pontaria",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": 90,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "990e17d2-e38d-4ccd-8e5e-4e3227dde4ae",
+							"based_on_id": "13075e67-2cd1-4157-96b4-1658e72ee85b",
+							"based_on_hash": "AZm+Wp4MrkLmdh7kIWiYNKN/K44gNOPksHmml7krXSo",
+							"disabled": true,
+							"name": "Somente Análise",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f9bc0cfe-7765-4c82-8271-d2899dc9167a",
+							"based_on_id": "5f1633d1-7d44-4523-a3a0-9438af35e0ac",
+							"based_on_hash": "mQ4aUzPLjzb9Y4DmQpRJE2WZrzRZx6GwUzJm7+3t1Uk",
+							"disabled": true,
+							"name": "Não Pode Analisar",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B53",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b502f97a-c4ef-41e1-9d7d-acbedf380a82",
+					"based_on_id": "10973b1a-b73b-4362-b78a-7ad52457d839",
+					"based_on_hash": "+XaTrTIhphuI90nMx9gekYljMS7ZVAjEnLM4ACkZgKQ",
+					"name": "Expectativa de Vida Ampliada",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 2,
+					"reference": "B59",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a3a92466-694c-4bc7-bcbe-11307ce7a145",
+					"based_on_id": "707e522a-2fd6-412e-ac81-b44721b44de6",
+					"based_on_hash": "vHmlfRk7deNxvyCC3NeCR4bAorLdZXvxLaq1gbp1mkE",
+					"name": "Visão Noturna",
+					"physical": true,
+					"levels": "5",
+					"points_per_level": 1,
+					"reference": "B97",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2521ad48-b36e-47fc-98f2-e5da4a674bef",
+					"based_on_id": "b08962b3-5c25-41f6-899e-209b374bd9e3",
+					"based_on_hash": "lxPwPrqrhS8vm/leTkUsF2ETraKrFASuI83ZIVsKUmU",
+					"name": "Talento (Artífice)",
+					"mental": true,
+					"levels": "1",
+					"points_per_level": 10,
+					"reference": "B90",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Armeiro"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Carpintaria"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Eletricista"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Conserto de Equipamento Eletrônico"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engenharia"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Maquinista"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Alvenaria"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mecânica"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Ferreiro"
+							}
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"per_level": true,
+							"situation": "qualquer pessoa para quem o personagem trabalha"
+						}
+					],
+					"categories": [
+						"Talento",
+						"Vantagem"
+					]
+				}
+			]
+		}
+	]
+}
