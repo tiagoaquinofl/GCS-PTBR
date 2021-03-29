@@ -1,0 +1,636 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "57169899-d24d-4e2e-a074-5891aba2449d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "e2808b7f-953c-43ce-a825-731c23726506",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Corpo de Água",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "eed61dd1-0d55-4c43-9237-beb5052977b8",
+					"based_on_id": "003f1809-fb3f-48c6-b962-2c8177457f20",
+					"based_on_hash": "8t8s9/xM4GZ11TN9DcVZswxlZjn/35WHcVmVK4sv0Vw",
+					"name": "Anfíbio",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"reference": "B38",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ff852add-9566-4275-a7ec-5b9b45bef704",
+					"based_on_id": "74d5f4fe-8e89-4fb8-bf1f-47be8daad1e2",
+					"based_on_hash": "xIBet38poA4E0vOmUx63wKYm09BabKYtL5kqSn3/Spk",
+					"name": "Ataque Constritivo",
+					"physical": true,
+					"exotic": true,
+					"base_points": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3a11d615-ac59-4910-888a-a8eb40ddc1f8",
+							"based_on_id": "0d75e183-9a6b-4a50-8566-8966d795fcd4",
+							"based_on_hash": "fpF3bsOlwOFQE86Ralx/WMEznu6LKo9/1AUTfnrHfEM",
+							"disabled": true,
+							"name": "Engolfar",
+							"reference": "P45",
+							"cost_type": "percentage",
+							"cost": 60,
+							"affects": "total"
+						}
+					],
+					"reference": "B42",
+					"notes": "Realize uma Disputa Rápida entre a ST do personagem e a ST ou HT da vítima (o que for maior). Se o personagem vencer, ele causa dano ao alvo igual à sua margem de vitória no teste; caso contrário, o alvo não sofre dano.",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fc65c3c4-4011-4746-8b0a-0029de5e95db",
+					"based_on_id": "d1075a97-b71e-401e-9a47-170f363aeda2",
+					"based_on_hash": "6QXQcQcMlkPH1NtO4A8QxyiRnTWzu8VgOg2zWXoFe84",
+					"name": "Não Respira",
+					"physical": true,
+					"exotic": true,
+					"base_points": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "527a2c79-b9f1-4aea-916a-0ae66d0d023a",
+							"based_on_id": "3aa4db91-15db-4235-aea8-f7ceedd28cb1",
+							"based_on_hash": "Hg0Rmqz0ZflG/yLye+TOoCokWYpbK2v3whl3mtTq3A4",
+							"disabled": true,
+							"name": "Guelras",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b6dd7741-ccd6-41f8-b78c-8e0a2747e8bc",
+							"based_on_id": "cad785b0-75fe-4f1b-96a8-fb07eaa4d5d0",
+							"based_on_hash": "XSZQpblBp6d9aOvjxLckUFEXzalurqOm3O8hhopIzwU",
+							"disabled": true,
+							"name": "Guelras",
+							"reference": "B73",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Sufoca no ar"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "917fe464-490d-4965-befe-124c0cb5eaef",
+							"based_on_id": "0f3cfc32-0517-4aea-999a-638933ff1469",
+							"based_on_hash": "6eqfvTBDyAj/eaRrSOS78HbpRVYeOZJzSMVsP+Lig+8",
+							"disabled": true,
+							"name": "Absorção de Oxigênio",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "59f2c648-199d-4c0d-9016-2adfd9374fc2",
+							"based_on_id": "9a3e3c07-5318-4985-88a3-6e8f82209b28",
+							"based_on_hash": "Uieo/rU1iERWUdeapRG9DEqxpA+jihCNRVDF46epYdg",
+							"disabled": true,
+							"name": "Reserva de Oxigênio",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Capaz de “prender o fôlego” durante um período 25 vezes maior que o normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c9e0be28-90af-4bc8-93d6-56cb060f2df6",
+							"based_on_id": "72e4d4a6-1953-403b-94d6-98416d79a0ae",
+							"based_on_hash": "6sNTyWyvBiAXp8TjJzzotuoIC2yxiFXh02Ftxqw6yMg",
+							"disabled": true,
+							"name": "Reserva de Oxigênio",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Capaz de “prender o fôlego” durante um período 50 vezes maior que o normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8bc2dbdb-4718-4d30-93bb-55da2338f4fd",
+							"based_on_id": "dbbf0f79-74e3-4bec-b70c-f29e5b417ad8",
+							"based_on_hash": "uQ4mHiPM9T4C1pm9e+4KGqXK9PdK94Dfml7kKDLYj+8",
+							"disabled": true,
+							"name": "Reserva de Oxigênio",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "Capaz de “prender o fôlego” durante um período 100 vezes maior que o normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eb6c5d10-5320-417d-be7a-1ffbdff5e92b",
+							"based_on_id": "074c1dda-7953-4edd-9688-faa368a2f593",
+							"based_on_hash": "V0D1ogqLoFVvcgYCfXwn8Q6E3n9dQOKFbbzEgU/qHHU",
+							"disabled": true,
+							"name": "Reserva de Oxigênio",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Capaz de “prender o fôlego” durante um período 200 vezes maior que o normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aa19d0a3-4e0c-470a-bb9f-8a4f63bfe861",
+							"based_on_id": "40a15511-538e-4555-aefa-8af087993c76",
+							"based_on_hash": "fme2jmBRX6h354QMnnnml1H4KbroBaK+Gi/bJ7MpDK0",
+							"disabled": true,
+							"name": "Reserva de Oxigênio",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Capaz de “prender o fôlego” durante um período 300 vezes maior que o normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "610da44b-f67e-402c-b55a-74ecaf739298",
+							"based_on_id": "b35949e9-4e28-433c-8e27-2396698a3c72",
+							"based_on_hash": "a+o2F4eayhghRZVIoVdHENdw11jlfbcQY5U+foOMeds",
+							"disabled": true,
+							"name": "Combustão de Oxigênio",
+							"reference": "B73",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B73",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "74b509f2-6dc9-4bd6-b52f-9a74bc3ff079",
+					"based_on_id": "e835030f-2bec-4a57-9071-4cb6e793a724",
+					"based_on_hash": "J0ZGLag3RQinDs06xs53aMnDdeJHeJGyWLnYLsh/hl0",
+					"name": "Tolerância a Ferimentos",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1bef8377-fe8f-4667-aa2a-401897ef85db",
+							"based_on_id": "084cce07-3406-46cd-8cdc-adeb32b6772e",
+							"based_on_hash": "bZT35hGvBBdqQqEIS6pYOCE0mBslVX0BvhH9TOZd9bU",
+							"name": "Difuso",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 100,
+							"affects": "total",
+							"notes": "O personagem é imune a lesões incapacitantes e reduz o dano que ele sofre com a maioria dos golpes físicos; a maioria dos inimigos (a critério do Mestre) não é capaz de empurrar ou agarrar o personagem! Ele não sangra, não é afetado por toxinas de origem sanguínea é imune a ataques que interrompem a circulação de uma parte do sangue do corpo. Ataques por perfuração ou perfurantes (de qualquer gravidade) nunca provocam mais que 1 PV de dano, independente do dano penetrante! Outros tipos de ataques também nunca causam mais que 2 PV de dano. Exceção: ataques de área, de cone e explosões causam o dano normal."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "309b87b9-ae8f-478a-a4f2-970ec4566f08",
+							"based_on_id": "9e5a0273-416d-42c3-9360-d9e8ac49b390",
+							"based_on_hash": "CrqyJ6Qs89pkbCODHQSN88JWUm0iSUTDfzL8DAtPGpA",
+							"disabled": true,
+							"name": "Homogêneo",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 40,
+							"affects": "total",
+							"notes": "Aplica-se os seguintes modificadores de ferimento: perf e pa++, ×1/2; pa+, ×1/3; pa, ×1/5; e pa-, ×1/10"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "296c158d-b050-4ec9-ae46-28a645cf3383",
+							"based_on_id": "0577744e-74d5-4fd2-b0cf-b377c0583351",
+							"based_on_hash": "aLCU8hV8tnKmrGOv6VLHTW9EKZzDWAyPWdlecTRORHY",
+							"disabled": true,
+							"name": "Sem Sangue",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O personagem não sangra, não é afetado por toxinas de origem sanguínea é imune a ataques que interrompem a circulação de uma parte do sangue do corpo"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0a74cd76-795a-4d71-95c1-1c642dc46c2a",
+							"based_on_id": "b59bb9f6-0a6a-4c7f-9661-46b471c97828",
+							"based_on_hash": "jAVhtrAsbpc1Yv/IXTpJv/xIyXHd4qho9+BYFiXBtGA",
+							"disabled": true,
+							"name": "Sem Cérebro",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O cérebro do personagem não pode ser usado como alvo para causar dano adicional. um golpe no crânio ou no olho é considerado como um golpe normal no rosto (com a diferença que um ferimento no olho pode mutilar esse órgão)."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "17e6825f-4c98-4b7b-93c3-35809cc722b2",
+							"based_on_id": "71517f69-e589-428c-8c5b-a69e793b2ff2",
+							"based_on_hash": "3onLTbl1cRvvEiMlZrlOo3zxOjECPn7k2rQsFU5vMY0",
+							"disabled": true,
+							"name": "Sem Olhos",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O personagem não tem olhos, logo eles não podem ser atacados. O personagem é imune a ataques que produzem cegueira."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4ad053fe-7e29-4d02-9052-e986cbf013c5",
+							"based_on_id": "b28b2766-e1ec-4ad9-8716-b2b89948ee3d",
+							"based_on_hash": "OiRetllMXTXiTNIUxGZ6/IkwfylFgvuYd78J6M1hMgk",
+							"disabled": true,
+							"name": "Sem Cabeça",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 7,
+							"affects": "total",
+							"notes": "Crânio, cérebro e rosto não podem ser usados como alvo"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4da6ef50-5e7e-4b94-a738-225e63335928",
+							"based_on_id": "09663c19-dd10-43b6-80d0-f63496b736a6",
+							"based_on_hash": "jclcmZRfwKc+XRfsvttq2JXMWGmj3zfDoS4TXiJQVMQ",
+							"disabled": true,
+							"name": "Sem Pescoço",
+							"reference": "B95",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O personagem não tem pescoço. Por esse motivo, ele não tem o ponto de impacto “pescoço” e não pode ser decapitado, asfixiado nem estrangulado."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d79cff99-ed0b-4beb-85e3-3453952cf486",
+							"based_on_id": "216d2319-b180-469e-ab78-e8ff0631cee0",
+							"based_on_hash": "5Yf0TDpD9VZzERPvQbKWc92qNivDTbvsu9OlbBl8ouI",
+							"disabled": true,
+							"name": "Sem Órgãos Vitais",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "Considere todos os golpes em “órgãos vitais” ou na “virilha” como golpes no tronco."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "601d7f65-ef08-410d-9b15-319f456967d5",
+							"based_on_id": "5c0c7424-8090-4207-87e4-5adca183f3ce",
+							"based_on_hash": "krKtfzyr6maTYMgKgXN/KGcI+n/tNnu4EXl4SKpbAjo",
+							"disabled": true,
+							"name": "Não-Vivo",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"notes": "Aplica-se os seguintes modificadores de ferimento: perf e pa++, ×1; pa+, ×1/2; pa, ×1/3; e pa-, ×1/5"
+						}
+					],
+					"reference": "B94",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3b5fb652-d259-4f89-80d8-d6ee48d9aff2",
+					"based_on_id": "f9016b57-ba56-4ed4-b048-bc8f54f3f4e0",
+					"based_on_hash": "c5mTtwJ7hCrqdTYMjJa4TwdcPfbviswAVHkBCauGzZM",
+					"name": "Invertebrado",
+					"physical": true,
+					"exotic": true,
+					"base_points": -20,
+					"reference": "B147",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b88fe7c2-7265-4eba-9ba5-634eac6989b7",
+					"based_on_id": "207abc9e-4c1e-4eff-897d-9fb6859f781f",
+					"based_on_hash": "4dZtYH8gAcxELd/RkdJF9V58+pooNL45Frg9+wqgKcA",
+					"name": "Resistência à Pressão",
+					"physical": true,
+					"exotic": true,
+					"levels": "3",
+					"points_per_level": 5,
+					"reference": "B84",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ec34d019-4124-4214-92ba-a0cafd520df5",
+					"based_on_id": "7969d7e2-58e4-480d-9d3c-2a6493c0710c",
+					"based_on_hash": "kHA7FsernbSi/sqTJUYlN0/JKiSRAvPAaMlAHpfv4Gg",
+					"round_down": true,
+					"name": "Resistente",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "561cb94e-a5c2-49ae-9f78-4c5e4038214a",
+							"based_on_id": "b9089800-d21d-42dc-aab7-ac7980e4f8d9",
+							"based_on_hash": "twUiCqO/4JLWXcbDkHOXNFoaWHuVFcO00v2k9Fvi+iM",
+							"name": "Riscos ao Metabolismo",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "76450341-c98b-4a07-9f17-b9cedabf0e88",
+							"based_on_id": "97f0b84e-9c11-465b-8f37-a3bdc464891b",
+							"based_on_hash": "i4UbTLmLdGTCTOuEHM4yrgowaYjhrisPDp9EEB6SHyk",
+							"disabled": true,
+							"name": "@Comum: Venenos, Enjoos, etc.@",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "84b67b52-053d-4877-8f63-4ee653649ef6",
+							"based_on_id": "e6aad095-4355-4ec2-9659-58cb5212d3cf",
+							"based_on_hash": "kLrm74cShIr450l38073KExU40FUhOWRXWk8mWIWE5E",
+							"disabled": true,
+							"name": "@Ocasional: Doenças, Venenos Ingeridos, etc.@",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "42a54a7b-d0be-4d01-ba86-bedf0ae3d129",
+							"based_on_id": "e303f8dd-5b26-48d6-a72a-89c091e041f8",
+							"based_on_hash": "3my6Y1fPH6NEsnCwNn5IxCm7elcaHsPO0CRSYV/t4DQ",
+							"disabled": true,
+							"name": "@Raro: Aceleração, Doença de Altitude, Doença de Descompressão, Enjoo Marítimo, Enjoo Espacial, Nanomáquinas, etc.@",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b64277f6-255a-4984-854e-1cd4af32afae",
+							"based_on_id": "1c4e744f-7e4b-47ab-9e2c-f21c9eaf7317",
+							"based_on_hash": "4WNFDf6he6VXrtKzbDRfO3ODDEfrYfkO2kAiLf66tDY",
+							"name": "Imunidade",
+							"reference": "B85",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5b9f68dd-87a8-4eb2-b8c7-126d1c2fc6cc",
+							"based_on_id": "4219ad25-247a-4c79-8bd9-107b2d1ff5a5",
+							"based_on_hash": "WOE+iu6m610DtHtpROHCKimLHVcfJApjuLTyB49zJ8E",
+							"disabled": true,
+							"name": "+8 nos testes de HT para Resistir",
+							"reference": "B85",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9c84a5a4-3555-4c05-96e8-555979cb5b8b",
+							"based_on_id": "924b7935-6ea9-4baf-a211-0900073314fd",
+							"based_on_hash": "t140f+7a4nm8QRbjuGtrvwvKqYlmd2htIGMJoBiq5Qw",
+							"disabled": true,
+							"name": "+3 nos testes de HT para Resistir",
+							"reference": "B85",
+							"cost_type": "multiplier",
+							"cost": 0.33
+						}
+					],
+					"reference": "B84",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "97e55746-1d6c-4c23-bad7-52904259c03e",
+					"based_on_id": "787fc3ee-1b6e-4939-b0e3-3742c6044303",
+					"based_on_hash": "bNbDrCIGjr0NzMuc/h/fwOxj+QRiN4ddE5riSWvzrY4",
+					"name": "Escorregadio",
+					"physical": true,
+					"exotic": true,
+					"levels": "5",
+					"points_per_level": 2,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2c0a4503-f59e-4da0-89f9-3a99f2786cc6",
+							"based_on_id": "ca723687-0fbf-4693-8429-797bf17f47c5",
+							"based_on_hash": "493iwKyydsV6g1yr9qnvb1gxANx8UxmG620i+o4sFBQ",
+							"disabled": true,
+							"name": "Apenas Afeta Outros",
+							"reference": "MATG29",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						}
+					],
+					"reference": "B58",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fuga"
+							}
+						}
+					],
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ca0ba0d3-bbd9-4593-8b81-519b94cf4e06",
+					"based_on_id": "8c0a6469-1b7b-49b1-879a-e50aa2bb9494",
+					"based_on_hash": "APdLrhyvI/QbkQNVB9amYcu4kG1KCJPPtQtGfK6kprs",
+					"name": "Vulnerabilidade",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e2c08615-d2bd-45f8-8d62-a81ab032061b",
+							"based_on_id": "da840630-abbc-426e-a9e3-f7cd34ab0956",
+							"based_on_hash": "ZS28F5b/qrgNbAlKRPWv/ExtJEcBBgBOg5JkNdozLZs",
+							"name": "Ataques por Desidratação",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d7bac02d-8b9c-453f-aaa0-ec242a324248",
+							"based_on_id": "c4f25bac-aec3-430a-b8e2-c5cc8ca62d3d",
+							"based_on_hash": "DS/SG1wTJLm+ARvJxWwDhaYsAhkk5sDqvce90mEe3Mk",
+							"disabled": true,
+							"name": "@Ataque Ocasional@",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "10ede8f8-14e8-480f-b392-20e2f6cd1af6",
+							"based_on_id": "b94356f2-bfcd-4b44-afcf-9491a86b2ff9",
+							"based_on_hash": "Ly3rMr8Vnc1aL2Hfn3M2syghU5e/tFB4nkSp0ZrjWHs",
+							"disabled": true,
+							"name": "@Ataque Comum@",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3a330004-9706-4f4d-99b3-e50c33da1766",
+							"based_on_id": "c6e65360-efaf-470b-8f12-7e1ae885cf7e",
+							"based_on_hash": "A7QPhiHBrLIeiEZesBMf2NmT3NoyEWB/qURTo276p5w",
+							"disabled": true,
+							"name": "@Ataque Muito Comum@",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "550eb202-1910-4895-b3e2-64bbf253873c",
+							"based_on_id": "47f0d0dd-e3de-4212-9348-f73dd42804c6",
+							"based_on_hash": "4cAyzwOgT9tHxvznEgTp4YcThvjje8ZVfOJI4IxbGTc",
+							"name": "Ferimento ×2",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eaec4cbd-1a51-48c4-b927-76a1e9ad7f4b",
+							"based_on_id": "7e490fc9-227f-4cab-86b7-6570ed3ec050",
+							"based_on_hash": "/+y0ARk/IleW/6r+EzTuC9IwQREDOWcqjS35QuvY0os",
+							"disabled": true,
+							"name": "Ferimento ×3",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 3
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "348de0a5-be13-4100-a88a-bc6d11895c15",
+							"based_on_id": "bcb496da-fb92-4f4a-a8bc-ade01ceacaa0",
+							"based_on_hash": "iUvA2XfsTT6+0G3OLMeVmzxjcWyBuLRAM8/mpW7qkgQ",
+							"disabled": true,
+							"name": "Ferimento ×4",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 4
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b713bd48-03f5-4ea3-a9ff-f58fd4e84bfc",
+							"based_on_id": "bac139dd-b536-4d88-aafa-fa927c454816",
+							"based_on_hash": "zQ8O1PlIzJsxW2SXYqgVlDjP3bMrgOzRt86iY6f6xtQ",
+							"disabled": true,
+							"name": "Somente Fadiga",
+							"reference": "B161",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B161",
+					"categories": [
+						"Desvantagem"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,299 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "2d65ab3f-a0ed-46ba-878b-d7056d4a37bf",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "cffdd470-16f5-4d72-877f-0c3f4cbaec38",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Máquina",
+			"reference": "B262",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "096d435b-9e96-49cb-a7da-4440907d3acf",
+					"name": "Reservatório de energia que dura oito horas; Precisa ser recarregado três vezes por dia",
+					"physical": true,
+					"reference": "B262"
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "61306115-5e2c-4c56-a78a-2fb9f05471c5",
+					"based_on_id": "1f296ba5-d5f1-43c4-87ef-bd7f65d45b44",
+					"based_on_hash": "CiSSzajTU/Omahm+TzJ0hEwIgstwpUFzmqKJOpzYET4",
+					"name": "Tolerância a Ferimentos",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8e6f5f49-5531-4415-862a-d45a043e419e",
+							"based_on_id": "a0b529a7-dd2e-488e-963e-55ed5c942e81",
+							"based_on_hash": "809JED+smh615Ew4zkMt4C41kP6cKlwXqfWOOMj2n6w",
+							"disabled": true,
+							"name": "Difuso",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 100,
+							"affects": "total",
+							"notes": "O personagem é imune a lesões incapacitantes e reduz o dano que ele sofre com a maioria dos golpes físicos; a maioria dos inimigos (a critério do Mestre) não é capaz de empurrar ou agarrar o personagem! Ele não sangra, não é afetado por toxinas de origem sanguínea é imune a ataques que interrompem a circulação de uma parte do sangue do corpo. Ataques por perfuração ou perfurantes (de qualquer gravidade) nunca provocam mais que 1 PV de dano, independente do dano penetrante! Outros tipos de ataques também nunca causam mais que 2 PV de dano. Exceção: ataques de área, de cone e explosões causam o dano normal."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "19ed79cb-1376-4e16-8153-4e4286be150c",
+							"based_on_id": "d958ab63-ddd1-4f79-b34e-08e5b20b49b3",
+							"based_on_hash": "S07jZDwFLs2hb0jZWQRKhRAcqnGH7Ue7xpuKhmrmlzI",
+							"disabled": true,
+							"name": "Homogêneo",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 40,
+							"affects": "total",
+							"notes": "Aplica-se os seguintes modificadores de ferimento: perf e pa++, ×1/2; pa+, ×1/3; pa, ×1/5; e pa-, ×1/10"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "edd8baa0-c148-4042-a457-478075bfce9b",
+							"based_on_id": "0289f3ea-c4c4-4a6e-81e6-6af5fa2535f3",
+							"based_on_hash": "oFFEnoLruWwJEojVaAF058Twy1QNSjUKD/XN//5lwso",
+							"name": "Sem Sangue",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O personagem não sangra, não é afetado por toxinas de origem sanguínea é imune a ataques que interrompem a circulação de uma parte do sangue do corpo"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0ef19eb2-d89b-4f26-9105-6865a96972dd",
+							"based_on_id": "c1c26d92-a452-4cf1-ac49-f3264de34b55",
+							"based_on_hash": "UV+qMKlckCmA1omwBH9joOxcXwH7ZErE/YBu5nq4ngo",
+							"disabled": true,
+							"name": "Sem Cérebro",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O cérebro do personagem não pode ser usado como alvo para causar dano adicional. um golpe no crânio ou no olho é considerado como um golpe normal no rosto (com a diferença que um ferimento no olho pode mutilar esse órgão)."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8d316f60-8fe0-4556-9937-129bd14f32e0",
+							"based_on_id": "fa80c233-24ef-4642-b010-11aa728ed487",
+							"based_on_hash": "SQpS9zlMUBmD/xbr0LcobVKfnplgiEq1iCbsRW+Dd74",
+							"disabled": true,
+							"name": "Sem Olhos",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O personagem não tem olhos, logo eles não podem ser atacados. O personagem é imune a ataques que produzem cegueira."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "36d189bc-7dd5-4369-9060-0408e82a201f",
+							"based_on_id": "19b91b2f-cb79-4b2b-9cad-2376e904daf0",
+							"based_on_hash": "XiDwZIZvFe9mHS6dKY/zj7tFkLLyxM+6HvkMi7PcIfY",
+							"disabled": true,
+							"name": "Sem Cabeça",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 7,
+							"affects": "total",
+							"notes": "Crânio, cérebro e rosto não podem ser usados como alvo"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a0b77212-5b76-4a3f-b2fa-fa3f6d58ea34",
+							"based_on_id": "6ec22904-bd86-4ad8-b1bf-9a53e92d31e4",
+							"based_on_hash": "WV2eIB1VYwO0whyNnBA0Aqmx/TtbT3C/9pQY4/bX3Kc",
+							"disabled": true,
+							"name": "Sem Pescoço",
+							"reference": "B95",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "O personagem não tem pescoço. Por esse motivo, ele não tem o ponto de impacto “pescoço” e não pode ser decapitado, asfixiado nem estrangulado."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "925e7f9b-a69b-4c4a-8b96-31c188e4a395",
+							"based_on_id": "2697c503-f58d-456a-abad-7e5d82575e3d",
+							"based_on_hash": "MTiM/E9Y9EMEACbL+UsYyImqyJon5Re6RTox7Xq3Ubg",
+							"disabled": true,
+							"name": "Sem Órgãos Vitais",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "Considere todos os golpes em “órgãos vitais” ou na “virilha” como golpes no tronco."
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37e28f4a-347c-47b0-97ae-582d27663d16",
+							"based_on_id": "e507316b-8da4-49dd-b292-68c08b57cf68",
+							"based_on_hash": "OzPSGSRJhLqcFA/wGdGNsRkIhHucCWlvqXenRcOo8cw",
+							"name": "Não-Vivo",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"notes": "Aplica-se os seguintes modificadores de ferimento: perf e pa++, ×1; pa+, ×1/2; pa, ×1/3; e pa-, ×1/5"
+						}
+					],
+					"reference": "B94",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "6472f4b5-bcbb-4616-b40d-463f2469eb5a",
+					"name": "Não tem ou não pode gastar Pontos de Fadiga",
+					"physical": true,
+					"reference": "B262"
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c15fc205-f33e-4452-ad7f-2a138ecc88f1",
+					"based_on_id": "e7fa3079-4c74-42a6-a9ae-bfb80dcefbde",
+					"based_on_hash": "/k9bRq04y1kU6quxXYkJ0XrawFK3vilwZK4hVrTGYhc",
+					"round_down": true,
+					"name": "Resistente",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "491c02a7-5b9a-4dfe-90eb-33e18a9d18a3",
+							"based_on_id": "452a2036-0f69-4d72-aae4-b6f996938768",
+							"based_on_hash": "MHVhre4g2Hpv0pit2ruii5RPRPQjI39bKnE5rCZMa/I",
+							"name": "Riscos ao Metabolismo",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "984f8540-59ba-4066-b4db-caf97dcce9f4",
+							"based_on_id": "82d5ee0e-f246-42ad-a4cf-ee31b87ea1ec",
+							"based_on_hash": "nIHbstw0NT26LA3MIkuXGy/xP1ESjCQagQMSc1fjnRQ",
+							"disabled": true,
+							"name": "@Comum: Venenos, Enjoos, etc.@",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5cebc7ee-f039-4614-b389-e9360afb9776",
+							"based_on_id": "8c4e945b-0dcc-4927-a1be-343eb1c9eb0d",
+							"based_on_hash": "dFK9nclD7JZ0EZamFpcasBLInM4YXz8ozbyDgnPNMYY",
+							"disabled": true,
+							"name": "@Ocasional: Doenças, Venenos Ingeridos, etc.@",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8aae4f37-e5ba-44cf-8242-5f6e2940ed9b",
+							"based_on_id": "84ab8551-13ce-414a-95e4-4982da2a1a49",
+							"based_on_hash": "pINl73pKjbHvlHHcEkd2VW90gWbdlLoUFWZAIc1O/EA",
+							"disabled": true,
+							"name": "@Raro: Aceleração, Doença de Altitude, Doença de Descompressão, Enjoo Marítimo, Enjoo Espacial, Nanomáquinas, etc.@",
+							"reference": "B85",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7506e328-1652-41e7-b1aa-88a6d72b59a5",
+							"based_on_id": "f058a69b-a164-4845-9ba9-913eab77ac1c",
+							"based_on_hash": "Eb4UuKuN320SRZDMsbY3ztLNxXL7Goh2cV/poTtvtYw",
+							"name": "Imunidade",
+							"reference": "B85",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bf9209d6-8f32-4a50-9162-a3e13a169d22",
+							"based_on_id": "a8220671-a227-4645-9445-7a8393df0619",
+							"based_on_hash": "0+vOniRoYxqPk7TShUPFk8pRaCOv0GuJ1W0yLStdwS4",
+							"disabled": true,
+							"name": "+8 nos testes de HT para Resistir",
+							"reference": "B85",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eb583c3b-697f-4127-ad9b-4d3785ea797c",
+							"based_on_id": "7e784171-200f-4dd5-a6db-0fabba06aeb1",
+							"based_on_hash": "gLN5GUnTx1mA/GUCcYK1h8ENey84d18SFVg52fFL+A8",
+							"disabled": true,
+							"name": "+3 nos testes de HT para Resistir",
+							"reference": "B85",
+							"cost_type": "multiplier",
+							"cost": 0.33
+						}
+					],
+					"reference": "B84",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9617f880-3d20-4467-a75a-0d0688bf0b1e",
+					"based_on_id": "eaed264f-b27f-4782-a1d7-9cdadac807eb",
+					"based_on_hash": "Fx5Xbpp5tNaDM1BWc3NzqEQXbJUz8u1XXetW21OKWNk",
+					"name": "Sem Recuperação (Total)",
+					"physical": true,
+					"exotic": true,
+					"base_points": -30,
+					"reference": "B156",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "08bb57a4-2e87-4a67-9f3a-2dc6a0e26e5c",
+					"name": "Não envelhece, se desgasta",
+					"physical": true,
+					"reference": "B262"
+				}
+			]
+		}
+	]
+}
