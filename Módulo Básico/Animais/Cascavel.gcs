@@ -1,0 +1,422 @@
+{
+	"type": "character",
+	"version": 1,
+	"id": "b4f903d6-4326-4985-8b23-0e114abf3d59",
+	"settings": {
+		"version": 1,
+		"default_length_units": "cm",
+		"default_weight_units": "kg",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_on_10": false,
+		"base_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"show_difficulty": false,
+		"show_advantage_modifier_adj": false,
+		"show_equipment_modifier_adj": false,
+		"show_spell_adj": true,
+		"use_title_in_footer": false,
+		"extra_space_around_encumbrance": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "May 16, 2020, 12:00 AM",
+	"modified_date": "Mar 30, 2021, 3:35 PM",
+	"profile": {
+		"name": "Cascavel",
+		"height": "250 cm",
+		"weight": "7 kg",
+		"SM": -1,
+		"body_type": "vermiform"
+	},
+	"total_points": -156,
+	"ST": 5,
+	"DX": 13,
+	"IQ": 2,
+	"HT": 11,
+	"will_adj": 8,
+	"per_adj": 8,
+	"move_adj": -2,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9a054054-8e4d-457d-b9be-b8b72b1fde45",
+			"based_on_id": "7ddbd12c-c28d-4b1f-b365-979d62c54215",
+			"based_on_hash": "YkKkKcRzG0blVOy7JpSOUzI/W+2/wxSCYbPQ/eOhpNM",
+			"name": "Sangue Frio",
+			"physical": true,
+			"exotic": true,
+			"base_points": -5,
+			"reference": "B154",
+			"notes": "Abaixo de 10°C",
+			"categories": [
+				"Desvantagem"
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "d6f47f87-eae9-4c5e-9cdb-754fb75f6662",
+			"based_on_id": "223b7762-854c-4d06-a4fe-02e3923503ac",
+			"based_on_hash": "WR/KcftujIXzXWpYDuUvlF1xlZe/q81dBGhtcRpnkJk",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Vermiforme",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "27e24c3e-349f-44bd-9941-fd6254149085",
+					"based_on_id": "a4387bba-035c-4e6c-b2d9-a4b1b941c615",
+					"based_on_hash": "Ov9n+HrDnGO/mh2ykQC6e1dONoRkursrEaohSx98mLg",
+					"name": "Flexibilidade (Ultraflexibilidade das Juntas)",
+					"physical": true,
+					"base_points": 15,
+					"reference": "B61",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "escalada"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fuga"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "arte erótica"
+							}
+						}
+					],
+					"notes": "O personagem pode ignorar penalidades de até -5 por trabalhar em espaços apertados.",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fe4c0cdd-9ff4-4f1d-a9b9-06e74e1d6462",
+					"based_on_id": "0ca13f85-db8e-4fd7-9d46-e13abe8fcfed",
+					"based_on_hash": "Rf+ZxvkWw7uTJ04hNMy6uW9gcHEmYLhsmbF1fuGIprk",
+					"name": "Sem Pernas (Desliza)",
+					"physical": true,
+					"exotic": true,
+					"reference": "B156",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2a2462d9-18a0-4825-a3ba-5dafa93384d2",
+					"based_on_id": "b11dd788-1575-41f0-a99d-c7bbbf8a3522",
+					"based_on_hash": "keudlz3iliJ17WNYozETJfRgIrWURWeNFPl+8sJF0Vo",
+					"name": "Sem Manuseadores",
+					"physical": true,
+					"base_points": -50,
+					"reference": "B149",
+					"features": [
+						{
+							"type": "cost_reduction",
+							"attribute": "st",
+							"percentage": 40
+						},
+						{
+							"type": "cost_reduction",
+							"attribute": "dx",
+							"percentage": 40
+						}
+					],
+					"categories": [
+						"Desvantagem"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "6574fe00-8473-4c78-98f9-2da9ef827730",
+			"based_on_id": "617e4769-153a-457b-9bf6-33cd0c1ab724",
+			"based_on_hash": "QRK/E11DmZ27AIXOxeoqi+5Oj6pUN0SElsI8dtURqIo",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Animal Selvagem",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "064761c1-2c30-4f49-99df-98d4602cd99b",
+					"based_on_id": "3ff0f6f3-483f-42cc-83ab-dedd4e022b00",
+					"based_on_hash": "2PI9W0FUXfUGzz1aqOknr/832FhCAfcdPR4T5diA+SI",
+					"name": "Bestial",
+					"mental": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B124",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8907a435-2ad7-4eed-b1ac-eedd9904a472",
+					"based_on_id": "814224e2-2e0f-48b8-8d04-f054986794d2",
+					"based_on_hash": "wCNx/EHVGJJyM/qnVOpKb2cor0AsvG7eSBKT4OYHUSY",
+					"name": "Incapaz de Falar",
+					"physical": true,
+					"base_points": -15,
+					"reference": "B145",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "gagueira"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c314b40c-301b-4799-804c-19ad6b23e1b7",
+					"based_on_id": "eb06e5c1-da8d-4f87-9a0c-ced1d277333c",
+					"based_on_hash": "Y+izR+LBr+LeUkHC2oqXz7fiHNwefTNiYSEyC/luzFE",
+					"name": "Sem Imaginação",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B155",
+					"notes": "O personagem sofre uma penalidade de -2 em qualquer tarefa que exigir criatividade ou imaginação, incluindo a maioria dos testes da perícia Artista, todos os testes de Engenharia para criar invenções e todos os testes de habilidade para utilizar a vantagem Desenvolvedor.",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a892cf09-aa96-4bee-8720-672b9b9ec4fa",
+					"based_on_id": "01506e76-d3ec-4dbd-9633-49a7b0528653",
+					"based_on_hash": "OJk6yZAWbC5WhJt9RyBfoJ/0i9wj6JDOtF7NWdoDTUQ",
+					"name": "Características Proibidas (IQ Fixa)",
+					"mental": true,
+					"reference": "B263"
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "f775e7e7-235b-4f11-ba6b-a40c8d8258c4",
+			"based_on_id": "24d3f998-c478-4b7a-acf8-5ed5c3f7926a",
+			"based_on_hash": "8UdktqImG9Wm4vBlcEggZd7xhG6LSzEraWFQyJw41oE",
+			"name": "Presas",
+			"physical": true,
+			"exotic": true,
+			"base_points": 2,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "perf",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Mordida",
+					"reach": "C",
+					"parry": "Não",
+					"block": "Não",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Briga"
+						},
+						{
+							"type": "DX"
+						}
+					]
+				}
+			],
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4fd75b79-1752-47bc-9905-afded992084a",
+					"based_on_id": "fc32e014-07f2-4411-9cff-9e256fa9ba66",
+					"based_on_hash": "E6Z+0lgpQEsn4K/7WMaQH2IXTZoNH8+QJ/Dn66PNuVw",
+					"name": "Acompanhamento",
+					"reference": "B102",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total",
+					"notes": "2d toxina"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b4be9af1-3114-4898-b219-0c8e74fea2d7",
+					"based_on_id": "9376e219-498b-44d3-a9d5-d864c48e5b39",
+					"based_on_hash": "+kYetaHDh0wFyopfyP8c7VbFyhBLzQrla9E9lVLGQSo",
+					"name": "Cíclico - 1 dia",
+					"reference": "B104",
+					"cost_type": "percentage",
+					"cost": 10,
+					"affects": "total",
+					"notes": "4 ciclos"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c6779614-78e2-4aef-945f-5db5533ce125",
+					"based_on_id": "8d9353f7-1768-4389-ae59-3716d2bb7fd8",
+					"based_on_hash": "DdRD+NO0GXvC8hNWlf4OVJkoF1r1ck62O414rS/XWWg",
+					"name": "Resistível",
+					"reference": "B116",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"levels": 2,
+					"notes": "HT-4 para resistir"
+				}
+			],
+			"reference": "B52",
+			"categories": [
+				"Vantagem"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "822957b5-1623-45d5-811e-498b7a43430c",
+			"based_on_id": "a4194102-33fa-43fc-ac8e-14454cf89fc5",
+			"based_on_hash": "xc4wEBj3X8qhwJ7BJipMCCGQmbUmENFFeXEyVEIozNg",
+			"name": "Briga",
+			"reference": "B185",
+			"difficulty": "DX/E",
+			"points": 4,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Briga"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combate Corpo a Corpo",
+				"Combate/Arma"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e6f6d96f-d009-47f7-ae85-31bc8a2f085a",
+			"based_on_id": "72661777-9390-47f1-9819-0cf31205c3f5",
+			"based_on_hash": "iC6INx1V0tOZsF9XRcSECHGwUEoHVez2LSfEeEb+kZo",
+			"name": "Furtividade",
+			"reference": "B201",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Crime/Rua",
+				"Espionagem",
+				"Polícia"
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "d1976831-4572-428a-9651-536e852c390e",
+			"text": "É uma cobra venenosa comum. Até mesmo as pequenas são perigosas; a cascavel diamante descrita abaixo (2,5 metros) é mortal. Penalidade de -1 nos testes de HT contra o veneno: +1 se o veneno for imediatamente sugado pra fora; +2 se o antídoto adequado (NT6+) for usado.\n\nAs cobras estão entre os répteis mais comuns da Terra; elas são encontradas em climas temperados ou mais quentes em seis dos sete continentes.",
+			"reference": "B456"
+		}
+	],
+	"print_settings": {
+		"printer": "Microsoft Print to PDF",
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "color",
+		"sides": "duplex",
+		"quality": "normal",
+		"resolution": "120000"
+	}
+}

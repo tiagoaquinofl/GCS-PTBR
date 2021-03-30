@@ -1,0 +1,725 @@
+{
+	"type": "character",
+	"version": 1,
+	"id": "16623ed3-204b-4fa5-ab63-e5117194a74f",
+	"settings": {
+		"version": 1,
+		"default_length_units": "cm",
+		"default_weight_units": "kg",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_on_10": false,
+		"base_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"show_difficulty": false,
+		"show_advantage_modifier_adj": false,
+		"show_equipment_modifier_adj": false,
+		"show_spell_adj": true,
+		"use_title_in_footer": false,
+		"extra_space_around_encumbrance": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "May 16, 2020, 12:00 AM",
+	"modified_date": "Mar 30, 2021, 3:34 PM",
+	"profile": {
+		"name": "Camelo",
+		"weight": "700 kg",
+		"SM": 1,
+		"body_type": "quadruped"
+	},
+	"total_points": -24,
+	"ST": 22,
+	"DX": 9,
+	"IQ": 3,
+	"HT": 12,
+	"will_adj": 8,
+	"per_adj": 9,
+	"move_adj": 2,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "7978483b-85cf-48e5-a664-a6a4a5e5cda6",
+			"based_on_id": "eccfc218-dec2-47ab-98e1-d39e75e5b519",
+			"based_on_hash": "0XgLia76+3ePBBJ6V2JRW4y2/+9mUbgRp6OS/+HtTvU",
+			"name": "Irritabilidade",
+			"mental": true,
+			"base_points": -10,
+			"cr": 12,
+			"reference": "B147",
+			"categories": [
+				"Desvantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5542baed-10d7-43c4-b49d-e9e320f9f0b8",
+			"based_on_id": "00753aa7-320c-4c77-a5c6-27657d482632",
+			"based_on_hash": "Whg/IS9m+g0v3QU4F29P3CMGEIpFNFAfFlj6grlr9iQ",
+			"allow_half_levels": true,
+			"name": "Deslocamento Ampliado (Solo)",
+			"physical": true,
+			"exotic": true,
+			"levels": "1",
+			"points_per_level": 20,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e3fcf307-e817-4932-b51c-19bfbc87db41",
+					"based_on_id": "88772f60-ad0e-437e-a8c2-96cbb5e2a6ab",
+					"based_on_hash": "lGKdy8fgmnwokdQhxrIrT1PERpPBjHDCEaLWmQLfhPE",
+					"disabled": true,
+					"name": "Bônus de Manuseio",
+					"reference": "B52",
+					"cost_type": "percentage",
+					"cost": 5,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0c717b4f-46d0-44b4-80f8-a0f9a1c91644",
+					"based_on_id": "97d00e93-3120-4cb0-98b3-d1bf801c386c",
+					"based_on_hash": "1hmrz8AnwZ2X8RdY/bITN0f4XVTka2Y4/zn9fEnf9qw",
+					"disabled": true,
+					"name": "Redutor de Manuseio",
+					"reference": "B52",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a7710a62-c533-4e94-bf94-4846cf656062",
+					"based_on_id": "adfba971-7341-4acd-b34e-29cb22c923ae",
+					"based_on_hash": "u12nipiau3rDfV8HoWtRjmbshwhw1s7nwR+S7NwyidM",
+					"disabled": true,
+					"name": "Newtoniana",
+					"reference": "B52",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c9590208-0f13-447a-b98c-5d205674a450",
+					"based_on_id": "6936c6fc-4f44-45bb-b925-85b5b0484dde",
+					"based_on_hash": "xgpBF73FkE0z4Casl9O+4VIDJfWimoMmL0evVH3C9ag",
+					"disabled": true,
+					"name": "Limitado a Estradas",
+					"reference": "B52",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c8230b83-d323-4e60-a9b1-f9a557e893be",
+					"based_on_id": "4eacf9b6-fc04-4c70-a6d2-8b9806b6b3a3",
+					"based_on_hash": "nyos3Phoz5QMW62XuQ60eb9sxOb/bPM2BcmIl1nLVZU",
+					"disabled": true,
+					"name": "Total",
+					"reference": "P49",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "95e935cb-527c-41c3-beb0-13f5f123e333",
+					"based_on_id": "aa6cb70b-8c1b-446a-acc2-b02f2e1807e6",
+					"based_on_hash": "ieDyN7P/uieETJ7vyFPjHggmP/HnyL0cYSbPAe0SXfM",
+					"disabled": true,
+					"name": "Cósmica",
+					"reference": "SU26",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"notes": "Aceleração Instantânea"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7a0ac796-989a-4d68-b636-e4cd6328da9a",
+					"based_on_id": "34fbefd7-8ed7-4594-adf6-3da3c8aab61f",
+					"based_on_hash": "IlH1rImDJ6msx3t019/s+rxLw008t+QjnETMj68OaOU",
+					"disabled": true,
+					"name": "Cósmica",
+					"reference": "SU27",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"notes": "Total Capacidade de Manobra"
+				}
+			],
+			"reference": "B52",
+			"notes": "Multiplica o Deslocamento em Solo normal por 1 + nível",
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "be6be180-6798-421c-8f35-db49bc62db9c",
+			"based_on_id": "1421b44f-2729-4ca3-80d0-c0cf57d0a818",
+			"based_on_hash": "pwnZiaoV5GnIsT19Rxj1lm7BtxvotrnLVmRCvZtceLI",
+			"name": "Cascos",
+			"physical": true,
+			"base_points": 3,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cont",
+						"st": "thr",
+						"modifier_per_die": 1
+					},
+					"usage": "Coice",
+					"reach": "C,1",
+					"parry": "Não",
+					"block": "Não",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Briga",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Caratê",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B61",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "feet"
+				}
+			],
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "f35a0431-393b-4bde-8dcd-d4a22f10ba53",
+			"based_on_id": "29122d8c-be5f-4168-8149-d87769e15eaa",
+			"based_on_hash": "UFcUqGaRwmdPZLUrDGOjpIjsO4o/hlAVEGuheFnFz+M",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Animal Doméstico",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0ecdcd97-ff3a-4d70-9534-bf7cb9fd8031",
+					"based_on_id": "ac3b3980-8618-4a2f-8a91-c8b4ad9cf5b9",
+					"based_on_hash": "Qys44oZTgSlcdNSylvByuYYnF4HEF7PkdxQ0J0KYzCo",
+					"name": "Incapaz de Falar",
+					"physical": true,
+					"base_points": -15,
+					"reference": "B145",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "gagueira"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2b67c27a-b339-4856-800b-570e055217c7",
+					"based_on_id": "e17fc018-ab1f-4a70-a970-5040c6cd98dd",
+					"based_on_hash": "HQj/iUSw5r0QTDMDkLpVS+kohkxeGEuUbU1gfZPxgZw",
+					"name": "Sem Imaginação",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B155",
+					"notes": "O personagem sofre uma penalidade de -2 em qualquer tarefa que exigir criatividade ou imaginação, incluindo a maioria dos testes da perícia Artista, todos os testes de Engenharia para criar invenções e todos os testes de habilidade para utilizar a vantagem Desenvolvedor.",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ba93caf6-c5c0-4d54-88a5-71dba8502138",
+					"based_on_id": "65cc7869-1486-4446-b12c-2fb2370c02e7",
+					"based_on_hash": "ZEzOqIB/WHBUhqp1O5q+FDbNkvLIc/T/FIhjhFy9Yyc",
+					"name": "Estigma Social (Propriedade Valiosa)",
+					"social": true,
+					"base_points": -10,
+					"reference": "B138",
+					"notes": "$1500",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "aaa26d27-1491-4e97-a2ff-ea898917ed68",
+					"based_on_id": "4cfe714b-ed6b-406f-8f66-a1a4e6b67838",
+					"based_on_hash": "TBbJbRmpD9XcNnc21gU8cldJqsZ7BQLpD1rGaG32RMo",
+					"name": "Características Proibidas (IQ Fixa)",
+					"mental": true
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "41a97a12-3f35-444d-acaa-b0d989641868",
+			"based_on_id": "964f4df9-93d8-4020-9fa0-74131bbd615c",
+			"based_on_hash": "MAv77CsdkyPg+FXjUvlycR8LxmOfSmG3jM6RoFi8j2Y",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Quadrúpede",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f2a47b5e-8894-476d-a5f7-a75765cf4612",
+					"based_on_id": "2c7a7360-ec8c-41b8-9a6b-3072f80a1c41",
+					"based_on_hash": "Aud8esA97Gd1URGIGQmUYdc5tohQGGhiubRVMon2bow",
+					"name": "Pernas Adicionais",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b75d20c6-a824-43bc-a36d-deec3de0b3d7",
+							"based_on_id": "a653ef35-a566-4ec5-b950-6ff1aed8cf9d",
+							"based_on_hash": "Xpv7F0mavBwrcfcXRjVnt+ZD2h8ysRFDi20Ytr6IlSU",
+							"name": "4",
+							"reference": "B77",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fa6b303f-e65e-4c04-91b0-8736bf95ca7e",
+							"based_on_id": "09cb7787-3062-4322-ab57-f2ad54ba402f",
+							"based_on_hash": "MFOBJoHNEU4eLk8wH2RLaICo9mbnD8bxBUr2IY22QlM",
+							"disabled": true,
+							"name": "@5 ou 6@",
+							"reference": "B77",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "347cb7ce-a919-4b8f-a4f5-256fe9961ea0",
+							"based_on_id": "f4076045-7ced-4674-923d-ff07f182171e",
+							"based_on_hash": "1k4v69My5tgH8RDL3In+yu/KRKUlrsNAQ2Xw8qYVWCk",
+							"disabled": true,
+							"name": "@7 ou +@",
+							"reference": "B77",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "23c4aa8c-1973-4dbe-aca6-c206cce694c1",
+							"based_on_id": "6fa97362-6226-4a2e-9e7f-985b86b623ae",
+							"based_on_hash": "lShKGlZycjm1GUFlScmi8CzsLqxLVaWhZk6jCu8h8eg",
+							"disabled": true,
+							"name": "Comprida",
+							"reference": "B77",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "03cacca8-ea0f-46f4-89cd-6a85b9a006dd",
+							"based_on_id": "e38e1047-08d6-436b-adde-669d5f50e4f2",
+							"based_on_hash": "wqwlxuaVFbRmntXNjCWTEA4D1KkbVTSTI2u4nZlDb/Q",
+							"disabled": true,
+							"name": "Incapaz de Chutar",
+							"reference": "B78",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4f8ee1e2-d15b-4cdf-830c-04e3e6b70f16",
+							"based_on_id": "fe101804-fa3c-4767-8b21-a427fc765a26",
+							"based_on_hash": "5ksKONTyuHfEoxKWNkdV3ELDAvUbrUi5Z7UVJtC8sg0",
+							"disabled": true,
+							"name": "Extraflexível",
+							"reference": "MATG27",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "02734461-a37e-4a8d-9df9-3cb77d4341a7",
+							"based_on_id": "d3846a33-51f0-435b-a2dc-baf2fa1ada77",
+							"based_on_hash": "wRfysRAqXxLlB2u0Shk12tqXIpa5U9pyQhhGdOGUN8Y",
+							"disabled": true,
+							"name": "Pés Preênsis",
+							"reference": "MATG28",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"reference": "B77",
+					"categories": [
+						"Vantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "73e766d4-ac9b-41a3-aff5-36447aed7159",
+					"based_on_id": "58c5bf2e-6eda-4a5a-bd2f-93e02f6a4669",
+					"based_on_hash": "3b2T9uCQvy2511ZVRgORW18BcQWn7cMD6kV+2LxOYxQ",
+					"name": "Horizontal",
+					"physical": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B145",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e9478713-5115-4eac-b651-6c054e5c8549",
+					"based_on_id": "ea0a9fc3-4249-457f-97f1-713cf1baa49b",
+					"based_on_hash": "/j3vd4YFEx9o/oBfICTrPfsnTtOcinvhnh4Au0Q/JQE",
+					"name": "Manuseadores Precários",
+					"physical": true,
+					"base_points": -30,
+					"reference": "B149",
+					"features": [
+						{
+							"type": "cost_reduction",
+							"attribute": "st",
+							"percentage": 40
+						},
+						{
+							"type": "cost_reduction",
+							"attribute": "dx",
+							"percentage": 40
+						}
+					],
+					"categories": [
+						"Desvantagem"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "345de910-a060-4b46-abc0-ab7babb775a9",
+			"based_on_id": "8dadd2f3-cc2c-4980-a376-cc91d00b743a",
+			"based_on_hash": "wlWQyZzX0s3DLvEFUanT05eGHcGiWCQuZYb35283ukQ",
+			"name": "Visão Periférica",
+			"physical": true,
+			"base_points": 15,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e1390339-bd51-4053-b3e2-a6b76ef0f2d6",
+					"based_on_id": "dbd1dea0-de15-436d-b93e-de0f3e92eb85",
+					"based_on_hash": "+AcWcUc1hafEERIOx73ExVSaVMU8cIOL8Y4a2uhNRpI",
+					"disabled": true,
+					"name": "Fácil de Atingir",
+					"reference": "B98",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Um indivíduo consegue direcionar seus ataques contra os olhos do personagem apenas com uma penalidade de -6."
+				}
+			],
+			"reference": "B98",
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9bd4c3b2-1635-4696-9a99-9c8a9bc7faa7",
+			"based_on_id": "6e249eba-ac3d-44df-a769-8e8aa262c86e",
+			"based_on_hash": "Lwfa+sheD1uJg/zKQstJKqzH0Cq/JXDMCoO4FtbQFmQ",
+			"name": "Consumo Reduzido",
+			"physical": true,
+			"levels": "3",
+			"points_per_level": 2,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "774c22e2-6579-4828-86d9-942c6ee8006f",
+					"based_on_id": "8a5b8ff8-bb6c-4a8a-9c8a-8377d5b58181",
+					"based_on_hash": "A79kXQv5DEc624IpOeoRjNBLZK+BM3YS4ZQ1KVWWyOU",
+					"disabled": true,
+					"name": "Estômago de Ferro",
+					"reference": "B48",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e6538062-7138-40ce-821e-c6576a8d9928",
+					"based_on_id": "bda6eb10-fc3f-4a90-9b65-60a4f7ddb243",
+					"based_on_hash": "X/IP5dgwBcapqHkGkV8+VAZ3r9OMecaHQAvs++dFyfM",
+					"disabled": true,
+					"name": "Somente Alimentos",
+					"reference": "B48",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "90d8bbc3-7dac-464a-ad46-dec09dfef41d",
+					"based_on_id": "5be2f3a6-a4ed-4a7d-9636-4636187aa5bb",
+					"based_on_hash": "SdFV4bNqFtl3vzIa6Vx27Ed6ne3iwt57GVu0xM8im1s",
+					"name": "Somente Água",
+					"reference": "B48",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				}
+			],
+			"reference": "B48",
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "45fa2000-41ae-4c7f-b493-18ae38653e08",
+			"based_on_id": "5452dcb5-90b1-424d-bab5-51ca5830fede",
+			"based_on_hash": "Vbxjjg9sY/LmLdfap25jJso+Db9Aj1WF7f9pe0Dk7q8",
+			"name": "Teimosia",
+			"mental": true,
+			"base_points": -5,
+			"reference": "B158",
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"situation": "de outras pessoas"
+				}
+			],
+			"categories": [
+				"Desvantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "af3cab25-de9b-4c6b-97e7-491a0f496444",
+			"based_on_id": "8c6dd44c-8c68-4ee1-a57a-d8ebd9b73803",
+			"based_on_hash": "CjnwSW7zAP9Hpq2bjmCauLtm8WZ/jjCeJSHkqfw1KW4",
+			"name": "Mordida Fraca",
+			"physical": true,
+			"exotic": true,
+			"base_points": -2,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cont",
+						"st": "thr",
+						"base": "-1",
+						"modifier_per_die": -2
+					},
+					"usage": "Mordida",
+					"reach": "C",
+					"parry": "Não",
+					"block": "Não",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Briga"
+						}
+					]
+				}
+			],
+			"reference": "B151",
+			"categories": [
+				"Animal",
+				"Desvantagem"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d153ab04-86f6-4e43-82a7-a3125f2a138a",
+			"based_on_id": "c581c580-3de4-40ee-8d82-eddbf8312221",
+			"based_on_hash": "NdKpPsm8ZN3Lnz87Uk0mIN1joFMBPIt04uOJsMyc9wc",
+			"name": "Sobrevivência",
+			"reference": "B223",
+			"specialization": "Deserto",
+			"difficulty": "Per/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Naturalista",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Sobrevivência",
+					"specialization": "Ártico",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Sobrevivência",
+					"specialization": "Ilha/Litoral",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Sobrevivência",
+					"specialization": "Selva",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Sobrevivência",
+					"specialization": "Montanha",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Sobrevivência",
+					"specialization": "Planície",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Sobrevivência",
+					"specialization": "Pântano",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Sobrevivência",
+					"specialization": "Floresta",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Exploração"
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "1ae24614-b4a6-4c1b-aac7-0e42da580b3e",
+			"text": "Um nativo de planícies secas, o camelo pode ficar até quatro dias sem beber nada. Seu temperamento teimoso implica numa penalidade de -4 nos testes de Adestramento de Animais.",
+			"reference": "B459"
+		}
+	],
+	"print_settings": {
+		"printer": "Microsoft Print to PDF",
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "color",
+		"sides": "duplex",
+		"quality": "normal",
+		"resolution": "120000"
+	}
+}

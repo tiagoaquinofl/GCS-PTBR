@@ -1,0 +1,883 @@
+{
+	"type": "character",
+	"version": 1,
+	"id": "d499a475-6bfa-4b19-b123-7e6a6558bbbc",
+	"settings": {
+		"version": 1,
+		"default_length_units": "cm",
+		"default_weight_units": "kg",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_on_10": false,
+		"base_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"show_difficulty": false,
+		"show_advantage_modifier_adj": false,
+		"show_equipment_modifier_adj": false,
+		"show_spell_adj": true,
+		"use_title_in_footer": false,
+		"extra_space_around_encumbrance": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "May 16, 2020, 12:00 AM",
+	"modified_date": "Mar 30, 2021, 3:48 PM",
+	"profile": {
+		"name": "Gorila",
+		"weight": "200 kg",
+		"SM": 1,
+		"body_type": "humanoid"
+	},
+	"total_points": 56,
+	"ST": 15,
+	"DX": 12,
+	"IQ": 6,
+	"HT": 12,
+	"will_adj": 4,
+	"per_adj": 4,
+	"move_adj": 1,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "92d6cbbd-c4cc-41a5-85fb-3e2056524953",
+			"based_on_id": "478cb32a-537f-48db-8978-89cc5cd100a8",
+			"based_on_hash": "96myXysJzrw15qsOCRrEtftNkEqby+14q3B8ods+wDI",
+			"name": "ST Braçal",
+			"physical": true,
+			"levels": "3",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e066708e-81df-413b-8974-0d2321ea3097",
+					"based_on_id": "7c15be1c-37cb-42d3-b325-a6572d76973c",
+					"based_on_hash": "b6Pk2p+BPwN1XRHoTOUYhTHdafg8U3byOA4+bZJvU2o",
+					"disabled": true,
+					"name": "Manuseadores Precários",
+					"reference": "B149",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "03350e1d-1a7e-4366-a5a5-696696886baf",
+					"based_on_id": "2d958f84-ac28-4bd0-aa8b-e30db11d06d7",
+					"based_on_hash": "9Fny1m6FCyUsaKTZJHUQfH9H6fwTjujyAReuvJZWBxQ",
+					"disabled": true,
+					"name": "Apenas um braço",
+					"reference": "B89",
+					"cost_type": "points",
+					"cost": -2,
+					"affects": "levels_only",
+					"notes": "@Qual@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5e8bb691-8d99-4648-97f6-9efa74688459",
+					"based_on_id": "7322e2d1-5c1d-4af4-9614-5d8c85e5d722",
+					"based_on_hash": "C7F87NahSG60R6WK722yuVGLR0PnyYvTiMZPDkxIU2Q",
+					"disabled": true,
+					"name": "Três braços",
+					"reference": "B89",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6a925d21-a194-4a12-84f7-2cab0993696a",
+					"based_on_id": "17a9b754-3707-4be0-9794-bf9257bf6f57",
+					"based_on_hash": "Sl1/jeaCJyYWgXI7alaJC2s5X5Mgxwe+re/guuLrujw",
+					"disabled": true,
+					"name": "Tamanho",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"levels": 1
+				}
+			],
+			"reference": "B89",
+			"notes": "Esse valor se aplica apenas aos esforços para erguer, atirar ou atacar com os braços, ou mãos, em questão. Se uma tarefa exige várias mãos para ser realizada e elas não tiverem a mesma ST, use a média.",
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5fa3e167-9a8f-40db-8bd1-e6cd6215b80e",
+			"based_on_id": "c22b87c0-83fe-42a1-983f-cb314547066e",
+			"based_on_hash": "sXqScB0qx2vqmqabJ58APEO7JlIQGrUY9T9amz+3SSE",
+			"name": "Pendulear",
+			"physical": true,
+			"exotic": true,
+			"base_points": 5,
+			"reference": "B77",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "escalada"
+					}
+				}
+			],
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "291e1f8f-6873-4161-9ad0-02fe03a63915",
+			"based_on_id": "d4e7b019-37d6-4876-94c2-a861751aea44",
+			"based_on_hash": "8Yf5c+W2f1yflFbKz8IgwVrAB7GuOXOxN3oANm6mNBQ",
+			"name": "Resistência a Dano",
+			"physical": true,
+			"exotic": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "98e1a352-585c-4ff8-b878-ee25d85394d6",
+					"based_on_id": "57844af0-c67e-4fca-aceb-ca9965a73da8",
+					"based_on_hash": "rHzqWmIlfbgL9gAJ0hUYtpU3vmv53teNmgmr4uJrtg8",
+					"disabled": true,
+					"name": "Campo de Força",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1e7a9536-e6cf-432e-aec7-5390188185d7",
+					"based_on_id": "9f20af24-c323-4af4-87b7-524b025c91f7",
+					"based_on_hash": "kAd5YI5NEX46En92zdLVcoMVYPOTnnKwiXOd1Im5QXk",
+					"disabled": true,
+					"name": "Enrijecido",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c2efeb9f-c255-4420-a30b-07288d56edbb",
+					"based_on_id": "12d75573-f6ae-44cd-a538-ae45987f788e",
+					"based_on_hash": "mzDFO4C/I/3BdNb86lE0k+GkZv1//8/V6aUVvOy8I9o",
+					"disabled": true,
+					"name": "Absorção",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Amplia @Habilidade@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5ae2d5c4-ff68-487d-a20d-70176f8dca1d",
+					"based_on_id": "8b8b7281-2e7e-4921-92fb-2b1967ddeb43",
+					"based_on_hash": "zXBnLH6o9K5SzaRt0POw8uVVp/YAVyhE3h11izv9Cy0",
+					"disabled": true,
+					"name": "Absorção",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Só para cura"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "47b8d432-68d0-43b9-9dfc-cdc5fa42bb79",
+					"based_on_id": "7c89bad8-5826-4c8f-80f9-3f5569b24f95",
+					"based_on_hash": "NAChva5i4hj+AcaVHpLlPyErxdekF0RsLSwahg3VWsU",
+					"disabled": true,
+					"name": "Absorção",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "Amplia qualquer habilidade"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "466abaeb-f3f3-4c66-9c8e-a9fb89b39f26",
+					"based_on_id": "08f438b5-d000-4ed3-aee8-dddcac60839f",
+					"based_on_hash": "Enlg0L5xjY3Tt4X+AZ4cY86SiAjtYy3IU7zsrGi48VE",
+					"disabled": true,
+					"name": "Reflexão",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ff943f44-511e-49c8-907e-f8f2b5719f6d",
+					"based_on_id": "03b9f5ba-ed5a-4988-abf1-c009c235f8bb",
+					"based_on_hash": "TPsXDlmx3dXAluWwZR2KKf5g6NS9tB9zW4ibPttEHLM",
+					"disabled": true,
+					"name": "Maldição",
+					"reference": "H14",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total",
+					"notes": "@Rara@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8d80e4ca-f3f4-425b-af9d-245d75649c52",
+					"based_on_id": "6e3677ac-33b8-4e60-a10d-bb807b0f0788",
+					"based_on_hash": "gAwgVk6+hn5hkeF7YUHoOUV2wFPS7LXW3TBHkxLx5WI",
+					"disabled": true,
+					"name": "Maldição",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"notes": "@Ocasional@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "739f2a60-88e1-4e8e-9597-422fe9dd6d22",
+					"based_on_id": "db48733b-dc13-4c69-93e1-d7e7cea3206f",
+					"based_on_hash": "UzcV6jqloIgyDiNR2Fv2tzfS4+4Xh92K6RWTH2PyYFs",
+					"disabled": true,
+					"name": "Maldição",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "@Comum@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0c9dc857-d3c7-4e98-942d-2b926234a844",
+					"based_on_id": "c07bb0d9-f028-4751-9e79-fed91fe14858",
+					"based_on_hash": "TDseyLqVEUaj8fuZ3ZtJpaKE/5B26cz6dLaIY3TG198",
+					"disabled": true,
+					"name": "Maldição",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -15,
+					"affects": "total",
+					"notes": "@Muito Comum@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "87e1caf0-03ed-49b2-b8da-21f88cb3da36",
+					"based_on_id": "fc703cff-121d-47b1-8b37-e7ba5485123a",
+					"based_on_hash": "T0lQ3KV/3hiriiyfiAsAlPm7le2AQUgsXza2I7NqEH8",
+					"disabled": true,
+					"name": "Direcional",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Frente"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ef0dfa02-3212-475e-ae5c-4dc0f3a1138d",
+					"based_on_id": "5b9699df-7d7d-4331-a82e-2baf0138fdb4",
+					"based_on_hash": "Eo2ZwAP0Fdd89Y8n/7paH+S21ik4MzMzxUfCY2FOkEk",
+					"disabled": true,
+					"name": "Flexível",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f782de83-8876-4cbc-80be-ab46ace581fc",
+					"based_on_id": "9eaf5ce9-2774-4fd3-ab7e-7cc46fc40d21",
+					"based_on_hash": "TvVvIxXIbQDB+2Oi55JV9NJoYHs9+rJJOaqL92f4py4",
+					"disabled": true,
+					"name": "Limitada",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "@Forma de Ataque Muito Comum@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6d46c798-e182-464c-a620-410bb09546c7",
+					"based_on_id": "5be4fa77-8abd-4998-ad13-1b4b88abfb9a",
+					"based_on_hash": "EtIKhvOKTjNRCSlh1UQIRXTFlD7sflEbPJts3nb8++A",
+					"disabled": true,
+					"name": "Semiablativa",
+					"reference": "B84",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "01a48539-437a-406a-bea9-518f037e874e",
+					"based_on_id": "10dde0cd-1a9a-415f-829e-52e8d93c4cce",
+					"based_on_hash": "8a54SMSvlZkrDBUJiXpVX6aivN1Ic6UC5oDYRNVpARo",
+					"disabled": true,
+					"name": "Sem Armadura",
+					"reference": "B84",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3c2b4413-b335-4cd3-bb7d-26b9ef62ecc7",
+					"based_on_id": "e559c359-52a5-4409-8b57-1a8561afcb50",
+					"based_on_hash": "XPQdT+3ikwBTHWUJSF75XqA+BGqrE0/10P2klvrrLng",
+					"disabled": true,
+					"name": "Direcional",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Direção: Costas, Direita, Esquerda, Acima ou Abaixo@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2e45e812-4b06-4ba1-9f1d-37003f527e10",
+					"based_on_id": "80e24579-0a00-4528-935b-5d31db492ff6",
+					"based_on_hash": "m6eSMUZSl1SGs3nhmHvPAerq3WprN5HIkj/NDyRn0cI",
+					"disabled": true,
+					"name": "Limitada",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Forma de Ataque Comum@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "74313e7d-c334-418a-b6a7-d17ec150f87b",
+					"based_on_id": "1dab1929-e1a2-4299-93a3-8e632e26205d",
+					"based_on_hash": "LZqlgKvLP9omrCKlSgSfBef+LGsCzIAI5x4e4/JAM3g",
+					"name": "Pele Resistente",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "Qualquer efeito que requer uma ruptura na pele ou contato com a pele afetará o personagem."
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a806cec2-2a10-4386-a653-43199626f85f",
+					"based_on_id": "8c21d8b4-687f-429b-87e0-2b5dc05daa8e",
+					"based_on_hash": "qW7Jlhbn1TzIZ7QhsUMpJnak27yC6RzLpGPcRKE3hSc",
+					"disabled": true,
+					"name": "Limitada",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "@Forma de Ataque Ocasional@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "86069f33-f737-4259-bc43-a2868fa45510",
+					"based_on_id": "3a0e0421-3c67-4481-9496-f5d1859ba271",
+					"based_on_hash": "AYC5DjNl2ki+YPhuxw6N0EQKoHuf2ikdkozMG6y9rRI",
+					"disabled": true,
+					"name": "Ablativa",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "96c95f89-47da-4213-bdf5-25ec903a7f50",
+					"based_on_id": "cc66fe30-1def-4302-8b3c-8d0dd80f7e0e",
+					"based_on_hash": "Ljrsjx9zOwSX08X9elrEtkbvZTDnkDEOTN/bvCojBwQ",
+					"disabled": true,
+					"name": "Limitada",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total",
+					"notes": "@Forma de Ataque Rara@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "dfd5bd99-d869-4929-9711-ea3b9d2d9c8f",
+					"based_on_id": "fdc9fee0-3bd4-4282-867e-1b6b71a16eb4",
+					"based_on_hash": "EKiI4J9T4REo87q7CLKsTOAZxSJ+Qd7+xotwPjch8c8",
+					"disabled": true,
+					"name": "Laminada",
+					"reference": "RSWL18",
+					"cost_type": "percentage",
+					"cost": 10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f06601d6-d618-4b65-8a7c-d60fdd26b52f",
+					"based_on_id": "36808412-7ea7-4e59-9a06-630fb0032528",
+					"based_on_hash": "UhJgs0Oz0PohZyVQMUZ7319IaR6/6Y72TpKT6O6mq2c",
+					"disabled": true,
+					"name": "À Prova de Maldição",
+					"reference": "PSI14",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "637c3190-b28e-48e2-9a4d-502e1079b578",
+					"based_on_id": "9588a064-0a41-48ea-9d22-a7501d3a4bc3",
+					"based_on_hash": "6NCaVly6sUClZ82uAOJhjLDFXr5EIJVpbsH9W/mBQjA",
+					"disabled": true,
+					"name": "Somente Maldições",
+					"reference": "PSI14",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fe4a52a2-2132-4375-ba91-04d539470b80",
+					"based_on_id": "4bd797b5-3244-44ef-acce-ea2fc7b2f8eb",
+					"based_on_hash": "3mzjQERzuYxYC8+LTprqXfOT3hTXIU0eg/wD6RHqWxw",
+					"disabled": true,
+					"name": "Parcial (@Ponto de Impacto, 1 nível por -1 de modificador de ataque, Tronco vale -10%@)",
+					"reference": "B83",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"reference": "B83",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"per_level": true,
+					"location": "full_body_except_eyes"
+				}
+			],
+			"categories": [
+				"Vantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "306d7a9b-1c91-4162-8bc2-b1fa6d26c656",
+			"based_on_id": "eb25cef2-5f7d-431e-9846-8ded73561b8f",
+			"based_on_hash": "J1QddWcKHF8Pim6qD3+89tJuK4YLZToDJl75EzJ2hBY",
+			"name": "Atrapalhado",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": -5,
+			"reference": "B123",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "destreza manual elevada"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "artista"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "joalheiro"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "habilidade com nós"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "trabalhos em couro"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "arrombamento"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "punga"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "costura"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "prestidigitação"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "cirurgia"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "maquinista"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "mecânica"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "sacar rápido"
+					}
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"per_level": true,
+					"situation": "de pessoas que se importam com a apresentação pessoal"
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"per_level": true,
+					"situation": "para Testes de Influência em que estar apresentável faz diferença"
+				}
+			],
+			"categories": [
+				"Desvantagem"
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "5cb1bcd4-64a2-48f2-a463-671320cd5aeb",
+			"based_on_id": "03993278-26bb-4a53-9894-02c4f61ed113",
+			"based_on_hash": "NfCcin7UkSrS9ffZAuj0+bwmZ7QkEcjwxDr/dnt0foM",
+			"container_type": "meta_trait",
+			"name": "Metacaracterística: Animal Selvagem",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "26145189-cb1c-43bb-8f97-6b7a98c4cbbb",
+					"based_on_id": "599074ec-6655-43a6-8c90-5d2024a222a4",
+					"based_on_hash": "m+O70ASZ+NEUI69sy1IGw8W/EPkj29ELIHRhO5P5+B0",
+					"name": "Bestial",
+					"mental": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B124",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fd7cdb73-7f9e-4614-b25b-15af949855e0",
+					"based_on_id": "e2587b3b-1588-41da-80af-383084b5e267",
+					"based_on_hash": "peu6tVQTeVu8+K49MvftqBj6GJ8qcs+pRCCdJW5U7no",
+					"name": "Incapaz de Falar",
+					"physical": true,
+					"base_points": -15,
+					"reference": "B145",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "gagueira"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "6bd0ec0f-1592-44a0-a5c6-3c5732a8ce4c",
+					"based_on_id": "a49458e9-bd35-4f6d-afbe-0911df238d7c",
+					"based_on_hash": "k1jqyDALdZrlNlKhILGsTEbs7vBnDcoKkn8eR+DhWgA",
+					"name": "Sem Imaginação",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B155",
+					"notes": "O personagem sofre uma penalidade de -2 em qualquer tarefa que exigir criatividade ou imaginação, incluindo a maioria dos testes da perícia Artista, todos os testes de Engenharia para criar invenções e todos os testes de habilidade para utilizar a vantagem Desenvolvedor.",
+					"categories": [
+						"Desvantagem"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c7cb9bdf-61b0-4e3a-9045-0a6e3c4eeee5",
+					"based_on_id": "22150cc5-314d-4064-83bf-90239342f689",
+					"based_on_hash": "FTBw2MSK0UcczWCfrc3+rJfeO+L21izuBTVVmL1KgTk",
+					"name": "Características Proibidas (IQ Fixa)",
+					"mental": true,
+					"reference": "B263"
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "06716eb5-d1a7-4aeb-8fee-7a4886f7b461",
+			"based_on_id": "f4c9076e-2b75-4157-bee0-09af00958ebb",
+			"based_on_hash": "CUNluax82EmK+Wl39VHswffpEL8JlsNCwRfNzR1+A1c",
+			"name": "Semiereto",
+			"physical": true,
+			"exotic": true,
+			"base_points": -5,
+			"reference": "B156",
+			"notes": "Mover-se numa postura totalmente ereta reduz o Deslocamento em 40%",
+			"categories": [
+				"Desvantagem"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "cc89204e-2cf1-4093-89f4-c79152974f1e",
+			"based_on_id": "810f000f-f7a6-4f25-9f55-f8af5c6705c6",
+			"based_on_hash": "wmMQyibHwldacT9xaVmzgcBMNTjquaLkh57EfBjJQHk",
+			"name": "Dentes Afiados",
+			"physical": true,
+			"exotic": true,
+			"base_points": 1,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "corte",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Mordida",
+					"reach": "C",
+					"parry": "Não",
+					"block": "Não",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Briga"
+						},
+						{
+							"type": "DX"
+						}
+					]
+				}
+			],
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f4ac9722-2a06-4a8c-8676-f4b2b3bcb754",
+					"based_on_id": "acf112a4-b728-4925-8e8e-2f38d080386a",
+					"based_on_hash": "MddFoJfaYJcjQ5ou75kHJ/cg4TcvtkbV6AoT6o8d2PE",
+					"disabled": true,
+					"name": "Concedido pela Mordida de Vampiro",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "B52",
+			"categories": [
+				"Qualidade"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "c95a4110-a3b1-48e4-ab78-33efdd8d1372",
+			"based_on_id": "d3f76fd0-2dee-4a41-b37d-14d28097b284",
+			"based_on_hash": "ee3HFNrKAuNmtJmevcn4wHK0M+yrLyMxWeQ/I5UXMBs",
+			"name": "Escalada",
+			"reference": "B198",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Atletismo",
+				"Crime/Rua",
+				"Exploração"
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "713fb561-938c-46fd-97b8-988baa552ecb",
+			"text": "Macacos são inteligentes — inteligentes demais para serem previsíveis. Os testes de Adestramento de Animais sofrem uma penalidade de -1 para essas criaturas. Atacam em combate corporal, agarrando e mordendo, em vez de socar ou chutar.\n\n",
+			"reference": "B457"
+		}
+	],
+	"print_settings": {
+		"printer": "Microsoft Print to PDF",
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "color",
+		"sides": "duplex",
+		"quality": "normal",
+		"resolution": "120000"
+	}
+}
