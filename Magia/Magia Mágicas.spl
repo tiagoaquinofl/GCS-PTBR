@@ -868,7 +868,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "alterar feição"
+							"qualifier": "alterar feições"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -999,7 +999,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "c4a5afed-7a9c-4990-9921-7ed98bec3c37",
-			"name": "Alterar Feição",
+			"name": "Alterar Feições",
 			"reference": "M41",
 			"difficulty": "IQ/H",
 			"college": "Controle do Corpo",
@@ -22761,7 +22761,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "alterar feição"
+									"qualifier": "alterar feições"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -40678,7 +40678,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "alterar feição"
+							"qualifier": "alterar feições"
 						},
 						"quantity": {
 							"compare": "at_least",
