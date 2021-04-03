@@ -1573,7 +1573,7 @@
 			"name": "Animar Objeto",
 			"reference": "M117",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Especial",
@@ -1615,7 +1615,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -1639,7 +1639,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -2129,7 +2129,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -2328,7 +2328,7 @@
 			"name": "Despertar Espírito do Ofício",
 			"reference": "M115",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar ou Necromancia",
+			"college": "Quebrar e Consertar ou Necromancia",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -2368,7 +2368,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar",
+				"Quebrar e Consertar",
 				"Necromancia"
 			]
 		},
@@ -5949,7 +5949,7 @@
 			"name": "Limpar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "2",
@@ -5976,7 +5976,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -7142,7 +7142,7 @@
 			"name": "Contrair Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/0,5kg",
@@ -7183,7 +7183,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -7207,7 +7207,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -7938,7 +7938,7 @@
 			"name": "Copiar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "Varia",
@@ -7995,7 +7995,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -11017,7 +11017,7 @@
 			"name": "Desintegrar",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1-4",
@@ -11121,7 +11121,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -11146,7 +11146,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -13039,7 +13039,7 @@
 			"name": "Tingir",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "Varia",
@@ -13079,7 +13079,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -13930,7 +13930,7 @@
 			"name": "Aumentar Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/0,5kg",
@@ -13957,7 +13957,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -15006,7 +15006,7 @@
 			"name": "Explodir",
 			"reference": "M118",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2-6",
@@ -15071,7 +15071,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -15096,7 +15096,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -15225,7 +15225,7 @@
 			"name": "Alongar Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/0,5kg",
@@ -15266,7 +15266,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -15290,7 +15290,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -15913,7 +15913,7 @@
 			"name": "Atar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -15940,7 +15940,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -16119,7 +16119,7 @@
 			"name": "Detectar Pontos Fracos",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Informação",
 			"casting_cost": "Varia",
@@ -16185,7 +16185,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -21746,7 +21746,7 @@
 			"name": "Entalhar",
 			"reference": "M97",
 			"difficulty": "IQ/H",
-			"college": "Ilusão e Criação ou Fazer e Quebrar",
+			"college": "Ilusão e Criação ou Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"resist": "Vontade",
@@ -21788,7 +21788,7 @@
 			},
 			"categories": [
 				"Ilusão e Criação",
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -21849,7 +21849,7 @@
 			"name": "Criação Inspirada",
 			"reference": "M115",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "5/dia",
@@ -21857,7 +21857,7 @@
 			"casting_time": "Varia",
 			"duration": "Permanente",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -22468,7 +22468,7 @@
 			"name": "Nó",
 			"reference": "M117",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -22495,7 +22495,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -24236,7 +24236,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -25534,7 +25534,7 @@
 			"name": "Cartógrafo",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Especial",
 			"casting_cost": "4",
@@ -25574,7 +25574,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -26765,7 +26765,7 @@
 			"name": "Marca Mística",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -26805,7 +26805,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -26936,7 +26936,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -27893,7 +27893,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -29803,7 +29803,7 @@
 			"name": "Visão das Plantas",
 			"reference": "M162",
 			"difficulty": "IQ/H",
-			"college": "Plant ou Reconhecimento",
+			"college": "Plantas ou Reconhecimento",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1 por 10 metros",
@@ -30803,7 +30803,7 @@
 			"name": "Purificar a Terra",
 			"reference": "M54",
 			"difficulty": "IQ/H",
-			"college": "Plant ou Terra",
+			"college": "Plantas ou Terra",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "2",
@@ -31879,7 +31879,7 @@
 			"reference": "M177",
 			"difficulty": "IQ/VH",
 			"tech_level": "",
-			"college": "Fazer e Quebrar ou Tecnológica ou Máquina",
+			"college": "Quebrar e Consertar ou Tecnológica ou Máquina",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "30",
@@ -32023,7 +32023,7 @@
 			},
 			"categories": [
 				"Máquina",
-				"Fazer e Quebrar",
+				"Quebrar e Consertar",
 				"Tecnológica"
 			]
 		},
@@ -32538,7 +32538,7 @@
 			"name": "Remendar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/5 kgs",
@@ -32578,7 +32578,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -33176,7 +33176,7 @@
 			"name": "Consertar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2/2,5 kgs",
@@ -33217,7 +33217,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -33241,7 +33241,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -33647,7 +33647,7 @@
 			"name": "Remodelar",
 			"reference": "M117",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "6",
@@ -33720,7 +33720,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -33744,7 +33744,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -34365,7 +34365,7 @@
 			"name": "Restaurar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -34405,7 +34405,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -35073,7 +35073,7 @@
 			"name": "Fender",
 			"reference": "M117",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/d",
@@ -35125,7 +35125,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -35150,7 +35150,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -35355,7 +35355,7 @@
 			"name": "Estragar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2/0,5kg",
@@ -35409,7 +35409,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -35433,7 +35433,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -37892,7 +37892,7 @@
 			"name": "Afiar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/6\" of edge",
@@ -37919,7 +37919,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -37929,7 +37929,7 @@
 			"name": "Fragmentar",
 			"reference": "M116",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1-3",
@@ -37981,7 +37981,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -38006,7 +38006,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -38016,7 +38016,7 @@
 			"name": "Resistência a Choques",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -38056,7 +38056,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -38261,7 +38261,7 @@
 			"name": "Encolher Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/0,5kg",
@@ -38288,7 +38288,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -39410,7 +39410,7 @@
 			"name": "Imunidade à Sujeira",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -39437,7 +39437,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -41564,7 +41564,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "atravessar terra (geolocomoção)"
+							"qualifier": "atravessar terra"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -41621,7 +41621,7 @@
 			"name": "Endurecer",
 			"reference": "M117",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Especial",
@@ -41649,7 +41649,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -45394,7 +45394,7 @@
 			"name": "Fortalecer",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/pt de RD",
@@ -45421,7 +45421,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -45583,7 +45583,7 @@
 			"name": "Transformar Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Especial",
@@ -45638,7 +45638,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -45662,7 +45662,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -45825,7 +45825,7 @@
 			"name": "Transparência",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "4",
@@ -45865,7 +45865,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -46613,7 +46613,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "7aabf43e-4393-41e3-a5d0-49bac2b1e7e0",
-			"name": "Atravessar Terra (Geolocomoção)",
+			"name": "Atravessar Terra",
 			"reference": "M52",
 			"difficulty": "IQ/H",
 			"college": "Terra",
@@ -47367,7 +47367,7 @@
 			"name": "Enfraquecer",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2-6",
@@ -47406,7 +47406,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -47544,7 +47544,7 @@
 			"name": "Fusão com Arma",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "HT ou perícia para armas mágicas.",
@@ -47562,7 +47562,7 @@
 						"sub_type": "college",
 						"qualifier": {
 							"compare": "contains",
-							"qualifier": "Fazer e Quebrar"
+							"qualifier": "Quebrar e Consertar"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -47612,7 +47612,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -47636,7 +47636,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
