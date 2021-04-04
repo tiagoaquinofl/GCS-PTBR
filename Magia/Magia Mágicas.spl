@@ -9588,7 +9588,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aliviar doença"
+							"qualifier": "aliviar enjoo"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -32786,7 +32786,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "4ed26832-b612-47f3-9ae8-bf702ed56748",
-			"name": "Aliviar Doença",
+			"name": "Aliviar Enjoo",
 			"reference": "M90",
 			"difficulty": "IQ/H",
 			"college": "Cura",
