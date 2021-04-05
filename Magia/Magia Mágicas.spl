@@ -20086,7 +20086,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ac3a8978-a99b-4f7f-802d-a64ea698b8ad",
-			"name": "Hide Path",
+			"name": "Ocultar Rastros",
 			"reference": "M162",
 			"difficulty": "IQ/H",
 			"college": "Plantas",
@@ -29680,7 +29680,7 @@
 			"college": "Plantas",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"resist": "Hide Path",
+			"resist": "Ocultar Rastros",
 			"casting_cost": "3",
 			"maintenance_cost": "2",
 			"casting_time": "1 seg",
@@ -32703,7 +32703,7 @@
 			"college": "Cura ou Controle da Mente",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"resist": "Madness ou Permanent Madness",
+			"resist": "Loucura ou Loucura Permanente",
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
@@ -35061,7 +35061,7 @@
 					}
 				]
 			},
-			"notes": "O conjurador deve conhecer a magia Controlar (Animal) para o tipo de animal que está sendo “montado”.",
+			"notes": "O operador deve conhecer a magia Controlar (Animal) para o tipo de animal que está sendo “montado”.",
 			"categories": [
 				"Animais"
 			]
@@ -40167,7 +40167,7 @@
 			"college": "Metamágicas",
 			"power_source": "Arcana",
 			"spell_class": "Área",
-			"resist": "Todas as mágicas conjuradas através dele",
+			"resist": "Todas as mágicas operadas através dele",
 			"casting_cost": "3",
 			"maintenance_cost": "2",
 			"casting_time": "1 seg",
@@ -40306,7 +40306,7 @@
 			"college": "Metamágicas",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"resist": "Mágicas são conjuradas através dele",
+			"resist": "Mágicas são operadas através dele",
 			"casting_cost": "2/1 metro de muralha",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "1 seg",
