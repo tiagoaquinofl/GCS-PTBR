@@ -27846,7 +27846,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "metamorfosear outros"
+							"qualifier": "metamorfosear outro"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -29133,7 +29133,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "6de661b9-7cdc-465e-9895-ccc806098013",
-			"name": "Defasar Outros",
+			"name": "Defasar Outro",
 			"reference": "M83",
 			"difficulty": "IQ/VH",
 			"college": "Portal",
@@ -29561,7 +29561,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "8c65afbb-bb43-4200-83db-e3540234ae02",
-			"name": "Forma de Planta em Outros",
+			"name": "Forma de Planta em Outro",
 			"reference": "M165",
 			"difficulty": "IQ/VH",
 			"college": "Plantas",
@@ -37668,7 +37668,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "cdbce272-4b66-439b-a0fe-75f304a4eafe",
-			"name": "Metamorfosear Outros",
+			"name": "Metamorfosear Outro",
 			"reference": "M33",
 			"difficulty": "IQ/VH",
 			"college": "Animais",
@@ -38295,7 +38295,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "d45a212d-1731-4ea8-ad09-618f189094c6",
-			"name": "Encolher Outros",
+			"name": "Encolher Outro",
 			"reference": "M42",
 			"difficulty": "IQ/VH",
 			"college": "Controle do Corpo",
@@ -44416,7 +44416,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ca05b91a-015f-4eeb-9d23-07c5cfeb80b5",
-			"name": "Teleportar Outros",
+			"name": "Teleportar Outro",
 			"reference": "M147",
 			"difficulty": "IQ/VH",
 			"college": "Portal ou Deslocamento",
@@ -45193,7 +45193,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "329cd498-3f28-401c-aef1-c74a4707e36f",
-			"name": "Transportar Outros no Tempo",
+			"name": "Transportar Outro no Tempo",
 			"reference": "M81",
 			"difficulty": "IQ/VH",
 			"college": "Portal",
@@ -45703,7 +45703,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "metamorfosear outros"
+							"qualifier": "metamorfosear outro"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -45779,7 +45779,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "transformar outros"
+							"qualifier": "transformar outro"
 						},
 						"quantity": {
 							"compare": "at_least",
