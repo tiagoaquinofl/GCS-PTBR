@@ -45231,7 +45231,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "5da50bcc-4d29-4b44-8dce-2be34af4635b",
-			"name": "Translocar no Tempo",
+			"name": "Translocação no Tempo",
 			"reference": "M81",
 			"difficulty": "IQ/H",
 			"college": "Portal",
@@ -45268,7 +45268,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "972f27f4-bb62-4fd9-966e-d95ed2db5a8b",
-			"name": "Translocação no Tempo de Outro",
+			"name": "Translocar Outro no Tempo",
 			"reference": "M81",
 			"difficulty": "IQ/H",
 			"college": "Portal",
@@ -45288,7 +45288,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "translocar no tempo"
+							"qualifier": "translocação no tempo"
 						},
 						"quantity": {
 							"compare": "at_least",
