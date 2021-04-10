@@ -6465,7 +6465,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "afugentar espírito"
+							"qualifier": "espantar espírito"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -14302,7 +14302,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "afugentar espírito"
+							"qualifier": "espantar espírito"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33627,7 +33627,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "afugentar espírito"
+							"qualifier": "espantar espírito"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -45960,7 +45960,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "91345012-d7f6-4238-8628-acab7643441e",
-			"name": "Afugentar Espírito",
+			"name": "Espantar Espírito",
 			"reference": "M151",
 			"difficulty": "IQ/H",
 			"college": "Necromancia",
