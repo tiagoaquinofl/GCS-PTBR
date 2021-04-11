@@ -830,7 +830,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "contains",
-							"qualifier": "aguçado"
+							"qualifier": "aguçad"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -5240,7 +5240,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "sentido aguçado (visão)"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -19704,7 +19704,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "sentido aguçado (visão)"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -21663,7 +21663,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "sentido aguçado (visão)"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -22392,7 +22392,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "5dd6edcd-0d4f-47d7-a547-167b94fb52aa",
-			"name": "Sentido Aguçado (Audição)",
+			"name": "Audição Aguçada",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente ou Som",
@@ -22411,7 +22411,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "8847f5bc-db2d-4e73-9117-eb45c6b517bf",
-			"name": "Sentido Aguçado (Paladar e Olfato)",
+			"name": "Paladar e Olfato Aguçados",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente",
@@ -22429,7 +22429,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "12426549-c32d-473a-a213-aeb5d93c7c6d",
-			"name": "Sentido Aguçado (Tato)",
+			"name": "Tato Aguçado",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente",
@@ -22447,7 +22447,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "83124f26-437f-49fc-b354-ceefb8a678ab",
-			"name": "Sentido Aguçado (Visão)",
+			"name": "Visão Aguçada",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente",
@@ -25199,7 +25199,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "sentido aguçado (visão)"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -27112,7 +27112,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "sentido aguçado (visão)"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -31224,7 +31224,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "sentido aguçado (audição)"
+							"qualifier": "audição aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -34449,7 +34449,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "sentido aguçado (audição)"
+									"qualifier": "audição aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -34614,7 +34614,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "sentido aguçado (visão)"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -39152,7 +39152,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "sentido aguçado (visão)"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -39792,7 +39792,7 @@
 						"has": true,
 						"name": {
 							"compare": "is",
-							"qualifier": "sentido aguçado (audição)"
+							"qualifier": "audição aguçada"
 						},
 						"level": {
 							"compare": "at_least",
@@ -39805,7 +39805,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "sentido aguçado (audição)"
+							"qualifier": "audição aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -48301,7 +48301,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "sentido aguçado (visão)"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
