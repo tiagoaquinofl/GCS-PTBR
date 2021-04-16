@@ -2862,7 +2862,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "e0ca9125-4660-4869-b6cf-c6c6d3628feb",
-			"name": "Falar com Animal",
+			"name": "Falar com Animais",
 			"reference": "M31",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -5560,7 +5560,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "6b046c73-7c35-41d3-b31f-ded87f067346",
-			"name": "Apanhar Projéteis",
+			"name": "Apanhar Projétil",
 			"reference": "M168",
 			"difficulty": "IQ/H",
 			"college": "Proteção e Aviso",
@@ -16192,7 +16192,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "0bd49478-4425-4d6b-b432-ac9d9c7530ad",
-			"name": "Nuvem de Chamas",
+			"name": "Nuvem de Fogo",
 			"reference": "M75",
 			"difficulty": "IQ/H",
 			"college": "Fogo",
@@ -22971,7 +22971,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "falar com animal"
+							"qualifier": "falar com animais"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -34888,7 +34888,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "apanhar projéteis"
+							"qualifier": "apanhar projétil"
 						},
 						"quantity": {
 							"compare": "at_least",
