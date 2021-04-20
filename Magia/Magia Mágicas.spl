@@ -16207,7 +16207,7 @@
 					"type": "melee_weapon",
 					"damage": {
 						"type": "ponto de qmd/ponto",
-						"base": "+1"
+						"base": "1"
 					},
 					"usage": "Área",
 					"reach": "Especial",
@@ -19384,23 +19384,10 @@
 					{
 						"type": "spell_prereq",
 						"has": true,
-						"sub_type": "college",
-						"qualifier": {
-							"compare": "is",
-							"qualifier": "corpo"
-						},
-						"quantity": {
-							"compare": "at_least",
-							"qualifier": 1
-						}
-					},
-					{
-						"type": "spell_prereq",
-						"has": true,
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "enfraquecer"
+							"qualifier": "Crescimento Capilar"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -39837,7 +39824,7 @@
 					"type": "melee_weapon",
 					"damage": {
 						"type": "ponto de qmd/segundo",
-						"base": "+1"
+						"base": "1"
 					},
 					"usage": "Área",
 					"reach": "Especial",

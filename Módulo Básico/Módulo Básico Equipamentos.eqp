@@ -496,7 +496,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "sw",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "5",
 					"accuracy": "1",
@@ -542,7 +542,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"accuracy": "3",
@@ -1340,7 +1340,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "GeB",
@@ -1942,7 +1942,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "GeB",
@@ -1994,7 +1994,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "GdP",
@@ -2062,7 +2062,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "GeB",
@@ -2099,7 +2099,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "GdP",
@@ -3183,7 +3183,7 @@
 					"damage": {
 						"type": "cr (see B411)",
 						"st": "thr",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "7",
 					"accuracy": "0",
@@ -3416,7 +3416,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GeB",
@@ -3468,7 +3468,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GdP",
@@ -4041,7 +4041,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GeB",
@@ -4093,7 +4093,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GdP",
@@ -5795,7 +5795,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "GeB",
@@ -5829,7 +5829,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Arremesso",
@@ -6042,7 +6042,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "5",
 					"usage": "GdP",
@@ -6084,7 +6084,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "5",
 					"usage": "Arremesso",
@@ -6698,7 +6698,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "13†",
 					"usage": "GeB",
@@ -7612,7 +7612,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11‡",
 					"usage": "GeB",
@@ -7650,7 +7650,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11†",
 					"usage": "GdP",
@@ -7748,7 +7748,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12‡",
 					"usage": "GeB",
@@ -7834,7 +7834,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "GeB",
@@ -7871,7 +7871,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "12†",
 					"usage": "GdP",
@@ -8033,7 +8033,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+5"
+						"base": "5"
 					},
 					"strength": "13‡",
 					"usage": "GeB",
@@ -8071,7 +8071,7 @@
 					"damage": {
 						"type": "imp (may stick)",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "13‡",
 					"usage": "Gancho em Balanço",
@@ -8109,7 +8109,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "GdP",
@@ -8584,7 +8584,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+5"
+						"base": "5"
 					},
 					"strength": "11",
 					"accuracy": "2",
@@ -9671,7 +9671,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"usage": "GdP",
@@ -9704,7 +9704,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"usage": "Arremesso",
@@ -9759,7 +9759,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "GeB",
@@ -9811,7 +9811,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "GdP",
@@ -9879,7 +9879,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "GeB",
@@ -9916,7 +9916,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10†",
 					"usage": "GdP",
@@ -9997,7 +9997,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "GeB",
@@ -10051,7 +10051,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12",
 					"usage": "GdP",
@@ -10138,7 +10138,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "-2"
+						"base": "2"
 					},
 					"strength": "6",
 					"usage": "GeB",
@@ -10370,7 +10370,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"usage": "Golpe c/ Escudo",
@@ -11195,7 +11195,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"reach": "1",
@@ -11345,7 +11345,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GeB",
@@ -11397,7 +11397,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GdP",
@@ -11554,7 +11554,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"usage": "Golpe c/ Escudo",
@@ -11733,7 +11733,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "GdP",
@@ -11766,7 +11766,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "10†",
 					"usage": "GdP",
@@ -12237,7 +12237,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12",
 					"usage": "GeB",
@@ -12270,7 +12270,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12",
 					"accuracy": "1",
@@ -12647,7 +12647,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "13‡",
 					"usage": "GeB",
@@ -12768,7 +12768,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"reach": "1",
@@ -12902,7 +12902,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"usage": "Golpe c/ Escudo",
@@ -13165,7 +13165,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12",
 					"usage": "GeB",
@@ -13214,7 +13214,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "GeB",
@@ -13252,7 +13252,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "GdP",
@@ -13306,7 +13306,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "GeB",
@@ -13339,7 +13339,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "GdP",
@@ -13389,7 +13389,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "GeB",
@@ -13426,7 +13426,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "GdP",
@@ -13581,7 +13581,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "7",
 					"usage": "GeB",
@@ -13767,7 +13767,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GeB",
@@ -14494,7 +14494,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "12‡",
 					"usage": "GeB",
@@ -14532,7 +14532,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "12‡",
 					"usage": "GeB",
@@ -15414,7 +15414,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "GeB",
@@ -15447,7 +15447,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "GdP",
@@ -15496,7 +15496,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "GeB",
@@ -15533,7 +15533,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "9†",
 					"usage": "GdP",
@@ -15647,7 +15647,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "9",
 					"usage": "GdP",
@@ -16900,7 +16900,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "GeB",
@@ -16952,7 +16952,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "GdP",
@@ -17464,7 +17464,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11‡",
 					"usage": "GeB",
@@ -18525,7 +18525,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "thr",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "5",
 					"accuracy": "1",
@@ -18765,7 +18765,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"reach": "1",
@@ -18833,7 +18833,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "-3"
+						"base": "3"
 					},
 					"strength": "5",
 					"usage": "GeB",
@@ -18875,7 +18875,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "5",
 					"usage": "GdP",
@@ -18917,7 +18917,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "-1"
+						"base": "1"
 					},
 					"strength": "5",
 					"usage": "Arremesso",
@@ -18960,7 +18960,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "GeB",
@@ -18993,7 +18993,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Arremesso",
@@ -19104,7 +19104,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"usage": "Golpe c/ Escudo",
@@ -19173,7 +19173,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "5",
 					"usage": "GdP",
@@ -20127,7 +20127,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9",
 					"usage": "GdP",
@@ -20160,7 +20160,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "GdP",
@@ -20193,7 +20193,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9",
 					"usage": "Arremesso",
@@ -20290,7 +20290,7 @@
 					"damage": {
 						"type": "pa",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "7†",
 					"accuracy": "1",
@@ -21010,7 +21010,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "GeB",
@@ -21043,7 +21043,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Arremesso",
@@ -21086,7 +21086,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "GeB",
@@ -21137,7 +21137,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "GdP",
@@ -21204,7 +21204,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "GeB",
@@ -21241,7 +21241,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "10†",
 					"usage": "GdP",
@@ -21295,7 +21295,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "GeB",
@@ -21347,7 +21347,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "GdP",
@@ -21415,7 +21415,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "GeB",
@@ -21452,7 +21452,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "GdP",
@@ -21979,7 +21979,7 @@
 					"damage": {
 						"type": "perf",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12‡",
 					"usage": "GeB",
@@ -22232,7 +22232,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "-2",
+						"base": "2",
 						"armor_divisor": 0.5
 					},
 					"strength": "6",
@@ -22281,7 +22281,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "-2",
+						"base": "2",
 						"armor_divisor": 0.5
 					},
 					"strength": "7",
@@ -22330,7 +22330,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "-2",
+						"base": "2",
 						"armor_divisor": 0.5
 					},
 					"strength": "8",
@@ -22379,7 +22379,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "-2",
+						"base": "2",
 						"armor_divisor": 0.5
 					},
 					"strength": "9",
@@ -22428,7 +22428,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "-2",
+						"base": "2",
 						"armor_divisor": 0.5
 					},
 					"strength": "10",
@@ -22477,7 +22477,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "-2",
+						"base": "2",
 						"armor_divisor": 0.5
 					},
 					"strength": "11",
@@ -22526,7 +22526,7 @@
 					"damage": {
 						"type": "cont",
 						"st": "sw",
-						"base": "-2",
+						"base": "2",
 						"armor_divisor": 0.5
 					},
 					"strength": "12",

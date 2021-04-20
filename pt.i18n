@@ -473,11 +473,12 @@ v:"Mudar Data de Nascimento"
 k:"Birthday:"
 v:"Data Nasc.:"
 
+k:"Bite"
+v:"Mordida"
+
 k:"Black"
 v:"Pretos"
 
-k:"Bite"
-v:"Mordida"
 
 k:"Block"
 v:"Bloqueio"
@@ -3227,11 +3228,11 @@ v:"deve especificar um ou mais arquivos ou diretórios para processar"
 k:"must specify one or more sheet files to process"
 v:"deve especificar um ou mais arquivos de planilha para processar"
 
-k:"note"
-v:"nota"
-
 k:"none"
 v:"nenhum"
+
+k:"note"
+v:"nota"
 
 k:"of any kind"
 v:"de qualquer tipo"
