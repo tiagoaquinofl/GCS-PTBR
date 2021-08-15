@@ -19,3 +19,9 @@ Versão inicial do pt.i18n por **_Thiago de Assis_** (compartilhado no grupo [*G
 
 ##### Ao final as bibliotecas aparecerão dentro do GCS, na pasta User Library:
 ![print](https://i.imgur.com/SHylumP.jpg)
+
+##### Para utilizar o arquivo de tradução dos atributos:
+![print(https://i.imgur.com/w95IL06.png)
+![print(https://i.imgur.com/P0CF1Ub.png)
+![print(https://i.imgur.com/mzFQs1x.png)
+
