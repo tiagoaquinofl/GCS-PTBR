@@ -1,4 +1,4 @@
-# Generated on Sun, 21 Feb 2021 10:39:33 -0800
+# Generated on Mon, 2 Aug 2021 19:04:42 -0700
 #
 # This file consists of UTF-8 text. Do not save it as anything else.
 #
@@ -20,8 +20,38 @@
 # requested by a translator and the code has been adjusted to request them
 # via a context value will be used.
 
+k:""
+v:""
+
 k:"\nEncumbrance [%d]"
 v:"\nBase de Carga [%d]"
+
+k:"\n{0}{1} a contained quantity which {2}"
+v:"\n{0}{1} uma quantidade contida que {2}"
+
+k:"\n{0}{1} a contained weight which {2}"
+v:"\n{0}{1} um peso contido que {2}"
+
+k:"\n{0}{1} a skill whose name {2}"
+v:"\n{0}{1} uma perícia cujo nome {2}"
+
+k:"\n{0}{1} an advantage whose name {2}"
+v:"\n{0}{1} uma vantagem cujo nome {2}"
+
+k:"\n{0}{1} college count which {2}"
+v:"\n{0}{1} soma de escolas que {2}"
+
+k:"\n{0}{1} {2} {3} of any kind"
+v:"\n{0}{1} {2} {3} de qualquer tipo"
+
+k:"\n{0}{1} {2} {3} whose category {4}"
+v:"\n{0}{1} {2} {3} cuja categoria {4}"
+
+k:"\n{0}{1} {2} {3} whose college {4}"
+v:"\n{0}{1} {2} {3} cuja escola {4}"
+
+k:"\n{0}{1} {2} {3} whose name {4}"
+v:"\n{0}{1} {2} {3} cujo nome {4}"
 
 k:"    Created: %s\n"
 v:"    Criado: %s\n"
@@ -32,9 +62,6 @@ v:"    Arquivo texto modelo usado: %s\n"
 k:"  ** ERROR ENCOUNTERED **"
 v:"  ** ERRO ENCONTRADO **"
 
-k:"  Creating PDF... "
-v:"  Criando PDF... "
-
 k:"  Creating PNG... "
 v:"  Criando PNG... "
 
@@ -42,16 +69,16 @@ k:"  Creating from text template... "
 v:"  Criando a partir de arquivo de texto modelo... "
 
 k:" (e.g. '+5 lb', '-5 lb', '+10%', '-10%')"
-v:" (ex: '+5 kg', '-5 kg', '+10%', '-10%')"
+v:" (e.g. '+5 kg', '-5 kg', '+10%', '-10%')"
 
 k:" (e.g. '+5 lb', '-5 lb', 'x10%', 'x3', 'x2/3')"
-v:" (ex: '+5 kg', '-5 kg', 'x10%', 'x3', 'x2/3')"
+v:" (e.g. '+5 kg', '-5 kg', 'x10%', 'x3', 'x2/3')"
 
 k:" (e.g. '+5', '-5', '+10%', '-10%', 'x3.2)"
-v:" (ex: '+5', '-5', '+10%', '-10%', 'x3.2)"
+v:" (e.g. '+5', '-5', '+10%', '-10%', 'x3.2)"
 
 k:" (e.g. 'x2', '+2 CF', '-0.2 CF')"
-v:" (ex: 'x2', '+2 FC', '-0.2 FC')"
+v:" (e.g. 'x2', '+2 FC', '-0.2 FC')"
 
 k:" Block"
 v:" Bloqueio"
@@ -68,14 +95,11 @@ v:" e nível {0}"
 k:" at "
 v:" em "
 
-k:" dpi"
-v:" dpi"
+k:" is missing."
+v:" está faltando."
 
-k:" level {0} and tech level matches\n"
-v:" nível {0} e nível tecnológico condizem\n"
-
-k:"$"
-v:"$"
+k:" level {0} and tech level matches"
+v:" nível {0} e nível tecnológico condizem"
 
 k:"%s %s\n%s Architecture\nJava %s"
 v:"%s %s\n%s Arquitetura\nJava %s"
@@ -83,14 +107,23 @@ v:"%s %s\n%s Arquitetura\nJava %s"
 k:"%s (%s per %s)"
 v:"%s (%s por %s)"
 
-k:"%s Locations"
-v:"%s - Pontos de Impacto"
+k:"%s Change"
+v:"%s Mudar"
+
+k:"%s If holding a shield, double the penalty to hit: -4 for shield arm instead of -2."
+v:"%s Se houver um escudo, dobre a penalidade para atingir o ponto: -4 para braço do escudo em vez de -2."
 
 k:"%s Output Templates"
 v:"%s Modelos de Saída"
 
+k:"%s already exists!\nDo you want to replace it?"
+v:"%s já existe!\nVocê quer substituir?"
+
 k:"%s is up to date (re-download v%s)"
 v:"%s está atualizada (baixar novamente a versão v%s)"
+
+k:"%s items remaining to be edited."
+v:"%s itens restantes para serem processados."
 
 k:"%s update was successful."
 v:"%s atualização bem-sucedida."
@@ -106,9 +139,6 @@ v:"(desenvolvimento)"
 
 k:"(levels only)"
 v:"(apenas níveis)"
-
-k:"* To change the setting on existing sheets, use the per-sheet settings available from the toolbar"
-v:"* Para mudar as configurações de planilhas existentes, use as configurações por-planilha disponíveis na barra de ferramentas"
 
 k:"** From container - not modifiable here **"
 v:"** Do contêiner - não modificável aqui **"
@@ -138,19 +168,19 @@ k:"--text <file>"
 v:"--texto <file>"
 
 k:"-h, --help"
-v:"-h, --help"
+v:"-h, --ajuda"
 
 k:"-v, --version"
-v:"-v, --version"
+v:"-v, --versão"
 
 k:"1 advantage remaining to be processed."
-v:"resta 1 vantagem se processada."
+v:"resta 1 vantagem para ser processada."
 
 k:"1 item remaining to be edited."
-v:"resta 1 item ser editado."
+v:"resta 1 item para ser editado."
 
 k:"1 item remaining to be named."
-v:"resta 1 item ser nomeado."
+v:"resta 1 item para ser nomeado."
 
 k:"1 sec"
 v:"1 seg"
@@ -164,65 +194,44 @@ v:"; Custo: -1"
 k:"; Time: x1/%d, rounded up, min 1 sec"
 v:"; Tempo: x1/%d, arredondado para cima, mín 1 seg"
 
-k:"<html><body><b>Double-click</b> to set a character portrait.<br><br>The dimensions of the chosen picture should be in a ratio of<br><b>3 pixels wide for every 4 pixels tall</b> to scale without distortion.<br><br>Dimensions of <b>{0}x{1}</b> are ideal.</body></html>"
-v:"<html><body><b>Clique duplo</b> para configurar um retrato de personagem.<br><br>As dimensões da imagem escolhida devem ter uma proporção de<br><b>3 pixels de largura para cada 4 pixels de altura</b> para ajustar o tamanho sem distorção.<br><br>Dimensões de <b>{0}x{1}</b> são ideais.</body></html>"
-
-k:"<html><body>Current hit points at or below this point cause<br>the character to <b>roll vs. HT</b> to avoid death</body></html>"
-v:"<html><body>Pontos de vida atuais iguais ou abaixo deste ponto fazem<br>o personagem fazer um <b>teste de HT</b> para evitar a morte</body></html>"
-
-k:"<html><body>Current hit points at or below this point indicate the character<br>is on the verge of collapse, causing the character to <b>roll vs. HT</b><br>(at -1 per full multiple of HP below zero) every second to avoid<br>falling unconscious</body></html>"
-v:"<html><body>Pontos de vida atuais iguais ou abaixo deste ponto indicam que o personagem<br>está prestes a desmaiar, e ele deve fazer um <b>teste de HT</b><br>(a cada múltiplo dos PV abaixo de zero) a cada segundo para evitar<br>desmaiar</body></html>"
-
-k:"<html><body>TL0: Stone Age (Prehistory and later)<br>TL1: Bronze Age (3500 B.C.+)<br>TL2: Iron Age (1200 B.C.+)<br>TL3: Medieval (600 A.D.+)<br>TL4: Age of Sail (1450+)<br>TL5: Industrial Revolution (1730+)<br>TL6: Mechanized Age (1880+)<br>TL7: Nuclear Age (1940+)<br>TL8: Digital Age (1980+)<br>TL9: Microtech Age (2025+?)<br>TL10: Robotic Age (2070+?)<br>TL11: Age of Exotic Matter<br>TL12: Anything Goes</body></html>"
-v:"<html><body>NT0: Idade da Pedra (Pré-história e eras posteriores)<br>NT1: Idade do Bronze (3500 a.C. +)<br>NT2: Idade do Ferro (1200 a.C. +)<br>NT3: Idade Média (600 d.C. +)<br>NT4: Era dos Descobrimentos (1450+)<br>NT5: Revolução Industrial (1730+)<br>NT6: Era da Automação (1880+)<br>NT7: Era Nuclear (1940+)<br>NT8: Era Digital (1980+)<br>NT9: Era da Microtecnologia (2025+)<br>NT10: Era da Robótica (2070+)<br>NT11: Era da Matéria Exótica<br>NT12: O que o Mestre quiser</body></html>"
-
-k:"<html><body>TL0: Stone Age<br>TL1: Bronze Age<br>TL2: Iron Age<br>TL3: Medieval<br>TL4: Age of Sail<br>TL5: Industrial Revolution<br>TL6: Mechanized Age<br>TL7: Nuclear Age<br>TL8: Digital Age<br>TL9: Microtech Age<br>TL10: Robotic Age<br>TL11: Age of Exotic Matter<br>TL12: Anything Goes</body></html>"
-v:"<html><body>NT0: Idade da Pedra<br>NT1: Idade do Bronze<br>NT2: Idade do Ferro<br>NT3: Idade Média<br>NT4: Era dos Descobrimentos<br>NT5: Revolução Industrial<br>NT6: Era da Automação<br>NT7: Era Nuclear<br>NT8: Era Digital<br>NT9: Era da Microtecnologia<br>NT10: Era da Robótica<br>NT11: Era da Matéria Exótica<br>NT12: O que o Mestre quiser</body></html>"
-
-k:"<html><body>The hit penalty for targeting the <b>{0}</b> hit location</body></html>"
-v:"<html><body>A penalidade de ataque por visar o ponto de impacto <b>{0}</b></body></html>"
-
-k:"<html><body>The portrait to use when a new character sheet is created.<br><br>Ideal original portrait size is {0} pixels wide by {1} pixels tall,<br>although the image will be automatically scaled to these<br>dimensions, if necessary.</body></html>"
-v:"<html><body>O retrato a ser usado quando a planilha de personagem for criada.<br><br>O tamanho ideal original dos retratos é {0} pixels de largura por {1} pixels de altura,<br>embora a imagem seja automaticamente adaptada a essas<br>dimensões, se necessário.</body></html>"
-
-k:"<html><body>The random roll needed to hit the <b>{0}</b> hit location</body></html>"
-v:"<html><body>O teste necessário para acertar o ponto de impacto <b>{0}</b></body></html>"
-
-k:"<html><body>The total DR protecting the <b>{0}</b> hit location</body></html>"
-v:"<html><body>A RD total protegendo o ponto de impacto <b>{0}</b></body></html>"
-
-k:"<html><body>Whether or not the native print dialogs should be used.<br>Choosing this option will prevent the program from saving<br>and restoring print settings with the document.</body></html>"
-v:"<html><body>Se as janelas de impressão nativas devem ou não ser usadas.<br>Escolher esta opção impedirá o programa de salvar<br>e recuperar configuração de impressão com o documento.</body></html>"
-
-k:"<html>Margins<br>(inches)"
-v:"<html>Margens<br>(polegadas)"
+k:"A divisor to be applied second to determine the threshold value"
+v:"Um divisor a ser aplicado em segundo para determinar o valor limite"
 
 k:"A file could not be deleted."
 v:"Um arquivo não pôde ser apagado."
 
+k:"A multiplier to be applied first to determine the threshold value"
+v:"Um multiplicador a ser aplicado primeiro para determinar o valor limite"
+
 k:"A reference to the book and page this %s appears on (e.g. B22 would refer to \"Basic Set\", page 22)"
-v:"Uma referência ao livro e página em que %s aparece (ex.: B22 referir-se-ia ao \"Módulo Básico\", página 22)"
+v:"Uma referência ao livro e página em que %s aparece (ex.: B22 referir-se-ia ao “Módulo Básico”, página 22)"
 
-k:"A summary of all points spent on a racial package for this character"
-v:"Um resumo de todos os pontos gastos num pacote racial para este personagem"
+k:"A short description of the current threshold state"
+v:"Uma curta descrição do atual estado limite"
 
-k:"A summary of all points spent on advantages for this character"
-v:"Um resumo de todos os pontos gastos em vantagens para este personagem"
+k:"A unique ID for the attribute"
+v:"Uma ID única para o atributo"
 
-k:"A summary of all points spent on attributes for this character"
-v:"Um resumo de todos os pontos gastos em atributos para este personagem"
+k:"A0"
+v:"A0"
 
-k:"A summary of all points spent on disadvantages for this character"
-v:"Um resumo de todos os pontos gastos em desvantagens para este personagem"
+k:"A1"
+v:"A1"
 
-k:"A summary of all points spent on quirks for this character"
-v:"Um resumo de todos os pontos gastos em peculiaridades para este personagem"
+k:"A2"
+v:"A2"
 
-k:"A summary of all points spent on skills for this character"
-v:"Um resumo de todos os pontos gastos em perícias para este personagem"
+k:"A3"
+v:"A3"
 
-k:"A summary of all points spent on spells for this character"
-v:"Um resumo de todos os pontos gastos em mágicas para este personagem"
+k:"A4"
+v:"A4"
+
+k:"A5"
+v:"A5"
+
+k:"A6"
+v:"A6"
 
 k:"About GCS"
 v:"Sobre o GCS"
@@ -230,8 +239,8 @@ v:"Sobre o GCS"
 k:"Acc"
 v:"Prec"
 
-k:"Accept"
-v:"Aceitar"
+k:"Accent"
+v:"Sotaque"
 
 k:"Accuracy"
 v:"Precisão"
@@ -239,14 +248,26 @@ v:"Precisão"
 k:"Add"
 v:"Adicionar"
 
+k:"Add Attribute"
+v:"Adicionar Atributo"
+
+k:"Add Hit Location"
+v:"Adicionar Ponto de Impacto"
+
+k:"Add Hit Location Sub-Table"
+v:"Adicionar Subtabela de Ponto de Impacto"
+
 k:"Add Natural Attacks Advantage"
-v:"Adicionar Vantagem de Ataques Naturais"
+v:"Adicionar uma Vantagem de Ataques Naturais"
+
+k:"Add Pool Threshold"
+v:"Adicionar Limite de Reservatório"
 
 k:"Add Rows"
 v:"Adicionar Linhas"
 
 k:"Add a default"
-v:"Adicionar um padrão"
+v:"Adicionar uma predefinição"
 
 k:"Add a feature"
 v:"Adicionar uma característica"
@@ -266,11 +287,11 @@ v:"Adicionar um pré-requisito a esta lista"
 k:"Add an attack"
 v:"Adicionar um ataque"
 
-k:"Add extra space around Encumbrance table rather than around FP/HP table"
-v:"Adicionar mais espaço em torno da tabela de Base de Carga ao invés de em torno da tabela de PF/PV"
+k:"Addition"
+v:"Adição"
 
-k:"Add extra space around Encumbrance table rather than around FP/HP table *"
-v:"Adicionar mais espaço em torno da tabela de Base de Carga ao invés de em torno da tabela de PF/PV *"
+k:"Additional notes for your own reference. These only exist in character sheets and will be removed if transferred to a data list or template"
+v:"Notas adicionais para sua própria referência. Elas existem somente nas planilhas de personagem e serão removidas caso transferidas para uma lista de dados ou modelo"
 
 k:"Adjustments that are applied due to Self-Control Roll limitations"
 v:"Ajustes aplicados devido a limitações de Testes de Autocontrole"
@@ -293,14 +314,11 @@ v:"Biblioteca de Vantagens"
 k:"Advantages, Disadvantages & Quirks"
 v:"Vantagens, Desvantagens e Peculiaridades"
 
+k:"Age"
+v:"Idade"
+
 k:"Age Change"
 v:"Mudar Idade"
-
-k:"Age:"
-v:"Idade:"
-
-k:"All"
-v:"Todos"
 
 k:"All Readable Files"
 v:"Todos os Arquivos Legíveis"
@@ -308,41 +326,56 @@ v:"Todos os Arquivos Legíveis"
 k:"All rights reserved"
 v:"Todos os direitos reservados"
 
+k:"Alpha"
+v:"Alfa"
+
+k:"Already Exists!"
+v:"Já Existe!"
+
 k:"Alternative Abilities"
 v:"Habilidades Alternativas"
 
-k:"An attack that misses by 1 hits the torso instead. Heart, lungs, kidneys, etc. Increase the wounding modifier for an impaling or any piercing attack to x3. Increase the wounding modifier for a tight-beam burning attack to x2. Other attacks cannot target the vitals."
-v:"Um ataque que fracassar por 1 atinge o tronco. Coração, pulmões, rins, etc. Aumente o modificador de ferimento para ataques por perfuração ou qualquer ataque perfurante para ×3. Aumente o modificador de ferimento para ataques por queimadura de feixe concentrado para ×2. Outros ataques não podem visar os órgãos vitais."
+k:"An ID for the body type table"
+v:"Uma ID para a tabela de tipo de corpo"
 
-k:"An attack that misses by 1 hits the torso instead. Human males and the males of similar species suffer double shock from crushing damage, and get -5 to knockdown rolls. Otherwise, treat as a torso hit."
-v:"Um ataque que fracassar por 1 atinge o tronco. Homens humanos e os machos de espécies semelhantes sofrem o dobro do choque de danos por contusão e sofrem uma penalidade de -5 nos testes de nocaute. Caso contrário, trate como um golpe no tronco."
+k:"An ID for the hit location"
+v:"Uma ID para o ponto de impacto"
 
-k:"An attack that misses by 1 hits the torso instead. Jaw, cheeks, nose, ears, etc. If the target has an open-faced helmet, ignore its DR. Knockdown rolls are at -5. Critical hits use the Critical Head Blow Table (B556). Corrosion damage gets a x1½ wounding modifier, and if it inflicts a major wound, it also blinds one eye (both eyes on damage over full HP). Random attacks from behind hit the skull instead."
-v:"Um ataque que fracassar por 1 atinge o tronco. Maxilar, bochechas, nariz, orelhas, etc. Se o alvo possuir um capacete aberto, ignore a RD. Os testes de nocaute sofrem uma penalidade de -5. Golpes fulminantes usam a Tabela de Golpe Fulminante na Cabeça (B557). Dano por corrosão recebe um modificador de ferimento de ×1,5; um ferimento grave também cega um dos olhos (ou os dois se ultrapassar o PV total). Ataques aleatórios por trás atingem o crânio."
+k:"An addition to be applied third to determine the threshold value"
+v:"Uma adição a ser aplicada em terceiro lugar para determinar o valor limite"
 
-k:"An attack that misses by 1 hits the torso instead. Neck and throat. Increase the wounding multiplier of crushing and corrosion attacks to x1.5, and that of cutting damage to x2. At the GM’s option, anyone killed by a cutting blow to the neck is decapitated!"
-v:"Um ataque que fracassar por 1 atinge o tronco. Pescoço e garganta. Aumente o modificador de ferimento de ataques por contusão e por corrosão para ×1,5 e por corte para ×2. A critério do Mestre, uma pessoa morta por um golpe por corte no pescoço pode ser decapitada!"
+k:"An attack that misses by 1 hits the torso instead. Heart, lungs, kidneys, etc. Increase the wounding modifier for an impaling (imp) or any piercing (pi-, pi, pi+, pi++) attack to x3. Increase the wounding modifier for a tight-beam burning (burn) attack to x2. Other attacks cannot target the vitals."
+v:"Um ataque cuja margem de fracasso for 1 atinge o tronco. Coração, pulmões, rins, etc. Aumente o modificador de ferimento para ataques por perfuração (perf) ou qualquer ataque perfurante (pa-, pa, pa+, pa++) para ×3. Aumente o modificador de ferimento para ataques por queimadura (qmd) de feixe concentrado para ×2. Outros ataques não podem visar os órgãos vitais."
 
-k:"An attack that misses by 1 hits the torso instead. Only impaling, piercing, and tight-beam burning attacks can target the eye – and only from the front or sides. Injury over HP÷10 blinds the eye. Otherwise, treat as skull, but without the extra DR!"
-v:"Um ataque que fracassar por 1 atinge o tronco. Apenas ataques perfurantes, por perfuração e por queimadura de feixe concentrado podem visar os olhos — e somente ataques frontais ou laterais. Qualquer dano acima de PV/10 cega o olho. Caso contrário, trate como crânio, mas sem a RD adicional!"
+k:"An attack that misses by 1 hits the torso instead. Human males and the males of similar species suffer double shock from crushing (cr) damage, and get -5 to knockdown rolls. Otherwise, treat as a torso hit."
+v:"Um ataque cuja margem de fracasso for 1 atinge o tronco. Homens humanos e os machos de espécies semelhantes sofrem o dobro do choque de danos por contusão (cont) e sofrem uma penalidade de -5 nos testes de nocaute. Caso contrário, trate como um golpe no tronco."
 
-k:"An attack that misses by 1 hits the torso instead. Wounding modifier is x4. Knockdown rolls are at -10. Critical hits use the Critical Head Blow Table (B556). Exception: These special effects do not apply to toxic damage."
-v:"Um ataque que fracassar por 1 atinge o tronco. O modificador de ferimento é ×4. Os testes de nocaute sofrem uma penalidade de -10. Golpes fulminantes usam a Tabela de Golpe Fulminante na Cabeça (B557). Exceção: esses efeitos não se aplicam a dano por toxina."
+k:"An attack that misses by 1 hits the torso instead. Jaw, cheeks, nose, ears, etc. If the target has an open-faced helmet, ignore its DR. Knockdown rolls are at -5. Critical hits use the Critical Head Blow Table (B556). Corrosion (cor) damage gets a x1½ wounding modifier, and if it inflicts a major wound, it also blinds one eye (both eyes on damage over full HP). Random attacks from behind hit the skull instead."
+v:"Um ataque cuja margem de fracasso for 1 atinge o tronco. Maxilar, bochechas, nariz, orelhas, etc. Se o alvo possuir um capacete aberto, ignore a RD. Os testes de nocaute sofrem uma penalidade de -5. Golpes fulminantes usam a Tabela de Golpe Fulminante na Cabeça (B557). Dano por corrosão (cor) recebe um modificador de ferimento de ×1,5; um ferimento grave também cega um dos olhos (ou os dois se ultrapassar o PV total). Ataques aleatórios por trás atingem o crânio."
+
+k:"An attack that misses by 1 hits the torso instead. Neck and throat. Increase the wounding multiplier of crushing (cr) and corrosion (cor) attacks to x1½, and that of cutting (cut) damage to x2. At the GM’s option, anyone killed by a cutting (cut) blow to the neck is decapitated!"
+v:"Um ataque cuja margem de fracasso for 1 atinge o tronco. Pescoço e garganta. Aumente o modificador de ferimento de ataques por contusão (cont) e por corrosão (cor) para ×1,5 e por corte para ×2. A critério do Mestre, uma pessoa morta por um golpe por corte no pescoço pode ser decapitada!"
+
+k:"An attack that misses by 1 hits the torso instead. Only impaling (imp), piercing (pi-, pi, pi+, pi++), and tight-beam burning (burn) attacks can target the eye – and only from the front or sides. Injury over HP÷10 blinds the eye. Otherwise, treat as skull, but without the extra DR!"
+v:"Um ataque cuja margem de fracasso for 1 atinge o tronco. Apenas ataques por perfuração (perf), perfurantes (pa-, pa, pa+, pa++) e por queimadura (qmd) de feixe concentrado podem visar os olhos — e somente ataques frontais ou laterais. Qualquer dano acima de PV÷10 cega o olho. Caso contrário, trate como crânio, mas sem a RD adicional!"
+
+k:"An attack that misses by 1 hits the torso instead. Wounding modifier is x4. Knockdown rolls are at -10. Critical hits use the Critical Head Blow Table (B556). Exception: These special effects do not apply to toxic (tox) damage."
+v:"Um ataque cuja margem de fracasso for 1 atinge o tronco. O modificador de ferimento é ×4. Os testes de nocaute sofrem uma penalidade de -10. Golpes fulminantes usam a Tabela de Golpe Fulminante na Cabeça (B557). Exceção: esses efeitos não se aplicam a dano por toxina (tox)."
+
+k:"An description of any special effects for hits to this location"
+v:"Uma descrição de quaisquer efeitos para golpes a esse ponto"
 
 k:"An error occurred while trying to export the sheet as %s."
 v:"Ocorreu um erro na tentativa de exportar a planilha como %s."
 
-k:"An error occurred while trying to export the sheet as PDF."
-v:"Ocorreu um erro na tentativa de exportar a planilha como PDF."
-
 k:"An error occurred while trying to export the sheet as PNG."
 v:"Ocorreu um erro na tentativa de exportar a planilha como PNG."
 
-k:"An error occurred while trying to save the file."
-v:"Ocorreu um erro na tentativa de salvar o arquivo."
-
 k:"An error occurred while trying to update the %s:\n\n"
 v:"Ocorreu um erro na tentativa de atualizar %s:\n\n"
+
+k:"An explanation of effects of the current threshold state"
+v:"Uma explicação dos efeitos do atual estado limite"
 
 k:"Any Category"
 v:"Qualquer Categoria"
@@ -374,9 +407,6 @@ v:"Aplicar Modelo"
 k:"Apply Template To Character Sheet"
 v:"Aplicar Modelo a Planilha de Personagem"
 
-k:"Arachnoid"
-v:"Aracnídeo"
-
 k:"Arcane"
 v:"Arcano"
 
@@ -389,23 +419,20 @@ v:"Tem certeza de que quer apagar este arquivo?"
 k:"Arm"
 v:"Braço"
 
-k:"Arm 1-2"
-v:"Braço 1-2"
-
-k:"Arm 3-4"
-v:"Braço 3-4"
-
-k:"Arm 5-6"
-v:"Braço 5-6"
-
-k:"Arm 7-8"
-v:"Braço 7-8"
-
 k:"Armor Divisor"
 v:"Divisor de Armadura"
 
+k:"Attribute Settings"
+v:"Configurações de Atributo"
+
 k:"Attributes"
 v:"Atributos"
+
+k:"Attributes for %s"
+v:"Atributos para %s"
+
+k:"Attributes…"
+v:"Atributos…"
 
 k:"Automatically fill in new character identity and description information with randomized choices"
 v:"Preencher automaticamente a identidade e descrição de novos personagens com valores aleatórios"
@@ -413,65 +440,47 @@ v:"Preencher automaticamente a identidade e descrição de novos personagens com
 k:"Available options:"
 v:"Opções disponíveis:"
 
-k:"Avian"
-v:"Aviário"
+k:"Background"
+v:"Antecedentes"
 
 k:"Bald"
-v:"Calvo"
+v:"Calvo(a)"
 
 k:"Banding"
 v:"Banding"
 
+k:"Base"
+v:"Base"
+
 k:"Base Damage"
 v:"Dano Básico"
-
-k:"Base Perception on 10 and not IQ"
-v:"Percepção básica 10 ao invés de IQ"
-
-k:"Base Perception on 10 and not IQ *"
-v:"Percepção básica 10 ao invés de IQ *"
-
-k:"Base Point Cost"
-v:"Custo Básico de Pontos"
 
 k:"Base Skill"
 v:"Perícia Básica"
 
-k:"Base Will on 10 and not IQ"
-v:"Vontade básica 10 ao invés de IQ"
-
-k:"Base Will on 10 and not IQ *"
-v:"Vontade básica 10 ao invés de IQ *"
-
-k:"Basic"
-v:"Base"
-
 k:"Basic Lift"
-v:"Carga"
+v:"Base de Carga"
 
 k:"Basic Move"
-v:"Deslocam. Básico"
+v:"Deslc. Básico"
 
-k:"Basic Move Change"
-v:"Mudar Deslocamento Básico"
+k:"Basic Set"
+v:"Módulo Básico"
 
 k:"Basic Speed"
-v:"Velocidade Básica"
-
-k:"Basic Speed Change"
-v:"Mudar Velocidade Básica"
+v:"Vel. Básica"
 
 k:"Basic Swing"
-v:"GeB Básico"
+v:"Golpe em Balanço"
 
 k:"Basic Thrust"
-v:"GdP Básico"
+v:"Golpe de Ponta"
+
+k:"Birthday"
+v:"Data Nasc."
 
 k:"Birthday Change"
-v:"Mudar Data de Nascimento"
-
-k:"Birthday:"
-v:"Data Nasc.:"
+v:"Mudar Data Nasc."
 
 k:"Bite"
 v:"Mordida"
@@ -479,21 +488,14 @@ v:"Mordida"
 k:"Black"
 v:"Pretos"
 
-
 k:"Block"
 v:"Bloqueio"
 
 k:"Block Layout"
-v:"Leiaute dos Blocos"
-
-k:"Block Layout *"
-v:"Leiaute dos Blocos *"
+v:"Leiaute de Blocos"
 
 k:"Block Modifier"
 v:"Modificador de Bloqueio"
-
-k:"Blocking skill named"
-v:"Perícia de bloqueio chamada"
 
 k:"Blond"
 v:"Loiros"
@@ -501,26 +503,38 @@ v:"Loiros"
 k:"Blue"
 v:"Azuis"
 
-k:"Body Type Change"
-v:"Mudar Tipo de Corpo"
+k:"Body Type Settings"
+v:"Configurações de Tipo de Corpo"
+
+k:"Body Type for %s"
+v:"Tipo de Corpo para %s"
+
+k:"Body Type…"
+v:"Tipo de Corpo…"
 
 k:"Bold"
 v:"Negrito"
 
 k:"Bold Italic"
-v:"Negrito Itálico"
+v:"Negrito e Itálico"
 
 k:"Bonus Per Die"
 v:"Bônus por Dado"
 
-k:"Brain"
-v:"Cérebro"
+k:"Bottom Margin"
+v:"Margem Inferior"
+
+k:"Brightness"
+v:"Brilho"
 
 k:"Brown"
-v:"Marrom"
+v:"Castanhos"
 
 k:"Bulk"
 v:"Magnitude"
+
+k:"Button"
+v:"Botão"
 
 k:"CR: 12 (Resist Quite Often)"
 v:"CR: 12 (Resiste com Muita Frequência)"
@@ -538,10 +552,10 @@ k:"CR: N/A (Cannot Resist)"
 v:"CR: N/D (Não Pode Resistir)"
 
 k:"Can't Redo"
-v:"Não Pode Refazer"
+v:"Não é Possível Refazer"
 
 k:"Can't Undo"
-v:"Não Pode Desfazer"
+v:"Não é Possível Desfazer"
 
 k:"Cancel"
 v:"Cancelar"
@@ -552,11 +566,8 @@ v:"Cancelar Restante"
 k:"Canceled!"
 v:"Cancelado!"
 
-k:"Cancroid"
-v:"Cancroide"
-
 k:"Cannot exceed default skill level by more than"
-v:"Não pode exceder o NH padrão por mais que"
+v:"Não pode exceder o NH predefinido por mais que"
 
 k:"Carried Equipment"
 v:"Equipamento Portado"
@@ -579,26 +590,11 @@ v:"Categorias"
 k:"Category"
 v:"Categoria"
 
-k:"Centaur"
-v:"Centauro"
-
 k:"Centimeters"
 v:"Centímetros"
 
 k:"Change Library Locations"
 v:"Mudar Localização das Bibliotecas"
-
-k:"Changes the font"
-v:"Muda a fonte"
-
-k:"Changes the font size"
-v:"Muda o tamanho da fonte"
-
-k:"Changes the font style"
-v:"Muda o estilo da fonte"
-
-k:"Character Exists"
-v:"O Personagem Já Existe"
 
 k:"Character Sheet"
 v:"Planilha de Personagem"
@@ -606,26 +602,20 @@ v:"Planilha de Personagem"
 k:"Character Template"
 v:"Modelo de Personagem"
 
-k:"Character point total display includes unspent points"
-v:"Exibição do total de pontos de Personagem incluit pontos a gastar"
-
-k:"Check #1"
-v:"Teste #1"
-
-k:"Check #2"
-v:"Teste #2"
-
-k:"Check #3"
-v:"Teste #3"
-
-k:"Check #4"
-v:"Teste #4"
+k:"Character already exists"
+v:"O personagem já existe"
 
 k:"Checking for GCS updates…"
-v:"Verificando se há atualizações do GCS…"
+v:"Verificando se há atualizações para o GCS…"
 
 k:"Checking for updates to %s"
-v:"Verificando se há atualizações do %s"
+v:"Verificando se há atualizações para %s"
+
+k:"Choice Name"
+v:"Nome de Escolha"
+
+k:"Choose a color…"
+v:"Escolha uma cor…"
 
 k:"Class"
 v:"Classe"
@@ -637,16 +627,16 @@ k:"Close"
 v:"Fechar"
 
 k:"Collapse"
-v:"Desmaio"
+v:"Expandir"
 
 k:"College"
 v:"Escola"
 
-k:"Color"
-v:"Cor"
+k:"Color Settings"
+v:"Configurações de Cor"
 
-k:"Colors"
-v:"Cores"
+k:"Colors…"
+v:"Cores…"
 
 k:"Condition"
 v:"Condição"
@@ -654,14 +644,28 @@ v:"Condição"
 k:"Conditional Modifiers"
 v:"Modificadores Condicionais"
 
+k:"Confirm Change"
+v:"Confirmar Mudanças"
+
+k:"Confirm Reset"
+v:"Confirmar Reset"
+k:"Consecutive unary operators are not allowed (index=%d)"
+v:"Não são permitidos operadores unários consecutivos (index=%d)"
+
 k:"Container Type"
-v:"Tipo de Contêiner"
+v:"Tipo de Recipiente"
+
+k:"Content"
+v:"Conteúdo"
+
+k:"Control"
+v:"Controle"
+
+k:"Control Edge"
+v:"Margem de Controle"
 
 k:"Convert to Container"
-v:"Converter para Contêiner"
-
-k:"Copies"
-v:"Cópias"
+v:"Converter para Recipiente"
 
 k:"Copy"
 v:"Copiar"
@@ -693,47 +697,23 @@ v:"Cria versões PDF de planilhas especificadas na linha de comando."
 k:"Create PNG versions of sheets specified on the command line."
 v:"Cria versões PNG de planilhas especificadas na linha de comando."
 
-k:"Create a new random name"
-v:"Criar um novo nome aleatório"
-
 k:"Create text versions of sheets specified on the command line using the specified template file."
-v:"Cria versões de texto de planilhas especificadas na linha de comando usando o arquivo de modelo especificado."
+v:"Cria versões de texto de planilhas especificadas na linha de comando utilizando o arquivo de modelo especificado."
 
-k:"Created:"
-v:"Criado:"
+k:"Created"
+v:"Criado"
 
 k:"Curly"
 v:"Cacheados"
 
-k:"Current"
-v:"Atuais"
+k:"Current %s"
+v:"%s Atuais"
 
-k:"Current Fatigue Points Change"
-v:"Mudar Pontos de Fadiga Atuais"
+k:"Current %s Change"
+v:"Mudar %s Atual"
 
-k:"Current Hit Points Change"
-v:"Mudar Pontos de Vida Atuais"
-
-k:"Current fatigue points"
-v:"Pontos de Fadiga Atuais"
-
-k:"Current fatigue points at or below this point cause the character to fall unconscious"
-v:"Pontos de Fadiga Atuais iguais ou abaixo deste ponto levam o personagem a ficar inconsciente"
-
-k:"Current fatigue points at or below this point indicate the character is on the verge of collapse, causing the character to roll vs. Will to do anything besides talk or rest"
-v:"Pontos de Fadiga Atuais iguais ou abaixo deste ponto indicam que o personagem está prestes a desmaiar, e ele deve fazer um teste de Vontade para fazer qualquer coisa além de falar ou descansar"
-
-k:"Current fatigue points at or below this point indicate the character is very tired, halving move, dodge and strength"
-v:"Pontos de Fadiga Atuais iguais ou abaixo deste ponto indicam que o personagem se sente muito cansado very tired. Seu Deslocamento, Esquiva e ST são reduzidos pela metade"
-
-k:"Current hit points"
-v:"Pontos de Vida Atuais"
-
-k:"Current hit points at or below this point cause the character to die"
-v:"Pontos de Vida Atuais iguais ou abaixo deste ponto causam a morte do personagem"
-
-k:"Current hit points at or below this point indicate the character is reeling from the pain, halving move, speed and dodge"
-v:"Pontos de Vida Atuais iguais ou abaixo deste ponto indicam que o personagem está cambaleando de dor, reduzindo pela metade seu Deslocamento e sua Esquiva"
+k:"Current Tab"
+v:"Aba Atual"
 
 k:"Cut"
 v:"Recortar"
@@ -741,26 +721,38 @@ v:"Recortar"
 k:"DR"
 v:"RD"
 
+k:"DR Bonus"
+v:"Bônus de RD"
+
 k:"DX"
 v:"DX"
 
 k:"Damage"
 v:"Dano"
 
+k:"Damage Progression"
+v:"Progressão de Dano"
+
 k:"Dark Brown"
-v:"Marrom Escuro"
+v:"Castanhos Escuros"
+
+k:"Dark Mode"
+v:"Modo Escuro"
 
 k:"Dark Tan"
 v:"Bronzeada Escura"
 
 k:"Dead"
-v:"Morto"
+v:"Morto(a)"
+
+k:"Decimal"
+v:"Decimal"
 
 k:"Decrease Skill Level"
-v:"Diminuir NH"
+v:"Reduzir NH"
 
 k:"Decrement"
-v:"Diminuir"
+v:"Decrement"
 
 k:"Decrement Level"
 v:"Diminuir Nível"
@@ -772,25 +764,40 @@ k:"Decrement Quantity"
 v:"Diminuir Quantidade"
 
 k:"Decrement Skill Level"
-v:"Diminuir NH"
+v:"Diminuir Nível de Habilidade"
 
 k:"Decrement Spell Level"
-v:"Diminuir NH da Mágica"
+v:"Diminuir Nível de Mágica"
 
 k:"Decrement Tech Level"
-v:"Diminuir NT"
+v:"Diminuir Nível Tecnológico"
 
 k:"Decrement Uses"
 v:"Diminuir Usos"
+
+k:"Default Attributes"
+v:"Atributos Predefinidos"
+
+k:"Default Attributes…"
+v:"Atributos Predefinidos…"
+
+k:"Default Body Type"
+v:"Tipo de Corpo Predefinido"
+
+k:"Default Body Type…"
+v:"Tipo de Corpo Predefinido…"
+
+k:"Default Sheet Settings…"
+v:"Configurações de Planilha Padrão…"
 
 k:"Default: "
 v:"Predefinido: "
 
 k:"Defaults"
-v:"Predefinidos"
+v:"É Predefinido"
 
 k:"Defaults To"
-v:"É predefinido para"
+v:"É Predefinido Por"
 
 k:"Delete"
 v:"Apagar"
@@ -804,17 +811,17 @@ v:"Apagar {0} Arquivos"
 k:"Description"
 v:"Descrição"
 
+k:"Determines the method used to calculate thrust and swing damage"
+v:"Determina o método utilizado para calcular dano por GdP e GeB"
+
 k:"Development Version"
 v:"Versão de Desenvolvimento"
 
 k:"Development versions don't look for GCS updates"
-v:"Versões de desenvolvimento não buscam por atualizações do GCS"
+v:"Versões de desenvolvimento não procuram atualizações do GCS"
 
-k:"Dexterity (DX)"
-v:"Destreza (DX)"
-
-k:"Dexterity Change"
-v:"Mudar Destreza"
+k:"Dexterity"
+v:"Destreza"
 
 k:"Diff"
 v:"Dif."
@@ -825,8 +832,8 @@ v:"Dificuldade"
 k:"Disadvantages"
 v:"Desvantagens"
 
-k:"Display"
-v:"Exibir"
+k:"Discard"
+v:"Descartar"
 
 k:"Displays a description of each option."
 v:"Exibe uma descrição de cada opção."
@@ -835,6 +842,9 @@ k:"Displays the program version."
 v:"Exibe a versão do programa."
 
 k:"Divider"
+v:"Divisória"
+
+k:"Divisor"
 v:"Divisor"
 
 k:"Dodge"
@@ -843,14 +853,14 @@ v:"Esquiva"
 k:"Does not have"
 v:"Não possui"
 
+k:"Double-click to set a character portrait. The dimensions of the chosen picture should be in a ratio of 3 pixels wide for every 4 pixels tall to scale without distortion. Dimensions of {0}x{1} are ideal."
+v:"Duplo clique para configurar um retrato de personagem. As dimensões da imagem escolhida devem ter uma proporção de 3 pixels de largura para cada 4 pixels de altura para que, caso o tamanho seja alterado, não haja distorção. Dimensões de {0}x{1} são o ideal."
+
 k:"Downloading and installing the %s…"
 v:"Baixando e instalando %s…"
 
-k:"Draft"
-v:"Rascunho"
-
-k:"Duplex"
-v:"Dúplice"
+k:"Drop Area"
+v:"Área de Soltar"
 
 k:"Duplicate"
 v:"Duplicar"
@@ -858,14 +868,17 @@ v:"Duplicar"
 k:"Duplicate Rows"
 v:"Duplicar Linhas"
 
+k:"Duplicate key binding"
+v:"Duplicar atalho de teclado"
+
 k:"Duplicate the selected attacks"
 v:"Duplicar os ataques selecionados"
 
 k:"Duration"
 v:"Duração"
 
-k:"Each letter represents an optional rule. A uppercase letter indicates the rule is in use while a lowercase letter indicates the rule is not in use."
-v:"Cada letra representa uma regra opcional. Uma letra maiúscula indica que a regra está em uso, enquanto uma minúscula indica que a regra não está em uso."
+k:"Dying #%d"
+v:"Morrendo #%d"
 
 k:"Edit"
 v:"Editar"
@@ -873,8 +886,11 @@ v:"Editar"
 k:"Edit {0}"
 v:"Editar {0}"
 
-k:"Editable Line"
-v:"Linha Editável"
+k:"Editable"
+v:"Editável"
+
+k:"Editable Border"
+v:"Borda Editável"
 
 k:"Enable Modifiers"
 v:"Ativar Modificadores"
@@ -889,7 +905,7 @@ k:"Encumbrance, Move & Dodge"
 v:"Base de Carga, Deslocamento & Esquiva"
 
 k:"Enter a weight or percentage, e.g. \"2 lb\" or \"5%\"."
-v:"Insira um peso ou porcentagem, ex.: \"2 kg\" ou \"5%\"."
+v:"Insira um peso ou porcentagem, ex.: “2 kg” ou “5%”."
 
 k:"Enter text here and press RETURN to select all matching items"
 v:"Insira um texto aqui e pressione ENTER para selecionar todos os itens condizentes"
@@ -912,11 +928,16 @@ v:"Equipado"
 k:"Error"
 v:"Erro"
 
+k:"Evince"
+v:"Evidenciar"
 k:"Exit"
 v:"Sair"
 
 k:"Exotic"
 v:"Exótico"
+
+k:"Explanation"
+v:"Explicação"
 
 k:"Export To…"
 v:"Exportar Para…"
@@ -924,32 +945,20 @@ v:"Exportar Para…"
 k:"Export to GURPS Calculator was successful."
 v:"Exportação para o GURPS Calculator bem-sucedida."
 
-k:"Export to GURPS Calculator…"
-v:"Exportar para o GURPS Calculator…"
+k:"Export…"
+v:"Exportar…"
 
-k:"Export to PDF…"
-v:"Exportar para PDF…"
+k:"Expression is invalid"
+v:"Expressão inválida"
 
-k:"Export to PNG Image(s)…"
-v:"Export para Imagem(ns) PNG…"
-
-k:"Extended Value"
-v:"Valor Ampliado"
-
-k:"Extended Weight"
-v:"Peso Ampliado"
-
-k:"Extremity"
-v:"Extremidade"
-
-k:"Eye"
-v:"Olhos"
+k:"Extended"
+v:"Estendido"
 
 k:"Eye Color Change"
 v:"Mudar Cor do Olho"
 
-k:"Eyes:"
-v:"Olhos:"
+k:"Eyes"
+v:"Olhos"
 
 k:"FP"
 v:"PF"
@@ -960,11 +969,8 @@ v:"Rosto"
 k:"Fatigue Points"
 v:"Pontos de Fadiga"
 
-k:"Fatigue Points Change"
-v:"Mudar Pontos de Fadiga"
-
 k:"Features"
-v:"Features"
+v:"Características"
 
 k:"Feet"
 v:"Pés"
@@ -973,7 +979,7 @@ k:"Feet & Inches"
 v:"Pés & Polegadas"
 
 k:"Feet (') & Inches (\")"
-v:"Pés (') & Polegadas (\")"
+v:"Pés (') & Polegadas (”)"
 
 k:"Female"
 v:"Fêmea"
@@ -981,21 +987,29 @@ v:"Fêmea"
 k:"File"
 v:"Arquivo"
 
-k:"Fin"
-v:"Nadadeira"
+k:"Fill in initial description"
+v:"Preencher descrição inicial"
 
-k:"Find mine"
-v:"Achar o meu"
+k:"Filter"
+v:"Filtro"
 
-k:"Fonts"
-v:"Fontes"
+k:"Focused Editable Border"
+v:"Borda Editável Selecionada"
+
+k:"Focused Tab"
+v:"Aba Selecionada"
+
+k:"Font Settings"
+v:"Configurações de Fonte"
+
+k:"Fonts…"
+v:"Fontes…"
 
 k:"Foot"
 v:"Pé"
 
-k:"Foreleg"
-v:"Perna Dianteira"
-
+k:"Foxit PDF"
+v:"Foxit PDF"
 k:"Fragmentation"
 v:"Fragmentação"
 
@@ -1007,6 +1021,15 @@ v:"Sardenta"
 
 k:"Fright Check"
 v:"Verific. de Pânico"
+
+k:"Full Name"
+v:"Nome Completo"
+
+k:"Function not closed"
+v:"Função não fechada"
+
+k:"Function not defined: %s"
+v:"Função não definida: %s"
 
 k:"GCS %s update was canceled."
 v:"A atualização %s do GCS foi cancelada."
@@ -1023,16 +1046,25 @@ v:"Arquivos GIF"
 k:"GURPS Calculator Key"
 v:"Chave do GURPS Calculator"
 
+k:"GURPS Calculator…"
+v:"GURPS Calculator…"
+
 k:"GURPS is a trademark of Steve Jackson Games, used by permission. All rights reserved."
 k:"This product includes copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games."
 v:"GURPS é marca registrada da Steve Jackson Games, usada com permissão. Todos os direitos reservados."
 v:"Este produto inclui material com direitos autorais do jogo GURPS, que foi usado com permissão da Steve Jackson Games."
 
+k:"Gender"
+v:"Gênero"
+
 k:"Gender Change"
 v:"Mudar Gênero"
 
-k:"Gender:"
-v:"Gênero:"
+k:"General Settings"
+v:"Configurações Gerais"
+
+k:"General Settings…"
+v:"Gerais Configurações…"
 
 k:"GitHub Account:"
 v:"Conta do GitHub:"
@@ -1053,7 +1085,7 @@ k:"Gives a skill point bonus of"
 v:"Concede um bônus de ponto de perícia de"
 
 k:"Gives a spell level bonus of"
-v:"Concede um bônus de nível de mágica de"
+v:"Concede um bônus de NH em mágica de"
 
 k:"Gives a spell point bonus of"
 v:"Concede um bônus de ponto de mágica de"
@@ -1063,9 +1095,6 @@ v:"Concede um bônus dano de arma de"
 
 k:"Gives an attribute bonus of"
 v:"Concede um bônus de atributo de"
-
-k:"Global Preferences…"
-v:"Preferências Globais…"
 
 k:"Grams"
 v:"Gramas"
@@ -1085,20 +1114,38 @@ v:"Grupo"
 k:"HP"
 v:"PV"
 
+k:"HSB"
+v:"HSB"
+
 k:"HT"
 v:"HT"
+
+k:"Hair"
+v:"Cabelos"
 
 k:"Hair Change"
 v:"Mudar Cabelos"
 
-k:"Hair:"
-v:"Cabelos:"
+k:"Halve Dodge"
+v:"Reduz a Esquiva pela Metade"
+
+k:"Halve Dodge (round up)"
+v:"Reduz a Esquiva pela Metade (arredondado para cima)"
+
+k:"Halve Move"
+v:"Reduz o Deslocamento pela Metade"
+
+k:"Halve Move (round up)"
+v:"Reduz o Deslocamento pela Metade (arredondado para cima)"
+
+k:"Halve ST"
+v:"Reduz a ST pela Metade"
+
+k:"Halve ST (round up; does not affect HP and damage)"
+v:"Reduz a ST pela Metade (arredondado para cima; não afeta PV e dano)"
 
 k:"Hand"
 v:"Mão"
-
-k:"Hand:"
-v:"Mão:"
 
 k:"Handedness Change"
 v:"Mudar Mão Hábil"
@@ -1118,11 +1165,11 @@ v:"Não Tem Níveis"
 k:"Header"
 v:"Cabeçalho"
 
-k:"Health (HT)"
-v:"Vitalidade (HT)"
+k:"Health"
+v:"Vitalidade"
 
-k:"Health Change"
-v:"Mudar Vitalidade"
+k:"Healthy"
+v:"Ileso(a)"
 
 k:"Hearing"
 v:"Audição"
@@ -1130,44 +1177,47 @@ v:"Audição"
 k:"Heavy"
 v:"Pesada"
 
+k:"Height"
+v:"Altura"
+
 k:"Height Change"
 v:"Mudar Altura"
-
-k:"Height:"
-v:"Altura:"
 
 k:"Help"
 v:"Ajuda"
 
-k:"Hexapod"
-v:"Hexapodal"
+k:"Hex RGB"
+v:"RGB em Hex"
 
-k:"High"
-v:"Alto"
+k:"Hint"
+v:"Dica"
 
-k:"Hindleg"
-v:"Perna Traseira"
+k:"Hit Penalty"
+v:"Penalidade de Ataque"
 
 k:"Hit Points"
 v:"Pontos de Vida"
 
-k:"Hit Points Change"
-v:"Mudar Pontos de Vida"
+k:"Hue"
+v:"Matiz"
 
 k:"Humanoid"
 v:"Humanoide"
 
+k:"ID"
+v:"ID"
+
 k:"IQ"
 v:"IQ"
 
-k:"Ichthyoid"
-v:"Ictioide"
+k:"Icon Button"
+v:"Botão de Ícone"
+
+k:"Icon Button Rollover"
+v:"Botão de Ícone ao Passar o Cursor"
 
 k:"Identity"
 v:"Identidade"
-
-k:"If a tail counts as an Extra Arm or a Striker, or is a fish tail, treat it as a limb (arm, leg) for crippling purposes; otherwise, treat it as an extremity (hand, foot). A crippled tail affects balance. For a ground creature, this gives -1 DX. For a swimmer or flyer, this gives -2 DX and halves Move. If the creature has no tail, or a very short one (like a rabbit), treat as torso."
-v:"Se a cauda for um Braço Adicional ou Golpeador, ou se for uma cauda de peixe, trate-a como um membro (braço, perna) para fins de incapacitação; caso contrário, trate-a como uma extremidade (pé, mão). Uma cauda incapacitada afeta o equilíbrio. Para uma criatura terrestre, uma penalidade de -1 na DX. Para uma criatura nadadora ou voadora, uma penalidade de -2 na DX e o Deslocamento é diminuído pela metade. Se a criatura não tiver cauda, ou tiver uma cauda muito curta (como um coelho), trate como se fosse “tronco”."
 
 k:"If checked, the weight of this item is not considered when calculating encumbrance penalties for skills"
 v:"Se marcado, o peso desde item não é considerado no cálculo de penalidades de base de carga às perícias"
@@ -1175,8 +1225,8 @@ v:"Se marcado, o peso desde item não é considerado no cálculo de penalidades 
 k:"If checked, this advantage is treated normally. If not checked, it is treated as if it didn't exist."
 v:"Se marcado, esta vantagem é tratada normalmente. Se não marcado, é tratada como se não existisse."
 
-k:"If holding a shield, double the penalty to hit: -8 for shield hand instead of -4. Reduce the wounding multiplier of large piercing, huge piercing, and impaling damage to x1. Any major wound (loss of over ⅓ HP from one blow) cripples the limb. Damage beyond that threshold is lost."
-v:"Se houver um escudo, dobre a penalidade para atingir o ponto: -4 para braço do escudo, -8 para mão do escudo. Reduza o modificador de ferimento para danos por perfuração, extremamente perfurantes e muito perfurante para ×1. Qualquer ferimento grave (perda de mais de PV/3 em um único golpe) incapacita o membro. Dano além deste limiar é perdido."
+k:"If holding a shield, double the penalty to hit: -8 for shield hand instead of -4. %s"
+v:"Se houver um escudo, dobre a penalidade para atingir o ponto: -8 para mão do escudo ao invés de -4. %s"
 
 k:"If your PDF is opening up to the wrong page when opening page references, enter an offset here to compensate."
 v:"Se o seu PDF está abrindo na página errada quando você abre as referências, insira a margem de erro aqui para compensar."
@@ -1193,8 +1243,20 @@ v:"Arquivos de Imagem"
 k:"Image Resolution"
 v:"Resolução de Imagem"
 
+k:"Import…"
+v:"Importar…"
+
+k:"Inactive Selection"
+v:"Seleção Inativa"
+
 k:"Inches"
 v:"Polegadas"
+
+k:"Include unspent points in the character point total"
+v:"Incluir pontos a gastar no total de pontos de personagem"
+
+k:"Include unspent points in total"
+v:"Incluir pontos a gastar no total"
 
 k:"Includes Fright Check Bonus"
 v:"Inclui o Bônus de Verificação de Pânico"
@@ -1239,7 +1301,7 @@ k:"Increment Spell Level"
 v:"Aumentar NH da Mágica"
 
 k:"Increment Tech Level"
-v:"Aumentar NT"
+v:"Aumentar Nível Tecnológico"
 
 k:"Increment Uses"
 v:"Aumentar Usos"
@@ -1255,18 +1317,32 @@ v:"Na linha"
 
 k:"Inline & Tooltip"
 v:"Na linha & Dica de contexto"
+k:"Install from:"
+v:"Instalar de:"
 
 k:"Instant"
 v:"Instantâneo"
 
-k:"Intelligence (IQ)"
-v:"Inteligência (IQ)"
+k:"Integer"
+v:"Inteiro"
 
-k:"Intelligence Change"
-v:"Mudar Inteligência"
+k:"Intelligence"
+v:"Inteligência"
+
+k:"Invalid argument: "
+v:"Argumento inválido: "
+
+k:"Invalid dice specification: %s"
+v:"Especificação de dado inválida: %s"
 
 k:"Invalid file name"
 v:"Nome de arquivo inválido"
+
+k:"Invalid operand: "
+v:"Operando inválido: "
+
+k:"Invalid variable at index %d"
+v:"Variável inválida no índice %d"
 
 k:"Italic"
 v:"Itálico"
@@ -1283,6 +1359,9 @@ v:"Arquivos JPEG"
 k:"Jump To Search"
 v:"Pular para Busca"
 
+k:"Key Binding Settings"
+v:"Configurações de Teclas de Atalho"
+
 k:"Kick"
 v:"Chute"
 
@@ -1291,6 +1370,9 @@ v:"Quilogramas"
 
 k:"Kilometers"
 v:"Quilômetros"
+
+k:"Knowing Your Own Strength"
+v:"Conhecendo a Própria Força"
 
 k:"LC"
 v:"CL"
@@ -1322,20 +1404,14 @@ v:"Braço Esq"
 k:"Left Leg"
 v:"Perna Esq"
 
+k:"Left Margin"
+v:"Margem Esquerda"
+
 k:"Leg"
 v:"Perna"
 
-k:"Leg 1-2"
-v:"Perna 1-2"
-
-k:"Leg 3-4"
-v:"Perna 3-4"
-
-k:"Leg 5-6"
-v:"Perna 5-6"
-
-k:"Leg 7-8"
-v:"Perna 7-8"
+k:"Legal"
+v:"Legal"
 
 k:"Legality Class"
 v:"Classe de Legalidade"
@@ -1343,14 +1419,14 @@ v:"Classe de Legalidade"
 k:"Length Units"
 v:"Unidades de Distância"
 
-k:"Length Units *"
-v:"Unidades de Distância *"
+k:"Letter"
+v:"Carta"
 
 k:"Level"
 v:"Nível"
 
 k:"Levels"
-v:"Níveis"
+v:"Levels"
 
 k:"Library"
 v:"Biblioteca"
@@ -1370,6 +1446,9 @@ v:"Leve"
 k:"Light Brown"
 v:"Marrom Claro"
 
+k:"Light Mode"
+v:"Modo Leve"
+
 k:"Light Tan"
 v:"Bronzeada Clara"
 
@@ -1383,13 +1462,19 @@ k:"Locate"
 v:"Localizar"
 
 k:"Locate the PDF file for the prefix \"%s\""
-v:"Localizar o arquivo PDF para o prefixo \"%s\""
+v:"Localizar o arquivo PDF pelo prefixo \"%s\""
+
+k:"Location"
+v:"Localização"
 
 k:"Long"
 v:"Longo"
 
 k:"Long Tons"
 v:"Toneladas Britânicas"
+
+k:"Lookup your key on the GURPS Calculator web site"
+v:"Procurar sua chave no website do GURPS Calculator"
 
 k:"Lvl"
 v:"NH"
@@ -1409,6 +1494,9 @@ v:"Fazer uma Doação para o Desenvolvimento do GCS"
 k:"Male"
 v:"Macho"
 
+k:"Marker"
+v:"Marcador"
+
 k:"Master Library"
 v:"Biblioteca Mestre"
 
@@ -1420,6 +1508,9 @@ v:"Máx de Usos"
 
 k:"Maximize"
 v:"Maximizar"
+
+k:"Maximum %s"
+v:"Máximo %s"
 
 k:"Medium"
 v:"Média"
@@ -1433,20 +1524,23 @@ v:"Armas de Combate Corpo a Corpo"
 k:"Mental"
 v:"Mental"
 
-k:"Menu Keys"
-v:"Teclas do Menu"
+k:"Menu"
+v:"Menu"
+
+k:"Menu Key Settings"
+v:"Configurações de Teclas do Menu"
+
+k:"Menu Keys…"
+v:"Teclas do Menu…"
 
 k:"Meta-Trait"
-v:"Meta-Característica"
+v:"Metacaracterística"
 
 k:"Meters"
 v:"Metros"
 
 k:"Metric Tons"
 v:"Toneladas Métricas"
-
-k:"Midleg"
-v:"Perna Central"
 
 k:"Miles"
 v:"Milhas"
@@ -1460,8 +1554,8 @@ v:"Força Mínima"
 k:"Miscellaneous"
 v:"Outras Informações"
 
-k:"Modified:"
-v:"Alterado:"
+k:"Modified"
+v:"Alterado"
 
 k:"Modifier"
 v:"Modificador"
@@ -1469,11 +1563,17 @@ v:"Modificador"
 k:"Modifiers"
 v:"Modificadores"
 
-k:"Monochrome"
-v:"Monocromo"
-
 k:"Move"
 v:"Desloc."
+
+k:"Move Down"
+v:"Mover para Baixo"
+
+k:"Move Up"
+v:"Mover para Cima"
+
+k:"Move and Dodge are halved (B419)"
+v:"Deslocamento e Esquiva são reduzidos pela metade (B419)"
 
 k:"Move to Carried Equipment"
 v:"Mover para Equipamentos Portados"
@@ -1481,12 +1581,11 @@ v:"Mover para Equipamentos Portados"
 k:"Move to Other Equipment"
 v:"Mover para Outros Equipamentos"
 
-k:"NOTE: Existing content for this library will be removed and replaced. Content in other libraries will not be modified."
-k:""
-k:""
-v:"NOTA: Conteúdo existente nesta biblioteca será removido e substituído. Conteúdo de outras bibliotecas não serão modificados."
-v:""
-v:""
+k:"Move, Dodge and ST are halved (B426)"
+v:"Deslocamento, Esquiva e ST são reduzidos pela metade (B426)"
+
+k:"Multiplier"
+v:"Multiplicador"
 
 k:"Name"
 v:"Nome"
@@ -1498,7 +1597,7 @@ k:"Name of Modifier"
 v:"Nome do Modificador"
 
 k:"Name of container"
-v:"Nome do contêiner"
+v:"Nome do recipiente"
 
 k:"Name {0}"
 v:"Nome {0}"
@@ -1516,13 +1615,13 @@ k:"New Advantage"
 v:"Nova Vantagem"
 
 k:"New Advantage Container"
-v:"Novo Contêiner de Vantagens"
+v:"Novo Recipiente de Vantagens"
 
 k:"New Advantage Modifier"
 v:"Novo Modificador de Vantagens"
 
 k:"New Advantage Modifier Container"
-v:"Novo Contêiner de Modificador de Vantagens"
+v:"Novo Recipiente de Modificador de Vantagens"
 
 k:"New Advantage Modifiers Library"
 v:"Nova Biblioteca de Modificadores de Vantagens"
@@ -1534,7 +1633,7 @@ k:"New Carried Equipment"
 v:"Novo Equipamento Portado"
 
 k:"New Carried Equipment Container"
-v:"Novo Equipamento Portado"
+v:"Novo Recipiente de Equipamento Portado"
 
 k:"New Character Sheet"
 v:"Nova Planilha de Personagem"
@@ -1543,13 +1642,13 @@ k:"New Character Template"
 v:"Novo Modelo de Personagem"
 
 k:"New Equipment Library"
-v:"Nova Biblioteca de Equipamento"
+v:"Nova Biblioteca de Equipamentos"
 
 k:"New Equipment Modifier"
 v:"Novo Modificador de Equipamento"
 
 k:"New Equipment Modifier Container"
-v:"Novo Contêiner de Modificadores de Equipamento"
+v:"Novo Recipiente de Modificadores de Equipamento"
 
 k:"New Equipment Modifiers Library"
 v:"Nova Biblioteca de Modificadores de Equipamento"
@@ -1561,7 +1660,7 @@ k:"New Note"
 v:"Nova Nota"
 
 k:"New Note Container"
-v:"Novo Contêiner de Notas"
+v:"Novo Recipiente de Notas"
 
 k:"New Note Library"
 v:"Nova Biblioteca de Notas"
@@ -1570,16 +1669,16 @@ k:"New Other Equipment"
 v:"Novo Outros Equipamentos"
 
 k:"New Other Equipment Container"
-v:"Novo Contêiner de Outros Equipamentos"
+v:"Novo Recipiente de Outros Equipamentos"
 
 k:"New Ritual Magic Spell"
-v:"Novo Feitiço de Mágica Ritualística"
+v:"Nova Mágica de Magia Ritualística"
 
 k:"New Skill"
 v:"Nova Perícia"
 
 k:"New Skill Container"
-v:"Novo Contêiner de Perícias"
+v:"Novo Recipiente de Perícias"
 
 k:"New Skills Library"
 v:"Nova Biblioteca de Perícias"
@@ -1588,7 +1687,7 @@ k:"New Spell"
 v:"Nova Mágica"
 
 k:"New Spell Container"
-v:"Novo Contêiner de Mágicas"
+v:"Novo Recipiente de Mágicas"
 
 k:"New Spells Library"
 v:"Nova Biblioteca de Mágicas"
@@ -1596,17 +1695,23 @@ v:"Nova Biblioteca de Mágicas"
 k:"New Technique"
 v:"Nova Técnica"
 
+k:"No"
+v:"Não"
+
+k:"No School Grognard Damage"
+v:"Dano do No School Grognard"
+
 k:"No additional modifiers"
 v:"Sem modificadores adicionais"
 
 k:"No documents may be open when setting library locations."
 v:"Nenhum documento pode ser aberto durante a seleção de localização de bibliotecas."
 
+k:"No page reference mappings have been set."
+v:"Atribuições de referências de página não foram configuradas."
+
 k:"No penalty due to encumbrance"
 v:"Sem penalidade devido a base de carga"
-
-k:"No printer is available!"
-v:"Não há impressora disponível!"
 
 k:"No releases available for %s"
 v:"Não há atualizações disponíveis para %s"
@@ -1617,23 +1722,11 @@ v:"Nenhuma"
 k:"None Required"
 v:"Nada Requerido"
 
-k:"Normal"
-v:"Normal"
-
-k:"Normal (i.e. fully rested) fatigue points"
-v:"Pontos de fadiga normais (ou seja, totalmente descansado)"
-
-k:"Normal (i.e. unharmed) hit points"
-v:"Pontos de vida normais (ou seja, ileso)"
-
 k:"Not Shown"
-v:"Não Exibir"
+v:"Não Exibido"
 
 k:"Note"
 v:"Nota"
-
-k:"Note Content"
-v:"Conteúdo da Nota"
 
 k:"Notes"
 v:"Notas"
@@ -1641,25 +1734,60 @@ v:"Notas"
 k:"Notes Library"
 v:"Biblioteca de Notas"
 
-k:"Number Up"
-v:"Número Acima"
+k:"OK"
+v:"OK"
 
-k:"Octopod"
-v:"Octópode"
+k:"Okular"
+v:"Okular"
+k:"On Background"
+v:"No Fundo"
 
-k:"On Current"
-v:"Na Atual"
+k:"On Content"
+v:"No Conteúdo"
+
+k:"On Control"
+v:"No Controle"
+
+k:"On Current Tab"
+v:"Na Aba de Controle"
 
 k:"On Editable"
 v:"No Editável"
 
+k:"On Error"
+v:"No Erro"
+
+k:"On Focused Tab"
+v:"Na Aba Selecionada"
+
 k:"On Header"
 v:"No Cabeçalho"
+
+k:"On Inactive Selection"
+v:"Na Seleção Inativa"
+
+k:"On Marker"
+v:"No Marcador"
+
+k:"On Overloaded"
+v:"No Sobrecarregado"
 
 k:"On Page"
 v:"Na Página"
 
-k:"On Warn"
+k:"On Pressed Control"
+v:"No Controle Pressionado"
+
+k:"On Search List"
+v:"Na Lista de Busca"
+
+k:"On Selection"
+v:"Na Seleção"
+
+k:"On Tooltip"
+v:"Na Dica de Contexto"
+
+k:"On Warning"
 v:"No Aviso"
 
 k:"One-Handed Lift"
@@ -1683,11 +1811,17 @@ v:"Abrir…"
 k:"Optional Specialization"
 v:"Especialização Opcional"
 
-k:"Options:"
-v:"Opções:"
+k:"Organization"
+v:"Organização"
+
+k:"Organization Change"
+v:"Mudar Organização"
 
 k:"Orientation"
 v:"Orientação"
+
+k:"Original"
+v:"Original"
 
 k:"Other Equipment"
 v:"Outros Equipamentos"
@@ -1698,29 +1832,58 @@ v:"Outros Equipamentos (${0})"
 k:"Ounces"
 v:"Onças"
 
-k:"Output"
-v:"Saída"
+k:"Overloaded"
+v:"Sobrecarregado"
 
 k:"PDF Files"
 v:"Arquivos PDF"
+k:"PDF Viewer"
+v:"PDF Viewer"
+
+k:"PDF-XChange"
+v:"PDF-XChange"
+
+k:"PDF-XChange Viewer"
+v:"PDF-XChange Viewer"
 
 k:"PNG Files"
 v:"Arquivos PNG"
 
+k:"PNG Image(s)…"
+v:"Imagem(ns) PNG…"
+
 k:"Page"
 v:"Página"
+
+k:"Page Primary Fields"
+v:"Campos Primários da Página"
+
+k:"Page Primary Footer"
+v:"Rodapé Primário da Página"
+
+k:"Page Primary Labels"
+v:"Etiqueta Primária da Página"
 
 k:"Page Reference"
 v:"Referência de Página"
 
-k:"Page References"
-v:"Referências de Página"
+k:"Page Reference Mappings…"
+v:"Mapeamento de Referência de Página…"
 
-k:"Page Setup"
-v:"Configuração de Página"
+k:"Page Reference Settings"
+v:"Configuração de Referência de Página"
 
-k:"Page Setup…"
-v:"Configuração de Página…"
+k:"Page Secondary Fields"
+v:"Campos Secundários da Página"
+
+k:"Page Secondary Footer"
+v:"Rodapé Secundário da Página"
+
+k:"Page Secondary Labels"
+v:"Etiqueta Secundária da Página"
+
+k:"Page Settings"
+v:"Configurações de Página"
 
 k:"Page Void"
 v:"Página Vazia"
@@ -1728,14 +1891,11 @@ v:"Página Vazia"
 k:"Page {0} of {1}"
 v:"Página {0} de {1}"
 
-k:"Pages"
-v:"Páginas"
-
 k:"Pale"
-v:"Branca"
+v:"Pálida"
 
-k:"Paper Type"
-v:"Tipo de Papel"
+k:"Paper Size"
+v:"Tamanho do Papel"
 
 k:"Parry"
 v:"Aparar"
@@ -1743,17 +1903,11 @@ v:"Aparar"
 k:"Parry Modifier"
 v:"Modificador de Aparar"
 
-k:"Parrying skill named"
-v:"Perícia de aparar chamada"
-
 k:"Paste"
 v:"Colar"
 
 k:"Path:"
 v:"Caminho:"
-
-k:"Penalty"
-v:"Penal."
 
 k:"Penalty equal to the current encumbrance level"
 v:"Penalidade igual ao nível atual de base de carga"
@@ -1764,14 +1918,11 @@ v:"Penalidade igual a {0} vezes o nível atual de base de carga"
 k:"Per"
 v:"Per"
 
+k:"Per Level"
+v:"Por Nível"
+
 k:"Perception"
 v:"Percepção"
-
-k:"Perception (Per)"
-v:"Percepção (Per)"
-
-k:"Perception Change"
-v:"Mudar Percepção"
 
 k:"Physical"
 v:"Físico"
@@ -1785,20 +1936,23 @@ v:"Jogador"
 k:"Player Name Change"
 v:"Mudar Nome do Jogador"
 
-k:"Player:"
-v:"Jogador:"
+k:"Point Cost"
+v:"Custo em Pontos"
 
-k:"Point Cost Per Level"
-v:"Custo de Pontos por Nível"
+k:"Point Pools"
+v:"Conjuntos de Pontos"
 
 k:"Points"
 v:"Pontos"
 
+k:"Points earned but not yet spent"
+v:"Pontos adquiridos mas ainda não gastos"
+
 k:"Points spent"
 v:"Pontos gastos"
 
-k:"Points that have been earned but have not yet been spent"
-v:"Pontos adquiridos que ainda não foram gastos"
+k:"Pool"
+v:"Reservatório"
 
 k:"Portrait"
 v:"Retrato"
@@ -1812,35 +1966,32 @@ v:"Libras"
 k:"Power Source"
 v:"Fonte de Energia"
 
-k:"Preferences"
-v:"Preferências"
-
 k:"Prerequisite Count"
 v:"Contagem de Pré-requisito"
 
 k:"Prerequisites"
 v:"Pré-requisitos"
 
+k:"Prerequisites have not been met:"
+v:"Os pré-requisitos não foram satisfeitos:"
+
+k:"Pressed Control"
+v:"Controle Selecionado"
+
+k:"Pressed Icon Button"
+v:"Botão-Ícone Selecionado"
+
+k:"Primary Attributes"
+v:"Atributos Primários"
+
 k:"Primary Fields"
 v:"Campos Primários"
 
-k:"Primary Footer"
-v:"Rodapé Primário"
-
 k:"Primary Labels"
-v:"Rótulos Primários"
-
-k:"Print"
-v:"Imprimir"
-
-k:"Print Range"
-v:"Imprimir Distância"
-
-k:"Printer"
-v:"Impressora"
+v:"Etiquetas Primários"
 
 k:"Printing failed!"
-v:"Impressão falhou!"
+v:"A impressão falhou!"
 
 k:"Print…"
 v:"Imprimir…"
@@ -1851,17 +2002,16 @@ v:"Ptos"
 k:"Punch"
 v:"Soco"
 
-k:"Qty"
-v:"Qtd"
-
-k:"Quadruped"
-v:"Quadrúpede"
-
-k:"Quality"
-v:"Qualidade"
+k:"Pyramid 3-83, pages 16-19"
+v:"Pyramid 3-83, páginas 16-19"
 
 k:"Quantity"
 v:"Quantidade"
+
+k:"Quick Export"
+k:"Export to the same location using the last used output template for this sheet"
+v:"Exportação Rápido"
+v:"Exportar para o mesmo local que o último modelo de saída para esta planilha"
 
 k:"Quirks"
 v:"Peculiaridades"
@@ -1869,8 +2019,11 @@ v:"Peculiaridades"
 k:"Quit"
 v:"Sair"
 
+k:"RGB"
+v:"RGB"
+
 k:"RSL"
-v:"RSL"
+v:"NH Rltv."
 
 k:"Race"
 v:"Raça"
@@ -1902,14 +2055,14 @@ v:"Reação"
 k:"Reactions"
 v:"Reações"
 
-k:"Reason:"
-v:"Razão:"
-
 k:"Recent Files"
 v:"Arquivos Recentes"
 
 k:"Recoil"
 v:"Recuo"
+
+k:"Red"
+v:"Vermelha"
 
 k:"Redhead"
 v:"Ruivos"
@@ -1917,20 +2070,11 @@ v:"Ruivos"
 k:"Redo "
 v:"Refazer "
 
-k:"Reduce the wounding multiplier of large piercing, huge piercing, and impaling damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost."
-v:"Reduza o modificador de ferimento para danos por perfuração, extremamente perfurantes e muito perfurante para ×1. Qualquer ferimento grave (perda de mais de PV/2 em um único golpe) incapacita o membro. Dano além deste limiar é perdido."
+k:"Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost."
+v:"Reduza o modificador de ferimento para danos por perfuração (perf), extremamente perfurantes (pa++) e muito perfurante (pa+) para ×1. Qualquer ferimento grave (perda de mais de PV/2 em um único golpe) incapacita o membro. Dano além deste limiar é perdido."
 
-k:"Reduce the wounding multiplier of large piercing, huge piercing, and impaling damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost. A flyer with a crippled wing cannot fly."
-v:"Reduza o modificador de ferimento para danos por perfuração, extremamente perfurantes e muito perfurante para ×1. Qualquer ferimento grave (perda de mais de PV/2 em um único golpe) incapacita o membro. Dano além deste limiar é perdido. Uma criatura voadora com uma asa incapacitada não consegue voar."
-
-k:"Reduce the wounding multiplier of large piercing, huge piercing, and impaling damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost. If holding a shield, double the penalty to hit: -4 for shield arm instead of -2."
-v:"Reduza o modificador de ferimento para danos por perfuração, extremamente perfurantes e muito perfurante para ×1. Qualquer ferimento grave (perda de mais de PV/2 em um único golpe) incapacita o membro. Dano além deste limiar é perdido. Se houver um escudo, dobre a penalidade para atingir o ponto: -4 para braço do escudo."
-
-k:"Reduce the wounding multiplier of large piercing, huge piercing, and impaling damage to x1. Any major wound (loss of over ⅓ HP from one blow) cripples the limb. Damage beyond that threshold is lost."
-v:"Reduza o modificador de ferimento para danos por perfuração, extremamente perfurantes e muito perfurante para ×1. Qualquer ferimento grave (perda de mais de PV/3 em um único golpe) incapacita o membro. Dano além deste limiar é perdido."
-
-k:"Reduce the wounding multiplier of large piercing, huge piercing, and impaling damage to x1. Any major wound (loss of over ⅓ HP from one blow) cripples the limb. Damage beyond that threshold is lost. A crippled fin affects balance: -3 DX."
-v:"Reduza o modificador de ferimento para danos por perfuração, extremamente perfurantes e muito perfurante para ×1. Qualquer ferimento grave (perda de mais de PV/3 em um único golpe) incapacita o membro. Dano além deste limiar é perdido. Uma nadadeira incapacitada afeta o equilíbrio: -3 na DX."
+k:"Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ⅓ HP from one blow) cripples the extremity. Damage beyond that threshold is lost."
+v:"Reduza o modificador de ferimento para danos por perfuração (perf), extremamente perfurantes (pa++) e muito perfurante (pa+) para ×1. Qualquer ferimento grave (perda de mais de PV/3 em um único golpe) incapacita o membro. Dano além deste limiar é perdido."
 
 k:"Reduces the attribute cost of"
 v:"Reduz o custo de atributo de"
@@ -1951,13 +2095,13 @@ k:"Regular"
 v:"Comum"
 
 k:"Release Notes"
-v:"Notas de Lançamento"
+v:"Notas de Atualização"
+
+k:"Religion"
+v:"Religião"
 
 k:"Religion Change"
 v:"Mudar Religião"
-
-k:"Religion:"
-v:"Religião:"
 
 k:"Remove"
 v:"Remover"
@@ -1968,8 +2112,11 @@ v:"Remover Linhas"
 k:"Remove the selected attacks"
 v:"Remover os ataques selecionados"
 
+k:"Remove the selected modifiers"
+v:"Remover os modificadores selecionados"
+
 k:"Remove this default"
-v:"Remover este padrão"
+v:"Remover esta predefinição"
 
 k:"Remove this feature"
 v:"Remover esta característica"
@@ -1998,23 +2145,20 @@ v:"Resetar"
 k:"Reset to Factory Defaults"
 v:"Resetar para o Padrão de Fábrica"
 
-k:"Reset to Global Preference Values"
+k:"Reset to Global Defaults"
 v:"Resetar para os Valores de Preferências Globais"
 
 k:"Resist"
 v:"Resistir"
 
-k:"Resolution"
-v:"Resolução"
+k:"Resistance"
+v:"Resistência"
+
+k:"Rested"
+v:"Descansado"
 
 k:"Restore"
 v:"Restaurar"
-
-k:"Reversed Landscape"
-v:"Paisagem Virada"
-
-k:"Reversed Portrait"
-v:"Retrato Virado"
 
 k:"Right"
 v:"Destro"
@@ -2025,6 +2169,9 @@ v:"Braço Dir"
 k:"Right Leg"
 v:"Perna Dir"
 
+k:"Right Margin"
+v:"Margem Direita"
+
 k:"Ritual Magic Spell"
 v:"Mágica Ritualística"
 
@@ -2032,10 +2179,10 @@ k:"Ritual: "
 v:"Ritual: "
 
 k:"Ritual: need both hands and feet free and must speak; Time: 2x"
-v:"Ritual: deve ter ambas as mãos e os dois pés livres e deve falar; Tempo: 2x"
+v:"Ritual: deve ter ambas as mãos e os dois pés livres e deve falar; Tempo: 2×"
 
 k:"Ritual: speak quietly and make a gesture"
-v:"Ritual: falar algumas palavras silenciosas e fazer um gesto."
+v:"Ritual: falar algumas palavras silenciosas e fazer um gesto"
 
 k:"RoF"
 v:"CdT"
@@ -2047,7 +2194,7 @@ k:"Round Down"
 v:"Arredondar para Baixo"
 
 k:"Round point costs down if selected, round them up if not (most things in GURPS round up)"
-v:"Se selecionado arredonda o custo de pontos para baixo, e, se não selecionado, arredonda-o para cima (a maiora das coisas em GURPS arrendonda-se para cima)"
+v:"Se selecionado arredonda o custo de pontos para baixo, e, se não selecionado, arredonda-o para cima (arrendonda-se para cima a maiora das coisas em GURPS)"
 
 k:"Row Drag & Drop"
 v:"Arrastar e Soltar Linha"
@@ -2058,8 +2205,14 @@ v:"Empurrar e Derrubar c/ Impulso"
 k:"SL"
 v:"NH"
 
+k:"SM Reduction"
+v:"Redução de MT"
+
 k:"ST"
 v:"ST"
+
+k:"Saturation"
+v:"Saturação"
 
 k:"Save"
 v:"Salvar"
@@ -2070,20 +2223,29 @@ v:"Salvar Como…"
 k:"Save changes to \"{0}\"?"
 v:"Salvar mudanças a \"{0}\"?"
 
-k:"Scorpion"
-v:"Escorpião"
+k:"Scroll"
+v:"Rolagem"
+
+k:"Scroll Edge"
+v:"Borda de Rolagem"
+
+k:"Scroll Rollover"
+v:"Rolagem ao Passar o Mouse"
 
 k:"Search"
 v:"Buscar"
 
+k:"Search List"
+v:"Lista de Busca"
+
+k:"Secondary Attributes"
+v:"Atributos Secundários"
+
 k:"Secondary Fields"
 v:"Campos Secundários"
 
-k:"Secondary Footer"
-v:"Rodapé  Secundário"
-
 k:"Secondary Labels"
-v:"Rótulos Secundários"
+v:"Etiquetas Secundárias"
 
 k:"Select"
 v:"Selecionar"
@@ -2094,8 +2256,14 @@ v:"Selecionar um Retrato"
 k:"Select All"
 v:"Selecionar Tudo"
 
+k:"Selection"
+v:"Seleção"
+
 k:"Self-Control Roll"
 v:"Teste de Autocontrole"
+
+k:"Set"
+v:"Configurar"
 
 k:"Sets the width of each column to exactly fit its contents"
 v:"Configura a largura de cada coluna para se adequar precisamente ao seu conteúdo"
@@ -2103,8 +2271,8 @@ v:"Configura a largura de cada coluna para se adequar precisamente ao seu conte�
 k:"Settings"
 v:"Configurações"
 
-k:"Sheet"
-v:"Planilha"
+k:"Sheet Settings"
+v:"Configurações de Planilha"
 
 k:"Sheet Settings: %s"
 v:"Configurações de Planilha: %s"
@@ -2133,95 +2301,54 @@ v:"Exibir %s no Disco"
 k:"Show Hidden Tabs List"
 v:"Exibir Lista de Abas Ocultas"
 
-k:"Show Modifiers"
-v:"Exibir Modificadores"
+k:"Show advantage modifier cost adjustments"
+v:"Exibir ajustes de custo de modificador de vantagem"
 
-k:"Show Modifiers *"
-v:"Exibir Modificadores *"
+k:"Show equipment modifier cost & weight adjustments"
+v:"Exibir ajustes de custo e peso de modificador de equipamento"
 
-k:"Show Notes"
-v:"Exibir Notas"
+k:"Show spell ritual, cost & time adjustments"
+v:"Exibir ajustes de ritual, custo e tempo de mágica"
 
-k:"Show Notes *"
-v:"Exibir Notas *"
+k:"Show the College column"
+v:"Exibir a coluna Escola"
 
-k:"Show User Description"
-v:"Exibir Descrição do Usuário"
+k:"Show the Difficulty column"
+v:"Exibir a coluna Dificuldade"
 
-k:"Show User Description *"
-v:"Exibir Descrição do Usuário *"
+k:"Show the title instead of the name in the footer"
+v:"Exibir o título ao invés do nome no rodapé"
 
-k:"Show the College column in character sheet spells list *"
-v:"Exibir a coluna Escola na lista de mágicas da planilha de personagem *"
-
-k:"Show the College column in the spells list"
-v:"Exibir a coluna Escola na lista de mágicas"
-
-k:"Show the Difficulty column in character sheet skills and spells lists *"
-v:"Exibir a coluna Dificuldade nas listas de mágicas e perícias da planilha de personagem *"
-
-k:"Show the Difficulty column in the skills and spells lists"
-v:"Exibir a coluna Dificuldade nas listas de mágicas e perícias"
-
-k:"Show the advantage modifier cost adjustments in the advantage list"
-v:"Exibir o modificador e o custo dos ajustes na lista de vantagens"
-
-k:"Show the advantage modifier cost adjustments in the advantage list *"
-v:"Exibir o modificador e o custo dos ajustes na lista de vantagens *"
-
-k:"Show the equipment modifier cost and weight adjustments in the equipment lists"
-v:"Exibir o custo do modificador e o ajuste do peso na lista de equipamentos"
-
-k:"Show the equipment modifier cost and weight adjustments in the equipment lists *"
-v:"Exibir o custo do modificador e o ajuste do peso na lista de equipamentos *"
-
-k:"Show the spell ritual, cost and time adjustments in the spell list"
-v:"Exibir os ajustes de ritual, custo e duração na lista de mágicas"
-
-k:"Show the spell ritual, cost and time adjustments in the spell list *"
-v:"Exibir os ajustes de ritual, custo e duração na lista de mágicas *"
-
-k:"Show the title rather than the name in the page footer"
-v:"Exibir o título ao invés do nome no rodapé da página"
-
-k:"Show the title rather than the name in the page footer on character sheets *"
-v:"Exibir o título ao invés do nome no rodapé da página nas planilhas de personagem *"
-
-k:"Sides"
-v:"Lados"
-
-k:"Single"
-v:"Único"
+k:"Size"
+v:"Tamanho"
 
 k:"Size Modifier Change"
 v:"Mudar Modificador de Tamanho"
 
-k:"Size:"
-v:"Tamanho:"
-
 k:"Skill"
 v:"Perícia"
-
-k:"Skill named"
-v:"Perícia chamada"
+k:"Skill Level Adjustments"
+v:"Ajustes de NH"
 
 k:"Skills"
 v:"Perícias"
 
 k:"Skills Library"
 v:"Biblioteca de Perícias"
+k:"Skim"
+v:"Skim"
+
+k:"Skin"
+v:"Pele"
 
 k:"Skin Color Change"
 v:"Mudar Cor de Pele"
 
-k:"Skin:"
-v:"Pele:"
-
 k:"Skull"
 v:"Crânio"
 
-k:"Snakemen"
-v:"Homens-Cobra"
+k:"Slots"
+v:"Espaços"
 
 k:"Social"
 v:"Social"
@@ -2247,8 +2374,8 @@ v:"Biblioteca de Mágicas"
 k:"Sponsor GCS Development"
 v:"Patrocinar o Desenvolvimento do GCS"
 
-k:"Squid"
-v:"Lula"
+k:"State"
+v:"Estado"
 
 k:"State…"
 v:"Estado…"
@@ -2256,26 +2383,28 @@ v:"Estado…"
 k:"Straight"
 v:"Lisos"
 
-k:"Strength (ST)"
-v:"Força (ST)"
-
-k:"Strength Change"
-v:"Mudar Força"
+k:"Strength"
+v:"Força"
 
 k:"Strength Damage Type"
 v:"Tipo de Dano de Força"
 
+k:"Sub-Table"
+v:"Subtabela"
+
 k:"Success"
-v:"Successo"
+v:"Sucesso"
 
 k:"Success!"
-v:"Successo!"
+v:"Sucesso!"
+k:"SumatraPDF"
+v:"SumatraPDF"
 
 k:"Supernatural"
 v:"Sobrenatural"
 
 k:"Swap Defaults"
-v:"Voltar aos Padrões"
+v:"Swap Defaults"
 
 k:"Switches between allowing editing and not"
 v:"Alterna entre permitir edição ou não"
@@ -2283,11 +2412,11 @@ v:"Alterna entre permitir edição ou não"
 k:"TL"
 v:"NT"
 
-k:"TL:"
-v:"NT:"
+k:"Table Name"
+v:"Nome da Tabela"
 
-k:"Tail"
-v:"Cauda"
+k:"Tabloid"
+v:"Tabloide"
 
 k:"Tan"
 v:"Bronzeada"
@@ -2310,11 +2439,17 @@ v:"Técnica"
 k:"The Block value with the weapon"
 v:"O valor de Bloqueio com a arma"
 
+k:"The DR covering the %s hit location%s"
+v:"A RD protegendo o ponto de impacto %s %s"
+
 k:"The Parry value with the weapon"
 v:"O valor de Aparar com a arma"
 
 k:"The accuracy bonus for the weapon"
 v:"O bônus de precisão da arma"
+
+k:"The amount of DR this hit location grants due to natural toughness"
+v:"O valor de RD que este ponto de impacto tem devido a resistência natural"
 
 k:"The amount to adjust the default skill level by"
 v:"O valor para ajuste do NH padrão"
@@ -2342,6 +2477,9 @@ v:"O campo de perícia básica não pode ficar vazio"
 
 k:"The base value of one of these pieces of equipment before modifiers"
 v:"O valor básico de uma dessas peças de equipamento sem modificadores"
+
+k:"The base value, which may be a number or a formula"
+v:"O valor básico, que pode ser um número ou uma fórmula"
 
 k:"The casting cost field may not be empty"
 v:"O campo de custo de operação não pode ficar vazio"
@@ -2427,8 +2565,11 @@ v:"A classe da mágica"
 k:"The college of the spell"
 v:"A escola da mágica"
 
-k:"The college the spell belongs to"
-v:"A escola a que a mágica pertence"
+k:"The college(s) the spell belongs to; separate multiple colleges with a comma"
+v:"A(s) escola(s) a que a mágica pertence; separe múltiplas escolas por vírgulas"
+
+k:"The color encoded as either a 6 or 8 digit hex value"
+v:"A cor codificada como um valor hexadecimal de 6 ou 8 dígitos"
 
 k:"The cost adjustment for this modifier"
 v:"O ajuste de custo para este modificador"
@@ -2442,6 +2583,9 @@ v:"O modificador de custo deste modificador"
 k:"The cost modifier's total value"
 v:"O valor total do modificador de custo"
 
+k:"The cost per point difference from the base"
+v:"O custo por diferença de pontos do básico"
+
 k:"The cost to maintain a spell after its initial duration"
 v:"O custo para manter uma mágica após sua duração inicial"
 
@@ -2451,11 +2595,8 @@ v:"O dano causado pela arma"
 k:"The default name field may not be empty"
 v:"O campo de nome padrão não pode ficar vazio"
 
-k:"The difficulty of learning this skill"
-v:"A dificuldade de aprendizado desta perícia"
-
-k:"The difficulty of learning this technique"
-v:"A dificuldade de aprendizado desta técnica"
+k:"The dice to roll on the table"
+v:"Os dados para jogar na tabela"
 
 k:"The difficulty of the spell"
 v:"A dificuldade desta mágica"
@@ -2481,8 +2622,11 @@ v:"O arquivo é de uma versão mais antiga e não pode ser carregado."
 k:"The first Tech Level this equipment is available at"
 v:"O primeiro NT em que este equipamento está disponível"
 
-k:"The hit penalty for targeting a specific hit location"
-v:"A penalidade para acertar um ponto de impacto específico"
+k:"The full name of this attribute (may be omitted)"
+v:"O nome compleeto deste atributo (pode ser omitido)"
+
+k:"The hit penalty for targeting the %s hit location"
+v:"A penalidade para acertar o ponto de impacto %s"
 
 k:"The initial number of character points to start with"
 v:"O número inicial de pontos de personagem"
@@ -2495,6 +2639,9 @@ v:"A classe de legalidade desta peça de equipamento"
 
 k:"The level of this advantage"
 v:"O nível desta vantagem"
+
+k:"The location, along with the hit penalty for targeting it"
+v:"O ponto de impacto, juto com a penalidade para acertá-lo"
 
 k:"The mana cost to cast the spell"
 v:"O custo de mana para esta operação mágica"
@@ -2538,6 +2685,18 @@ v:"O nome da perícia em que esta técnica se baseia"
 k:"The name of the spell, without any notes"
 v:"O nome da mágica sem nenhuma nota"
 
+k:"The name of this attribute, often an abbreviation"
+v:"O nome deste atributo, no geral uma abreviação"
+
+k:"The name of this body type table"
+v:"O nome desta tabela de tipo de corpo"
+
+k:"The name of this hit location as it should appear in choice lists"
+v:"O nome deste ponto de impacto como aparece na lista de opções"
+
+k:"The name of this hit location as it should appear in the hit location table"
+v:"O nome deste ponto de impacto como deve aparecer na tabela de pontos de impacto"
+
 k:"The name, level and notes describing an advantage"
 v:"O nome, nível e notas que descrevem uma vantagem"
 
@@ -2553,6 +2712,9 @@ v:"O nome/descrição do equipamento, sem nenhuma nota"
 k:"The name/description of the weapon"
 v:"O nome/descrição da arma"
 
+k:"The number of consecutive numbers this hit location fills in the table"
+v:"O número de números consecutivos que este ponto de impacto preenche na tabela"
+
 k:"The number of levels this modifier has"
 v:"O número de níveis deste modificador"
 
@@ -2567,6 +2729,9 @@ v:"O número de pontos gastos nesta mágica"
 
 k:"The number of points spent on this technique"
 v:"O número de pontos gastos nesta técnica"
+
+k:"The number of seconds before tooltips will dismiss themselves"
+v:"O número de segundos antes que as dicas de contexto sumam da tela"
 
 k:"The number of shots the weapon can fire before reloading/recharging"
 v:"O número de tiros que a arma pode disparar antes de precisar de recarga"
@@ -2601,6 +2766,9 @@ v:"Os pontos gastos na mágica"
 k:"The quantity of this piece of equipment"
 v:"A quantidade de exemplares desta peça de equipamento"
 
+k:"The random roll needed to hit the %s hit location"
+v:"O teste aleatório necessário para acertar o ponto de impacto %s"
+
 k:"The range of the weapon"
 v:"A distância da arma"
 
@@ -2612,6 +2780,9 @@ v:"O alcance da arma"
 
 k:"The recoil modifier for the weapon"
 v:"O modificador de recuo da arma"
+
+k:"The reduction in cost (as a percentage) for each SM greater than 0"
+v:"A redução no custo (em porcentagem) para cada MT maior que 0"
 
 k:"The relative difficulty of learning this skill"
 v:"A dificuldade relativa de aprender esta perícia"
@@ -2633,6 +2804,9 @@ v:"O teste de resistência, se houver"
 
 k:"The resolution, in dots-per-inch, to use when saving sheets as PNG files"
 v:"A resolução, em pontos-por-polegadas, a usar quando se for salvar em formato PNG"
+
+k:"The skill adjustment to hit this location"
+v:"O ajuste de NH para acertar este ponto de impacto"
 
 k:"The skill difficulty"
 v:"A dificuldade da perícia"
@@ -2685,11 +2859,8 @@ v:"O peso total desta quantidade de equipamento, mais tudo que estiver contido n
 k:"The type of advantage"
 v:"O tipo de vantagem"
 
-k:"The type of advantage this is"
-v:"O tipo desta vantagem"
-
 k:"The type of container this is"
-v:"O tipo deste contêiner"
+v:"O tipo deste recipiente"
 
 k:"The units to use for display of generated lengths"
 v:"A unidade de medida a usar para exibir os comprimentos gerados"
@@ -2705,6 +2876,27 @@ v:"O valor de todos essas peças de equipamento, mais o valor de qualquer equipa
 
 k:"The value of one of these pieces of equipment"
 v:"O valor de uma dessas peças de equipamento"
+
+k:"The value of the alpha channel, from 0 to 255"
+v:"O valor do canal alfa, de 0 a 255"
+
+k:"The value of the blue channel, from 0 to 255"
+v:"O valor do canal azul, de 0 a 255"
+
+k:"The value of the green channel, from 0 to 255"
+v:"O valor do canal verde, de 0 a 255"
+
+k:"The value of the red channel, from 0 to 255"
+v:"O valor do canal vermelho, de 0 a 255"
+
+k:"The value to use for the brightness, from 0 to 1"
+v:"O valor a ser utilizado para o brilho, de 0 a 1"
+
+k:"The value to use for the hue, from 0 to 360"
+v:"O valor a ser utilizado para o matiz, de 0 a 360"
+
+k:"The value to use for the saturation, from 0 to 1"
+v:"O valor a ser utilizado para a saturação, de 0 a 1"
 
 k:"The weight adjustment for this modifier"
 v:"O ajuste de peso para este modificador"
@@ -2739,25 +2931,14 @@ v:"O peso que o personagem pode levantar com uma mão em um segundo"
 k:"The weight the character can lift overhead with one hand in two seconds"
 v:"O peso que o personagem pode levantar com uma mão em dois segundos"
 
-k:"Theme"
-v:"Tema"
+k:"There was an error exporting to GURPS Calculator.\nPlease try again later."
+v:"Houve um erro ao exportar para o GURPS Calculator.\nPor favor, tente novamente mais tarde."
 
-k:"There is no system printer available."
-v:"Não há impressora disponível no sistema."
+k:"Three arguments are required: a length, the units of the length, and non-zero value to return the size or a zero value to return the speed/range"
+v:"São necessários três argumentos: um comprimento, as unidades do comprimento e um valor diferente de zero para retornar o tamanho ou um valor zero para retornar a velocidade/distância"
 
-k:"There was an error exporting to GURPS Calculator. Please try again later."
-v:"Houve um erro ao exportar para o GURPS Calculator. Por favor tente novamente."
-
-k:"This character already exists in GURPS Calculator."
-k:"Would you like to replace it?"
-k:""
-k:"If you choose 'Create New', you should save your"
-k:"character afterwards."
-v:"O personagem já existe no GURPS Calculator."
-v:"Você gostaria de substituí-lo?"
-v:""
-v:"Se você escolher 'Criar Novo', você deveria salvar"
-v:"seu personagem em seguida."
+k:"Thrust = Swing-2"
+v:"GdP = GeB-2"
 
 k:"Time"
 v:"Tempo"
@@ -2765,11 +2946,14 @@ v:"Tempo"
 k:"Tired"
 v:"Cansado"
 
+k:"Tiring"
+v:"Cansativo"
+
+k:"Title"
+v:"Título"
+
 k:"Title Change"
 v:"Mudar Título"
-
-k:"Title:"
-v:"Título:"
 
 k:"Toggle State"
 v:"Alternar Estado"
@@ -2777,8 +2961,11 @@ v:"Alternar Estado"
 k:"Tooltip"
 v:"Dica de Contexto"
 
-k:"Tooltip Timeout (seconds)"
-v:"Tempo de Exibição da Dica de Contexto (segundos)"
+k:"Tooltip Timeout"
+v:"Tempo de Exibição da Dica de Contexto"
+
+k:"Top Margin"
+v:"Margem Superior"
 
 k:"Torso"
 v:"Tronco"
@@ -2786,11 +2973,32 @@ v:"Tronco"
 k:"Total"
 v:"Total"
 
+k:"Total points spent on a racial package"
+v:"Total de pontos gastos num pacote racial"
+
+k:"Total points spent on advantages"
+v:"Total de pontos gastos em vantagens"
+
+k:"Total points spent on attributes"
+v:"Total de pontos gastos em atributos"
+
+k:"Total points spent on disadvantages"
+v:"Total de pontos gastos em desvantagens"
+
+k:"Total points spent on quirks"
+v:"Total de pontos gastos em peculiaridades"
+
+k:"Total points spent on skills"
+v:"Total de pontos gastos em perícias"
+
+k:"Total points spent on spells"
+v:"Total de pontos gastos em mágicas"
+
 k:"Touch"
 v:"Tato"
 
-k:"Tumble"
-v:"Tombo"
+k:"Two numeric arguments are required"
+v:"São necessários dois argumentos numéricos"
 
 k:"Two-Handed Lift"
 v:"Levantar com Duas Mãos"
@@ -2806,6 +3014,12 @@ v:"Incapaz de acessar o repositório %s"
 
 k:"Unable to access the GCS repo"
 v:"Incapaz de acessar o repositório do GCS"
+
+k:"Unable to export %s."
+v:"Incapaz de exportar %s."
+
+k:"Unable to import %s."
+v:"Incapaz de importar %s."
 
 k:"Unable to load\n{0}."
 v:"Incapaz de carregar\n{0}."
@@ -2825,17 +3039,17 @@ v:"Incapaz de abrir \"{0}\"."
 k:"Unable to open {0}"
 v:"Incapaz de abrir {0}"
 
-k:"Unable to set a value for %s"
-v:"Incapaz de definir um valor para %s"
-
-k:"Unable to switch printers!"
-v:"Incapaz de trocar de impressora!"
+k:"Unable to resolve variable $%s"
+v:"Incapaz de resolver variável $%s"
 
 k:"Unconscious"
 v:"Inconsciente"
 
 k:"Undo "
 v:"Desfazer "
+
+k:"Units of Measurement"
+v:"Unidades de Medida"
 
 k:"Unknown"
 v:"Desconhecido"
@@ -2882,8 +3096,8 @@ v:"Atualização %s"
 k:"Update %s to v%s"
 v:"Atualizar %s para v%s"
 
-k:"Update Data…"
-v:"Atualizar Dados…"
+k:"Updated"
+v:"Atualizado"
 
 k:"Usage"
 v:"Uso"
@@ -2891,44 +3105,14 @@ v:"Uso"
 k:"Use Default"
 v:"Usar Padrão"
 
-k:"Use Modifying Dice + Adds from B269"
-v:"Usar Modificador de Dados + Acréscimos de B269"
+k:"Use Modifying Dice + Adds (B269)"
+v:"Usar Modificador de Dados + Acréscimos (B269)"
 
-k:"Use Modifying Dice + Adds from B269 *"
-v:"Usar Modificador de Dados + Acréscimos de B269 *"
+k:"Use Multiplicative Modifiers (PW102; changes point value)"
+v:"Usar Modificadores por Multiplicação (PW102; muda o valor em pontos)"
 
-k:"Use Multiplicative Modifiers from PW102 (note: changes point value)"
-v:"Usar Modificadores por Multiplicação de P102 (nota: muda o valor em pontos)"
-
-k:"Use Multiplicative Modifiers from PW102 (note: changes point value) *"
-v:"Usar Modificadores por Multiplicação de P102 (nota: muda o valor em pontos) *"
-
-k:"Use Thrust = Swing - 2"
-v:"Usar GdP = GeB - 2"
-
-k:"Use Thrust = Swing - 2 *"
-v:"Usar GdP = GeB - 2 *"
-
-k:"Use platform native print dialogs (settings cannot be saved)"
-v:"Usar janelas de impressão nativas da plataforma (as configurações não podem ser salvas)"
-
-k:"Use strength rules from Knowing Your Own Strength (PY83)"
-v:"Usar regras de força de Conhecendo a Própria Força (PY83)"
-
-k:"Use strength rules from Knowing Your Own Strength (PY83) *"
-v:"Usar regras de força de Conhecendo a Própria Força (PY83) *"
-
-k:"Use the reduced swing rules from Adjusting Swing Damage in Dungeon Fantasy"
-v:"Usar as regras de GeB reduzido de Ajustes de Dano por GeB do Dungeon Fantasy"
-
-k:"Use the reduced swing rules from Adjusting Swing Damage in Dungeon Fantasy *"
-v:"Usar as regras de GeB reduzido de Ajustes de Dano por GeB do Dungeon Fantasy *"
-
-k:"Use the simple metric conversion rules from B9"
-v:"Usar as conversões métricas simplificadas de B9"
-
-k:"Use the simple metric conversion rules from B9 *"
-v:"Usar as conversões métricas simplificadas de B9 *"
+k:"Use the simple metric conversion rules (B9)"
+v:"Usar as conversões métricas simplificadas (B9)"
 
 k:"User Description"
 v:"Descrição do Usuário"
@@ -2942,9 +3126,6 @@ v:"Usos"
 k:"Value"
 v:"Valor"
 
-k:"Vermiform"
-v:"Vermiforme"
-
 k:"Version "
 v:"Versão "
 
@@ -2957,9 +3138,6 @@ v:"Visão"
 k:"Vitals"
 v:"Órg. Vitais"
 
-k:"Warn"
-v:"Avisar"
-
 k:"Warning"
 v:"Aviso"
 
@@ -2968,6 +3146,8 @@ v:"Ondulados"
 
 k:"Weapons"
 v:"Armas"
+k:"Web Browser"
+v:"Navegador Web"
 
 k:"Web Site"
 v:"Página da Internet"
@@ -2981,14 +3161,11 @@ v:"Ajuste de Peso"
 k:"Weight Change"
 v:"Mudar Peso"
 
+k:"Weight Modifier"
+v:"Modificador de Peso"
+
 k:"Weight Units"
 v:"Unidades de Peso"
-
-k:"Weight Units *"
-v:"Unidades de Peso *"
-
-k:"Weight:"
-v:"Peso:"
 
 k:"When generating PDF or PNG from the command line, allows you to specify a paper size to use, rather than the one embedded in the file. Valid choices are: LETTER, A4, or the width and height, expressed in inches and separated by an 'x', such as '5x7'."
 v:"Quando for gerar um PDF ou PNG a partir da linha de comando, permite que você especifique um tamanho de papel para usar, ao invés de usar o integrado ao arquivo. Escolhas válidas são: CARTA, A4, ou a largura e altura, em polegadas e separadas por um 'x', como em '5x7'."
@@ -3005,11 +3182,11 @@ v:"Quando o NT do Personagem for pelo menos"
 k:"When the Character's TL is at most"
 v:"Quando o NT do Personagem for no máximo"
 
-k:"Where"
-v:"Onde"
-
 k:"Where to display this information"
 v:"Onde exibir esta informação"
+
+k:"Where to display…"
+v:"Onde exibir…"
 
 k:"Whether this modifier has been enabled or not"
 v:"Se esse modificador foi ativado ou não"
@@ -3035,20 +3212,8 @@ v:"Se deve-se limitar o nível máximo que pode ser atingido ou não"
 k:"Will"
 v:"Vontade"
 
-k:"Will Change"
-v:"Mudar Vontade"
-
-k:"Wing"
-v:"Asa"
-
-k:"Winged Hexapod"
-v:"Hexápode Alado"
-
-k:"Winged Quadruped"
-v:"Quadrúpede Alado"
-
-k:"Winged Vermiform"
-v:"Vermiforme Alado"
+k:"Wounded"
+v:"Ferido"
 
 k:"X-Heavy"
 v:"M. Pesada"
@@ -3056,8 +3221,11 @@ v:"M. Pesada"
 k:"Yards"
 v:"Jardas"
 
-k:"You need to set a valid GURPS Calculator Key in sheet preferences.<br><a href='%s'>Click here</a> for more information."
-v:"Você precisa configurar uma Chave do GURPS Calculator válida nas preferências da planilha.<br><a href='%s'>Clique aqui</a> para mais informações."
+k:"Yes"
+v:"Sim"
+
+k:"You must first set a valid GURPS Calculator Key in General Settings."
+v:"Antes você deve configurar uma chave válida do GURPS Calculator nas Configurações Gerais."
 
 k:"advantage"
 v:"vantagem"
@@ -3098,19 +3266,13 @@ v:"no máximo"
 k:"attribute"
 v:"atributo"
 
-k:"basic move"
-v:"deslocamento básico"
-
-k:"basic speed"
-v:"velocidade básica"
-
-k:"block"
-v:"bloqueio"
-
 k:"by {0}%"
 v:"por {0}%"
 
-k:"combined with {0}"
+k:"choice name"
+v:"nome da opção"
+
+k:"combined with %s"
 v:"combinado com {0}"
 
 k:"contained quantity of"
@@ -3122,11 +3284,11 @@ v:"peso contido"
 k:"contains"
 v:"contém"
 
+k:"description"
+v:"descrição"
+
 k:"die"
 v:"dado"
-
-k:"dodge"
-v:"esquiva"
 
 k:"does not contain"
 v:"não contém"
@@ -3139,6 +3301,9 @@ v:"não começa com"
 
 k:"doesn't have"
 v:"não tem"
+
+k:"dpi"
+v:"dpi"
 
 k:"ends with"
 v:"termina com"
@@ -3158,9 +3323,6 @@ v:"somente para levantamento"
 k:"for striking only"
 v:"somente para golpe"
 
-k:"fright checks"
-v:"verificações de pânico"
-
 k:"from advantage %s"
 v:"da vantagem %s"
 
@@ -3173,8 +3335,11 @@ v:"do equipamento %s"
 k:"has"
 v:"tem"
 
-k:"hearing"
-v:"audição"
+k:"https://github.com/richardwilkes/gcs/issues/97"
+v:"https://github.com/richardwilkes/gcs/issues/97"
+
+k:"https://noschoolgrognard.blogspot.com/2013/04/adjusting-swing-damage-in-dungeon.html"
+v:"https://noschoolgrognard.blogspot.com/2013/04/adjusting-swing-damage-in-dungeon.html"
 
 k:"invalid paper margins specification: "
 v:"especificação de margens do papel inválida: "
@@ -3228,11 +3393,17 @@ v:"deve especificar um ou mais arquivos ou diretórios para processar"
 k:"must specify one or more sheet files to process"
 v:"deve especificar um ou mais arquivos de planilha para processar"
 
+k:"name"
+v:"nome"
+
 k:"none"
 v:"nenhum"
 
 k:"note"
 v:"nota"
+
+k:"of"
+v:"de"
 
 k:"of any kind"
 v:"de qualquer tipo"
@@ -3240,8 +3411,8 @@ v:"de qualquer tipo"
 k:"or"
 v:"ou"
 
-k:"parry"
-v:"aparar"
+k:"or {1} ({2})"
+v:"ou {1} ({2})"
 
 k:"per die"
 v:"por dado"
@@ -3249,14 +3420,13 @@ v:"por dado"
 k:"per level"
 v:"por nível"
 
-k:"perception"
-v:"percepção"
-
 k:"points"
 v:"pontos"
 
-k:"size modifier"
-v:"modificador de tamanho"
+k:"qpdfview"
+v:"qpdfview"
+k:"seconds"
+v:"segundos"
 
 k:"skill"
 v:"perícia"
@@ -3276,17 +3446,17 @@ v:"mágicas"
 k:"starts with"
 v:"começa com"
 
-k:"taste & smell"
-v:"paladar e olfato"
+k:"state"
+v:"estado"
+
+k:"table name"
+v:"nome da tabela"
 
 k:"technique"
 v:"técnica"
 
-k:"to"
-v:"para"
-
-k:"to "
-v:"para "
+k:"to %s"
+v:"para %s"
 
 k:"to all colleges"
 v:"para todas as escolas"
@@ -3330,68 +3500,17 @@ v:"para perícias cujo nome"
 k:"to skills whose name "
 v:"para perícias cujo nome "
 
-k:"to the arms"
-v:"aos braços"
-
-k:"to the brain"
-v:"ao cérebro"
-
 k:"to the college whose name"
 v:"para a escola cujo nome"
 
-k:"to the eyes"
-v:"aos olhos"
-
-k:"to the face"
-v:"ao rosto"
-
-k:"to the feet"
-v:"aos pés"
-
-k:"to the fins"
-v:"às nadadeiras"
-
-k:"to the full body"
-v:"a todo o corpo"
-
-k:"to the full body except the eyes"
-v:"a todo o corpo exceto os olhos"
-
-k:"to the groin"
-v:"à virilha"
-
-k:"to the hands"
-v:"às mãos"
-
-k:"to the legs"
-v:"às pernas"
-
-k:"to the neck"
-v:"ao pescoço"
-
 k:"to the power source whose name"
-v:"à fonte de energia cujo nome"
-
-k:"to the skull"
-v:"ao crânio"
+v:"para a fonte de energia cujo nome"
 
 k:"to the spell whose name"
 v:"para a mágica cujo nome"
 
-k:"to the tail"
-v:"à cauda"
-
-k:"to the torso (including vitals)"
-v:"ao tronco (incluindo órgãos vitais)"
-
-k:"to the vitals"
-v:"aos órgãos vitais"
-
-k:"to the wings"
-v:"às asas"
-
 k:"to this weapon"
-v:"a esta arma"
+v:"para esta arma"
 
 k:"to weapons whose name"
 v:"para armas cujo nome"
@@ -3399,20 +3518,20 @@ v:"para armas cujo nome"
 k:"to weapons whose required skill name"
 v:"para armas cuja perícia requerida se chama"
 
-k:"touch"
-v:"tato"
-
 k:"unknown file extension"
 v:"formato de arquivo desconhecido"
 
 k:"unknown option: "
 v:"opção desconhecida: "
 
-k:"vision"
-v:"visão"
+k:"untitled"
+v:"sem título"
 
 k:"which "
 v:"qual "
+
+k:"whose category name"
+v:"cujo nome da categoria"
 
 k:"whose college name"
 v:"cujo nome da escola"
@@ -3422,9 +3541,6 @@ v:"cujo nome"
 
 k:"whose name "
 v:"cujo nome "
-
-k:"will"
-v:"vontade"
 
 k:"{0} (continued)"
 v:"{0} (continuou)"
@@ -3441,9 +3557,6 @@ v:"{0} Bônus de Verificação de Pânico"
 k:"{0} Fright Check Penalty"
 v:"{0} Penalidade de Verificação de Pânico"
 
-k:"{0} Per Level"
-v:"{0} Por Nível"
-
 k:"{0} Points"
 v:"{0} Pontos"
 
@@ -3452,9 +3565,6 @@ v:"{0} Penalidade de Reação"
 
 k:"{0} advantages remaining to be processed."
 v:"{0} vantagens restantes para serem processadas."
-
-k:"{0} dpi"
-v:"{0} dpi"
 
 k:"{0} equipment remaining to be processed."
 v:"{0} equipamentos restantes para serem processados."
@@ -3465,8 +3575,8 @@ v:"{0} arquivos não puderam ser apagados."
 k:"{0} items remaining to be edited."
 v:"{0} itens restantes para serem processados."
 
-k:"{0} items remaining to be named."
-v:"{0} itens restantes para serem nomeados."
+k:"{0} per level"
+v:"{0} por nível"
 
 k:"{0}% Cost of Living Increase"
 v:"{0}% Aumento de Custo de Vida"
@@ -3480,14 +3590,8 @@ v:"{0}Precisa da perícia chamada {1}\n"
 k:"{0}Requires a skill named {1} ({2})\n"
 v:"{0}Precisa da perícia chamada {1} ({2})\n"
 
-k:"{0}Requires all of:\n"
-v:"{0}Precisa do seguinte:\n"
-
 k:"{0}Requires at least 1 point in the skill named {1}\n"
 v:"{0}Precisa de ao menos 1 ponto na perícia chamada {1}\n"
-
-k:"{0}Requires at least one of:\n"
-v:"{0}Precisa de pelo menos um de:\n"
 
 k:"{0}at least {1}"
 v:"{0}pelo menos {1}"
@@ -3498,38 +3602,5 @@ v:"{0}no máximo {1}"
 k:"{0}exactly {1}"
 v:"{0}exatamente {1}"
 
-k:"{0}{1} a contained quantity which {2}\n"
-v:"{0}{1} uma quantidade contida que {2}\n"
-
-k:"{0}{1} a contained weight which {2}\n"
-v:"{0}{1} um peso contido que {2}\n"
-
-k:"{0}{1} a skill whose name {2}"
-v:"{0}{1} uma perícia chamada {2}"
-
-k:"{0}{1} an advantage whose name {2}"
-v:"{0}{1} uma vantagem cujo nome {2}"
-
-k:"{0}{1} college count which {2}\n"
-v:"{0}{1} soma de escolas que {2}\n"
-
-k:"{0}{1} {2} which {3}"
-v:"{0}{1} {2} que {3}"
-
-k:"{0}{1} {2} {3} of any kind\n"
-v:"{0}{1} {2} {3} de qualquer tipo\n"
-
-k:"{0}{1} {2} {3} whose college {4}\n"
-v:"{0}{1} {2} {3} cuja escola {4}\n"
-
-k:"{0}{1} {2} {3} whose name {4}\n"
-v:"{0}{1} {2} {3} cujo nome {4}\n"
-
-k:"∑ $"
-v:"$ Total"
-
-k:"∑ Weight"
-v:"Peso Total"
-
-k:"✓"
-v:"✓"
+k:"{0}{1} {2} which {3}\n"
+v:"{0}{1} {2} que {3}\n"
