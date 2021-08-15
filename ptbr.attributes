@@ -1,0 +1,297 @@
+{
+	"version": 2,
+	"attributes": [
+		{
+			"id": "st",
+			"type": "integer",
+			"name": "ST",
+			"full_name": "Força",
+			"attribute_base": "10",
+			"cost_per_point": 10,
+			"cost_adj_percent_per_sm": 10
+		},
+		{
+			"id": "dx",
+			"type": "integer",
+			"name": "DX",
+			"full_name": "Destreza",
+			"attribute_base": "10",
+			"cost_per_point": 20,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "iq",
+			"type": "integer",
+			"name": "IQ",
+			"full_name": "Inteligência",
+			"attribute_base": "10",
+			"cost_per_point": 20,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "ht",
+			"type": "integer",
+			"name": "HT",
+			"full_name": "Vitalidade",
+			"attribute_base": "10",
+			"cost_per_point": 10,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "will",
+			"type": "integer",
+			"name": "Vont",
+			"full_name": "Vontade",
+			"attribute_base": "$iq",
+			"cost_per_point": 5,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "fright_check",
+			"type": "integer",
+			"name": "Verif. de Pânico",
+			"full_name": "",
+			"attribute_base": "$will",
+			"cost_per_point": 2,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "per",
+			"type": "integer",
+			"name": "Per",
+			"full_name": "",
+			"attribute_base": "$iq",
+			"cost_per_point": 5,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "vision",
+			"type": "integer",
+			"name": "Visão",
+			"full_name": "",
+			"attribute_base": "$per",
+			"cost_per_point": 2,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "hearing",
+			"type": "integer",
+			"name": "Audição",
+			"full_name": "",
+			"attribute_base": "$per",
+			"cost_per_point": 2,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "taste_smell",
+			"type": "integer",
+			"name": "Paladar e Olfato",
+			"full_name": "",
+			"attribute_base": "$per",
+			"cost_per_point": 2,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "touch",
+			"type": "integer",
+			"name": "Tato",
+			"full_name": "",
+			"attribute_base": "$per",
+			"cost_per_point": 2,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "basic_speed",
+			"type": "decimal",
+			"name": "Vel. Básica",
+			"full_name": "",
+			"attribute_base": "($dx+$ht)/4",
+			"cost_per_point": 20,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "basic_move",
+			"type": "integer",
+			"name": "Desl. Básico",
+			"full_name": "",
+			"attribute_base": "floor($basic_speed)",
+			"cost_per_point": 5,
+			"cost_adj_percent_per_sm": 0
+		},
+		{
+			"id": "fp",
+			"type": "pool",
+			"name": "PF",
+			"full_name": "Pontos de Fadiga",
+			"attribute_base": "$ht",
+			"cost_per_point": 3,
+			"cost_adj_percent_per_sm": 0,
+			"thresholds": [
+				{
+					"state": "Inconsciente",
+					"explanation": "",
+					"multiplier": -1,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "Desmaiado",
+					"explanation": "<html><body>\n<b>Roll vs. Will<\/b> to do anything besides talk or rest; failure causes unconsciousness<br>\nEach FP you lose below 0 also causes 1 HP of injury<br>\nMove, Dodge and ST are halved (B426)\n<\/body><\/html>",
+					"multiplier": 0,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "Cansado",
+					"explanation": "Move, Dodge and ST are halved (B426)",
+					"multiplier": 1,
+					"divisor": 3,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "Cansando",
+					"explanation": "",
+					"multiplier": 1,
+					"divisor": 1,
+					"addition": -1,
+					"ops": [
+
+					]
+				},
+				{
+					"state": "Descansado",
+					"explanation": "",
+					"multiplier": 1,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+
+					]
+				}
+			]
+		},
+		{
+			"id": "hp",
+			"type": "pool",
+			"name": "PV",
+			"full_name": "Pontos de Vida",
+			"attribute_base": "$st",
+			"cost_per_point": 2,
+			"cost_adj_percent_per_sm": 10,
+			"thresholds": [
+				{
+					"state": "Morto",
+					"explanation": "",
+					"multiplier": -5,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "Morrendo #4",
+					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-4<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"multiplier": -4,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "Morrendo #3",
+					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-3<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"multiplier": -3,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "Morrendo #2",
+					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-2<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"multiplier": -2,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "Morrendo #1",
+					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-1<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"multiplier": -1,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "Desmaiado",
+					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"multiplier": 0,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "Cambaleando",
+					"explanation": "Move and Dodge are halved (B419)",
+					"multiplier": 1,
+					"divisor": 3,
+					"addition": 0,
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "Ferido",
+					"explanation": "",
+					"multiplier": 1,
+					"divisor": 1,
+					"addition": -1,
+					"ops": [
+
+					]
+				},
+				{
+					"state": "Ileso",
+					"explanation": "",
+					"multiplier": 1,
+					"divisor": 1,
+					"addition": 0,
+					"ops": [
+
+					]
+				}
+			]
+		}
+	]
+}
