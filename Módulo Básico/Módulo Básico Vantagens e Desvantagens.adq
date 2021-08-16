@@ -8847,7 +8847,7 @@
 			"exotic": true,
 			"base_points": -50,
 			"reference": "B142",
-			"notes": "Automatically fail HT roll to stay alive if reduced to -HP or below",
+			"notes": "Fracassa automaticamente no teste de HT para sobreviver se seu número de PV for reduzido a -1×PVInicial ou menos.",
 			"categories": [
 				"Desvantagem"
 			]
