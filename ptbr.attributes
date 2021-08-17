@@ -40,8 +40,8 @@
 		{
 			"id": "will",
 			"type": "integer",
-			"name": "Vont",
-			"full_name": "Vontade",
+			"name": "Vontade",
+			"full_name": "",
 			"attribute_base": "$iq",
 			"cost_per_point": 5,
 			"cost_adj_percent_per_sm": 0
@@ -58,7 +58,7 @@
 		{
 			"id": "per",
 			"type": "integer",
-			"name": "Per",
+			"name": "Percepção",
 			"full_name": "",
 			"attribute_base": "$iq",
 			"cost_per_point": 5,
