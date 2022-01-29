@@ -141,7 +141,7 @@
 				},
 				{
 					"state": "Desmaiado",
-					"explanation": "<html><body>\n<b>Roll vs. Will<\/b> to do anything besides talk or rest; failure causes unconsciousness<br>\nEach FP you lose below 0 also causes 1 HP of injury<br>\nMove, Dodge and ST are halved (B426)\n<\/body><\/html>",
+					"explanation": "Para fazer qualquer coisa diferente de conversar ou descansar, o personagem precisa fazer um teste de Vontade; em caso de fracasso, ele cai por esgotamento, incapacitado\nCada PF perdido também resultará na perda de 1 PV\nDeslocamento, Esquiva e ST reduzidos pela metade (MB426)",
 					"multiplier": 0,
 					"divisor": 1,
 					"addition": 0,
@@ -153,7 +153,7 @@
 				},
 				{
 					"state": "Cansado",
-					"explanation": "Move, Dodge and ST are halved (B426)",
+					"explanation": "Deslocamento, Esquiva e ST reduzidos pela metade (MB426)",
 					"multiplier": 1,
 					"divisor": 3,
 					"addition": 0,
@@ -207,7 +207,7 @@
 				},
 				{
 					"state": "Morrendo #4",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-4<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Teste de HT para não morrer\nTeste de HT-4 a cada segundo para evitar a inconsciência\nDeslocamento e Esquiva reduzidos pela metade (MB419)",
 					"multiplier": -4,
 					"divisor": 1,
 					"addition": 0,
@@ -218,7 +218,7 @@
 				},
 				{
 					"state": "Morrendo #3",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-3<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Teste de HT para não morrer\nTeste de HT-3 a cada segundo para evitar a inconsciência\nDeslocamento e Esquiva reduzidos pela metade (MB419)",
 					"multiplier": -3,
 					"divisor": 1,
 					"addition": 0,
@@ -229,7 +229,7 @@
 				},
 				{
 					"state": "Morrendo #2",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-2<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Teste de HT para não morrer\nTeste de HT-2 a cada segundo para evitar a inconsciência\nDeslocamento e Esquiva reduzidos pela metade (MB419)",
 					"multiplier": -2,
 					"divisor": 1,
 					"addition": 0,
@@ -240,7 +240,7 @@
 				},
 				{
 					"state": "Morrendo #1",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-1<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Teste de HT para não morrer\nTeste de HT-1 a cada segundo para evitar a inconsciência\nDeslocamento e Esquiva reduzidos pela metade (MB419)",
 					"multiplier": -1,
 					"divisor": 1,
 					"addition": 0,
@@ -251,7 +251,7 @@
 				},
 				{
 					"state": "Desmaiado",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Teste de HT a cada segundo para evitar a inconsciência\nDeslocamento e Esquiva reduzidos pela metade (MB419)",
 					"multiplier": 0,
 					"divisor": 1,
 					"addition": 0,
@@ -262,7 +262,7 @@
 				},
 				{
 					"state": "Cambaleando",
-					"explanation": "Move and Dodge are halved (B419)",
+					"explanation": "Deslocamento e Esquiva reduzidos pela metade (MB419)",
 					"multiplier": 1,
 					"divisor": 3,
 					"addition": 0,
