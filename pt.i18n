@@ -245,6 +245,9 @@ v:"Sotaque"
 k:"Accuracy"
 v:"Precisão"
 
+k:"Acrobat"
+v:"Acrobat"
+
 k:"Add"
 v:"Adicionar"
 
@@ -377,8 +380,20 @@ v:"Ocorreu um erro na tentativa de atualizar %s:\n\n"
 k:"An explanation of effects of the current threshold state"
 v:"Uma explicação dos efeitos do atual estado limite"
 
+k:"Ancestry"
+v:"Ancestralidade"
+
+k:"Ancestry Changed"
+v:"Ancestralidade Modificada"
+
+k:"Ancestry Settings"
+v:"Configurações de Ancestralidade"
+
 k:"Any Category"
 v:"Qualquer Categoria"
+
+k:"Any notes for VTT use; see the instructions for your VTT to determine if/how these can be used"
+v:"Quaisquer notas para uso com VTT; veja as instruções de seu VTT para averiguar se/como isso pode ser utilizado"
 
 k:"Any notes that you would like to show up in the list along with this advantage"
 v:"Quaisquer notas que você gostaria que aparecesse na lista junto com esta vantagem"
@@ -443,9 +458,6 @@ v:"Opções disponíveis:"
 k:"Background"
 v:"Antecedentes"
 
-k:"Bald"
-v:"Calvo(a)"
-
 k:"Banding"
 v:"Banding"
 
@@ -485,9 +497,6 @@ v:"Mudar Data Nasc."
 k:"Bite"
 v:"Mordida"
 
-k:"Black"
-v:"Pretos"
-
 k:"Block"
 v:"Bloqueio"
 
@@ -496,9 +505,6 @@ v:"Leiaute de Blocos"
 
 k:"Block Modifier"
 v:"Modificador de Bloqueio"
-
-k:"Blond"
-v:"Loiros"
 
 k:"Blue"
 v:"Azuis"
@@ -527,9 +533,6 @@ v:"Margem Inferior"
 k:"Brightness"
 v:"Brilho"
 
-k:"Brown"
-v:"Castanhos"
-
 k:"Bulk"
 v:"Magnitude"
 
@@ -550,6 +553,48 @@ v:"CR: 9 (Resiste com Alguma Frequência)"
 
 k:"CR: N/A (Cannot Resist)"
 v:"CR: N/D (Não Pode Resistir)"
+
+k:"Calendar"
+v:"Calendário"
+
+k:"Calendar Settings"
+v:"Configurações de Calendário"
+
+k:"Calendar month names must not be empty"
+v:"Os nomes de mês do calendário não podem ficar em branco"
+
+k:"Calendar months must have at least 1 day"
+v:"Os meses do calendário devem ter pelo menos 1 dia"
+
+k:"Calendar must have at least one month"
+v:"O calendário deve possuir pelo menos um mês"
+
+k:"Calendar must have at least one season"
+v:"O calendário deve possuir pelo menos uma estação"
+
+k:"Calendar must have at least one week day"
+v:"O calendário deve possuir pelo menos um dia de semana"
+
+k:"Calendar season names must not be empty"
+v:"Os nomes de estação do calendário não podem ficar em branco"
+
+k:"Calendar seasons must end in a valid day within the month"
+v:"As estações do calendário devem terminar em um dia válido dentro do mês"
+
+k:"Calendar seasons must end in a valid month"
+v:"As estações do calendário devem terminar em um mês válido"
+
+k:"Calendar seasons must start in a valid day within the month"
+v:"As estações do calendário devem começar em um dia válido dentro do mês"
+
+k:"Calendar seasons must start in a valid month"
+v:"As estações do calendário devem começar em um mês válido"
+
+k:"Calendar week day names must not be empty"
+v:"Os nomes de dia de semana do calendário não podem ficar em branco"
+
+k:"Calendar's first week day of the first year must be a valid week day"
+v:"O primeiro dia de semana do primeiro ano deve ser um dia de semana válido"
 
 k:"Can't Redo"
 v:"Não é Possível Refazer"
@@ -605,6 +650,9 @@ v:"Modelo de Personagem"
 k:"Character already exists"
 v:"O personagem já existe"
 
+k:"Check the fields you'd like to randomize for the ancestry:"
+v:"Marque os campos que você quer randomizar para a ancestralidade"
+
 k:"Checking for GCS updates…"
 v:"Verificando se há atualizações para o GCS…"
 
@@ -649,6 +697,7 @@ v:"Confirmar Mudanças"
 
 k:"Confirm Reset"
 v:"Confirmar Reset"
+
 k:"Consecutive unary operators are not allowed (index=%d)"
 v:"Não são permitidos operadores unários consecutivos (index=%d)"
 
@@ -663,6 +712,9 @@ v:"Controle"
 
 k:"Control Edge"
 v:"Margem de Controle"
+
+k:"Controls how the randomizable portions of the character sheet are resolved when the container type is set to Race"
+v:"Controla como as porções randomizáveis da planilha de personagem são solucionadas quando o tipo de contêiner é configurado para Raça"
 
 k:"Convert to Container"
 v:"Converter para Recipiente"
@@ -691,9 +743,6 @@ v:"Modificador de Custo"
 k:"Create New"
 v:"Criar Novo"
 
-k:"Create PDF versions of sheets specified on the command line."
-v:"Cria versões PDF de planilhas especificadas na linha de comando."
-
 k:"Create PNG versions of sheets specified on the command line."
 v:"Cria versões PNG de planilhas especificadas na linha de comando."
 
@@ -702,9 +751,6 @@ v:"Cria versões de texto de planilhas especificadas na linha de comando utiliza
 
 k:"Created"
 v:"Criado"
-
-k:"Curly"
-v:"Cacheados"
 
 k:"Current %s"
 v:"%s Atuais"
@@ -733,14 +779,8 @@ v:"Dano"
 k:"Damage Progression"
 v:"Progressão de Dano"
 
-k:"Dark Brown"
-v:"Castanhos Escuros"
-
 k:"Dark Mode"
 v:"Modo Escuro"
-
-k:"Dark Tan"
-v:"Bronzeada Escura"
 
 k:"Dead"
 v:"Morto(a)"
@@ -930,6 +970,7 @@ v:"Erro"
 
 k:"Evince"
 v:"Evidenciar"
+
 k:"Exit"
 v:"Sair"
 
@@ -979,10 +1020,7 @@ k:"Feet & Inches"
 v:"Pés & Polegadas"
 
 k:"Feet (') & Inches (\")"
-v:"Pés (') & Polegadas (”)"
-
-k:"Female"
-v:"Fêmea"
+v:"Pés (’) & Polegadas (”)"
 
 k:"File"
 v:"Arquivo"
@@ -1010,14 +1048,12 @@ v:"Pé"
 
 k:"Foxit PDF"
 v:"Foxit PDF"
+
 k:"Fragmentation"
 v:"Fragmentação"
 
 k:"Fragmentation Damage"
 v:"Dano de Fragmentação"
-
-k:"Freckled"
-v:"Sardenta"
 
 k:"Fright Check"
 v:"Verific. de Pânico"
@@ -1050,8 +1086,9 @@ k:"GURPS Calculator…"
 v:"GURPS Calculator…"
 
 k:"GURPS is a trademark of Steve Jackson Games, used by permission. All rights reserved."
-k:"This product includes copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games."
 v:"GURPS é marca registrada da Steve Jackson Games, usada com permissão. Todos os direitos reservados."
+
+k:"This product includes copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games."
 v:"Este produto inclui material com direitos autorais do jogo GURPS, que foi usado com permissão da Steve Jackson Games."
 
 k:"Gender"
@@ -1101,9 +1138,6 @@ v:"Gramas"
 
 k:"Green"
 v:"Verdes"
-
-k:"Grey"
-v:"Cinzas"
 
 k:"Groin"
 v:"Virilha"
@@ -1197,6 +1231,12 @@ v:"Penalidade de Ataque"
 
 k:"Hit Points"
 v:"Pontos de Vida"
+
+k:"Houserule originating with Kevin Smyth. See https://gamingballistic.com/2020/12/04/df-eastmarch-boss-fight-and-house-rules/"
+v:"Essa regra da casa se originou com Kevin Smyth. Veja https://gamingballistic.com/2020/12/04/df-eastmarch-boss-fight-and-house-rules/"
+
+k:"Houserule that use d3s instead of d6s for Damage. See: https://github.com/richardwilkes/gcs/pull/393"
+v:"Regra da casa que utiliza d3s em vez de d6s para Dano. Veja: https://github.com/richardwilkes/gcs/pull/393"
 
 k:"Hue"
 v:"Matiz"
@@ -1317,6 +1357,7 @@ v:"Na linha"
 
 k:"Inline & Tooltip"
 v:"Na linha & Dica de contexto"
+
 k:"Install from:"
 v:"Instalar de:"
 
@@ -1395,8 +1436,26 @@ v:"CL4: Aberto"
 k:"Landscape"
 v:"Paisagem"
 
-k:"Left"
-v:"Canhoto"
+k:"Leap Year Every may not be less than 2"
+v:"Ano Bissexto Sempre não pode ser menor que 2"
+
+k:"Leap Year Except must be a multiple of Leap Year Every"
+v:"Ano Bissexto Exceção deve ser um múltiplo do Ano Bissexto Sempre"
+
+k:"Leap Year Except must be greater than Leap Year Every if not 0"
+v:"Ano Bissexto Exceção deve ser maior que Ano Bissexto Sempre se não 0"
+
+k:"Leap Year Month must specify a valid month"
+v:"Mês de Ano Bissexto deve especificar um mês válido"
+
+k:"Leap Year Unless may not be set if Leap Year Except is 0"
+v:"Ano Bissexto Senão não pode ser configurado se Ano Bissexto Exceção for 0"
+
+k:"Leap Year Unless must be a multiple of Leap Year Except"
+v:"Ano Bissexto Senão deve ser um múltiplo do Ano Bissexto Exceção"
+
+k:"Leap Year Unless must be greater than Leap Year Except if not 0"
+v:"Ano Bissexto Senão deve ser maior que Ano Bissexto Exceção se não 0"
 
 k:"Left Arm"
 v:"Braço Esq"
@@ -1443,14 +1502,8 @@ v:"Levantar e Mover Objetos"
 k:"Light"
 v:"Leve"
 
-k:"Light Brown"
-v:"Marrom Claro"
-
 k:"Light Mode"
 v:"Modo Leve"
-
-k:"Light Tan"
-v:"Bronzeada Clara"
 
 k:"Load and then save all files specified on the command line. If a directory is specified, it will be traversed recursively and all files found will be loaded and saved. This operation is intended to easily bring files up to the current version's data format. After all files have been processed, GCS will exit."
 v:"Carrega e depois salva todos os arquivos especificados na linha de comando. Se um diretório foi especificado, todos os arquivos encontrados dentro dele serão carregados e salvos. Esta operação visa atualizar todos os arquivos para o formato de dados da versão atual. Após todos os arquivos serem processados, o GCS fecha automaticamente."
@@ -1466,9 +1519,6 @@ v:"Localizar o arquivo PDF pelo prefixo \"%s\""
 
 k:"Location"
 v:"Localização"
-
-k:"Long"
-v:"Longo"
 
 k:"Long Tons"
 v:"Toneladas Britânicas"
@@ -1491,11 +1541,11 @@ v:"Custo de Manutenção"
 k:"Make A Donation For GCS Development"
 v:"Fazer uma Doação para o Desenvolvimento do GCS"
 
-k:"Male"
-v:"Macho"
-
 k:"Marker"
 v:"Marcador"
+
+k:"Markov Chain"
+v:"Cadeias de Markov"
 
 k:"Master Library"
 v:"Biblioteca Mestre"
@@ -1592,6 +1642,9 @@ v:"Nome"
 
 k:"Name Change"
 v:"Mudar Nome"
+
+k:"Name Generator Settings"
+v:"Configurações de Gerador de Nomes"
 
 k:"Name of Modifier"
 v:"Nome do Modificador"
@@ -1698,8 +1751,8 @@ v:"Nova Técnica"
 k:"No"
 v:"Não"
 
-k:"No School Grognard Damage"
-v:"Dano do No School Grognard"
+k:"No School Grognard"
+v:"No School Grognard"
 
 k:"No additional modifiers"
 v:"Sem modificadores adicionais"
@@ -1739,6 +1792,7 @@ v:"OK"
 
 k:"Okular"
 v:"Okular"
+
 k:"On Background"
 v:"No Fundo"
 
@@ -1837,6 +1891,7 @@ v:"Sobrecarregado"
 
 k:"PDF Files"
 v:"Arquivos PDF"
+
 k:"PDF Viewer"
 v:"PDF Viewer"
 
@@ -1891,9 +1946,6 @@ v:"Página Vazia"
 k:"Page {0} of {1}"
 v:"Página {0} de {1}"
 
-k:"Pale"
-v:"Pálida"
-
 k:"Paper Size"
 v:"Tamanho do Papel"
 
@@ -1923,6 +1975,9 @@ v:"Por Nível"
 
 k:"Perception"
 v:"Percepção"
+
+k:"PhoenixFlame d3"
+v:"PhoenixFlame d3"
 
 k:"Physical"
 v:"Físico"
@@ -2009,8 +2064,9 @@ k:"Quantity"
 v:"Quantidade"
 
 k:"Quick Export"
+v:"Exportação Rápida"
+
 k:"Export to the same location using the last used output template for this sheet"
-v:"Exportação Rápido"
 v:"Exportar para o mesmo local que o último modelo de saída para esta planilha"
 
 k:"Quirks"
@@ -2030,6 +2086,9 @@ v:"Raça"
 
 k:"Randomize %s"
 v:"Tornar %s Aleatório"
+
+k:"Randomize for Ancestry"
+v:"Randomizar para Ancestralidade"
 
 k:"Range"
 v:"Distância"
@@ -2063,9 +2122,6 @@ v:"Recuo"
 
 k:"Red"
 v:"Vermelha"
-
-k:"Redhead"
-v:"Ruivos"
 
 k:"Redo "
 v:"Refazer "
@@ -2159,9 +2215,6 @@ v:"Descansado"
 
 k:"Restore"
 v:"Restaurar"
-
-k:"Right"
-v:"Destro"
 
 k:"Right Arm"
 v:"Braço Dir"
@@ -2283,9 +2336,6 @@ v:"Configurações de Planilha…"
 k:"Shift Slightly"
 v:"Deslocar Ligeiramente"
 
-k:"Short"
-v:"Curtos"
-
 k:"Short Tons"
 v:"Tonelada Americana"
 
@@ -2319,6 +2369,9 @@ v:"Exibir a coluna Dificuldade"
 k:"Show the title instead of the name in the footer"
 v:"Exibir o título ao invés do nome no rodapé"
 
+k:"Simple"
+v:"Simples"
+
 k:"Size"
 v:"Tamanho"
 
@@ -2327,6 +2380,7 @@ v:"Mudar Modificador de Tamanho"
 
 k:"Skill"
 v:"Perícia"
+
 k:"Skill Level Adjustments"
 v:"Ajustes de NH"
 
@@ -2335,8 +2389,9 @@ v:"Perícias"
 
 k:"Skills Library"
 v:"Biblioteca de Perícias"
+
 k:"Skim"
-v:"Skim"
+v:"Folhear"
 
 k:"Skin"
 v:"Pele"
@@ -2380,9 +2435,6 @@ v:"Estado"
 k:"State…"
 v:"Estado…"
 
-k:"Straight"
-v:"Lisos"
-
 k:"Strength"
 v:"Força"
 
@@ -2397,6 +2449,7 @@ v:"Sucesso"
 
 k:"Success!"
 v:"Sucesso!"
+
 k:"SumatraPDF"
 v:"SumatraPDF"
 
@@ -2405,6 +2458,9 @@ v:"Sobrenatural"
 
 k:"Swap Defaults"
 v:"Swap Defaults"
+
+k:"Swing = Thrust+2"
+v:"GeB = GdP+2"
 
 k:"Switches between allowing editing and not"
 v:"Alterna entre permitir edição ou não"
@@ -2417,9 +2473,6 @@ v:"Nome da Tabela"
 
 k:"Tabloid"
 v:"Tabloide"
-
-k:"Tan"
-v:"Bronzeada"
 
 k:"Taste & Smell"
 v:"Paladar e Olfato"
@@ -2453,6 +2506,9 @@ v:"O valor de RD que este ponto de impacto tem devido a resistência natural"
 
 k:"The amount to adjust the default skill level by"
 v:"O valor para ajuste do NH padrão"
+
+k:"The ancestry of %s has changed to %s."
+v:"A ancestralidade de %s foi modificada para %s."
 
 k:"The attribute this skill is based on"
 v:"O atributo em que esta perícia se baseia"
@@ -2721,6 +2777,12 @@ v:"O número de níveis deste modificador"
 k:"The number of matches found"
 v:"O número de resultados da busca"
 
+k:"The number of milliseconds after the cursor has paused before tooltips will appear"
+v:"O número de milissegundos que leva para exibir a dica de contexto após o cursor parar sobre o termo"
+
+k:"The number of milliseconds before the user has to wait the initial delay before a tooltip will be shown. If the tooltip is hidden and the user moves into a region of the same component that has a valid tooltip within the reshow milliseconds, the tooltip will be immediately shown. Otherwise, if the user moves into a region with a valid tooltip after reshow milliseconds, the user will have to wait an additional initial delay milliseconds before the tooltip is shown again"
+v:"O número de milissegundos antes que o usuário precise esperar o atraso inicial antes da dica de contexto ser exibida. Se a dica de contexto estiver oculta e o usuário mova o cursor para uma área do mesmo componente que possua uma dica de contexto dentro do número de milissegundos para reexibição, a dica de contexto será imediatamente exibida. De outra forma, se o usuário mover o cursor para uma área com uma dica de contexto válida após os milissegundos para reexibição, o usuário deverá aguardar outros milissegundos de atraso inicial antes de a dica de contexto ser exibida novamente"
+
 k:"The number of points spent on this skill"
 v:"O número de pontos gastos nesta perícia"
 
@@ -2964,6 +3026,12 @@ v:"Dica de Contexto"
 k:"Tooltip Timeout"
 v:"Tempo de Exibição da Dica de Contexto"
 
+k:"Tooltip Initial Delay"
+v:"Atras Inicial de Dica de Contexto"
+
+k:"Tooltip Reshow Delay"
+v:"Atraso de Reexibição de Dica de Contexto"
+
 k:"Top Margin"
 v:"Margem Superior"
 
@@ -3123,6 +3191,9 @@ v:"Biblioteca do Usuário"
 k:"Uses"
 v:"Usos"
 
+k:"VTT Notes"
+v:"Notas de VTT"
+
 k:"Value"
 v:"Valor"
 
@@ -3146,6 +3217,7 @@ v:"Ondulados"
 
 k:"Weapons"
 v:"Armas"
+
 k:"Web Browser"
 v:"Navegador Web"
 
@@ -3233,6 +3305,9 @@ v:"vantagem"
 k:"advantage modifier"
 v:"modificador de vantagem"
 
+k:"against"
+v:"contra"
+
 k:"and"
 v:"e"
 
@@ -3262,6 +3337,9 @@ v:"no mínimo"
 
 k:"at most"
 v:"no máximo"
+
+k:"attacks"
+v:"ataques"
 
 k:"attribute"
 v:"atributo"
@@ -3323,6 +3401,9 @@ v:"somente para levantamento"
 k:"for striking only"
 v:"somente para golpe"
 
+k:"for throwing only"
+v:"somente para arremesso"
+
 k:"from advantage %s"
 v:"da vantagem %s"
 
@@ -3372,11 +3453,10 @@ k:"level"
 v:"nível"
 
 k:"macOS has translocated GCS, restricting access to the file system and preventing access to the data library. To fix this, you must quit GCS, then run the following command in the terminal after cd'ing into the GURPS Character Sheet folder:"
-k:""
-k:""
 v:"O macOS mudou a localização do GCS, restringindo o acesso ao sistema de arquivo e impedindo o acesso à biblioteca de dados. Para consertar isso você deve sair do GCS e executar o seguinte comando no terminal após acessar a pasta do GCS:"
-v:""
-v:""
+
+k:"milliseconds"
+v:"milissegundos"
 
 k:"missing argument for --margins"
 v:"falta argumento para --margens"
@@ -3425,6 +3505,7 @@ v:"pontos"
 
 k:"qpdfview"
 v:"qpdfview"
+
 k:"seconds"
 v:"segundos"
 
@@ -3499,6 +3580,9 @@ v:"para perícias cujo nome"
 
 k:"to skills whose name "
 v:"para perícias cujo nome "
+
+k:"to the"
+v:"para"
 
 k:"to the college whose name"
 v:"para a escola cujo nome"
