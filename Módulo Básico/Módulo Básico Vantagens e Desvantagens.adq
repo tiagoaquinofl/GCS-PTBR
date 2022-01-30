@@ -24828,8 +24828,8 @@
 			"physical": true,
 			"exotic": true,
 			"base_points": -10,
-			"reference": "B155",
-			"notes": "Each meal takes about two hours, as opposed to about ½ hour for most humans. This reduces the time available for study, long tasks, and travel on foot by 4½ hours per day.",
+			"reference": "B153",
+			"notes": "Cada refeição leva cerca de duas horas, em oposição à meia hora típica dos humanos. Isso reduz o tempo disponível para os estudos, tarefas longas e viagens a pé em 4h e 30min por dia.",
 			"categories": [
 				"Desvantagem"
 			]
