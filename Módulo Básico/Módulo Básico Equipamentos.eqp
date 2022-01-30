@@ -8782,7 +8782,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "Special"
+						"type": "Espec."
 					},
 					"strength": "8",
 					"usage": "Arremesso",
@@ -11277,7 +11277,7 @@
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "Special"
+						"type": "Espec."
 					},
 					"strength": "5",
 					"usage": "Arremesso",
