@@ -10138,7 +10138,7 @@
 					"damage": {
 						"type": "corte",
 						"st": "sw",
-						"base": "2"
+						"base": "-2"
 					},
 					"strength": "6",
 					"usage": "GeB",
