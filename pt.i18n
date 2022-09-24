@@ -792,7 +792,7 @@ k:"Decrease Skill Level"
 v:"Reduzir NH"
 
 k:"Decrement"
-v:"Decrement"
+v:"Decremento"
 
 k:"Decrement Level"
 v:"Diminuir Nível"
@@ -1485,7 +1485,7 @@ k:"Level"
 v:"Nível"
 
 k:"Levels"
-v:"Levels"
+v:"Níveis"
 
 k:"Library"
 v:"Biblioteca"
@@ -3453,7 +3453,11 @@ k:"level"
 v:"nível"
 
 k:"macOS has translocated GCS, restricting access to the file system and preventing access to the data library. To fix this, you must quit GCS, then run the following command in the terminal after cd'ing into the GURPS Character Sheet folder:"
+k:""
+k:""
 v:"O macOS mudou a localização do GCS, restringindo o acesso ao sistema de arquivo e impedindo o acesso à biblioteca de dados. Para consertar isso você deve sair do GCS e executar o seguinte comando no terminal após acessar a pasta do GCS:"
+v:""
+v:""
 
 k:"milliseconds"
 v:"milissegundos"
