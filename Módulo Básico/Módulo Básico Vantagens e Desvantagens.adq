@@ -16572,14 +16572,14 @@
 					"version": 1,
 					"id": "3a0752cf-b3da-4558-bbb7-86f9cd70056b",
 					"disabled": true,
-					"name": "Improved",
+					"name": "Ampliada",
 					"reference": "B34",
 					"cost_type": "percentage",
 					"cost": 150,
 					"affects": "total"
 				}
 			],
-			"reference": "B67",
+			"reference": "B34",
 			"notes": "-1/nível no NH de qualquer outro personagem que faça uma mágica no personagem. +1/nível para resistir a mágicas.",
 			"categories": [
 				"Vantagem"
