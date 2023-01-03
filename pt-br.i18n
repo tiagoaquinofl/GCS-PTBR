@@ -1,0 +1,3936 @@
+# Generated on Thu, 29 Dec 2022 17:58:34 PST
+#
+# Key-value pairs are defined as one or more lines prefixed with "k:" for the
+# key, followed by one or more lines prefixed with "v:" for the value. These
+# prefixes are then followed by a quoted string, using escaping rules for Go
+# strings where needed. When two or more lines are present in a row, they will
+# be concatenated together with an intervening \n character.
+#
+# Do NOT modify the 'k' values. They are the values as seen in the code.
+#
+# Replace the 'v' values with the appropriate translation.
+
+k:"0 of 0"
+v:"0 de 0"
+
+k:"0-100%"
+v:"0-100%"
+
+k:"0-255 or 0-100%"
+v:"0-255 ou 0-100%"
+
+k:"0-360 or 0-100%"
+v:"0-360 ou 0-100%"
+
+k:"1 foot"
+v:"1 pé"
+
+k:"1 inch"
+v:"1 polegada"
+
+k:"1 meter"
+v:"1 metro"
+
+k:"1 yard"
+v:"1 jarda"
+
+k:"25% Scale"
+v:"Escala: 25%"
+
+k:"50% Scale"
+v:"Escala: 50%"
+
+k:"75% Scale"
+v:"Escala: 75%"
+
+k:"100% Scale"
+v:"Escala: 100%"
+
+k:"200% Scale"
+v:"Escala: 200%"
+
+k:"300% Scale"
+v:"Escala: 300%"
+
+k:"400% Scale"
+v:"Escala: 400%"
+
+k:"500% Scale"
+v:"Escala: 500%"
+
+k:"600% Scale"
+v:"Escala: 600%"
+
+k:""
+k:"Encumbrance [%s]"
+v:""
+v:"Carga [%s]"
+
+k:""
+k:"Holding down the %s key while using"
+k:"the mouse wheel will change the scale."
+v:""
+v:"Segurar a tecla %s enquanto usa"
+v:"a roda do mouse modificará a escala."
+
+k:""
+k:"This key is normally mapped to a PDF named:"
+k:"%s"
+v:""
+v:"Esta tecla normalmente fica mapeada a um PDF chamado:"
+v:"%s"
+
+k:"   Settings path: \"%s\""
+k:"Translations dir: \"%s\""
+v:"   Caminho das configurações: \"%s\""
+v:"Diretório de traduções: \"%s\""
+
+k:" %[1]s [%[1]s options]"
+v:" %[1]s [%[1]s opções]"
+
+k:" <command> [command options]"
+v:" <command> [command options]"
+
+k:" a contained quantity which "
+v:" uma quantidade contida que "
+
+k:" a contained weight which "
+v:" um peso contido que "
+
+k:" a skill whose name "
+v:" uma perícia cujo nome "
+
+k:" a trait whose name "
+v:" uma característica cujo nome "
+
+k:" against "
+v:" contra "
+
+k:" and level "
+v:" e de nível "
+
+k:" and tech level matches"
+v:" e nível tecnológico condizem"
+
+k:" attacks]"
+v:" ataques]"
+
+k:" Block"
+v:" Bloqueio"
+
+k:" Default: "
+v:" Predefinido: "
+
+k:" Dodge"
+v:" Esquiva"
+
+k:" Files"
+v:" Arquivos"
+
+k:" game, which is used by permission of Steve Jackson Games."
+v:" jogo, que é usado com permissão da Steve Jackson Games."
+
+k:" is a trademark of Steve Jackson Games, used by permission. All rights reserved."
+v:" é marca registrada da Steve Jackson Games, usada com permissão. Todos os direitos reservados."
+
+k:" is not exportable."
+v:" não é exportável."
+
+k:" level "
+v:" nível "
+
+k:" or "
+v:" ou "
+
+k:" Parry"
+v:" Aparar"
+
+k:" per die)"
+v:" por dado)"
+
+k:" per full day"
+v:" por dia inteiro"
+
+k:" pts]"
+v:" ptos]"
+
+k:" pt]"
+v:" pto]"
+
+k:" to damage"
+v:" ao dano"
+
+k:" to DR divisor"
+v:" ao divisor de RD"
+
+k:" which "
+v:" qual "
+
+k:"\"+5 lb\", \"-5 lb\", \"+10%\", \"-10%\""
+v:"\"+2,5 kg\", \"-2,5 kg\", \"+10%\", \"-10%\""
+
+k:"\"+5 lb\", \"-5 lb\", \"x10%\", \"x3\", \"x2/3\""
+v:"\"+2,5 kg\", \"-2,5 kg\", \"x10%\", \"x3\", \"x2/3\""
+
+k:"\"+5\", \"-5\", \"+10%\", \"-10%\", \"x3.2\""
+v:"\"+5\", \"-5\", \"+10%\", \"-10%\", \"x3.2\""
+
+k:"\"x2\", \"+2 CF\", \"-0.2 CF\""
+v:"\"x2\", \"+2 FC\", \"-0.2 FC\""
+
+k:"#"
+v:"#"
+
+k:"%"
+v:"%"
+
+k:"% per level"
+v:"% por nível"
+
+k:"%d Action Penalty"
+v:"%d Penalidade de Ação"
+
+k:"%d editors will be opened."
+v:"%d editores serão abertos."
+
+k:"%d files will be opened."
+v:"%d arquivos serão abertos."
+
+k:"%d Fright Check Penalty"
+v:"%d Penalidade de Verificação de Pânico"
+
+k:"%d of %d"
+v:"%d de %d"
+
+k:"%d Reaction Penalty"
+v:"%d Penalidade de Reação"
+
+k:"%s (%s per %s)"
+v:"%s (%s por %s)"
+
+k:"%s Changes"
+v:"%s Mudou"
+
+k:"%s Container"
+v:"%s Recipiente"
+
+k:"%s Editor for %s"
+v:"%s Editor para %s"
+
+k:"%s feet"
+v:"%s pés"
+
+k:"%s inches"
+v:"%s polegadas"
+
+k:"%s is copyrighted ©%s by %s"
+v:"%s direitos autorais ©%s de %s"
+
+k:"%s meters"
+v:"%s metros"
+
+k:"%s options:"
+k:""
+v:"%s opções:"
+v:""
+
+k:"%s Points"
+v:"%s Pontos"
+
+k:"%s running start"
+v:"%s iniciando"
+
+k:"%s v%s is available!"
+v:"%s v%s está disponível!"
+
+k:"%s yards"
+v:"%s jardas"
+
+k:"%s [options]"
+v:"%s [opções]"
+
+k:"%s, Build %s"
+v:"%s, Versão %s"
+
+k:"%sHas equipment which is equipped and whose name %s"
+v:"%sTem um equipamento que está equipado e cujo nome %s"
+
+k:"%v%v or %v%v"
+v:"%v%v ou %v%v"
+
+k:"'%[1]s' is not a valid %[2]s command"
+v:"'%[1]s' não é um comando válido %[2]s"
+
+k:"'%[1]s' is not a valid %[2]s command"
+k:""
+v:"'%[1]s' não é um comando válido %[2]s"
+v:""
+
+k:"(base only)"
+v:"(somente base)"
+
+k:"(levels only)"
+v:"(apenas níveis)"
+
+k:"+"
+v:"+"
+
+k:"+%d Fright Check Bonus"
+v:"+%d Fright Check Bonus"
+
+k:"+%d%% Cost of Living Increase"
+v:"+%d%% Cost of Living Increase"
+
+k:", notes "
+v:", notes "
+
+k:", specialization "
+v:", specialization "
+
+k:"- hsl(), e.g. \"hsl(120, 100%, 50%)\""
+v:"- hsl(), e.g. \"hsl(120, 100%, 50%)\""
+
+k:"- hsla(), e.g. \"hsla(120, 100%, 50%, 0.3)\""
+v:"- hsla(), e.g. \"hsla(120, 100%, 50%, 0.3)\""
+
+k:"- long hexadecimal colors, e.g. \"#FFFF00\""
+v:"- long hexadecimal colors, e.g. \"#FFFF00\""
+
+k:"- predefined color name, e.g. \"Yellow\""
+v:"- predefined color name, e.g. \"Yellow\""
+
+k:"- rgb(), e.g. \"rgb(255, 255, 0)\""
+v:"- rgb(), e.g. \"rgb(255, 255, 0)\""
+
+k:"- rgba(), e.g. \"rgba(255, 255, 0, 0.3)\""
+v:"- rgba(), e.g. \"rgba(255, 255, 0, 0.3)\""
+
+k:"- short hexadecimal colors, e.g. \"#FF0\""
+v:"- short hexadecimal colors, e.g. \"#FF0\""
+
+k:"; Cost: -1"
+v:"; Cost: -1"
+
+k:"; Cost: -%d"
+v:"; Cost: -%d"
+
+k:"; Time: x1/%d, rounded up, min 1 sec"
+v:"; Time: x1/%d, rounded up, min 1 sec"
+
+k:"<unknown>"
+v:"<unknown>"
+
+k:"A0"
+v:"A0"
+
+k:"A1"
+v:"A1"
+
+k:"A2"
+v:"A2"
+
+k:"A3"
+v:"A3"
+
+k:"A4"
+v:"A4"
+
+k:"A5"
+v:"A5"
+
+k:"A6"
+v:"A6"
+
+k:"a contained quantity of"
+v:"a contained quantity of"
+
+k:"a contained weight"
+v:"a contained weight"
+
+k:"A description of any special effects for hits to this location"
+v:"A description of any special effects for hits to this location"
+
+k:"A explanation of the effects of the threshold state"
+v:"A explanation of the effects of the threshold state"
+
+k:"a list"
+v:"a list"
+
+k:"A page range in the form \"5\" or \"9-12\" or multiple"
+k:"separated by commas, such as \"1, 3-4 in ascending"
+k:"order with no overlapping ranges"
+v:"A page range in the form \"5\" or \"9-12\" or multiple"
+v:"separated by commas, such as \"1, 3-4 in ascending"
+v:"order with no overlapping ranges"
+
+k:"A reference to the book and page the item appears on e.g. B22 would refer to \"Basic Set\", page 22"
+v:"A reference to the book and page the item appears on e.g. B22 would refer to \"Basic Set\", page 22"
+
+k:"A short description of the threshold state"
+v:"A short description of the threshold state"
+
+k:"a skill"
+v:"a skill"
+
+k:"A title to use with the separator"
+v:"A title to use with the separator"
+
+k:"a trait"
+v:"a trait"
+
+k:"A unique ID for the attribute"
+v:"Uma ID única para o atributo"
+
+k:"About %s"
+v:"About %s"
+
+k:"Acc"
+v:"Prec"
+
+k:"Accent"
+v:"Sotaque"
+
+k:"Accuracy"
+v:"Precisão"
+
+k:"Accuracy Bonus"
+v:"Accuracy Bonus"
+
+k:"Add Attribute"
+v:"Adicionar Atributo"
+
+k:"Add Entry"
+v:"Add Entry"
+
+k:"Add Hit Location"
+v:"Adicionar Ponto de Impacto"
+
+k:"Add hit location"
+v:"Adicionar ponto de impacto"
+
+k:"Add Library"
+v:"Add Library"
+
+k:"Add Natural Attacks"
+v:"Add Natural Attacks"
+
+k:"Add natural attacks to new sheets"
+v:"Add natural attacks to new sheets"
+
+k:"Add Pool Threshold"
+v:"Adicionar Limite de Reservatório"
+
+k:"Add pool threshold"
+v:"Adicionar limite de reservatório"
+
+k:"Add Sub-Table"
+v:"Add Sub-Table"
+
+k:"Add sub-table"
+v:"Add sub-table"
+
+k:"Additional notes for your own reference. These only exist in character sheets and will be removed if transferred to a data list or template"
+v:"Notas adicionais para sua própria referência. Elas existem somente nas planilhas de personagem e serão removidas caso transferidas para uma lista de dados ou modelo"
+
+k:"Advantages"
+v:"Vantagens"
+
+k:"against"
+v:"contra"
+
+k:"Age"
+v:"Idade"
+
+k:"All Files"
+v:"All Files"
+
+k:"All Readable Files"
+v:"Todos os Arquivos Legíveis"
+
+k:"All rights reserved"
+v:"Todos os direitos reservados"
+
+k:"Alpha:"
+v:"Alpha:"
+
+k:"Alternative Abilities"
+v:"Habilidades Alternativas"
+
+k:"Amount"
+v:"Amount"
+
+k:"An expression to calculate the threshold value"
+v:"An expression to calculate the threshold value"
+
+k:"An ID for the hit location"
+v:"Uma ID para o ponto de impacto"
+
+k:"Ancestry"
+v:"Ancestralidade"
+
+k:"and"
+v:"e"
+
+k:"and all tags"
+v:"and all tags"
+
+k:"and at least one tag"
+v:"and at least one tag"
+
+k:"and whose level"
+v:"and whose level"
+
+k:"and whose notes"
+v:"and whose notes"
+
+k:"and whose relative skill level"
+v:"and whose relative skill level"
+
+k:"and whose specialization"
+v:"and whose specialization"
+
+k:"and whose usage"
+v:"and whose usage"
+
+k:"Any notes for VTT use; see the instructions for your VVT to determine if/how these can be used"
+v:"Any notes for VTT use; see the instructions for your VVT to determine if/how these can be used"
+
+k:"Any Tag"
+v:"Any Tag"
+
+k:"anything"
+v:"anything"
+
+k:"Apply Changes"
+v:"Apply Changes"
+
+k:"Apply changes made to"
+k:"%s?"
+v:"Apply changes made to"
+v:"%s?"
+
+k:"Apply Template"
+v:"Aplicar Modelo"
+
+k:"Apply Template to Character Sheet"
+v:"Aplicar Modelo a Planilha de Personagem"
+
+k:"Arcane"
+v:"Arcano"
+
+k:"are not"
+v:"are not"
+
+k:"Are you sure you want to open all of these?"
+v:"Are you sure you want to open all of these?"
+
+k:"Are you sure you want to remove"
+k:"%s (%s)?"
+v:"Are you sure you want to remove"
+v:"%s (%s)?"
+
+k:"Are you sure you want to remove %s?"
+v:"Are you sure you want to remove %s?"
+
+k:"Are you sure you want to reset %s?"
+v:"Are you sure you want to reset %s?"
+
+k:"Are you sure you want to reset '%s'?"
+v:"Are you sure you want to reset '%s'?"
+
+k:"Are you sure you want to reset the"
+k:"%s?"
+v:"Are you sure you want to reset the"
+v:"%s?"
+
+k:"Armor Divisor"
+v:"Divisor de Armadura"
+
+k:"as a percentage"
+v:"as a percentage"
+
+k:"at least"
+v:"no mínimo"
+
+k:"At least one path must be specified."
+v:"At least one path must be specified."
+
+k:"at most"
+v:"no máximo"
+
+k:"attacks"
+v:"ataques"
+
+k:"Attribute Definition Drag"
+v:"Attribute Definition Drag"
+
+k:"Attribute Qualifier"
+v:"Attribute Qualifier"
+
+k:"Attribute Type"
+v:"Attribute Type"
+
+k:"Attributes"
+v:"Atributos"
+
+k:"Attributes…"
+v:"Atributos…"
+
+k:"Automatic"
+v:"Automatic"
+
+k:"Available commands:"
+v:"Available commands:"
+
+k:"Back"
+v:"Back"
+
+k:"Background"
+v:"Antecedentes"
+
+k:"Backspace"
+v:"Backspace"
+
+k:"Banding"
+v:"Banding"
+
+k:"Base Cost"
+v:"Base Cost"
+
+k:"Base Damage"
+v:"Dano Básico"
+
+k:"Base Markdown"
+v:"Base Markdown"
+
+k:"Base Skill"
+v:"Perícia Básica"
+
+k:"Base Value"
+v:"Base Value"
+
+k:"Basic Damage"
+v:"Basic Damage"
+
+k:"Basic Lift"
+v:"Base de Carga"
+
+k:"Basic Set"
+v:"Módulo Básico"
+
+k:"Basic Swing"
+v:"Golpe em Balanço"
+
+k:"Basic Thrust"
+v:"Golpe de Ponta"
+
+k:"Birthday"
+v:"Data Nasc."
+
+k:"Bite"
+v:"Mordida"
+
+k:"Black"
+v:"Black"
+
+k:"Block"
+v:"Bloqueio"
+
+k:"Block Layout"
+v:"Leiaute de Blocos"
+
+k:"Block Modifier"
+v:"Modificador de Bloqueio"
+
+k:"Blue:"
+v:"Blue:"
+
+k:"Body Type"
+v:"Tipo de Corpo"
+
+k:"Body Type…"
+v:"Tipo de Corpo…"
+
+k:"Bold"
+v:"Negrito"
+
+k:"Bottom Margin"
+v:"Margem Inferior"
+
+k:"Brightness:"
+v:"Brightness:"
+
+k:"Bring All to Front"
+v:"Bring All to Front"
+
+k:"Broad Jump:"
+v:"Broad Jump:"
+
+k:"Broken Ground"
+v:"Broken Ground"
+
+k:"Build "
+v:"Build "
+
+k:"Built-in"
+v:"Built-in"
+
+k:"Bulk"
+v:"Magnitude"
+
+k:"by %d%%"
+v:"by %d%%"
+
+k:"Calculator for %s"
+v:"Calculator for %s"
+
+k:"Calculators (jumping, throwing, hiking, etc.)"
+v:"Calculators (jumping, throwing, hiking, etc.)"
+
+k:"Calendar"
+v:"Calendário"
+
+k:"Cancel"
+v:"Cancelar"
+
+k:"Cannot exceed default skill level by more than"
+v:"Não pode exceder o NH predefinido por mais que"
+
+k:"Cannot Redo"
+v:"Cannot Redo"
+
+k:"Cannot Undo"
+v:"Cannot Undo"
+
+k:"CapsLock"
+v:"CapsLock"
+
+k:"Carried Equipment (%s; $%s)"
+v:"Carried Equipment (%s; $%s)"
+
+k:"Carry On Back"
+v:"Carregar nas Costas"
+
+k:"Casting Cost"
+v:"Custo de Operação"
+
+k:"Casting Duration"
+v:"Duração de Operação"
+
+k:"Casting Time"
+v:"Tempo de Operação"
+
+k:"CF"
+v:"CF"
+
+k:"Check for %s updates"
+v:"Check for %s updates"
+
+k:"Checking for %s updates…"
+v:"Checking for %s updates…"
+
+k:"Choice Name"
+v:"Nome de Escolha"
+
+k:"Choose an ink"
+v:"Choose an ink"
+
+k:"Choose one or more destinations:"
+v:"Choose one or more destinations:"
+
+k:"Class"
+v:"Classe"
+
+k:"Clear"
+v:"Limpar"
+
+k:"Clear Portrait"
+v:"Clear Portrait"
+
+k:"Click and drag this handle to rearrange"
+v:"Click and drag this handle to rearrange"
+
+k:"Close"
+v:"Fechar"
+
+k:"College"
+v:"Escola"
+
+k:"colleges"
+v:"escolas"
+
+k:"Color Mode"
+v:"Color Mode"
+
+k:"Colors"
+v:"Cores"
+
+k:"Colors…"
+v:"Cores…"
+
+k:"combined with"
+v:"combined with"
+
+k:"Condensed"
+v:"Condensed"
+
+k:"Condition"
+v:"Condição"
+
+k:"Conditional Modifier"
+v:"Conditional Modifier"
+
+k:"Conditional Modifiers"
+v:"Modificadores Condicionais"
+
+k:"Configure"
+v:"Configure"
+
+k:"Contained Weight Reduction"
+v:"Contained Weight Reduction"
+
+k:"Container Type"
+v:"Tipo de Recipiente"
+
+k:"contains"
+v:"contém"
+
+k:"Content"
+v:"Conteúdo"
+
+k:"Content Filter"
+v:"Content Filter"
+
+k:"Control"
+v:"Controle"
+
+k:"Control Edge"
+v:"Margem de Controle"
+
+k:"Convert to Container"
+v:"Converter para Recipiente"
+
+k:"Convert to Non-Container"
+v:"Convert to Non-Container"
+
+k:"Converts all files specified on the command line to the current data format. If a directory is specified, it will be traversed recursively and all files found will be converted. This operation is intended to easily bring files up to the current version's data format. After all files have been processed, GCS will exit"
+v:"Converts all files specified on the command line to the current data format. If a directory is specified, it will be traversed recursively and all files found will be converted. This operation is intended to easily bring files up to the current version's data format. After all files have been processed, GCS will exit"
+
+k:"Copies"
+v:"Copies"
+
+k:"Copy"
+v:"Copiar"
+
+k:"Copy to Character Sheet"
+v:"Copiar para Planilha de Personagem"
+
+k:"Copy to clipboard"
+v:"Copiar para a área de transferência"
+
+k:"Copy to Template"
+v:"Copiar para Modelo"
+
+k:"Copyright © %[1]s by %[2]s%[3]s All rights reserved."
+v:"Copyright © %[1]s by %[2]s%[3]s All rights reserved."
+
+k:"Cost"
+v:"Custo"
+
+k:"Cost Adjustment"
+v:"Ajuste de Custo"
+
+k:"Cost Modifier"
+v:"Modificador de Custo"
+
+k:"Cost Per Level"
+v:"Cost Per Level"
+
+k:"Cost per Point"
+v:"Cost per Point"
+
+k:"Count"
+v:"Count"
+
+k:"CR Adjustment"
+v:"CR Adjustment"
+
+k:"CR: 6 (Resist rarely)"
+v:"CR: 6 (Resiste Muito Raramente)"
+
+k:"CR: 9 (Resist fairly often)"
+v:"CR: 9 (Resiste com Alguma Frequência)"
+
+k:"CR: 12 (Resist quite often)"
+v:"CR: 12 (Resiste com Muita Frequência)"
+
+k:"CR: 15 (Resist almost all the time)"
+v:"CR: 15 (Resiste Quase Sempre)"
+
+k:"Created"
+v:"Criado"
+
+k:"CSS:"
+v:"CSS:"
+
+k:"Current Name"
+v:"Current Name"
+
+k:"Current Tab"
+v:"Aba Atual"
+
+k:"Cut"
+v:"Recortar"
+
+k:"Damage"
+v:"Dano"
+
+k:"Damage Modifier"
+v:"Damage Modifier"
+
+k:"Damage Modifier Per Die"
+v:"Damage Modifier Per Die"
+
+k:"Damage Progression"
+v:"Progressão de Dano"
+
+k:"Damage Type"
+v:"Damage Type"
+
+k:"Damage:"
+v:"Damage:"
+
+k:"Dark"
+v:"Dark"
+
+k:"Decimal"
+v:"Decimal"
+
+k:"Decimal (Display Only)"
+v:"Decimal (Display Only)"
+
+k:"Decrease Skill Level"
+v:"Reduzir NH"
+
+k:"Decrease Tech Level"
+v:"Decrease Tech Level"
+
+k:"Decrease Uses"
+v:"Decrease Uses"
+
+k:"Decrement"
+v:"Decremento"
+
+k:"Decrement Level"
+v:"Diminuir Nível"
+
+k:"Decrement Points"
+v:"Diminuir Pontos"
+
+k:"Decrement Quantity"
+v:"Diminuir Quantidade"
+
+k:"Deep Snow"
+v:"Deep Snow"
+
+k:"Default Adjustment"
+v:"Default Adjustment"
+
+k:"Default Attributes"
+v:"Atributos Predefinidos"
+
+k:"Default Attributes…"
+v:"Atributos Predefinidos…"
+
+k:"Default Body Type"
+v:"Tipo de Corpo Predefinido"
+
+k:"Default Body Type…"
+v:"Tipo de Corpo Predefinido…"
+
+k:"Default Player Name"
+v:"Default Player Name"
+
+k:"Default Scale"
+v:"Default Scale"
+
+k:"Default Sheet Settings"
+v:"Default Sheet Settings"
+
+k:"Default Sheet Settings…"
+v:"Configurações de Planilha Padrão…"
+
+k:"Default Tech Level"
+v:"Default Tech Level"
+
+k:"Default: "
+v:"Predefinido: "
+
+k:"Defaults"
+v:"É Predefinido"
+
+k:"Defaults To"
+v:"É Predefinido Por"
+
+k:"Delete"
+v:"Apagar"
+
+k:"Delete Attribute"
+v:"Delete Attribute"
+
+k:"Delete Pool Threshold"
+v:"Delete Pool Threshold"
+
+k:"Delete Selection"
+v:"Delete Selection"
+
+k:"Description"
+v:"Descrição"
+
+k:"Desert"
+v:"Desert"
+
+k:"Desert, Hard-packed"
+v:"Desert, Hard-packed"
+
+k:"Determines the method used to calculate thrust and swing damage"
+v:"Determina o método utilizado para calcular dano por GdP e GeB"
+
+k:"Development"
+v:"Development"
+
+k:"Development versions don't look for %s updates"
+v:"Development versions don't look for %s updates"
+
+k:"die"
+v:"dado"
+
+k:"Diff"
+v:"Dif."
+
+k:"Difficulty"
+v:"Dificuldade"
+
+k:"Disadvantages"
+v:"Desvantagens"
+
+k:"Discard Changes"
+v:"Discard Changes"
+
+k:"Display help information for a command and exit."
+v:"Display help information for a command and exit."
+
+k:"Display short version information and exit"
+v:"Display short version information and exit"
+
+k:"Display the full version information and exit"
+v:"Display the full version information and exit"
+
+k:"Display this help information and exit."
+v:"Display this help information and exit."
+
+k:"Distance:"
+v:"Distance:"
+
+k:"Divider"
+v:"Divisória"
+
+k:"do not contain"
+v:"do not contain"
+
+k:"do not end with"
+v:"do not end with"
+
+k:"do not start with"
+v:"do not start with"
+
+k:"Document Workspace"
+v:"Document Workspace"
+
+k:"Dodge"
+v:"Esquiva"
+
+k:"does not contain"
+v:"não contém"
+
+k:"does not end with"
+v:"não termina com"
+
+k:"does not exist in the Markdown directory in any library."
+v:"does not exist in the Markdown directory in any library."
+
+k:"Does not have"
+v:"Não possui"
+
+k:"does not start with"
+v:"não começa com"
+
+k:"Does the file exist and do you have access to read it?"
+v:"Does the file exist and do you have access to read it?"
+
+k:"doesn't have"
+v:"não tem"
+
+k:"Double-click to set a character portrait, or drag an image onto this block."
+k:""
+k:"The dimensions of the chosen picture should be in a ratio of 3 pixels wide"
+k:"for every 4 pixels tall to fill the block (recommended %dx%d pixels)."
+v:"Double-click to set a character portrait, or drag an image onto this block."
+v:""
+v:"The dimensions of the chosen picture should be in a ratio of 3 pixels wide"
+v:"for every 4 pixels tall to fill the block (recommended %dx%d pixels)."
+
+k:"Down"
+v:"Down"
+
+k:"Download"
+v:"Download"
+
+k:"DR"
+v:"RD"
+
+k:"DR Bonus"
+v:"Bônus de RD"
+
+k:"Drag"
+v:"Arrastar"
+
+k:"Drop Area"
+v:"Área de Soltar"
+
+k:"Duplicate"
+v:"Duplicar"
+
+k:"Duplicate Selection"
+v:"Duplicar Seleção"
+
+k:"Duration"
+v:"Duração"
+
+k:"Edit"
+v:"Editar"
+
+k:"Editable"
+v:"Editável"
+
+k:"Enabled"
+v:"Ativado"
+
+k:"Encumbrance"
+v:"Base de Carga"
+
+k:"Encumbrance Penalty"
+v:"Encumbrance Penalty"
+
+k:"Encumbrance, Move & Dodge"
+v:"Base de Carga, Deslocamento & Esquiva"
+
+k:"End"
+v:"End"
+
+k:"ends with"
+v:"termina com"
+
+k:"Enter a weight or percentage, e.g. \"2 lb\" or \"5%\""
+v:"Enter a weight or percentage, e.g. \"2 lb\" or \"5%\""
+
+k:"Equipment"
+v:"Equipamento"
+
+k:"Equipment Item"
+v:"Equipment Item"
+
+k:"Equipment Items"
+v:"Equipment Items"
+
+k:"Equipment Modifier"
+v:"Modificador de Equipamento"
+
+k:"Equipment Modifiers"
+v:"Modificadores de Equipamento"
+
+k:"Equipped"
+v:"Equipado"
+
+k:"Error"
+v:"Erro"
+
+k:"Error code 0x%04x"
+v:"Código de erro 0x%04x"
+
+k:"Escape"
+v:"Escapar"
+
+k:"exactly"
+v:"exatamente"
+
+k:"Exclude unspent points from total"
+v:"Exclude unspent points from total"
+
+k:"Existing content for this library will be removed and replaced."
+k:"Content in other libraries will not be modified"
+v:"Existing content for this library will be removed and replaced."
+v:"Content in other libraries will not be modified"
+
+k:"Existing remote (%) does not match requested remote (%s)"
+v:"Existing remote (%) does not match requested remote (%s)"
+
+k:"Exit"
+v:"Sair"
+
+k:"Exotic"
+v:"Exótico"
+
+k:"Expanded"
+v:"Expandido"
+
+k:"Explanation"
+v:"Explicação"
+
+k:"Export failed"
+v:"Export failed"
+
+k:"Export sheets using the specified template file"
+v:"Export sheets using the specified template file"
+
+k:"Export To…"
+v:"Exportar Para…"
+
+k:"Export…"
+v:"Exportar…"
+
+k:"Extended"
+v:"Estendido"
+
+k:"External PDF Viewer"
+v:"External PDF Viewer"
+
+k:"Extra-Black"
+v:"Extra-Black"
+
+k:"Extra-Bold"
+v:"Extra-Bold"
+
+k:"Extra-Condensed"
+v:"Extra-Condensed"
+
+k:"Extra-Expanded"
+v:"Extra-Expanded"
+
+k:"Extra-Light"
+v:"Extra-Light"
+
+k:"Eyes"
+v:"Olhos"
+
+k:"Features"
+v:"Características"
+
+k:"Feet & Inches"
+v:"Pés & Polegadas"
+
+k:"Field"
+v:"Field"
+
+k:"File"
+v:"Arquivo"
+
+k:"File already exists! Do you want to overwrite it?"
+v:"File already exists! Do you want to overwrite it?"
+
+k:"Fill in initial description"
+v:"Preencher descrição inicial"
+
+k:"First PDFPage"
+v:"First PDFPage"
+
+k:"Focused Tab"
+v:"Aba Selecionada"
+
+k:"Folder Name"
+v:"Folder Name"
+
+k:"Font Size"
+v:"Font Size"
+
+k:"Fonts"
+v:"Fonts"
+
+k:"Fonts…"
+v:"Fontes…"
+
+k:"for lifting only"
+v:"somente para levantamento"
+
+k:"for striking only"
+v:"somente para golpe"
+
+k:"for throwing only"
+v:"somente para arremesso"
+
+k:"Forest"
+v:"Forest"
+
+k:"Forest, Dense"
+v:"Forest, Dense"
+
+k:"Forest, Light"
+v:"Forest, Light"
+
+k:"Forward"
+v:"Forward"
+
+k:"Fragmentation Armor Divisor"
+v:"Fragmentation Armor Divisor"
+
+k:"Fragmentation Base Damage"
+v:"Fragmentation Base Damage"
+
+k:"Fragmentation Type"
+v:"Fragmentation Type"
+
+k:"from different colleges"
+v:"de escolas diferentes"
+
+k:"from equipment "
+v:"from equipment "
+
+k:"from others"
+v:"from others"
+
+k:"from others when %s is triggered"
+v:"from others when %s is triggered"
+
+k:"from skill "
+v:"from skill "
+
+k:"from trait "
+v:"from trait "
+
+k:"from/to target group"
+v:"from/to target group"
+
+k:"Frozen Lake"
+v:"Frozen Lake"
+
+k:"Frozen River"
+v:"Frozen River"
+
+k:"Full Name"
+v:"Nome Completo"
+
+k:"Gender"
+v:"Gênero"
+
+k:"General Settings"
+v:"Configurações Gerais"
+
+k:"General Settings…"
+v:"Configurações Gerais…"
+
+k:"Generates a template for a localization file from source code."
+v:"Generates a template for a localization file from source code."
+
+k:"git is not installed"
+v:"git is not installed"
+
+k:"GitHub Access Token"
+v:"GitHub Access Token"
+
+k:"GitHub Account"
+v:"GitHub Account"
+
+k:"Gives a conditional modifier of"
+v:"Concede um modificador condicional de"
+
+k:"Gives a DR bonus of"
+v:"Concede bônus de RD de"
+
+k:"Gives a reaction modifier of"
+v:"Concede um modificador de reação de"
+
+k:"Gives a skill level modifier of"
+v:"Gives a skill level modifier of"
+
+k:"Gives a skill point modifier of"
+v:"Gives a skill point modifier of"
+
+k:"Gives a spell level modifier of"
+v:"Gives a spell level modifier of"
+
+k:"Gives a spell point modifier of"
+v:"Gives a spell point modifier of"
+
+k:"Gives a weapon damage modifier of"
+v:"Gives a weapon damage modifier of"
+
+k:"Gives a weapon DR divisor modifier of"
+v:"Gives a weapon DR divisor modifier of"
+
+k:"Gives an attribute modifier of"
+v:"Gives an attribute modifier of"
+
+k:"Go to first page"
+v:"Go to first page"
+
+k:"Go to last page"
+v:"Go to last page"
+
+k:"Go to next page"
+v:"Go to next page"
+
+k:"Go to previous page"
+v:"Go to previous page"
+
+k:"Green:"
+v:"Green:"
+
+k:"Group"
+v:"Grupo"
+
+k:"GURPS Character Sheet is an interactive character sheet editor for the GURPS Fourth Edition roleplaying game."
+v:"GURPS Character Sheet is an interactive character sheet editor for the GURPS Fourth Edition roleplaying game."
+
+k:"Hair"
+v:"Cabelos"
+
+k:"Halve Dodge"
+v:"Reduz a Esquiva pela Metade"
+
+k:"Halve Dodge (round up)"
+v:"Reduz a Esquiva pela Metade (arredondado para cima)"
+
+k:"Halve Move"
+v:"Reduz o Deslocamento pela Metade"
+
+k:"Halve Move (round up)"
+v:"Reduz o Deslocamento pela Metade (arredondado para cima)"
+
+k:"Halve Strength"
+v:"Halve Strength"
+
+k:"Halve Strength (round up; does not affect HP and damage)"
+v:"Halve Strength (round up; does not affect HP and damage)"
+
+k:"Hand"
+v:"Mão"
+
+k:"Has"
+v:"Tem"
+
+k:"has"
+v:"Tem"
+
+k:"has equipped equipment"
+v:"has equipped equipment"
+
+k:"Header"
+v:"Cabeçalho"
+
+k:"Heavy"
+v:"Pesada"
+
+k:"Height"
+v:"Altura"
+
+k:"Help"
+v:"Ajuda"
+
+k:"Hide %s"
+v:"Hide %s"
+
+k:"Hide Others"
+v:"Hide Others"
+
+k:"High Jump:"
+v:"High Jump:"
+
+k:"Hiking"
+v:"Hiking"
+
+k:"Hiking Extra Effort Penalty"
+v:"Hiking Extra Effort Penalty"
+
+k:"Hills, Rolling"
+v:"Hills, Rolling"
+
+k:"Hills, Steep"
+v:"Hills, Steep"
+
+k:"Hint"
+v:"Dica"
+
+k:"Hit Location Drag"
+v:"Hit Location Drag"
+
+k:"Hit Penalty"
+v:"Penalidade de Ataque"
+
+k:"Home"
+v:"Home"
+
+k:"Hours of Study"
+v:"Hours of Study"
+
+k:"Hours Spent"
+v:"Hours Spent"
+
+k:"Houserule originating with Kevin Smyth. See https://gamingballistic.com/2020/12/04/df-eastmarch-boss-fight-and-house-rules/"
+v:"Essa regra da casa se originou com Kevin Smyth. Veja https://gamingballistic.com/2020/12/04/df-eastmarch-boss-fight-and-house-rules/"
+
+k:"Houserule that use d3s instead of d6s for Damage. See: https://github.com/richardwilkes/gcs/pull/393"
+v:"Regra da casa que utiliza d3s em vez de d6s para Dano. Veja: https://github.com/richardwilkes/gcs/pull/393"
+
+k:"https://github.com/richardwilkes/gcs/issues/97"
+v:"https://github.com/richardwilkes/gcs/issues/97"
+
+k:"https://noschoolgrognard.blogspot.com/2013/04/adjusting-swing-damage-in-dungeon.html"
+v:"https://noschoolgrognard.blogspot.com/2013/04/adjusting-swing-damage-in-dungeon.html"
+
+k:"Hue:"
+v:"Hue:"
+
+k:"Icon Button"
+v:"Botão de Ícone"
+
+k:"Icon Button Rollover"
+v:"Botão de Ícone ao Passar o Cursor"
+
+k:"ID"
+v:"ID"
+
+k:"Identity"
+v:"Identidade"
+
+k:"If your PDF is opening up to the wrong page when opening"
+k:"page references, enter an offset here to compensate."
+v:"If your PDF is opening up to the wrong page when opening"
+v:"page references, enter an offset here to compensate."
+
+k:"Ignore weight for skills"
+v:"Ignore weight for skills"
+
+k:"Image Export Resolution"
+v:"Image Export Resolution"
+
+k:"Import…"
+v:"Importar…"
+
+k:"Inactive Selection"
+v:"Seleção Inativa"
+
+k:"Includes a Major Cost of Living Increase and Merchant Skill Penalty"
+v:"Inclui um Aumento Maior de Custo de Vida e Penalidade na Perícia Comércio"
+
+k:"Includes a Minor Cost of Living Increase"
+v:"Inclui um Aumento Menor de Custo de Vida"
+
+k:"Includes a Reaction Penalty for Failure"
+v:"Inclui uma Penalidade de Reação por Fracasso"
+
+k:"Includes an Action Penalty for Failure"
+v:"Inclui uma Penalidade de Ação por Fracasso"
+
+k:"Includes Fright Check Bonus"
+v:"Inclui o Bônus de Verificação de Pânico"
+
+k:"Includes Fright Check Penalty"
+v:"Inclui a Penalidade de Verificação de Pânico"
+
+k:"Includes modifiers from"
+v:"Inclui modificadores de"
+
+k:"Includes modifiers from:"
+v:"Inclui modificadores de:"
+
+k:"Increase Skill Level"
+v:"Aumentar NH"
+
+k:"Increase Tech Level"
+v:"Increase Tech Level"
+
+k:"Increase Uses"
+v:"Increase Uses"
+
+k:"Increment"
+v:"Aumentar"
+
+k:"Increment Level"
+v:"Aumentar Nível"
+
+k:"Increment Points"
+v:"Aumentar Pontos"
+
+k:"Increment Quantity"
+v:"Aumentar Quantidade"
+
+k:"Indirect Selection"
+v:"Indirect Selection"
+
+k:"Initial Editor Scale"
+v:"Initial Editor Scale"
+
+k:"Initial List Scale"
+v:"Initial List Scale"
+
+k:"Initial Points"
+v:"Pontos Iniciais"
+
+k:"Initial points"
+v:"Pontos iniciais"
+
+k:"Initial Sheet Scale"
+v:"Initial Sheet Scale"
+
+k:"Inline"
+v:"Na linha"
+
+k:"Inline & Tooltip"
+v:"Na linha & Dica de contexto"
+
+k:"Insert"
+v:"Insert"
+
+k:"Insert %s"
+v:"Insert %s"
+
+k:"Integer"
+v:"Inteiro"
+
+k:"Integer (Display Only)"
+v:"Integer (Display Only)"
+
+k:"Intensive Training"
+v:"Intensive Training"
+
+k:"Interface Locale"
+v:"Interface Locale"
+
+k:"Interior Divider"
+v:"Interior Divider"
+
+k:"Invalid file data."
+v:"Invalid file data."
+
+k:"Invalid option specification: %v"
+v:"Invalid option specification: %v"
+
+k:"Invalid option: -%s"
+v:"Invalid option: -%s"
+
+k:"Invalid option: --%s"
+v:"Invalid option: --%s"
+
+k:"invalid path"
+v:"invalid path"
+
+k:"Invalid value"
+v:"Invalid value"
+
+k:"Invisible"
+v:"Invisible"
+
+k:"is"
+v:"é"
+
+k:"is anything"
+v:"é qualquer coisa"
+
+k:"is at least"
+v:"é pelo menos"
+
+k:"is at most"
+v:"é no máximo"
+
+k:"is not"
+v:"não é"
+
+k:"Italic"
+v:"Itálico"
+
+k:"Item"
+v:"Item"
+
+k:"JPEG"
+v:"JPEG"
+
+k:"Jump Running Start"
+v:"Jump Running Start"
+
+k:"Jumping"
+v:"Jumping"
+
+k:"Jumping Extra Effort Penalty"
+v:"Jumping Extra Effort Penalty"
+
+k:"Jungle"
+v:"Jungle"
+
+k:"Keyboard"
+v:"Keyboard"
+
+k:"Kick"
+v:"Chute"
+
+k:"kilometer"
+v:"quilômetro"
+
+k:"kilometers"
+v:"quilômetros"
+
+k:"Knowing Your Own Strength"
+v:"Conhecendo a Própria Força"
+
+k:"Label"
+v:"Label"
+
+k:"Landscape"
+v:"Paisagem"
+
+k:"Last PDFPage"
+v:"Last PDFPage"
+
+k:"LC"
+v:"CL"
+
+k:"LC0: Banned"
+v:"CL0: Banido"
+
+k:"LC0: Banned"
+k:"LC1: Military"
+k:"LC2: Restricted"
+k:"LC3: Licensed"
+k:"LC4: Open"
+v:"CL0: Banido"
+v:"CL1: Militar"
+v:"CL2: Restrito"
+v:"CL3: Licenciado"
+v:"CL4: Aberto"
+
+k:"LC1: Military"
+v:"CL1: Militar"
+
+k:"LC2: Restricted"
+v:"CL2: Restrito"
+
+k:"LC3: Licensed"
+v:"CL3: Licenciado"
+
+k:"LC4: Open"
+v:"CL4: Aberto"
+
+k:"Leave the GitHub Account blank for local directories not on GitHub"
+v:"Leave the GitHub Account blank for local directories not on GitHub"
+
+k:"Left"
+v:"Left"
+
+k:"Left Margin"
+v:"Margem Esquerda"
+
+k:"Left-Command"
+v:"Left-Command"
+
+k:"Left-Control"
+v:"Left-Control"
+
+k:"Left-Option"
+v:"Left-Option"
+
+k:"Left-Shift"
+v:"Left-Shift"
+
+k:"Legal"
+v:"Legal"
+
+k:"Legality Class"
+v:"Classe de Legalidade"
+
+k:"Length Units"
+v:"Unidades de Distância"
+
+k:"Letter"
+v:"Carta"
+
+k:"Level"
+v:"Nível"
+
+k:"level"
+v:"nível"
+
+k:"Level Qualifier"
+v:"Level Qualifier"
+
+k:"Levels"
+v:"Níveis"
+
+k:"Library Explorer"
+v:"Explorador de Biblioteca"
+
+k:"Library Settings: %s"
+v:"Library Settings: %s"
+
+k:"License"
+v:"Licença"
+
+k:"License: %s"
+v:"Licença: %s"
+
+k:"Lifting & Moving Things"
+v:"Levantar e Mover Objetos"
+
+k:"Light"
+v:"Leve"
+
+k:"Limit"
+v:"Limite"
+
+k:"Link"
+v:"Elo"
+
+k:"link"
+v:"elo"
+
+k:"Load Attributes"
+v:"Load Attributes"
+
+k:"Load Body Type"
+v:"Load Body Type"
+
+k:"Location"
+v:"Localização"
+
+k:"Log Path"
+v:"Log Path"
+
+k:"Made a successful Hiking (B200) roll"
+v:"Made a successful Hiking (B200) roll"
+
+k:"Made a successful Skating (B220) roll"
+v:"Made a successful Skating (B220) roll"
+
+k:"Made a successful Skiing (B221) roll"
+v:"Made a successful Skiing (B221) roll"
+
+k:"Mailing Lists"
+v:"Listas de Contato"
+
+k:"Maintain"
+v:"Manter"
+
+k:"Maintenance Cost"
+v:"Custo de Manutenção"
+
+k:"Make a One-time Donation for %s Development"
+v:"Make a One-time Donation for %s Development"
+
+k:"Markdown"
+v:"Markdown"
+
+k:"Markdown Guide"
+v:"Markdown Guide"
+
+k:"Markdown Preview"
+v:"Markdown Preview"
+
+k:"Marker"
+v:"Marcador"
+
+k:"Markov Chain"
+v:"Cadeias de Markov"
+
+k:"Master Library"
+v:"Biblioteca Mestre"
+
+k:"Max Auto Column Width"
+v:"Max Auto Column Width"
+
+k:"Max Load"
+v:"Carga Máx"
+
+k:"Maximize"
+v:"Maximizar"
+
+k:"Maximum of 4 hours per day with a full-time job"
+v:"Maximum of 4 hours per day with a full-time job"
+
+k:"Maximum of 4 hours per day with a part-time job"
+v:"Maximum of 4 hours per day with a part-time job"
+
+k:"Maximum of 8 hours per day"
+v:"Maximum of 8 hours per day"
+
+k:"Maximum of 8 hours per day with a full-time job"
+v:"Maximum of 8 hours per day with a full-time job"
+
+k:"Maximum of 8 hours per day with a part-time job"
+v:"Maximum of 8 hours per day with a part-time job"
+
+k:"Maximum of 12 hours per day with no job"
+v:"Maximum of 12 hours per day with no job"
+
+k:"Maximum of 16 hours per day"
+v:"Maximum of 16 hours per day"
+
+k:"Maximum Uses"
+v:"Maximum Uses"
+
+k:"md"
+v:"md"
+
+k:"Media"
+v:"Media"
+
+k:"Medium"
+v:"Média"
+
+k:"Melee Weapon"
+v:"Arma de Combate Corpo a Corpo"
+
+k:"Melee Weapon Usage"
+v:"Uso de Arma de Combate Corpo a Corpo"
+
+k:"Melee Weapons"
+v:"Armas de Combate Corpo a Corpo"
+
+k:"Mental"
+v:"Mental"
+
+k:"Menu"
+v:"Menu"
+
+k:"Menu Keys"
+v:"Teclas do Menu"
+
+k:"Menu Keys…"
+v:"Teclas do Menu…"
+
+k:"Meta-Trait"
+v:"Metacaracterística"
+
+k:"meter"
+v:"metro"
+
+k:"mile"
+v:"milha"
+
+k:"miles"
+v:"milhas"
+
+k:"Minimize"
+v:"Minimizar"
+
+k:"Minimum ST"
+v:"ST Mínima"
+
+k:"Minimum Strength"
+v:"Força Mínima"
+
+k:"Miscellaneous"
+v:"Outras Informações"
+
+k:"Modified"
+v:"Alterado"
+
+k:"Modified %s"
+v:"Modified %s"
+
+k:"Modifier"
+v:"Modificador"
+
+k:"Modifiers"
+v:"Modificadores"
+
+k:"Monospaced"
+v:"Monospaced"
+
+k:"Mountains"
+v:"Mountains"
+
+k:"Move"
+v:"Desloc."
+
+k:"Mud"
+v:"Mud"
+
+k:"Must be assigned to a college"
+v:"Must be assigned to a college"
+
+k:"Must specify a command name"
+v:"Must specify a command name"
+
+k:"Name"
+v:"Nome"
+
+k:"Name Qualifier"
+v:"Name Qualifier"
+
+k:"Natural Attacks"
+v:"Ataques Naturais"
+
+k:"New Carried Equipment"
+v:"Novo Equipamento Portado"
+
+k:"New Carried Equipment Container"
+v:"Novo Recipiente de Equipamento Portado"
+
+k:"New Character Sheet"
+v:"Nova Planilha de Personagem"
+
+k:"New Character Template"
+v:"Novo Modelo de Personagem"
+
+k:"New Equipment Library"
+v:"Nova Biblioteca de Equipamentos"
+
+k:"New Equipment Modifier"
+v:"Novo Modificador de Equipamento"
+
+k:"New Equipment Modifier Container"
+v:"Novo Recipiente de Modificadores de Equipamento"
+
+k:"New Equipment Modifiers Library"
+v:"Nova Biblioteca de Modificadores de Equipamento"
+
+k:"New Folder"
+v:"New Folder"
+
+k:"New Markdown File"
+v:"New Markdown File"
+
+k:"New Melee Weapon"
+v:"New Melee Weapon"
+
+k:"New Name"
+v:"New Name"
+
+k:"New Note"
+v:"Nova Nota"
+
+k:"New Note Container"
+v:"Novo Recipiente de Notas"
+
+k:"New Notes Library"
+v:"Nova Biblioteca de Observações"
+
+k:"New Other Equipment"
+v:"Novo Outros Equipamentos"
+
+k:"New Other Equipment Container"
+v:"Novo Recipiente de Outros Equipamentos"
+
+k:"New Ranged Weapon"
+v:"Nova Arma de Combate à Distância"
+
+k:"New Ritual Magic Spell"
+v:"Nova Mágica de Magia Ritualística"
+
+k:"New Skill"
+v:"Nova Perícia"
+
+k:"New Skill Container"
+v:"Novo Recipiente de Perícias"
+
+k:"New Skills Library"
+v:"Nova Biblioteca de Perícias"
+
+k:"New Spell"
+v:"Nova Mágica"
+
+k:"New Spell Container"
+v:"Novo Recipiente de Mágicas"
+
+k:"New Spells Library"
+v:"Nova Biblioteca de Mágicas"
+
+k:"New Technique"
+v:"Nova Técnica"
+
+k:"New Trait"
+v:"New Trait"
+
+k:"New Trait Container"
+v:"New Trait Container"
+
+k:"New Trait Modifier"
+v:"New Trait Modifier"
+
+k:"New Trait Modifier Container"
+v:"New Trait Modifier Container"
+
+k:"New Trait Modifiers Library"
+v:"New Trait Modifiers Library"
+
+k:"New Traits Library"
+v:"New Traits Library"
+
+k:"Next Match"
+v:"Next Match"
+
+k:"Next PDFPage"
+v:"Next PDFPage"
+
+k:"No"
+v:"Não"
+
+k:"No %s updates are available"
+v:"Não há %s atualizações disponíveis"
+
+k:"No additional modifiers"
+v:"Sem modificadores adicionais"
+
+k:"No export templates available"
+v:"No export templates available"
+
+k:"No files to process."
+v:"No files to process."
+
+k:"No recent files available"
+v:"No recent files available"
+
+k:"No School Grognard Damage"
+v:"No School Grognard Damage"
+
+k:"None"
+v:"Nenhuma"
+
+k:"None Required"
+v:"Nada Requerido"
+
+k:"Normal"
+v:"Normal"
+
+k:"not"
+v:"not"
+
+k:"Not Applicable"
+v:"Not Applicable"
+
+k:"Not Shown"
+v:"Não Exibido"
+
+k:"Note"
+v:"Observação"
+
+k:"Note: This action cannot be undone and will remove %s from disk."
+v:"Note: This action cannot be undone and will remove %s from disk."
+
+k:"Note: This action will NOT remove any files from disk."
+v:"Note: This action will NOT remove any files from disk."
+
+k:"Notes"
+v:"Observações"
+
+k:"Notes Qualifier"
+v:"Notes Qualifier"
+
+k:"Number of matches found"
+v:"Number of matches found"
+
+k:"NumLock"
+v:"NumLock"
+
+k:"NumPad-0"
+v:"NumPad-0"
+
+k:"NumPad-1"
+v:"NumPad-1"
+
+k:"NumPad-2"
+v:"NumPad-2"
+
+k:"NumPad-3"
+v:"NumPad-3"
+
+k:"NumPad-4"
+v:"NumPad-4"
+
+k:"NumPad-5"
+v:"NumPad-5"
+
+k:"NumPad-6"
+v:"NumPad-6"
+
+k:"NumPad-7"
+v:"NumPad-7"
+
+k:"NumPad-8"
+v:"NumPad-8"
+
+k:"NumPad-9"
+v:"NumPad-9"
+
+k:"NumPad-Add"
+v:"NumPad-Add"
+
+k:"NumPad-Decimal"
+v:"NumPad-Decimal"
+
+k:"NumPad-Divide"
+v:"NumPad-Divide"
+
+k:"NumPad-Enter"
+v:"NumPad-Enter"
+
+k:"NumPad-Equal"
+v:"NumPad-Equal"
+
+k:"NumPad-Minus"
+v:"NumPad-Minus"
+
+k:"NumPad-Multiply"
+v:"NumPad-Multiply"
+
+k:"object"
+v:"object"
+
+k:"Object Weight"
+v:"Object Weight"
+
+k:"Oblique"
+v:"Oblique"
+
+k:"of"
+v:"de"
+
+k:"of %d"
+v:"of %d"
+
+k:"of any kind"
+v:"de qualquer tipo"
+
+k:"OK"
+v:"OK"
+
+k:"On Background"
+v:"No Fundo"
+
+k:"On Banding"
+v:"On Banding"
+
+k:"On Content"
+v:"No Conteúdo"
+
+k:"On Control"
+v:"No Controle"
+
+k:"On Current Tab"
+v:"Na Aba de Controle"
+
+k:"On Editable"
+v:"No Editável"
+
+k:"On Error"
+v:"No Erro"
+
+k:"On Focused Tab"
+v:"Na Aba Selecionada"
+
+k:"On Header"
+v:"No Cabeçalho"
+
+k:"On Inactive Selection"
+v:"Na Seleção Inativa"
+
+k:"On Indirect Selection"
+v:"Na Seleção Indireta"
+
+k:"On Marker"
+v:"No Marcador"
+
+k:"On Overloaded"
+v:"No Sobrecarregado"
+
+k:"On Page"
+v:"Na Página"
+
+k:"On Page Standout"
+v:"On Page Standout"
+
+k:"On Pressed Control"
+v:"No Controle Pressionado"
+
+k:"On Search List"
+v:"Na Lista de Busca"
+
+k:"On Selection"
+v:"Na Seleção"
+
+k:"On Tooltip"
+v:"Na Dica de Contexto"
+
+k:"On Warning"
+v:"No Aviso"
+
+k:"On-the-Job Training"
+v:"On-the-Job Training"
+
+k:"Once configured, GitHub repositories will be scanned for release tags in the form \"v%d.x.y\" through \"v%d.x.y\", where x and y can be any numeric value"
+v:"Once configured, GitHub repositories will be scanned for release tags in the form \"v%d.x.y\" through \"v%d.x.y\", where x and y can be any numeric value"
+
+k:"One-Handed Lift"
+v:"Levantar com Uma Mão"
+
+k:"One-Sided"
+v:"One-Sided"
+
+k:"Open"
+v:"Open"
+
+k:"Open Detail Editor"
+v:"Abrir Editor de Detalhes"
+
+k:"Open Each Page Reference"
+v:"Abrir Cada Página de Referência"
+
+k:"Open Page Reference"
+v:"Abrir Página de Referência"
+
+k:"Opening the link failed"
+v:"Falha ao abrir o link"
+
+k:"Opens/closes all hierarchical rows"
+v:"Abre/fecha todas as linhas hierárquicas"
+
+k:"Open…"
+v:"Abrir…"
+
+k:"Optimize For"
+v:"Optimize For"
+
+k:"Option %s requires an argument"
+v:"Option %s requires an argument"
+
+k:"Option --%[1]s does not allow an argument: %[2]s"
+v:"Option --%[1]s does not allow an argument: %[2]s"
+
+k:"Option must be named"
+v:"Option must be named"
+
+k:"Option must have a value"
+v:"Option must have a value"
+
+k:"Option specification -%s already exists"
+v:"Option specification -%s already exists"
+
+k:"Option specification --%s already exists"
+v:"Option specification --%s already exists"
+
+k:"Options:"
+v:"Options:"
+
+k:"or"
+v:"ou"
+
+k:"Organization"
+v:"Organização"
+
+k:"Orientation"
+v:"Orientação"
+
+k:"Original"
+v:"Original"
+
+k:"Other Equipment ($%s)"
+v:"Other Equipment ($%s)"
+
+k:"Overloaded"
+v:"Sobrecarregado"
+
+k:"Overspent"
+v:"Overspent"
+
+k:"Page"
+v:"Página"
+
+k:"Page %d of %d"
+v:"Page %d of %d"
+
+k:"Page Offset"
+v:"Page Offset"
+
+k:"Page Primary Fields"
+v:"Campos Primários da Página"
+
+k:"Page Primary Footer"
+v:"Rodapé Primário da Página"
+
+k:"Page Primary Labels"
+v:"Etiqueta Primária da Página"
+
+k:"Page Ranges"
+v:"Page Ranges"
+
+k:"Page Ref"
+v:"Page Ref"
+
+k:"Page Reference"
+v:"Referência de Página"
+
+k:"Page Reference Mappings"
+v:"Page Reference Mappings"
+
+k:"Page Reference Mappings…"
+v:"Mapeamento de Referência de Página…"
+
+k:"Page Secondary Fields"
+v:"Campos Secundários da Página"
+
+k:"Page Secondary Footer"
+v:"Rodapé Secundário da Página"
+
+k:"Page Secondary Labels"
+v:"Etiqueta Secundária da Página"
+
+k:"Page Settings"
+v:"Configurações de Página"
+
+k:"Page Standout"
+v:"Page Standout"
+
+k:"Page Void"
+v:"Página Vazia"
+
+k:"PageDown"
+v:"PageDown"
+
+k:"PageUp"
+v:"PageUp"
+
+k:"Paper Size"
+v:"Tamanho do Papel"
+
+k:"Parry"
+v:"Aparar"
+
+k:"Parry Modifier"
+v:"Modificador de Aparar"
+
+k:"Paste"
+v:"Colar"
+
+k:"Path"
+v:"Path"
+
+k:"Pause"
+v:"Pause"
+
+k:"PC"
+v:"PC"
+
+k:"PDF"
+v:"PDF"
+
+k:"PDF Link Highlight"
+v:"PDF Link Highlight"
+
+k:"PDF Marker Highlight"
+v:"PDF Marker Highlight"
+
+k:"PDFPage"
+v:"PDFPage"
+
+k:"PDFPage Search"
+v:"PDFPage Search"
+
+k:"penalty for extra effort"
+v:"penalty for extra effort"
+
+k:"penalty for extra effort."
+v:"penalty for extra effort."
+
+k:"per die"
+v:"por dado"
+
+k:"per level"
+v:"Por Nível"
+
+k:"Phoenix Flame D3"
+v:"Phoenix Flame D3"
+
+k:"Physical"
+v:"Físico"
+
+k:"Pick %s"
+v:"Pick %s"
+
+k:"Pick %s %s worth"
+v:"Pick %s %s worth"
+
+k:"Plains, Level"
+v:"Plains, Level"
+
+k:"Player"
+v:"Jogador"
+
+k:"PNG"
+v:"PNG"
+
+k:"point"
+v:"point"
+
+k:"Point Cost"
+v:"Custo em Pontos"
+
+k:"Point Pool Current"
+v:"Point Pool Current"
+
+k:"Point Pool Maximum"
+v:"Point Pool Maximum"
+
+k:"Point Pools"
+v:"Reservatórios de Pontos"
+
+k:"Point Record Changes"
+v:"Point Record Changes"
+
+k:"Points"
+v:"Pontos"
+
+k:"points"
+v:"pontos"
+
+k:"Points earned but not yet spent"
+v:"Pontos adquiridos mas ainda não gastos"
+
+k:"Points Record for %s"
+v:"Points Record for %s"
+
+k:"Points spent on %s"
+v:"Points spent on %s"
+
+k:"Pool"
+v:"Reservatório"
+
+k:"Pool Separator"
+v:"Pool Separator"
+
+k:"Pool Threshold Drag"
+v:"Pool Threshold Drag"
+
+k:"Portrait"
+v:"Retrato"
+
+k:"Power Source"
+v:"Fonte de Energia"
+
+k:"ppi"
+v:"ppi"
+
+k:"Preferences…"
+v:"Preferences…"
+
+k:"Prerequisite Count"
+v:"Contagem de Pré-requisito"
+
+k:"Prerequisites"
+v:"Pré-requisitos"
+
+k:"Prerequisites have not been met:"
+v:"Os pré-requisitos não foram satisfeitos:"
+
+k:"Press RETURN to select the next match"
+k:"Press SHIFT-RETURN to select the previous match"
+v:"Press RETURN to select the next match"
+v:"Press SHIFT-RETURN to select the previous match"
+
+k:"Pressed Control"
+v:"Controle Selecionado"
+
+k:"Pressed Icon Button"
+v:"Botão-Ícone Selecionado"
+
+k:"Pressed Link"
+v:"Pressed Link"
+
+k:"Preview"
+v:"Preview"
+
+k:"Previous Match"
+v:"Previous Match"
+
+k:"Previous PDFPage"
+v:"Previous PDFPage"
+
+k:"Primary Attributes"
+v:"Atributos Primários"
+
+k:"Primary Separator"
+v:"Primary Separator"
+
+k:"Print"
+v:"Print"
+
+k:"Printing '%s' failed"
+v:"Printing '%s' failed"
+
+k:"PrintScreen"
+v:"PrintScreen"
+
+k:"Print…"
+v:"Imprimir…"
+
+k:"Processed 1 file"
+v:"Processed 1 file"
+
+k:"Processed %d files"
+k:""
+v:"Processed %d files"
+v:""
+
+k:"Processing %s"
+k:""
+v:"Processing %s"
+v:""
+
+k:"Professional Teacher"
+v:"Professional Teacher"
+
+k:"Provide substitutions:"
+v:"Provide substitutions:"
+
+k:"Pts"
+v:"Ptos"
+
+k:"Punch"
+v:"Soco"
+
+k:"Pyramid 3-83, pages 16-19"
+v:"Pyramid 3-83, páginas 16-19"
+
+k:"Quantity"
+v:"Quantidade"
+
+k:"Quantity Criteria"
+v:"Quantity Criteria"
+
+k:"Quirks"
+v:"Peculiaridades"
+
+k:"Quit"
+v:"Sair"
+
+k:"Race"
+v:"Raça"
+
+k:"Rain"
+v:"Rain"
+
+k:"Randomize the age using the current ancestry"
+v:"Randomize the age using the current ancestry"
+
+k:"Randomize the birthday using the current calendar"
+v:"Randomize the birthday using the current calendar"
+
+k:"Randomize the eyes using the current ancestry"
+v:"Randomize the eyes using the current ancestry"
+
+k:"Randomize the gender using the current ancestry"
+v:"Randomize the gender using the current ancestry"
+
+k:"Randomize the hair using the current ancestry"
+v:"Randomize the hair using the current ancestry"
+
+k:"Randomize the handedness using the current ancestry"
+v:"Randomize the handedness using the current ancestry"
+
+k:"Randomize the height using the current ancestry"
+v:"Randomize the height using the current ancestry"
+
+k:"Randomize the name using the current ancestry"
+v:"Randomize the name using the current ancestry"
+
+k:"Randomize the skin using the current ancestry"
+v:"Randomize the skin using the current ancestry"
+
+k:"Randomize the weight using the current ancestry"
+v:"Randomize the weight using the current ancestry"
+
+k:"Range"
+v:"Distância"
+
+k:"Ranged Weapon"
+v:"Arma de Combate à Distância"
+
+k:"Ranged Weapon Usage"
+v:"Ranged Weapon Usage"
+
+k:"Ranged Weapons"
+v:"Armas de Combate à Distância"
+
+k:"Rate of Fire"
+v:"Cadência de Tiro"
+
+k:"Reach"
+v:"Alcance"
+
+k:"Reaction"
+v:"Reação"
+
+k:"Reaction Modifier"
+v:"Reaction Modifier"
+
+k:"Reaction Modifiers"
+v:"Reaction Modifiers"
+
+k:"Readable Files (%s)"
+v:"Readable Files (%s)"
+
+k:"Reason"
+v:"Reason"
+
+k:"Recent Files"
+v:"Arquivos Recentes"
+
+k:"Recoil"
+v:"Recuo"
+
+k:"Reconciliation"
+v:"Reconciliation"
+
+k:"Recursive loading of arguments from a file is not permitted: %s"
+v:"Recursive loading of arguments from a file is not permitted: %s"
+
+k:"Red:"
+v:"Red:"
+
+k:"Redo %s"
+v:"Redo %s"
+
+k:"Reduces the attribute cost of"
+v:"Reduz o custo de atributo de"
+
+k:"Reduces the contained weight by"
+v:"Reduz o peso contido por"
+
+k:"Regular"
+v:"Comum"
+
+k:"Relative Skill Level"
+v:"Relative Skill Level"
+
+k:"Release Notes"
+v:"Notas de Atualização"
+
+k:"Religion"
+v:"Religião"
+
+k:"Remove attribute"
+v:"Remove attribute"
+
+k:"Remove Entry"
+v:"Remove Entry"
+
+k:"Remove Hit Location"
+v:"Remove Hit Location"
+
+k:"Remove hit location"
+v:"Remove hit location"
+
+k:"Remove pool threshold"
+v:"Remove pool threshold"
+
+k:"Remove Sub-Table"
+v:"Remove Sub-Table"
+
+k:"Remove sub-table"
+v:"Remove sub-table"
+
+k:"Rename"
+v:"Rename"
+
+k:"Rendering page %d…"
+v:"Rendering page %d…"
+
+k:"Repository"
+v:"Repository"
+
+k:"Required"
+v:"Required"
+
+k:"Requires a skill named "
+v:"Requires a skill named "
+
+k:"Requires all of:"
+v:"Requer todos de:"
+
+k:"requires all of:"
+v:"Requer todos de:"
+
+k:"Requires at least 1 point in the skill named "
+v:"Requires at least 1 point in the skill named "
+
+k:"Requires at least one of:"
+v:"Requer pelo menos um de:"
+
+k:"requires at least one of:"
+v:"Requer pelo menos um de:"
+
+k:"Reset"
+v:"Resetar"
+
+k:"Reset Attributes"
+v:"Reset Attributes"
+
+k:"Reset Body Type"
+v:"Reset Body Type"
+
+k:"Resist"
+v:"Resistir"
+
+k:"Resistance"
+v:"Resistência"
+
+k:"Restore"
+v:"Restaurar"
+
+k:"Return"
+v:"Return"
+
+k:"Reverse Landscape"
+v:"Reverse Landscape"
+
+k:"Reverse Portrait"
+v:"Reverse Portrait"
+
+k:"Right"
+v:"Right"
+
+k:"Right Margin"
+v:"Margem Direita"
+
+k:"Right-Command"
+v:"Right-Command"
+
+k:"Right-Control"
+v:"Right-Control"
+
+k:"Right-Option"
+v:"Right-Option"
+
+k:"Right-Shift"
+v:"Right-Shift"
+
+k:"Ritual: need both hands and feet free and must speak; Time: 2x"
+v:"Ritual: need both hands and feet free and must speak; Time: 2x"
+
+k:"Ritual: none"
+v:"Ritual: none"
+
+k:"Ritual: speak a word or two OR make a small gesture"
+v:"Ritual: speak a word or two OR make a small gesture"
+
+k:"Ritual: speak quietly and make a gesture"
+v:"Ritual: falar algumas palavras silenciosas e fazer um gesto"
+
+k:"Road, Cobblestone"
+v:"Road, Cobblestone"
+
+k:"Road, Dirt"
+v:"Road, Dirt"
+
+k:"Road, Gravel"
+v:"Road, Gravel"
+
+k:"Road, Paved"
+v:"Road, Paved"
+
+k:"Roads are cleared"
+v:"Roads are cleared"
+
+k:"RoF"
+v:"CdT"
+
+k:"Roll"
+v:"Teste"
+
+k:"Rollover Link"
+v:"Rollover Link"
+
+k:"Round Down"
+v:"Arredondar para Baixo"
+
+k:"RSL"
+v:"NH Rltv."
+
+k:"Running Shove & Knock Over"
+v:"Empurrar e Derrubar c/ Impulso"
+
+k:"Sand"
+v:"Sand"
+
+k:"Sand, Hard-packed"
+v:"Sand, Hard-packed"
+
+k:"Saturation:"
+v:"Saturation:"
+
+k:"Save"
+v:"Salvar"
+
+k:"Save As…"
+v:"Salvar Como…"
+
+k:"Save changes made to"
+k:"%s?"
+v:"Save changes made to"
+v:"%s?"
+
+k:"Save…"
+v:"Save…"
+
+k:"Scale"
+v:"Scale"
+
+k:"Scale Down"
+v:"Scale Down"
+
+k:"Scale Up"
+v:"Scale Up"
+
+k:"Scaling"
+v:"Scaling"
+
+k:"Scroll"
+v:"Rolagem"
+
+k:"Scroll Edge"
+v:"Borda de Rolagem"
+
+k:"Scroll Rollover"
+v:"Rolagem ao Passar o Mouse"
+
+k:"Scroll Wheel Multiplier"
+v:"Scroll Wheel Multiplier"
+
+k:"ScrollLock"
+v:"ScrollLock"
+
+k:"Search"
+v:"Buscar"
+
+k:"Search List"
+v:"Lista de Busca"
+
+k:"Searching for printers…"
+v:"Procurando impressoras…"
+
+k:"Secondary Attributes"
+v:"Atributos Secundários"
+
+k:"Secondary Fields"
+v:"Campos Secundários"
+
+k:"Secondary Separator"
+v:"Secondary Separator"
+
+k:"seconds"
+v:"segundos"
+
+k:"Select All"
+v:"Selecionar Tudo"
+
+k:"Select Image…"
+v:"Select Image…"
+
+k:"Select Modifiers for"
+v:"Select Modifiers for"
+
+k:"Selection"
+v:"Seleção"
+
+k:"Self-Control Roll"
+v:"Teste de Autocontrole"
+
+k:"Self-Control Roll Adjustment"
+v:"Self-Control Roll Adjustment"
+
+k:"Self-Taught"
+v:"Self-Taught"
+
+k:"Semi-Bold"
+v:"Semi-Bold"
+
+k:"Semi-Condensed"
+v:"Semi-Condensed"
+
+k:"Semi-Expanded"
+v:"Semi-Expanded"
+
+k:"Separate multiple %s with commas"
+v:"Separate multiple %s with commas"
+
+k:"Services"
+v:"Services"
+
+k:"Set"
+v:"Configurar"
+
+k:"Set Portrait"
+v:"Set Portrait"
+
+k:"Sets the width of each column to fit its contents"
+v:"Sets the width of each column to fit its contents"
+
+k:"Settings"
+v:"Configurações"
+
+k:"Settings Path"
+v:"Settings Path"
+
+k:"Sheet Settings"
+v:"Configurações de Planilha"
+
+k:"Sheet Settings…"
+v:"Configurações de Planilha…"
+
+k:"Shift Slightly"
+v:"Deslocar Ligeiramente"
+
+k:"Short Name"
+v:"Short Name"
+
+k:"Shots"
+v:"Tiros"
+
+k:"Shove & Knock Over"
+v:"Empurrar e Derrubar"
+
+k:"Show All"
+v:"Show All"
+
+k:"Show equipment modifier cost & weight adjustments"
+v:"Exibir ajustes de custo e peso de modificador de equipamento"
+
+k:"Show on Disk"
+v:"Show on Disk"
+
+k:"Show spell ritual, cost & time adjustments"
+v:"Exibir ajustes de ritual, custo e tempo de mágica"
+
+k:"Show the title instead of the name in the footer"
+v:"Exibir o título ao invés do nome no rodapé"
+
+k:"Show trait modifier cost adjustments"
+v:"Show trait modifier cost adjustments"
+
+k:"Sides"
+v:"Sides"
+
+k:"Simple"
+v:"Simples"
+
+k:"Size"
+v:"Tamanho"
+
+k:"Size Modifier"
+v:"Size Modifier"
+
+k:"Skill"
+v:"Perícia"
+
+k:"Skill / Technique"
+v:"Skill / Technique"
+
+k:"Skill Level"
+v:"Skill Level"
+
+k:"Skill Level Adjustments"
+v:"Ajustes de NH"
+
+k:"Skill Name"
+v:"Skill Name"
+
+k:"Skill Specialization"
+v:"Skill Specialization"
+
+k:"Skills"
+v:"Perícias"
+
+k:"Skin"
+v:"Pele"
+
+k:"SL"
+v:"NH"
+
+k:"Sleet"
+v:"Sleet"
+
+k:"Slots"
+v:"Espaços"
+
+k:"SM Reduction"
+v:"Redução de MT"
+
+k:"Snow"
+v:"Snow"
+
+k:"Snow, Heavy"
+v:"Snow, Heavy"
+
+k:"Social"
+v:"Social"
+
+k:"Space"
+v:"Space"
+
+k:"Specialization"
+v:"Especialização"
+
+k:"Specialization Qualifier"
+v:"Specialization Qualifier"
+
+k:"Spell"
+v:"Mágica"
+
+k:"Spell Qualifier"
+v:"Spell Qualifier"
+
+k:"spell(s)"
+v:"mágica(s)"
+
+k:"Spells"
+v:"Mágicas"
+
+k:"Sponsor %s Development"
+v:"Sponsor %s Development"
+
+k:"ST"
+v:"ST"
+
+k:"Standard"
+v:"Standard"
+
+k:"starts with"
+v:"começa com"
+
+k:"State"
+v:"Estado"
+
+k:"Studied %v/200 hours"
+v:"Studied %v/200 hours"
+
+k:"Study"
+v:"Study"
+
+k:"Sub-Roll"
+v:"Sub-Roll"
+
+k:"Supernatural"
+v:"Sobrenatural"
+
+k:"sw (leveled)"
+v:"sw (leveled)"
+
+k:"Swamp"
+v:"Swamp"
+
+k:"Swap Defaults"
+v:"Swap Defaults"
+
+k:"Swing = Thrust+2"
+v:"GeB = GdP+2"
+
+k:"System"
+v:"System"
+
+k:"System (Emphasized)"
+v:"System (Emphasized)"
+
+k:"System (Small)"
+v:"System (Small)"
+
+k:"System (Small, Emphasized)"
+v:"System (Small, Emphasized)"
+
+k:"Tab"
+v:"Tab"
+
+k:"Table Name"
+v:"Nome da Tabela"
+
+k:"Tabloid"
+v:"Tabloide"
+
+k:"Tag Filter"
+v:"Tag Filter"
+
+k:"Tag Qualifier"
+v:"Tag Qualifier"
+
+k:"Tags"
+v:"Tags"
+
+k:"tags"
+v:"tags"
+
+k:"Tech Level"
+v:"Nível Tecnológico"
+
+k:"Technique"
+v:"Técnica"
+
+k:"Technique Default Adjustment"
+v:"Technique Default Adjustment"
+
+k:"Technique Default Skill Name"
+v:"Technique Default Skill Name"
+
+k:"Technique Default Skill Specialization"
+v:"Technique Default Skill Specialization"
+
+k:"Template Choice Quantifier"
+v:"Template Choice Quantifier"
+
+k:"Template Choices"
+v:"Template Choices"
+
+k:"Terrain:"
+v:"Terrain:"
+
+k:"Text"
+v:"Text"
+
+k:"The amount of DR this hit location grants due to natural toughness"
+v:"O valor de RD que este ponto de impacto tem devido a resistência natural"
+
+k:"the attribute"
+v:"o atributo"
+
+k:"The base value, which may be a number or a formula"
+v:"O valor básico, que pode ser um número ou uma fórmula"
+
+k:"The color to use when dark mode is enabled"
+v:"The color to use when dark mode is enabled"
+
+k:"The color to use when light mode is enabled"
+v:"The color to use when light mode is enabled"
+
+k:"The cost per point difference from the base"
+v:"O custo por diferença de pontos do básico"
+
+k:"The data was written with a newer version of %[1]s and cannot be loaded. Please update %[1]s and try again."
+v:"The data was written with a newer version of %[1]s and cannot be loaded. Please update %[1]s and try again."
+
+k:"The data was written with an older version of %s and cannot be loaded. You will need to load it with an earlier version that can read this version of the data and write the current format."
+v:"The data was written with an older version of %s and cannot be loaded. You will need to load it with an earlier version that can read this version of the data and write the current format."
+
+k:"The dice to roll on the sub-table"
+v:"The dice to roll on the sub-table"
+
+k:"The dice to roll on the table"
+v:"Os dados para jogar na tabela"
+
+k:"The dodge for the %s encumbrance level"
+v:"The dodge for the %s encumbrance level"
+
+k:"The DR covering the %s hit location%s"
+v:"A RD protegendo o ponto de impacto %s %s"
+
+k:"The full name of this attribute (may be omitted, in which case the Short Name will be used instead)"
+v:"The full name of this attribute (may be omitted, in which case the Short Name will be used instead)"
+
+k:"The GitHub Access Token is only needed for private repositories and only needs the read-only \"Content\" permission for access to this repo"
+v:"The GitHub Access Token is only needed for private repositories and only needs the read-only \"Content\" permission for access to this repo"
+
+k:"The ground movement rate for the %s encumbrance level"
+v:"The ground movement rate for the %s encumbrance level"
+
+k:"The internal PDF viewer will be used if the External PDF Viewer field is empty."
+k:"Use $FILE where the full path to the PDF should be placed."
+k:"Use $PAGE where the page number should be placed."
+k:""
+k:"In most cases, you'll want to surround the $FILE variable with quotes."
+v:"The internal PDF viewer will be used if the External PDF Viewer field is empty."
+v:"Use $FILE where the full path to the PDF should be placed."
+v:"Use $PAGE where the page number should be placed."
+v:""
+v:"In most cases, you'll want to surround the $FILE variable with quotes."
+
+k:"The library cannot be updated while"
+k:"documents from the library are open."
+v:"The library cannot be updated while"
+v:"documents from the library are open."
+
+k:"The locale to use when presenting text in the user interface. This does not affect the content of data files. Leave this value blank to use the system default. Note that changes to this generally require quitting and restarting GCS to have the desired effect."
+v:"The locale to use when presenting text in the user interface. This does not affect the content of data files. Leave this value blank to use the system default. Note that changes to this generally require quitting and restarting GCS to have the desired effect."
+
+k:"The mana cost to cast the spell"
+v:"O custo de mana para esta operação mágica"
+
+k:"The mana cost to maintain the spell"
+v:"O custo de mana para a manutenção da mágica"
+
+k:"The maximum load that can be carried and still remain within the %s encumbrance level"
+v:"The maximum load that can be carried and still remain within the %s encumbrance level"
+
+k:"The maximum number of uses"
+v:"The maximum number of uses"
+
+k:"The name of this attribute, often an abbreviation"
+v:"O nome deste atributo, no geral uma abreviação"
+
+k:"The name of this body type"
+v:"The name of this body type"
+
+k:"The name of this hit location as it should appear in choice lists"
+v:"O nome deste ponto de impacto como aparece na lista de opções"
+
+k:"The name of this hit location as it should appear in the hit location table"
+v:"O nome deste ponto de impacto como deve aparecer na tabela de pontos de impacto"
+
+k:"The number of consecutive numbers this hit location fills in the table"
+v:"O número de números consecutivos que este ponto de impacto preenche na tabela"
+
+k:"The number of uses remaining"
+v:"O número de usos restantes"
+
+k:"The object is too heavy for you to throw"
+v:"The object is too heavy for you to throw"
+
+k:"The output file may not be an empty path."
+v:"The output file may not be an empty path."
+
+k:"The reduction in cost for each SM greater than 0"
+v:"The reduction in cost for each SM greater than 0"
+
+k:"The skill adjustment for this hit location"
+v:"The skill adjustment for this hit location"
+
+k:"The teacher must have the skill/spell/trait being taught at a higher level than you and have more points spent in it than you do"
+v:"The teacher must have the skill/spell/trait being taught at a higher level than you and have more points spent in it than you do"
+
+k:"The teacher must have the skill/spell/trait being taught at the same or higher level than you, or have as many or more points spent in it as you do"
+v:"The teacher must have the skill/spell/trait being taught at the same or higher level than you, or have as many or more points spent in it as you do"
+
+k:"The teacher must have the Teaching skill at 12+"
+v:"The teacher must have the Teaching skill at 12+"
+
+k:"The time required to cast the spell"
+v:"O tempo necessário para uma operação mágica"
+
+k:"The value of all of these pieces of equipment, plus the value of any contained equipment"
+v:"O valor de todos essas peças de equipamento, mais o valor de qualquer equipamento contido"
+
+k:"The value of one of these pieces of equipment"
+v:"O valor de uma dessas peças de equipamento"
+
+k:"The weight of all of these pieces of equipment, plus the weight of any contained equipment"
+v:"O peso de todas essas peças de equipamento, mais o peso de qualquer equipamento contido"
+
+k:"The weight of an object that can be shoved and knocked over"
+v:"The weight of an object that can be shoved and knocked over"
+
+k:"The weight of an object that can be shoved and knocked over with a running start"
+v:"The weight of an object that can be shoved and knocked over with a running start"
+
+k:"The weight of one of these pieces of equipment"
+v:"O peso de uma dessas peças de equipamento"
+
+k:"The weight that can be carried slung across the back"
+v:"The weight that can be carried slung across the back"
+
+k:"The weight that can be lifted overhead with both hands in four seconds"
+v:"The weight that can be lifted overhead with both hands in four seconds"
+
+k:"The weight that can be lifted overhead with one hand in one second"
+v:"The weight that can be lifted overhead with one hand in one second"
+
+k:"The weight that can be lifted overhead with one hand in two seconds"
+v:"The weight that can be lifted overhead with one hand in two seconds"
+
+k:"The weight that can be shifted slightly on a floor"
+v:"The weight that can be shifted slightly on a floor"
+
+k:"There is no valid mapping for page reference key \"%s\"."
+k:"Would you like to create one by choosing a PDF to map to this key?"
+v:"There is no valid mapping for page reference key \"%s\"."
+v:"Would you like to create one by choosing a PDF to map to this key?"
+
+k:"these entries"
+v:"these entries"
+
+k:"these libraries"
+v:"these libraries"
+
+k:"Thin"
+v:"Thin"
+
+k:"This file does not contain the expected data."
+v:"This file does not contain the expected data."
+
+k:"This product includes copyrighted material from the "
+v:"This product includes copyrighted material from the "
+
+k:"thr (leveled)"
+v:"thr (leveled)"
+
+k:"Threshold"
+v:"Threshold"
+
+k:"Throwing"
+v:"Throwing"
+
+k:"Throwing Extra Effort Penalty"
+v:"Throwing Extra Effort Penalty"
+
+k:"Thrust = Swing-2"
+v:"GdP = GeB-2"
+
+k:"Time"
+v:"Tempo"
+
+k:"times the current encumbrance level"
+v:"times the current encumbrance level"
+
+k:"Title"
+v:"Título"
+
+k:"TL"
+v:"NT"
+
+k:"TL0: Stone Age (Prehistory)"
+k:"TL1: Bronze Age (3500 B.C.+)"
+k:"TL2: Iron Age (1200 B.C.+)"
+k:"TL3: Medieval (600 A.D.+)"
+k:"TL4: Age of Sail (1450+)"
+k:"TL5: Industrial Revolution (1730+)"
+k:"TL6: Mechanized Age (1880+)"
+k:"TL7: Nuclear Age (1940+)"
+k:"TL8: Digital Age (1980+)"
+k:"TL9: Microtech Age (2025+?)"
+k:"TL10: Robotic Age (2070+?)"
+k:"TL11: Age of Exotic Matter"
+k:"TL12: Anything Goes"
+v:"TL0: Stone Age (Prehistory)"
+v:"TL1: Bronze Age (3500 B.C.+)"
+v:"TL2: Iron Age (1200 B.C.+)"
+v:"TL3: Medieval (600 A.D.+)"
+v:"TL4: Age of Sail (1450+)"
+v:"TL5: Industrial Revolution (1730+)"
+v:"TL6: Mechanized Age (1880+)"
+v:"TL7: Nuclear Age (1940+)"
+v:"TL8: Digital Age (1980+)"
+v:"TL9: Microtech Age (2025+?)"
+v:"TL10: Robotic Age (2070+?)"
+v:"TL11: Age of Exotic Matter"
+v:"TL12: Anything Goes"
+
+k:"to"
+v:"to"
+
+k:"to all colleges"
+v:"para todas as escolas"
+
+k:"to base cost"
+v:"para o custo básico"
+
+k:"to base cost only"
+v:"somente para o custo básico"
+
+k:"to base weight"
+v:"para o peso básico"
+
+k:"to cost"
+v:"para o custo"
+
+k:"to final base cost"
+v:"para o custo básico final"
+
+k:"to final base weight"
+v:"para o peso básico final"
+
+k:"to final cost"
+v:"para o custo final"
+
+k:"to final weight"
+v:"para o peso final"
+
+k:"to leveled cost only"
+v:"somente para o custo nivelado"
+
+k:"to original cost"
+v:"para o custo original"
+
+k:"to original weight"
+v:"para o peso original"
+
+k:"to skills whose name"
+v:"para perícias cujo nome"
+
+k:"to the"
+v:"para"
+
+k:"to the college whose name"
+v:"para a escola cujo nome"
+
+k:"to the power source whose name"
+v:"para a fonte de energia cujo nome"
+
+k:"to the spell whose name"
+v:"para a mágica cujo nome"
+
+k:"to this weapon"
+v:"para esta arma"
+
+k:"to weapons whose name"
+v:"para armas cujo nome"
+
+k:"to weapons whose required skill name"
+v:"para armas cuja perícia requerida se chama"
+
+k:"Toggle"
+v:"Toggle"
+
+k:"Toggle Edit Mode"
+v:"Toggle Edit Mode"
+
+k:"Toggle Enablement"
+v:"Toggle Enablement"
+
+k:"Toggle Equipment Modifier"
+v:"Toggle Equipment Modifier"
+
+k:"Toggle Equipped"
+v:"Toggle Equipped"
+
+k:"Toggle State"
+v:"Alternar Estado"
+
+k:"Toggle the Sidebar"
+v:"Toggle the Sidebar"
+
+k:"Toggle Trait Modifier"
+v:"Toggle Trait Modifier"
+
+k:"Tooltip"
+v:"Dica de Contexto"
+
+k:"Tooltip Delay"
+v:"Tooltip Delay"
+
+k:"Tooltip Dismissal"
+v:"Tooltip Dismissal"
+
+k:"Top Margin"
+v:"Margem Superior"
+
+k:"Total"
+v:"Total"
+
+k:"Total points spent on a racial package"
+v:"Total de pontos gastos num pacote racial"
+
+k:"Total points spent on advantages"
+v:"Total de pontos gastos em vantagens"
+
+k:"Total points spent on attributes"
+v:"Total de pontos gastos em atributos"
+
+k:"Total points spent on disadvantages"
+v:"Total de pontos gastos em desvantagens"
+
+k:"Total points spent on quirks"
+v:"Total de pontos gastos em peculiaridades"
+
+k:"Total points spent on skills"
+v:"Total de pontos gastos em perícias"
+
+k:"Total points spent on spells"
+v:"Total de pontos gastos em mágicas"
+
+k:"Trait"
+v:"Trait"
+
+k:"Trait Modifier"
+v:"Trait Modifier"
+
+k:"Trait Modifiers"
+v:"Trait Modifiers"
+
+k:"Traits"
+v:"Traits"
+
+k:"Translations Path"
+v:"Translations Path"
+
+k:"Tray"
+v:"Tray"
+
+k:"Triggering Condition"
+v:"Triggering Condition"
+
+k:"triggering condition"
+v:"triggering condition"
+
+k:"Two-Handed Lift"
+v:"Levantar com Duas Mãos"
+
+k:"Two-Sided, Long Edge"
+v:"Two-Sided, Long Edge"
+
+k:"Two-Sided, Short Edge"
+v:"Two-Sided, Short Edge"
+
+k:"Ultra-Condensed"
+v:"Ultra-Condensed"
+
+k:"Ultra-Expanded"
+v:"Ultra-Expanded"
+
+k:"Unable to access the %s update site"
+v:"Unable to access the %s update site"
+
+k:"Unable to check out '%s'"
+v:"Unable to check out '%s'"
+
+k:"Unable to clone repository"
+v:"Unable to clone repository"
+
+k:"Unable to create file dialog."
+v:"Unable to create file dialog."
+
+k:"Unable to create new folder dialog"
+v:"Unable to create new folder dialog"
+
+k:"Unable to create new markdown file"
+v:"Unable to create new markdown file"
+
+k:"Unable to create PDF!"
+v:"Unable to create PDF!"
+
+k:"Unable to create print dialog."
+v:"Unable to create print dialog."
+
+k:"Unable to create rename dialog"
+v:"Unable to create rename dialog"
+
+k:"Unable to create:"
+k:"%s"
+v:"Unable to create:"
+v:"%s"
+
+k:"Unable to export as JPEG!"
+v:"Unable to export as JPEG!"
+
+k:"Unable to export as PDF!"
+v:"Unable to export as PDF!"
+
+k:"Unable to export as PNG!"
+v:"Unable to export as PNG!"
+
+k:"Unable to export as WEBP!"
+v:"Unable to export as WEBP!"
+
+k:"Unable to fetch"
+v:"Unable to fetch"
+
+k:"Unable to initialize repository"
+v:"Unable to initialize repository"
+
+k:"Unable to load "
+v:"Unable to load "
+
+k:"Unable to load image"
+v:"Unable to load image"
+
+k:"Unable to load template"
+v:"Unable to load template"
+
+k:"Unable to locate workspace"
+v:"Unable to locate workspace"
+
+k:"Unable to open "
+v:"Unable to open "
+
+k:"Unable to open %s"
+v:"Unable to open %s"
+
+k:"Unable to open file"
+v:"Unable to open file"
+
+k:"Unable to open link"
+v:"Unable to open link"
+
+k:"Unable to open markdown"
+v:"Unable to open markdown"
+
+k:"Unable to open web page for download"
+v:"Unable to open web page for download"
+
+k:"Unable to open: %s"
+v:"Unable to open: %s"
+
+k:"Unable to pull"
+v:"Unable to pull"
+
+k:"Unable to remove directory:"
+k:"%s"
+v:"Unable to remove directory:"
+v:"%s"
+
+k:"Unable to remove file:"
+k:"%s"
+v:"Unable to remove file:"
+v:"%s"
+
+k:"Unable to rename:"
+k:"%s"
+v:"Unable to rename:"
+v:"%s"
+
+k:"Unable to resolve absolute path"
+v:"Unable to resolve absolute path"
+
+k:"Unable to resolve path"
+v:"Unable to resolve path"
+
+k:"Unable to retrieve branches"
+v:"Unable to retrieve branches"
+
+k:"Unable to retrieve checked out revision"
+v:"Unable to retrieve checked out revision"
+
+k:"Unable to retrieve local repository information"
+v:"Unable to retrieve local repository information"
+
+k:"Unable to retrieve revision date"
+v:"Unable to retrieve revision date"
+
+k:"Unable to retrieve tags"
+v:"Unable to retrieve tags"
+
+k:"Unable to save "
+v:"Unable to save "
+
+k:"Unable to save %s"
+v:"Unable to save %s"
+
+k:"Unable to save as "
+v:"Unable to save as "
+
+k:"Unable to save global settings"
+v:"Unable to save global settings"
+
+k:"Unable to set option %s to %s"
+k:"%v"
+v:"Unable to set option %s to %s"
+v:"%v"
+
+k:"Unable to show location on disk"
+v:"Unable to show location on disk"
+
+k:"Unable to update"
+v:"Unable to update"
+
+k:"Unable to update library location"
+v:"Unable to update library location"
+
+k:"Unable to use external PDF command line"
+v:"Unable to use external PDF command line"
+
+k:"Undo %s"
+v:"Undo %s"
+
+k:"Unexpected response from command"
+v:"Unexpected response from command"
+
+k:"Units of Measurement"
+v:"Unidades de Medida"
+
+k:"Unknown"
+v:"Desconhecido"
+
+k:"Unknown feature type: %s"
+v:"Unknown feature type: %s"
+
+k:"Unknown prerequisite type: %s"
+v:"Unknown prerequisite type: %s"
+
+k:"unrecognized key (%s)"
+v:"unrecognized key (%s)"
+
+k:"unrecognized key (%s) for body type (%s)"
+v:"unrecognized key (%s) for body type (%s)"
+
+k:"Unsatisfied prerequisite(s)"
+v:"Unsatisfied prerequisite(s)"
+
+k:"Unspent"
+v:"Unspent"
+
+k:"untitled choice"
+v:"untitled choice"
+
+k:"untitled location"
+v:"untitled location"
+
+k:"Up"
+v:"Up"
+
+k:"Update"
+v:"Update"
+
+k:"Update %s to v%s?"
+v:"Update %s to v%s?"
+
+k:"Update canceled"
+v:"Update canceled"
+
+k:"Updating %s to v%s…"
+v:"Updating %s to v%s…"
+
+k:"Updating…"
+v:"Updating…"
+
+k:"Upright"
+v:"Upright"
+
+k:"Usage"
+v:"Uso"
+
+k:"Usage Qualifier"
+v:"Usage Qualifier"
+
+k:"Usage: "
+v:"Usage: "
+
+k:"Use '%s help <command>' to see command options"
+v:"Use '%s help <command>' to see command options"
+
+k:"Use Modifying Dice + Adds (B269)"
+v:"Usar Modificador de Dados + Acréscimos (B269)"
+
+k:"Use Multiplicative Modifiers (PW102; changes point value)"
+v:"Use Multiplicative Modifiers (PW102; changes point value)"
+
+k:"User Description"
+v:"Descrição do Usuário"
+
+k:"User Library"
+v:"Biblioteca do Usuário"
+
+k:"Uses"
+v:"Usos"
+
+k:"Using skates"
+v:"Using skates"
+
+k:"Using skis"
+v:"Using skis"
+
+k:"Value"
+v:"Valor"
+
+k:"value"
+v:"valor"
+
+k:"Value must be at least %s"
+v:"Value must be at least %s"
+
+k:"Value must be no more than %s"
+v:"Value must be no more than %s"
+
+k:"Version "
+v:"Versão "
+
+k:"Version %s"
+v:"Version %s"
+
+k:"View"
+v:"View"
+
+k:"VTT Notes"
+v:"Notas de VTT"
+
+k:"Warning"
+v:"Aviso"
+
+k:"Weather:"
+v:"Weather:"
+
+k:"Web Site"
+v:"Página da Internet"
+
+k:"WEBP"
+v:"WEBP"
+
+k:"Weight"
+v:"Peso"
+
+k:"Weight Adjustment"
+v:"Ajuste de Peso"
+
+k:"Weight Modifier"
+v:"Modificador de Peso"
+
+k:"Weight Qualifier"
+v:"Weight Qualifier"
+
+k:"Weight Units"
+v:"Unidades de Peso"
+
+k:"When"
+v:"When"
+
+k:"When Tech Level"
+v:"When Tech Level"
+
+k:"When the Tech Level"
+v:"When the Tech Level"
+
+k:"Where to display…"
+v:"Onde exibir…"
+
+k:"Whether this item is enabled. Items that are not enabled do not apply any features they may normally contribute to the character."
+v:"Whether this item is enabled. Items that are not enabled do not apply any features they may normally contribute to the character."
+
+k:"Whether this piece of equipment is equipped or just carried. Items that are not equipped do not apply any features they may normally contribute to the character."
+v:"Se essa peça de equipamento está equipada ou se está só sendo carregada. Itens que não estão equipados não aplicam suas características ao personagem."
+
+k:"which"
+v:"which"
+
+k:"whose college name"
+v:"cujo nome da escola"
+
+k:"whose name"
+v:"cujo nome"
+
+k:"Window"
+v:"Window"
+
+k:"with a tag which"
+v:"with a tag which"
+
+k:"Within this view, these keys have the following effects:"
+k:""
+v:"Within this view, these keys have the following effects:"
+v:""
+
+k:"World1"
+v:"World1"
+
+k:"World2"
+v:"World2"
+
+k:"x"
+v:"x"
+
+k:"X-Heavy"
+v:"M. Pesada"
+
+k:"yard"
+v:"yard"
+
+k:"Yes"
+v:"Sim"
+
+k:"Zoom"
+v:"Zoom"
+
+k:"[dice expression]..."
+v:"[dice expression]..."
+
+k:"×"
+v:"×"
