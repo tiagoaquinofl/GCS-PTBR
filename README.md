@@ -9,16 +9,16 @@ Versão inicial do pt.i18n por **_Thiago de Assis_** (compartilhado no grupo [*G
 
 ### ONDE COPIAR OS ARQUIVOS
 
-#### pt.i18n (Internationalization):
->c:\\%PROGRAMFILES%\GCS\app\i18n\
+#### pt-br.i18n (Internacionalização):
+>GCS\gcs_i18n\
 #### Biblioteca Módulo Básico (Pasta):
 >C:\users\\%USERNAME%\GCS\User Library\
 
 ##### Ou, se quiser exibir a pasta a partir do programa:
-![print](https://i.imgur.com/TJILpQY.jpg)
+![print](https://i.imgur.com/ktw9X2Y.jpg)
 
 ##### Ao final as bibliotecas aparecerão dentro do GCS, na pasta User Library:
-![print](https://i.imgur.com/SHylumP.jpg)
+![print](https://i.imgur.com/q0Xve5E.jpg)
 
 ##### Para utilizar o arquivo de tradução dos atributos:
 ![print](https://i.imgur.com/w95IL06.png)
