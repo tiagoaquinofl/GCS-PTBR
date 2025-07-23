@@ -1,983 +1,625 @@
 {
-	"type": "modifier_list",
-	"version": 1,
-	"id": "de1ed933-5cfe-4628-aa1d-c746174ed2f4",
+	"version": 5,
 	"rows": [
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "4c9ca0f0-c156-492f-bfb3-fabf4e068403",
-			"name": "Alcance Ampliado 2x",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total"
+			"id": "m5qUBbGg9xeI4r3J2",
+			"name": "Distância 1/2D Ampliada em 2×",
+			"reference": "MB102",
+			"cost": 5
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "7e78d8eb-520d-425e-bb42-2c20e0bc3379",
-			"name": "Prazo Estendido 3x",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
+			"id": "mIgewYjuzmPvs7Jx9",
+			"name": "Distância Ampliada em 2×",
+			"reference": "MB101",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "1cd6ffc6-df75-4c48-9522-c62136b9780d",
-			"name": "Alcance Ampliado 5x",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
+			"id": "mibbcaZA6iq5s3ETp",
+			"name": "3× Duração",
+			"reference": "MB109",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "67faee7a-d439-483b-a29b-b6b9a984015d",
-			"name": "Prazo Estendido 10x",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total"
+			"id": "mQ81Xfa00tiKIE3rq",
+			"name": "Distância 1/2D Ampliada em 5×",
+			"reference": "MB102",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "4624da5e-a53f-498b-8c75-735eb16bda40",
-			"name": "Alcance Ampliado x10",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 30,
-			"affects": "total"
+			"id": "mZK4bwt1NTuzRaUUs",
+			"name": "Distância Ampliada em 5×",
+			"reference": "MB101",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "d2a89287-e2bd-429c-9d3b-cc0c2aed12dd",
-			"name": "Alcance Ampliado x20",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total"
+			"id": "mQ7yALf2YtsIN3s3k",
+			"name": "10× Duração",
+			"reference": "MB109",
+			"cost": 40
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "4f4fbb60-8825-4c85-a8ea-791cc97521e1",
-			"name": "Prazo Estendido 30x",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 60,
-			"affects": "total"
+			"id": "mBGfUgwdVmDu-JkEa",
+			"name": "Distância 1/2D Ampliada em 10×",
+			"reference": "MB102",
+			"cost": 15
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "8a762b96-e0db-4cab-9f63-cfd5ece16e49",
-			"name": "Alcance Ampliado x50",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total"
+			"id": "mpGDFBAfsyxU5j-2Z",
+			"name": "Distância Ampliada em 10×",
+			"reference": "MB101",
+			"cost": 30
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "38c799ea-b229-4438-9595-3509bafc37ad",
-			"name": "Prazo Estendido 100x",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 80,
-			"affects": "total"
+			"id": "mQ_2bajRRS_CtkWAn",
+			"name": "Distância Ampliada em 20×",
+			"reference": "MB101",
+			"cost": 40
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "bd49dd83-b27c-42f6-972d-88e4a1f8d985",
-			"name": "Alcance Ampliado x100",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 60,
-			"affects": "total"
+			"id": "m5gGQNcBlZ5FzYfqz",
+			"name": "30× Duração",
+			"reference": "MB109",
+			"cost": 60
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "f067101b-6eaa-4432-97ee-44238c07ec00",
-			"name": "Prazo Estendido 300x",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total"
+			"id": "m-AnXjtgyaWQKXuDo",
+			"name": "Distância Ampliada em 50×",
+			"reference": "MB101",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "15f3c08c-e5a2-495d-9c9f-30a4a964f30e",
-			"name": "Prazo Estendido 1000x",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 120,
-			"affects": "total"
+			"id": "mAGTsEtAWMD2ns712",
+			"name": "100× Duração",
+			"reference": "MB109",
+			"cost": 80
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "219bf44f-0974-43f4-b76f-bd55001112f7",
-			"name": "Acesso",
-			"reference": "B110",
-			"cost_type": "percentage",
-			"cost": 0,
-			"affects": "total",
-			"notes": "Inserir o custo manualmente"
+			"id": "mpImIeHrC-EfHWB2p",
+			"name": "Distância Ampliada em 100×",
+			"reference": "MB101",
+			"cost": 60
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "cdbdc9fc-4a4f-44be-acd8-141c67272616",
+			"id": "m8p4KceOcvYiszehA",
+			"name": "300× Duração",
+			"reference": "MB109",
+			"cost": 100
+		},
+		{
+			"id": "mQW2dYrkBBMPu6n1B",
+			"name": "1000× Duração",
+			"reference": "MB109",
+			"cost": 120
+		},
+		{
+			"id": "mVP0kyIRXqPj6Gt7X",
 			"name": "Acurado",
-			"reference": "B102",
-			"cost_type": "percentage",
+			"reference": "MB102,P99",
+			"notes": "+1/nível em Precisão",
 			"cost": 5,
-			"affects": "total",
-			"levels": 1,
-			"notes": "+1/nível em Precisão"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "e1edd45e-5c25-4464-9dcd-99c747208861",
-			"name": "Afeta Insubstancial",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "42817a63-e778-4e71-a1ae-4bcadaab113c",
-			"name": "Afeta a Matéria",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "6ee4ca1c-db0d-49c2-9d7a-6167e59d47c8",
-			"name": "Efeito de Área",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"levels": 1,
-			"notes": "2^nível de raio"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "e2aeed88-df4a-4c84-b648-a7ec32355349",
-			"name": "Divisor de Armadura (2)",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "949a9cdd-a872-4151-a7d2-43fa59e63903",
-			"name": "Divisor de Armadura (3)",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "0b941635-bbb2-463d-99a0-70f14d488a6a",
-			"name": "Divisor de Armadura (5)",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 150,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "cac96a97-2345-4e03-a3b3-fb8a7aab87a7",
-			"name": "Divisor de Armadura (10)",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 200,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "8e453e3f-3f12-4133-a39c-05c59f29de08",
-			"name": "Aura",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 80,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "84362959-be4d-4d5b-b4b8-26463afa06b1",
-			"name": "Baseado em @Atributo@",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total",
-			"notes": "Alterar a vantagem manualmente para o Atributo escolhido"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "1b0b5b91-b2b8-41c7-8d2e-5d5ba86ecaef",
-			"name": "Agente Sanguíneo",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total",
-			"notes": "Efeito de Área ou Cone"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "464d0b6f-2e7a-4307-abb8-f12179377e71",
-			"name": "Radiação por Queimadura (rad)",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total",
-			"notes": "Em adição ao dano normal"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "cb0a1770-7037-465d-87d9-afc4eb9eafa3",
-			"name": "Cone",
-			"reference": "B104",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "Ajusta manualmente o custo em +10% para cada metro de largura máxima"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "e1a9cd75-8d18-43f2-bf14-0ab6ac3e84a8",
-			"name": "Cósmica",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "Habilidade que não seja um ataque ou defesa."
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "14b13aab-cfba-4562-9f0a-7ba9e8f14fd7",
-			"name": "Cósmica",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total",
-			"notes": "Ataque com efeito especial prolongado"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "18efc6e6-0f18-4841-9ee8-80b52c6dc769",
-			"name": "Cósmica",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "Defesa ou contramedida"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "b67c31b4-0e39-47b4-82ef-3e1dcd0610c1",
-			"name": "Cósmica",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 300,
-			"affects": "total",
-			"notes": "Ataque irresistível"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "9f028321-76e2-495d-a5e3-87c2bb99fb58",
-			"name": "Cíclico - 1 dia",
-			"reference": "B104",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total",
-			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "9c085632-450f-4ce4-aa1a-d3fdb4939b4b",
-			"name": "Cíclico - 1 hora",
-			"reference": "B104",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total",
-			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "282e6542-e9fc-4bb3-b493-c8871056c4ab",
-			"name": "Cíclico - 1 minuto",
-			"reference": "B104",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total",
-			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "cf056076-ef57-48f6-be16-72b3cb86af43",
-			"name": "Cíclico - 1 segundo",
-			"reference": "B104",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total",
-			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "58f87447-822d-4f26-8db1-22d6f53739b2",
-			"name": "Cíclico - 10 segundos",
-			"reference": "B104",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "Interrompido por @Descrição da circunstância que interrompe o ciclo@"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "417ab43b-9ad0-4652-b077-2c7916d804a2",
-			"name": "Trauma por Impacto Duplo (tid)",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "077c022f-9ea3-4eb5-93ab-ad3129e7a3a1",
-			"name": "Projeção Dupla (pdp)",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "45560dcb-4aa4-4347-9aef-6147d46b3efb",
-			"name": "Flutuação",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
-		},
-		{
-			"type": "modifier",
-			"version": 1,
-			"id": "90e02616-e10a-4b70-b7d9-43de584130aa",
-			"name": "Explosão (exp)",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
 			"levels": 1
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "0ebae95b-f762-4365-aec6-fa3c4390ffbb",
+			"id": "mk3_FZMdqbSwuYgrQ",
+			"name": "Afeta Insubstancial",
+			"reference": "MB102,P99",
+			"cost": 20
+		},
+		{
+			"id": "mFvh3SifEGgwaOnbw",
+			"name": "Afeta a Matéria",
+			"reference": "MB102,P99",
+			"cost": 40
+		},
+		{
+			"id": "mbO8GjGu_NuPTLz6e",
+			"name": "Area Effect",
+			"reference": "MB102,P100",
+			"notes": "2^level radius",
+			"cost": 50,
+			"levels": 1
+		},
+		{
+			"id": "mA3P30XALk8RFhXPu",
+			"name": "Divisor de Armadura (2)",
+			"reference": "MB105",
+			"cost": 50
+		},
+		{
+			"id": "mQfaGES8eczw5tTm8",
+			"name": "Divisor de Armadura (3)",
+			"reference": "MB105",
+			"cost": 100
+		},
+		{
+			"id": "mPgo9nVLD1zpboOGa",
+			"name": "Divisor de Armadura (5)",
+			"reference": "MB105",
+			"cost": 150
+		},
+		{
+			"id": "mvK1VHqf6irw2gc9u",
+			"name": "Divisor de Armadura (10)",
+			"reference": "MB105",
+			"cost": 200
+		},
+		{
+			"id": "mszPouI4XpFXHn0RW",
+			"name": "Aura",
+			"reference": "MB103,P101",
+			"cost": 80
+		},
+		{
+			"id": "m6a1aTfBRAaUvv1sr",
+			"name": "Baseado em @Atributo@",
+			"reference": "MB103",
+			"notes": "Deve alterar manualmente a vantagem para o Atributo escolhido",
+			"cost": 20
+		},
+		{
+			"id": "mdn1OHeccz8Z4Y2hF",
+			"name": "Agente Sanguíneo",
+			"reference": "MB102,P100",
+			"notes": "Efeito de Área ou Cone",
+			"cost": 100
+		},
+		{
+			"id": "muDAxZNeL4XJH-bvG",
+			"name": "Queimadura por Radiação (rad)",
+			"reference": "MB108",
+			"notes": "Em adição ao dano normal",
+			"cost": 100
+		},
+		{
+			"id": "mbOVt7gPY2KL845le",
+			"name": "Cone",
+			"reference": "MB104,P101",
+			"notes": "Deve alterar manualmente o custo para cima em +10% por metro de largura máxima",
+			"cost": 50
+		},
+		{
+			"id": "mCsIKBy7rW_6bXh1d",
+			"name": "Cósmica",
+			"reference": "MB105",
+			"notes": "Habilidade que não seja um ataque ou defesa",
+			"cost": 50
+		},
+		{
+			"id": "mZ-J37L41NpReTEAw",
+			"name": "Cósmica",
+			"reference": "MB105",
+			"notes": "Ataque com efeito especial prolongado",
+			"cost": 100
+		},
+		{
+			"id": "m56RTS8tdjEpgwES-",
+			"name": "Cósmica",
+			"reference": "MB105",
+			"notes": "Defesa ou contramedida",
+			"cost": 50
+		},
+		{
+			"id": "mfjt9i15mmJoQfSGf",
+			"name": "Cósmica",
+			"reference": "MB105",
+			"notes": "Ataque irresistível",
+			"cost": 300
+		},
+		{
+			"id": "m7Bu1aTw0jsTSYcyx",
+			"name": "Cyclic - 1 day",
+			"reference": "MB104",
+			"notes": "Interrompido por @descrição do que interrompe o ciclo@",
+			"cost": 10
+		},
+		{
+			"id": "ma93LzTqJJkCIStl5",
+			"name": "Cíclico - 1 hora",
+			"reference": "MB104",
+			"notes": "Interrompido por @descrição do que interrompe o ciclo@",
+			"cost": 20
+		},
+		{
+			"id": "mT9LEsOYSepVpZqN-",
+			"name": "Cíclico - 1 minuto",
+			"reference": "MB104",
+			"notes": "Interrompido por @descrição do que interrompe o ciclo@",
+			"cost": 40
+		},
+		{
+			"id": "mtM34CBT5ETDAJNf1",
+			"name": "Cíclico - 1 segundo",
+			"reference": "MB104",
+			"notes": "Interrompido por @descrição do que interrompe o ciclo@",
+			"cost": 100
+		},
+		{
+			"id": "moVGZ_gMyN4oggnMu",
+			"name": "Cíclico - 10 segundos",
+			"reference": "MB104",
+			"notes": "Interrompido por @descrição do que interrompe o ciclo@",
+			"cost": 50
+		},
+		{
+			"id": "mVCsuiLV54uJwPiRW",
+			"name": "Trauma por Impacto Duplo (tid)",
+			"reference": "MB108",
+			"cost": 20
+		},
+		{
+			"id": "mSxJOxRX3Ci8DV3bd",
+			"name": "Projeção Dupla (pdp)",
+			"reference": "MB108",
+			"cost": 20
+		},
+		{
+			"id": "mjeVKcJIxCfom4LQu",
+			"name": "Flutuação",
+			"reference": "MB105",
+			"cost": 20
+		},
+		{
+			"id": "mAmLI16ETMfKM3iLL",
+			"name": "Explosão (ex)",
+			"reference": "MB108",
+			"cost": 50,
+			"levels": 1
+		},
+		{
+			"id": "mLjJxe22i_DVrVu-X",
 			"name": "Retardo Fixo",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 0,
-			"affects": "total",
+			"reference": "MB109",
 			"notes": "@período de retardo@, @forma de neutralizar@"
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "71193529-387e-46ba-a5ad-7fbbd6becbdf",
+			"id": "mcXN1MCeZnZB4Jz2e",
 			"name": "Acompanhamento",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 0,
-			"affects": "total",
-			"notes": "O custo é variável e deve ser inserido manualmente"
+			"reference": "MB102,P99",
+			"notes": "Como o custo é variável, ele deve ser inserido manualmente"
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "10fa0088-2982-4531-8ba5-a4833b649ab4",
+			"id": "mwT-SCDV2GwvCcnJ6",
 			"name": "Fragmentação (frag)",
-			"reference": "B108",
-			"cost_type": "percentage",
+			"reference": "MB108",
+			"notes": "Níveis iguais ao número de dados",
 			"cost": 15,
-			"affects": "total",
-			"levels": 1,
-			"notes": "Escolha um nível igual ao número de dados"
+			"levels": 1
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "67761396-4442-4685-82d9-e64d91080dab",
+			"id": "mHyzNtZ8fKqIhzKil",
 			"name": "Guiado",
-			"reference": "B106",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total"
+			"reference": "MB106,P104",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "9a209bd3-97f4-4d62-887c-2233c073fdec",
+			"id": "mkI4HtJjQE8N22-qe",
 			"name": "Perigo",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total",
-			"notes": "Desidratação"
+			"reference": "MB108",
+			"notes": "Desidratação",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "b641e5c1-1c79-4166-b216-eafea978dae6",
+			"id": "m90th2mlh924TXxZE",
 			"name": "Perigo",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 0,
-			"affects": "total",
+			"reference": "MB108",
 			"notes": "Afogamento"
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "fe4ba515-333d-4e26-a719-5b7461248bdd",
+			"id": "mzKuR9JXsc-23WNz6",
 			"name": "Perigo",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total",
-			"notes": "Congelamento"
+			"reference": "MB108",
+			"notes": "Congelamento",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "3840cdf6-fd44-40cb-be10-b93d0ea66637",
+			"id": "mMimR1a-YpLm7u8im",
 			"name": "Perigo",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "Sono Perdido"
+			"reference": "MB108",
+			"notes": "Sono Perdido",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "3f33f14f-abc2-4e9c-acfb-6bc3fdc451d7",
+			"id": "myg2VvEF1wn90_tkt",
 			"name": "Perigo",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total",
-			"notes": "Fome"
+			"reference": "MB108",
+			"notes": "Fome",
+			"cost": 40
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "0563610f-0fe3-4844-91e3-7962c8545e5b",
+			"id": "md7qIQ7wriw-mabkQ",
 			"name": "Perigo",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 0,
-			"affects": "total",
+			"reference": "MB108",
 			"notes": "Sufocamento"
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "0b0d5d93-ac35-4b0a-80a0-743e4bb28984",
-			"name": "Teleguiado (@Sentido@)",
-			"reference": "B106",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "Adicione manualmente +1% por ponto de custo do sentido escolhido ao custo de Teleguiado"
+			"id": "mcbR2hn-OMSzhW7gf",
+			"name": "Teleguiado (@sentido@)",
+			"reference": "MB106",
+			"notes": "Deve-se adicionar manualmente +1% por ponto de custo do sentido escolhido ao custo de Teleguiado",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "48038195-f56f-4402-b7fb-810c66e0f2c8",
+			"id": "mdKm7Qs5kZUfi4kXH",
 			"name": "Incendiário (inc)",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total"
+			"reference": "MB108",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "5f1cd59a-baf4-4b23-b527-e560e5f7e2a6",
+			"id": "m6WObJI1VTU-Wto4A",
 			"name": "Jato",
-			"reference": "B107",
-			"cost_type": "percentage",
-			"cost": 0,
-			"affects": "total"
+			"reference": "MB107,P105"
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "38949801-fa50-4145-958c-9de43b1853e8",
+			"id": "muqsnVAYgouFexO3h",
 			"name": "Interligação",
-			"reference": "B106",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total",
-			"notes": "@linked abilities@"
+			"reference": "MB106,P103",
+			"notes": "@habilidades interligadas@",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "9cd3c6da-1226-4b0a-8285-a8b967d59ad2",
+			"id": "mVIPwP64p4POxRhkL",
 			"name": "Interligação",
-			"reference": "B107",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total",
-			"notes": "@habilidades interligadas@, devem ser utilizadas em conjunto"
+			"reference": "MB106,P103",
+			"notes": "@habilidades interligadas@, devem ser utilizadas em conjunto",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "1d7c96b8-5d59-46fa-827a-649887a6d9b3",
+			"id": "mOOXs9a3zPcpXiyBt",
 			"name": "Assinatura Discreta",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total"
+			"reference": "MB103,P100",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "04ab2b2e-a18c-42a1-a3d7-8d4d0c2357ea",
+			"id": "mwYBuNRe3OO7f3KNJ",
 			"name": "Imprecação",
-			"reference": "B106",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total",
-			"notes": "-1 para cada metro da distância"
+			"reference": "MB106,P104",
+			"notes": "-1 para cada metro da distância",
+			"cost": 100
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "9d7ad3b4-ce06-4995-8d91-eb908893a68e",
+			"id": "mgoMzmGtd5meGGC3u",
 			"name": "Imprecação",
-			"reference": "B106",
-			"cost_type": "percentage",
-			"cost": 200,
-			"affects": "total",
-			"notes": "Utiliza Modificadores de Longa Distância"
+			"reference": "MB106,P104",
+			"notes": "penalidades de distância da Tabela de Tamanho e Velocidade/Distância",
+			"cost": 150
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "899a6949-bad9-401a-9e60-f3aea5ce6a2a",
+			"id": "mrQbJZqh8LqLTSlSm",
+			"name": "Imprecação",
+			"reference": "MB106,P104",
+			"notes": "Adota os Modificadores de Longa Distância",
+			"cost": 200
+		},
+		{
+			"id": "mGNCk-qsf9MkDYVMK",
 			"name": "Mobilidade",
-			"reference": "B108",
-			"cost_type": "percentage",
+			"reference": "MB108,P105",
 			"cost": 40,
-			"affects": "total",
 			"levels": 1
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "44abf0d2-8573-41f5-936f-f972d64c6a96",
+			"id": "mlMAMv0A4zOUT52xH",
 			"name": "Assinatura Inexistente",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
+			"reference": "MB103,P100",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "5c3a94f2-e091-4413-a66f-236687eb9955",
-			"name": "De cima",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 30,
-			"affects": "total"
+			"id": "mCPxCRKZnlZ0kKiQA",
+			"name": "De Cima",
+			"reference": "MB105,P102",
+			"cost": 30
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "acdea83d-78b2-4b63-8b26-4c178111e85b",
-			"name": "Prazo Permanente",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 300,
-			"affects": "total"
+			"id": "mFyrfmQT6yefaKkKV",
+			"name": "Duração Permanente",
+			"reference": "MB109",
+			"cost": 300
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "0e0423ba-732a-4f14-8f1d-75a07e49f12f",
-			"name": "Prazo Permanente",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 150,
-			"affects": "total",
-			"notes": "Dissipado por @condições para dissipar o efeito@"
+			"id": "mYy9QsOSLgMl0nT0B",
+			"name": "Duração Permanente",
+			"reference": "MB105",
+			"notes": "Dissipado por0 @método de efeito de dissipação@",
+			"cost": 150
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "757a2c1f-11c3-4231-93ab-839d1db3ab7b",
+			"id": "moTuqcYG2YtE_AXbk",
 			"name": "Persistente",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total"
+			"reference": "MB108,P106",
+			"cost": 40
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "f0472171-af6d-41f0-8668-e6e5dcddb96a",
+			"id": "mlMYKfQnlVJoEWb5w",
 			"name": "Longa Distância",
-			"reference": "B107",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total"
+			"reference": "MB107,P104",
+			"cost": 40
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "07f85bb2-ae3e-406d-95eb-a07e0b3f8f09",
+			"id": "mSnn3sk1Bm6j6laQ8",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 40,
-			"affects": "total",
-			"notes": "CdT 2"
+			"reference": "MB105,P104",
+			"notes": "CdT 2",
+			"cost": 40
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "2f519d7e-c1c2-44f7-8ee3-52c47b1c7e4f",
+			"id": "m6aVS62LA9baoZhA-",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "CdT 3"
+			"reference": "MB105,P104",
+			"notes": "CdT 3",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "ac137207-60a9-4ec9-a1ed-5c5ac34c354a",
+			"id": "mmt5fNJE9id8AS9Vs",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 70,
-			"affects": "total",
-			"notes": "CdT @4-7@"
+			"reference": "MB105,P104",
+			"notes": "CdT @4-7@",
+			"cost": 70
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "d3f6c24f-0fe5-4da8-9b4a-0f20b2e8d718",
+			"id": "m_qWRLVUfM1oOJHfp",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 100,
-			"affects": "total",
-			"notes": "CdT @8-15@"
+			"reference": "MB105,P104",
+			"notes": "CdT @8-15@",
+			"cost": 100
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "1ef234e2-dc51-44cd-86fe-e90616935ffa",
+			"id": "mvIs2mory8fojYpYC",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 150,
-			"affects": "total",
-			"notes": "CdT @16-30@"
+			"reference": "MB105,P104",
+			"notes": "CdT @16-30@",
+			"cost": 150
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "3dc9ea87-8627-41c7-aa0e-82b6bb1b5052",
+			"id": "mPBnhDlBSAQELx4gL",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 200,
-			"affects": "total",
-			"notes": "CdT @31-70@"
+			"reference": "MB105,P104",
+			"notes": "CdT @31-70@",
+			"cost": 200
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "538f46c0-7690-464d-a5d4-4f7db297cf0a",
+			"id": "mylkdCNCbMia4K8i6",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 250,
-			"affects": "total",
-			"notes": "CdT @71-150@"
+			"reference": "MB105,P104",
+			"notes": "CdT @71-150@",
+			"cost": 250
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "71eff140-36ed-4a7d-b808-5030d31ca715",
+			"id": "mjSbA98V3wr-oBt-e",
 			"name": "Fogo Contínuo",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 300,
-			"affects": "total",
-			"notes": "CdT @151-300@"
+			"reference": "MB105,P104",
+			"notes": "CdT @151-300@",
+			"cost": 300
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "1ca12f24-5287-4311-93c9-6c073652245f",
-			"name": "Custo em Pontos de Fadiga Red.",
-			"reference": "B105",
-			"cost_type": "percentage",
+			"id": "mN8uzsyp52XUdqRIb",
+			"name": "Custo em Pontos de Fadiga Reduzido",
+			"reference": "MB105,P102",
 			"cost": 20,
-			"affects": "total",
 			"levels": 1
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "2b83a49f-07d1-4418-b552-051537202346",
+			"id": "mdF_YOT8TLBmhnsO-",
 			"name": "Tempo Reduzido",
-			"reference": "B109",
-			"cost_type": "percentage",
+			"reference": "MB109",
 			"cost": 20,
-			"affects": "total",
 			"levels": 1
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "f50ccddb-f787-48c3-8798-8eba97cd4c1a",
-			"name": "Agente Respiratório",
-			"reference": "B102",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total"
+			"id": "mfSKVn0A3lPpXVVF1",
+			"name": "Agente Respiratório ",
+			"reference": "MB102",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "f00d3455-be24-49eb-b382-4cc85546a95b",
+			"id": "mUCjV40yAeps5rjRS",
 			"name": "Área Seletiva",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
+			"reference": "MB103,P100",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "9c2e244a-c88b-490d-924d-6c6e991a1043",
+			"id": "myv_1K0nBmjFVR7z1",
 			"name": "Fogo Seletivo",
-			"reference": "B106",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total"
+			"reference": "MB106",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "997c5950-4568-42f2-b6e4-ef978e7209f6",
+			"id": "mCygOZY2iH1tva7XM",
 			"name": "Seletividade",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total"
+			"reference": "MB109,P106",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "e3ef2f15-6eb8-4980-aac3-c46777aacdb8",
-			"name": "Base Sensorial (@Sentidos)",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 150,
-			"affects": "total",
-			"notes": "Adicionar manualmente +50% para cada sentido afetado depois do primeiro"
+			"id": "mR2B49Uxlo3jsnYYq",
+			"name": "Base Sensorial (@sentidos@)",
+			"reference": "MB103",
+			"notes": "Adicionar manualmente +50% para cada sentido além do primeiro",
+			"cost": 150
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "0f8b0253-7226-4e10-91b9-778feca993da",
+			"id": "msnycFZUVspQ77fd7",
 			"name": "Efeito Colateral",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total"
+			"reference": "MB105,P103",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "55d277cc-6a80-442d-a9d2-c43c7277302f",
+			"id": "mzUmNTI_isgbeOkEY",
 			"name": "Sobretensão (sob)",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
+			"reference": "MB108",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "a078bf9b-9e4a-4957-af2a-9451bd74c169",
+			"id": "md0iavn_lCSnS1Xkf",
 			"name": "Sintomas",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 0,
-			"affects": "total",
-			"notes": "Inserir o custo manualmente"
+			"reference": "MB109",
+			"notes": "Adicionar manualmente o custo"
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "4420f98e-c13c-47e4-8c15-a522381db947",
-			"name": "Radiação por Toxina (rad)",
-			"reference": "B108",
-			"cost_type": "percentage",
-			"cost": 25,
-			"affects": "total",
-			"notes": "Substitui o dano normal"
+			"id": "mdFYMCDPzqbAuFeAd",
+			"name": "Radiação Tóxica (rad)",
+			"reference": "MB108",
+			"notes": "Substitui o dano normal",
+			"cost": 25
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "ed718ed2-30c4-4256-9651-79fe53e10ace",
+			"id": "m3A48zHquWfNeelzk",
 			"name": "Retardo Induzido",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 50,
-			"affects": "total",
-			"notes": "@gatilho@, @forma de neutralizar@"
+			"reference": "MB109",
+			"notes": "@gatilho@, @forma de neutralizar@",
+			"cost": 50
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "6786d747-6962-4106-8ed5-e44eeff27adb",
+			"id": "mwM5wj8iL4Ge9R5Or",
 			"name": "Subaquático",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total"
+			"reference": "MB109,P107",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "bc321421-aac1-4add-bc1b-e556ffa3b37a",
+			"id": "mBUqeaOCkjZbdZXTV",
 			"name": "Variável",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 5,
-			"affects": "total"
+			"reference": "MB109,P107",
+			"cost": 5
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "94b08993-7bd1-41e2-a665-922fe3b3c697",
+			"id": "mjBdbifcxJyFaeSnE",
 			"name": "Retardo Variável",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 20,
-			"affects": "total",
-			"notes": "@forma de neutralizar@"
+			"reference": "MB109",
+			"notes": "@forma de neutralizar@",
+			"cost": 20
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "75b34c7a-14f2-4141-9c0c-f2dc7c3668c0",
+			"id": "meYofadqZTnrsh5ij",
 			"name": "Retardo Variável",
-			"reference": "B105",
-			"cost_type": "percentage",
-			"cost": 10,
-			"affects": "total",
-			"notes": "Retardo de até 10 segundos, @forma de neutralizar@"
+			"reference": "MB105",
+			"notes": "Retardo de até 10 segundos, @forma de neutralizar@",
+			"cost": 10
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "041a0265-ba5d-40f9-93c7-5930bd28bab6",
+			"id": "mM8MRSlOQI44EULzW",
 			"name": "Barreira",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 60,
-			"affects": "total",
-			"notes": "Permeável"
+			"reference": "MB103",
+			"notes": "Permeável",
+			"cost": 60
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "9402b4f1-3e4c-42f8-8e74-517bdb6ef35e",
+			"id": "my6imxyabGFVse6U-",
 			"name": "Barreira",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 30,
-			"affects": "total",
-			"notes": "Linha Permeável"
+			"reference": "MB103",
+			"notes": "Linha Permeável",
+			"cost": 30
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "2d7809d4-512f-40d4-b558-e6cae29a1e94",
+			"id": "mq-HFdIq9fTztSLQV",
 			"name": "Barreira",
-			"reference": "B103",
-			"cost_type": "percentage",
-			"cost": 60,
-			"affects": "total",
-			"notes": "Rígida"
+			"reference": "MB103",
+			"notes": "Rígida",
+			"cost": 60
 		},
 		{
-			"type": "modifier",
-			"version": 1,
-			"id": "341a707a-87e3-4702-b08b-5f48a37cfe37",
+			"id": "mnZ3z-oUTHAP_KE85",
 			"name": "Barreira",
-			"reference": "B109",
-			"cost_type": "percentage",
-			"cost": 30,
-			"affects": "total",
-			"notes": "Linha Rígida"
+			"reference": "MB103",
+			"notes": "Linha Rígida",
+			"cost": 30
 		}
 	]
 }
