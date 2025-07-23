@@ -1,262 +1,501 @@
 {
-	"type": "eqp_modifier_list",
-	"version": 1,
-	"id": "945608e7-f7f1-4355-a8cf-02d292e7ab82",
+	"version": 5,
 	"rows": [
 		{
-			"type": "eqp_modifier_container",
-			"version": 1,
-			"id": "04f61624-9ebc-4ce9-ac6f-b381e359f3ac",
-			"disabled": true,
-			"name": "Qualidade da Arma",
-			"open": true,
+			"id": "Fs_AaVo61Qqd4xlDK",
+			"name": "Observação",
+			"notes": "Tanto Fator de Custo quando Modificadores Multiplicativos para equipamentos são fornecidos aqui. O Kromm recomenda usar Fator de Custo, introduzido no Low-Tech, em vez dos modificadores multiplicativos de custo. Contudo, alguns Mestres podem preferir usar os multiplicativos."
+		},
+		{
+			"id": "Fr5mKoVKQtFFDYYTf",
+			"name": "Escudos",
 			"children": [
 				{
-					"type": "eqp_modifier_container",
-					"version": 1,
-					"id": "deeb1400-a8b7-4e33-8f8c-5e747507c63d",
-					"disabled": true,
-					"name": "Qualidade das Armas Zarabatanas, Arcos e Bestas",
-					"reference": "B277",
-					"open": true,
-					"children": [
+					"id": "fR8PB3nwBv0fBiES-",
+					"name": "Espículos",
+					"reference": "MB273, DFA107",
+					"tags": [
+						"Escudos"
+					],
+					"cost": "+20",
+					"weight": "+5 lb",
+					"features": [
 						{
-							"type": "eqp_modifier",
-							"version": 1,
-							"id": "a82d5d92-78d3-418d-a4d3-9f4e4100ffb0",
-							"name": "Qualidade Superior",
-							"reference": "B277",
-							"cost_type": "to_base_cost",
-							"cost": "x4",
-							"notes": "Aumente a distância 1/2D e Max em 20%."
-						}
-					]
-				},
-				{
-					"type": "eqp_modifier_container",
-					"version": 1,
-					"id": "4966e73f-b195-483b-a04c-978ac9138624",
-					"disabled": true,
-					"name": "Qualidade da Arma de Fogo",
-					"reference": "B280",
-					"open": true,
-					"children": [
-						{
-							"type": "eqp_modifier",
-							"version": 1,
-							"id": "6ed41037-feef-407e-a166-d97d0a32d684",
-							"name": "Qualidade Superior",
-							"reference": "B280",
-							"cost_type": "to_base_cost",
-							"cost": "x2",
-							"notes": "+1 na Prec e +1 no Mauf"
-						},
-						{
-							"type": "eqp_modifier",
-							"version": 1,
-							"id": "98591a98-c689-44a7-b1c8-e4d002acb453",
-							"name": "Altíssima Qualidade",
-							"reference": "B280",
-							"cost_type": "to_base_cost",
-							"cost": "x5",
-							"notes": "+2 na Prec e +1 no Mauf"
-						}
-					]
-				},
-				{
-					"type": "eqp_modifier_container",
-					"version": 1,
-					"id": "f373d17e-1f6b-4312-88a0-d3a4a18bcd76",
-					"disabled": true,
-					"name": "Qualidade da Arma de Combate Corpo a Corpo, Arremesso, Flecha e Virote",
-					"reference": "B274",
-					"notes": "O dano da arma já está incluído nestes modificadores",
-					"open": true,
-					"children": [
-						{
-							"type": "eqp_modifier_container",
-							"version": 1,
-							"id": "8efb201a-db64-47bd-8ac3-d0ea85f55740",
-							"disabled": true,
-							"name": "NT6 ou menor",
-							"reference": "B274",
-							"open": true,
-							"children": [
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "e1f0980b-eec4-4e27-9e56-9c0a797417cd",
-									"name": "Qualidade Barata",
-									"reference": "B274",
-									"cost_type": "to_base_cost",
-									"cost": "x0.4",
-									"notes": "+2 no teste de quebra, -1 na Prec se arremessado"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "41229252-0fe2-4b85-97b8-bfcc440808d6",
-									"name": "Qualidade Superior",
-									"reference": "B274",
-									"cost_type": "to_base_cost",
-									"cost": "x4",
-									"features": [
-										{
-											"type": "weapon_bonus",
-											"amount": 1,
-											"selection_type": "this_weapon"
-										}
-									],
-									"notes": "-1 no teste de quebra; somente lâminas"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "58c7080b-005b-4677-804f-3d31df72ce66",
-									"name": "Qualidade Superior",
-									"reference": "B274",
-									"cost_type": "to_base_cost",
-									"cost": "x3",
-									"notes": "-1 no teste de quebra; armas sem lâmina que causam dano por contusão ou perfuração"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "5ab0e073-5309-4caa-a2c0-e62488d5d25e",
-									"name": "Qualidade Superior",
-									"reference": "B274",
-									"cost_type": "to_base_cost",
-									"cost": "x10",
-									"features": [
-										{
-											"type": "weapon_bonus",
-											"amount": 1,
-											"selection_type": "this_weapon"
-										}
-									],
-									"notes": "-1 no teste de quebra; armas sem lâmina que causam dano por corte"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "431dc28d-d5cd-45e8-ba48-591362d71614",
-									"name": "Altíssima Qualidade",
-									"reference": "B275",
-									"cost_type": "to_base_cost",
-									"cost": "x20",
-									"features": [
-										{
-											"type": "weapon_bonus",
-											"amount": 2,
-											"selection_type": "this_weapon"
-										}
-									],
-									"notes": "-2 no teste de quebra; +2 no dano por corte ou perfuração; somente as armas de esgrima e as espadas"
-								}
-							]
-						},
-						{
-							"type": "eqp_modifier_container",
-							"version": 1,
-							"id": "5b0fe0f0-124d-4410-acea-25e2a687d934",
-							"disabled": true,
-							"name": "NT7 ou maior",
-							"reference": "B274",
-							"open": true,
-							"children": [
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "e225f88d-21c7-4d77-a0df-13d9acc48d24",
-									"name": "Qualidade Barata",
-									"reference": "B274",
-									"cost_type": "to_base_cost",
-									"cost": "x0.2",
-									"notes": "+2 no teste de quebra, -1 na Prec se arremessado"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "5121cc2f-efd9-4ad5-b4b4-882fb5d86630",
-									"name": "Qualidade Boa",
-									"reference": "B274",
-									"cost_type": "to_base_cost",
-									"cost": "x0.4"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "6328780f-a1e3-41b4-8661-2b306b86b960",
-									"name": "Qualidade Superior",
-									"reference": "B274",
-									"features": [
-										{
-											"type": "weapon_bonus",
-											"amount": 1,
-											"selection_type": "this_weapon"
-										}
-									],
-									"notes": "-1 no teste de quebra; somente lâminas"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "41b1736e-bf77-4dd6-83f3-8923bb4d5309",
-									"name": "Altíssima Qualidade",
-									"reference": "B275",
-									"cost_type": "to_base_cost",
-									"cost": "x4",
-									"features": [
-										{
-											"type": "weapon_bonus",
-											"amount": 2,
-											"selection_type": "this_weapon"
-										}
-									],
-									"notes": "-2 no teste de quebra; +2 no dano por corte ou perfuração; somente as armas de esgrima e as espadas"
-								},
-								{
-									"type": "eqp_modifier",
-									"version": 1,
-									"id": "02151d9e-7f86-4be4-bd12-eae88f8f0c12",
-									"name": "Qualidade Superior",
-									"reference": "B274",
-									"notes": "-1 teste de quebra; para outras armas"
-								}
-							]
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "eqp_modifier",
-			"version": 1,
-			"id": "14b76b22-60e4-42ff-94c2-d3ae2d0fb1b9",
-			"name": "Prata",
-			"reference": "B275",
-			"cost_type": "to_base_cost",
-			"cost": "x19",
-			"notes": "+2 no teste de quebra"
+			"id": "FDANvC_SPzZBv58MW",
+			"name": "Fator de Custo",
+			"children": [
+				{
+					"id": "FUw3L4JzLwhOit5yq",
+					"name": "Qualidade da Arma",
+					"children": [
+						{
+							"id": "F1Yutf8qmiB4JUGmZ",
+							"name": "Qualidade de Arma de Arco, Besta e Zarabatana",
+							"reference": "MB277",
+							"children": [
+								{
+									"id": "fadxEN8ZvwqeZu9kB",
+									"name": "Qualidade Superior",
+									"reference": "MB277",
+									"notes": "Aumente a distância 1/2D e Max em 20%",
+									"cost_type": "to_base_cost",
+									"cost": "+3 CF"
+								}
+							]
+						},
+						{
+							"id": "FtE2hhFA3Q5d6hzD2",
+							"name": "Qualidade das Armas de Fogo",
+							"reference": "MB280",
+							"children": [
+								{
+									"id": "fKVVvHu0-Mgu2jotm",
+									"name": "Qualidade Superior",
+									"reference": "MB280",
+									"notes": "+1 no Mauf",
+									"cost_type": "to_base_cost",
+									"cost": "+1 CF",
+									"features": [
+										{
+											"type": "weapon_acc_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 1
+										}
+									]
+								},
+								{
+									"id": "fjaaWYzkaqarrWCR2",
+									"name": "Qualidade Altíssima",
+									"reference": "MB280",
+									"notes": "+1 no Mauf",
+									"cost_type": "to_base_cost",
+									"cost": "+4 CF",
+									"features": [
+										{
+											"type": "weapon_acc_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 2
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "FaLEgmMJgyJynQBNl",
+							"name": "Qualidade das Armas de Combate Corpo a Corpo, de Arremesso, Flechas e Virotes",
+							"reference": "MB274",
+							"notes": "O dano de arma está incluso nos modificadores",
+							"children": [
+								{
+									"id": "FtdAiVttb_hHXAYa_",
+									"name": "NT6 ou menos",
+									"reference": "MB274",
+									"children": [
+										{
+											"id": "fC6UtJEgWjslIlED4",
+											"name": "Qualidade Barata",
+											"reference": "MB274",
+											"notes": "+2 no teste de quebra, -1 na Prec se arremessado",
+											"cost_type": "to_base_cost",
+											"cost": "-0.6 CF"
+										},
+										{
+											"id": "fPmxE0ke6kchUC84A",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; apenas lâminas",
+											"cost_type": "to_base_cost",
+											"cost": "+3 CF",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 1
+												}
+											]
+										},
+										{
+											"id": "fs0ew9zuO-PNEGdHP",
+											"name": "Qualidade Boa",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; outros tipos de arma se causarem apenas dano por contusão ou perfuração",
+											"cost_type": "to_base_cost",
+											"cost": "+2 CF"
+										},
+										{
+											"id": "frPfYqmyQlcAaaVCf",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; outros tipos de arma se forem capazes de causar dano por corte",
+											"cost_type": "to_base_cost",
+											"cost": "+9 CF",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 1
+												}
+											]
+										},
+										{
+											"id": "fCbMFiXY3hm6Nojd-",
+											"name": "Qualidade Altíssima",
+											"reference": "MB274",
+											"notes": "-2 no teste de quebra; somente as armas de esgrima e as espadas",
+											"cost_type": "to_base_cost",
+											"cost": "+19 CF",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 2
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "F8cjJsyWqNni5cgra",
+									"name": "NT7 ou maior",
+									"reference": "MB274",
+									"children": [
+										{
+											"id": "fEaq1BD3eDiKuqHHN",
+											"name": "Qualidade Barata",
+											"reference": "MB274",
+											"notes": "+2 no teste de quebra, -1 na Prec se arremessado",
+											"cost_type": "to_base_cost",
+											"cost": "-0.8 CF"
+										},
+										{
+											"id": "f5lPy5Vb8ueyahaf2",
+											"name": "Qualidade Boa",
+											"reference": "MB274",
+											"cost_type": "to_base_cost",
+											"cost": "-0.6 CF"
+										},
+										{
+											"id": "fhxf7dunRNk0cjaGJ",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; para lâminas que causam dano por corte e perfuração",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 1
+												}
+											]
+										},
+										{
+											"id": "fmxVg53yIwpwOaToZ",
+											"name": "Qualidade Altíssima",
+											"reference": "MB274",
+											"notes": "-2 no teste de quebra; +2 no dano por corte ou perfuração; somente as armas de esgrima e as espadas",
+											"cost_type": "to_base_cost",
+											"cost": "+3 CF",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 2
+												}
+											]
+										},
+										{
+											"id": "fq4oQaxOrTmD14fio",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; para outras armas"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "fAYOLuyDMUPE0w1wn",
+					"name": "Prata",
+					"reference": "MB275",
+					"notes": "+2 no teste de quebra",
+					"cost_type": "to_base_cost",
+					"cost": "+19 CF"
+				},
+				{
+					"id": "f9vNV2i3wHTOEanvQ",
+					"name": "Revestida de Prata",
+					"reference": "MB275",
+					"notes": "Reduza o multiplicador de ferimento contra criaturas com Vulnerabilidade à prata: ×2 torna-se ×1,5, ×3 torna-se ×2 e ×4 torna-se ×3",
+					"cost_type": "to_base_cost",
+					"cost": "+2 CF"
+				},
+				{
+					"id": "fUu14FpHJ6f1lxTre",
+					"name": "Balas de Prata",
+					"reference": "MB275",
+					"cost_type": "to_base_cost",
+					"cost": "+49 CF"
+				}
+			]
 		},
 		{
-			"type": "eqp_modifier",
-			"version": 1,
-			"id": "d94a64f0-47ba-48e6-9cb1-285dd5d0c780",
-			"name": "Revestidas de Prata",
-			"reference": "B275",
-			"cost_type": "to_base_cost",
-			"cost": "x2",
-			"notes": "Multiplicador de ferimento reduzido em criaturas com Vulnerabilidade: ×2 torna-se ×1,5, ×3 torna-se ×2 e ×4 torna-se ×3"
-		},
-		{
-			"type": "eqp_modifier",
-			"version": 1,
-			"id": "c49a7edd-1c86-4e0f-962b-c4e1b083060c",
-			"name": "Balas de Prata",
-			"reference": "B275",
-			"cost_type": "to_base_cost",
-			"cost": "x49"
+			"id": "FNDY2SLdenjhyW7ot",
+			"name": "Multiplicadores",
+			"children": [
+				{
+					"id": "F_WCxayK9gPBnH3Nf",
+					"name": "Qualidade de Arma",
+					"children": [
+						{
+							"id": "Fl3usFhjXEU3LUQTS",
+							"name": "Qualidade de Arma de Arco, Besta e Zarabatana",
+							"reference": "MB277",
+							"children": [
+								{
+									"id": "fWXuMpIkXLuQbZve7",
+									"name": "Qualidade Superior",
+									"reference": "MB277",
+									"notes": "Aumente a distância 1/2D e Max em 20%",
+									"cost_type": "to_base_cost",
+									"cost": "x4"
+								}
+							]
+						},
+						{
+							"id": "F64lcfBX5c5BAuS84",
+							"name": "Qualidade das Armas de Fogo",
+							"reference": "MB280",
+							"children": [
+								{
+									"id": "fy12DVPocaO9j8VCQ",
+									"name": "Qualidade Superior",
+									"reference": "MB280",
+									"notes": "+1 no Mauf",
+									"cost_type": "to_base_cost",
+									"cost": "x2",
+									"features": [
+										{
+											"type": "weapon_acc_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 1
+										}
+									]
+								},
+								{
+									"id": "fIrwGb3phQHID5ir-",
+									"name": "Qualidade Altíssima",
+									"reference": "MB280",
+									"notes": "+1 no Mauf",
+									"cost_type": "to_base_cost",
+									"cost": "x5",
+									"features": [
+										{
+											"type": "weapon_acc_bonus",
+											"selection_type": "weapons_with_required_skill",
+											"name": {
+												"compare": "is"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 2
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "FsiJCkeYNFO6KSpcZ",
+							"name": "Qualidade das Armas de Combate Corpo a Corpo, de Arremesso, Flechas e Virotes",
+							"reference": "MB274",
+							"notes": "O dano de arma está incluso nos modificadores",
+							"children": [
+								{
+									"id": "F5Mu7x3WcfBYfKLfl",
+									"name": "NT6 ou menos",
+									"reference": "MB274",
+									"children": [
+										{
+											"id": "fH1TN1i0Rnzrt8yeo",
+											"name": "Qualidade Barata",
+											"reference": "MB274",
+											"notes": "+2 no teste de quebra, -1 na Prec se arremessado",
+											"cost_type": "to_base_cost",
+											"cost": "x0.4"
+										},
+										{
+											"id": "fStqlBfYwip8AZThw",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; apenas lâminas",
+											"cost_type": "to_base_cost",
+											"cost": "x4",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 1
+												}
+											]
+										},
+										{
+											"id": "fTQyYUlc683X9JmxD",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; outros tipos de arma se causarem apenas dano por contusão ou perfuração",
+											"cost_type": "to_base_cost",
+											"cost": "x3"
+										},
+										{
+											"id": "fBmwYlw111r8Kt1yB",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; outros tipos de arma se forem capazes de causar dano por corte",
+											"cost_type": "to_base_cost",
+											"cost": "x10",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 1
+												}
+											]
+										},
+										{
+											"id": "fD97FnrNlHwikQwgy",
+											"name": "Qualidade Altíssima",
+											"reference": "MB274",
+											"notes": "-2 no teste de quebra; somente as armas de esgrima e as espadas",
+											"cost_type": "to_base_cost",
+											"cost": "x20",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 2
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "F608SmIb4gS12aGre",
+									"name": "NT7 ou maior",
+									"reference": "MB274",
+									"children": [
+										{
+											"id": "fwaYuTEdrU45RHBmf",
+											"name": "Qualidade Barata",
+											"reference": "MB274",
+											"notes": "+2 no teste de quebra, -1 na Prec se arremessado",
+											"cost_type": "to_base_cost",
+											"cost": "x0.2"
+										},
+										{
+											"id": "faapom7e3338M2t3J",
+											"name": "Qualidade Boa",
+											"reference": "MB274",
+											"cost_type": "to_base_cost",
+											"cost": "x0.4"
+										},
+										{
+											"id": "fq-Sat4gDixuKINjl",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; para lâminas que causam dano por corte e perfuração",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 1
+												}
+											]
+										},
+										{
+											"id": "fwR4HtoiYW3rm_Fr3",
+											"name": "Qualidade Altíssima",
+											"reference": "MB274",
+											"notes": "-2 no teste de quebra; +2 no dano por corte ou perfuração; somente as armas de esgrima e as espadas",
+											"cost_type": "to_base_cost",
+											"cost": "x4",
+											"features": [
+												{
+													"type": "weapon_bonus",
+													"selection_type": "this_weapon",
+													"amount": 2
+												}
+											]
+										},
+										{
+											"id": "fbHK0Q3vu24ABovb2",
+											"name": "Qualidade Superior",
+											"reference": "MB274",
+											"notes": "-1 no teste de quebra; para outras armas"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "fej14THeeVKpmRd6W",
+					"name": "Prata",
+					"reference": "MB275",
+					"notes": "+2 no teste de quebra",
+					"cost_type": "to_base_cost",
+					"cost": "x20"
+				},
+				{
+					"id": "fXuN6AUeP5cW-ymk5",
+					"name": "Revestida de Prata",
+					"reference": "MB275",
+					"notes": "Reduza o multiplicador de ferimento contra criaturas com Vulnerabilidade à prata: ×2 torna-se ×1,5, ×3 torna-se ×2 e ×4 torna-se ×3",
+					"cost_type": "to_base_cost",
+					"cost": "x3"
+				},
+				{
+					"id": "fxB7pPeB-g8KLzf0B",
+					"name": "Balas de Prata",
+					"reference": "MB275",
+					"cost_type": "to_base_cost",
+					"cost": "x50"
+				}
+			]
 		}
 	]
 }
