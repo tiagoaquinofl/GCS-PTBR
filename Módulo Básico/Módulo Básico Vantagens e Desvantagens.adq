@@ -24971,7 +24971,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "contains",
-						"qualifier": "animal handling"
+						"qualifier": "Adestramento de Animais"
 					},
 					"amount": 1,
 					"per_level": true
@@ -24981,7 +24981,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "falconry"
+						"qualifier": "Falcoaria"
 					},
 					"amount": 1,
 					"per_level": true
@@ -24991,7 +24991,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "contains",
-						"qualifier": "packing"
+						"qualifier": "Carregamento"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25001,7 +25001,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "contains",
-						"qualifier": "riding"
+						"qualifier": "Cavalgar"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25011,7 +25011,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "contains",
-						"qualifier": "teamster"
+						"qualifier": "Carroceiro"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25021,14 +25021,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "contains",
-						"qualifier": "veterinary"
+						"qualifier": "Veterinária"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from ordinary animals",
+					"situation": "de todos os animais",
 					"amount": 1,
 					"per_level": true
 				}
@@ -25105,7 +25105,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "maquinista"
+						"qualifier": "Maquinista"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25273,7 +25273,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Artist"
+						"qualifier": "Artista"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25283,7 +25283,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Jeweler"
+						"qualifier": "Joalheiro"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25293,7 +25293,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Leatherworking"
+						"qualifier": "Trabalhos em Couro"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25303,7 +25303,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Photography"
+						"qualifier": "Fotografia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25313,14 +25313,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Sewing"
+						"qualifier": "Costura"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from buyers and critics",
+					"situation": "de compradores e críticos",
 					"amount": 1,
 					"per_level": true
 				}
@@ -25355,7 +25355,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Biology"
+						"qualifier": "Biologia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25365,7 +25365,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Farming"
+						"qualifier": "Cultivo"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25375,7 +25375,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Gardening"
+						"qualifier": "Jardinagem"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25385,7 +25385,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Herb Lore"
+						"qualifier": "Conhecimento das Ervas"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25395,14 +25395,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Naturalist"
+						"qualifier": "Naturalista"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from gardeners and sentient plants",
+					"situation": "de jardineiros e plantas inteligentes",
 					"amount": 1,
 					"per_level": true
 				}
@@ -25467,7 +25467,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Diagnosis"
+						"qualifier": "Diagnose"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25477,7 +25477,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Esoteric Medicine"
+						"qualifier": "Medicina Alternativa"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25487,7 +25487,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "First Aid"
+						"qualifier": "Primeiros Socorros"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25497,7 +25497,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Pharmacy"
+						"qualifier": "Farmácia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25507,7 +25507,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Physician"
+						"qualifier": "Medicina"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25517,7 +25517,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Physiology"
+						"qualifier": "Fisiologia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25527,7 +25527,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "psicologia"
+						"qualifier": "Psicologia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25537,7 +25537,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Surgery"
+						"qualifier": "Cirurgia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25547,41 +25547,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Veterinary"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is"
+						"qualifier": "Veterinária"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from patients",
+					"situation": "de pacientes ou ex-pacientes",
 					"amount": 1,
 					"per_level": true
 				}
@@ -25647,7 +25620,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Diagnosis"
+						"qualifier": "Diagnose"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25657,7 +25630,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Esoteric Medicine"
+						"qualifier": "Medicina Alternativa"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25667,7 +25640,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "First Aid"
+						"qualifier": "Primeiros Socorros"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25677,7 +25650,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Pharmacy"
+						"qualifier": "Farmácia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25687,7 +25660,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Physician"
+						"qualifier": "Medicina"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25697,7 +25670,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Physiology"
+						"qualifier": "Fisiologia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25707,7 +25680,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "psicologia"
+						"qualifier": "Psicologia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25717,7 +25690,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Surgery"
+						"qualifier": "Cirurgia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25727,7 +25700,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Veterinary"
+						"qualifier": "Veterinária"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25737,11 +25710,11 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Electronics Operation"
+						"qualifier": "Operação de Aparelhos Eletrônicos"
 					},
 					"specialization": {
 						"compare": "is",
-						"qualifier": "Medical"
+						"qualifier": "Medicinal"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25751,18 +25724,18 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Expert Skill"
+						"qualifier": "Perícia Abrangente"
 					},
 					"specialization": {
 						"compare": "is",
-						"qualifier": "Epidemiology"
+						"qualifier": "Epidemiologia"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from patients",
+					"situation": "de pacientes e ex-pacientes",
 					"amount": 1,
 					"per_level": true
 				}
@@ -25805,7 +25778,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Accounting"
+						"qualifier": "Contabilidade"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25815,7 +25788,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Astronomy"
+						"qualifier": "Astronomia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25825,7 +25798,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Cryptography"
+						"qualifier": "Criptografia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25835,7 +25808,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Engineer"
+						"qualifier": "Engenharia"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25845,7 +25818,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Finance"
+						"qualifier": "Finanças"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25855,7 +25828,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Market Analysis"
+						"qualifier": "Análise de Mercado"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25865,7 +25838,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Mathematics"
+						"qualifier": "Matemática"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25875,14 +25848,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Physics"
+						"qualifier": "Física"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from engineers and scientists",
+					"situation": "de engenheiros e cientistas",
 					"amount": 1,
 					"per_level": true
 				}
@@ -25909,11 +25882,11 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Group Performance"
+						"qualifier": "Performance em Grupo"
 					},
 					"specialization": {
 						"compare": "is",
-						"qualifier": "Conducting"
+						"qualifier": "Condução de Orquestra"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25923,7 +25896,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Musical Composition"
+						"qualifier": "Composição Musical"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25933,7 +25906,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Musical Influence"
+						"qualifier": "Influência Musical"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25943,7 +25916,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Musical Instrument"
+						"qualifier": "Instrumentos Musicais"
 					},
 					"amount": 1,
 					"per_level": true
@@ -25953,14 +25926,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "canto"
+						"qualifier": "Canto"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from audiences and critics",
+					"situation": "de audiências e críticos",
 					"amount": 1,
 					"per_level": true
 				}
@@ -26003,7 +25976,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Camouflage"
+						"qualifier": "Camuflagem"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26013,7 +25986,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Fishing"
+						"qualifier": "Pescaria"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26023,7 +25996,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Mimicry"
+						"qualifier": "Arremedo"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26033,7 +26006,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Naturalist"
+						"qualifier": "Naturalista"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26043,7 +26016,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Navigation"
+						"qualifier": "Navegação"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26053,7 +26026,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Survival"
+						"qualifier": "Sobrevivência"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26070,7 +26043,7 @@
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from explorers and nature lovers",
+					"situation": "de exploradores, amantes da natureza e pessoas do gênero",
 					"amount": 1,
 					"per_level": true
 				}
@@ -26133,7 +26106,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "detecção de mentiras"
+						"qualifier": "Detecção de Mentiras"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26173,7 +26146,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "liderança"
+						"qualifier": "Liderança"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26183,7 +26156,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "mendicância"
+						"qualifier": "Mendicância"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26203,7 +26176,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "oratória"
+						"qualifier": "Oratória"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26213,7 +26186,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "trato social"
+						"qualifier": "Trato Social"
 					},
 					"amount": 1,
 					"per_level": true
@@ -26239,44 +26212,8 @@
 					"per_level": true
 				},
 				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
 					"type": "reaction_bonus",
-					"situation": "from con artists, politicians, salesmen, etc. – but only if you aren’t trying to manipulate them.",
+					"situation": "enganadores, políticos, vendedores, etc., mas só se o personagem não estiver tentando manipulá-los",
 					"amount": 1,
 					"per_level": true
 				}
